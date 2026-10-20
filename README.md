@@ -21,3 +21,7 @@ pilot/                   화풍 참고 그림·시범 그림(등록하지 않는
 올리면 `.github/workflows/thumbs.yml` 이 썸네일을 만들고, 비밀 `CODE_REPO_TOKEN`(book-atelier 하나에 Contents: Read and write 인
 fine-grained 토큰)이 있으면 코드 저장소의 "그림 등록" 을 깨워 `data/img.json` 에 적게 한다. 토큰이 없으면 코드 저장소가 매시 시간표로 등록한다.
 `.nojekyll` 은 Pages 가 파일을 있는 그대로 내보내게 한다.
+
+## 공간 배경
+
+`backgrounds/`는 서가 화면의 공간 배경이다. 인물 도감 등록 대상인 `img/`와 분리한다. `sunlit-library.webp`(1536×1024)는 데스크톱, `sunlit-library-small.webp`(800×533)는 모바일에서 쓴다. 생성 기록은 `records/backgrounds/`에 둔다.

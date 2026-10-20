@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-20",
+  "author": "gpt",
+  "generator": "image_gen",
+  "purpose": "Original environmental background for book-atelier Sunlit Library room; no character art",
+  "design": "Quiet old library, pale oak shelves, arched windows, natural sunlight, muted sage and cream. No people, text, logos, UI or borrowed architecture.",
+  "files": [
+    {
+      "path": "backgrounds/sunlit-library.webp",
+      "width": 1536,
+      "height": 1024,
+      "quality": 84
+    },
+    {
+      "path": "backgrounds/sunlit-library-small.webp",
+      "width": 800,
+      "height": 533,
+      "quality": 78
+    }
+  ]
+}

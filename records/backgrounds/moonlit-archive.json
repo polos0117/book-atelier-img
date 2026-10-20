@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-20",
+  "author": "gpt",
+  "generator": "image_gen",
+  "source": "달빛과 등불의 고요한 서재.png",
+  "purpose": "User supplied background for book-atelier moonlit room; separate from character art",
+  "design": "Dark old library with moonlit arched windows, warm desk lamps, timber shelves and a quiet reading desk.",
+  "files": [
+    {
+      "path": "backgrounds/moonlit-archive.webp",
+      "width": 1536,
+      "height": 1024,
+      "quality": 84,
+      "size_bytes": 241900
+    },
+    {
+      "path": "backgrounds/moonlit-archive-small.webp",
+      "width": 800,
+      "height": 533,
+      "quality": 78,
+      "size_bytes": 61990
+    }
+  ]
+}

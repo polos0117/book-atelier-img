@@ -24,4 +24,4 @@ fine-grained 토큰)이 있으면 코드 저장소의 "그림 등록" 을 깨워
 
 ## 공간 배경
 
-`backgrounds/`는 서가 화면의 공간 배경이다. 인물 도감 등록 대상인 `img/`와 분리한다. `sunlit-library.webp`(1536×1024)는 데스크톱, `sunlit-library-small.webp`(800×533)는 모바일에서 쓴다. 생성 기록은 `records/backgrounds/`에 둔다.
+`backgrounds/`는 서가 화면의 공간 배경이다. 인물 도감 등록 대상인 `img/`와 분리한다. 햇살의 도서관(`sunlit-library`), 달빛 서고(`moonlit-archive`), 고요한 서재(`quiet-study`)의 `.webp`(1536×1024)는 데스크톱, `-small.webp`(800×533)는 모바일에서 쓴다. 생성 기록은 `records/backgrounds/`에 둔다.

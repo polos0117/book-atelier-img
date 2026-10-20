@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-20",
+  "author": "gpt",
+  "generator": "image_gen",
+  "source": "고요한 아침의 한옥 서재.png",
+  "purpose": "User supplied background for book-atelier hanok room; separate from character art",
+  "design": "Quiet traditional Korean study with morning light through wooden lattice doors, paper walls, timber shelves, low desk and garden.",
+  "files": [
+    {
+      "path": "backgrounds/quiet-study.webp",
+      "width": 1536,
+      "height": 1024,
+      "quality": 84,
+      "size_bytes": 213452
+    },
+    {
+      "path": "backgrounds/quiet-study-small.webp",
+      "width": 800,
+      "height": 533,
+      "quality": 78,
+      "size_bytes": 57098
+    }
+  ]
+}

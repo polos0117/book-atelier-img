@@ -1,0 +1,196 @@
+{
+ "date": "2026-10-21",
+ "author": "claude",
+ "book": "alice",
+ "form": "begin",
+ "state": "walk",
+ "plan": "book-atelier docs/ATELIER_PIXEL_ART_PLAN.md 11절 P2",
+ "references": {
+  "still_x6": "sprites/alice/alice_begin_still.png 를 최근접 6배(576x768)",
+  "canonical": "img/alice_end_literary_fantasy_f.webp"
+ },
+ "generation": {
+  "file": "sprites/alice/raw/alice_begin_walk_gen1.png",
+  "sha256": "abdf94b7a04c5971ce67f922a3afceb90fa3674b12a4881d34b4314a38dc0d46",
+  "by": "gpt",
+  "requested_kst": "2026-10-21 17:32:45.366 KST",
+  "returned_kst": "2026-10-21 17:33:49.542 KST",
+  "job_id": null,
+  "prompt": "11절 P2 공통 + walk 그대로, 이어 요청 없음 — 전문은 records/sprites/alice/p2-gpt-record.txt",
+  "size": [
+   1024,
+   1536
+  ],
+  "background": "투명(반투명 섞임)",
+  "found": "지시한 6px 가 아니라 약 11.6px 블록, 블록은 10~13px 로 들쭉날쭉, 눈·하이라이트는 블록보다 잘게"
+ },
+ "cleaned": {
+  "file": "sprites/alice/alice_begin_walk.png",
+  "sha1": "5897879df694",
+  "tool": "book-atelier tools/sprite-sheet.py",
+  "args": [
+   "--frames",
+   "6",
+   "--palette",
+   "sprites/alice/alice_begin_still.png",
+   "--fixed-pitch",
+   "6.0",
+   "--pitch",
+   "5,7",
+   "--speck",
+   "40",
+   "--cell",
+   "96x128"
+  ],
+  "why_half_pitch": "블록 간격(11.6)으로 뽑으면 64줄이 되어 얼굴이 뭉개진다 — 절반 간격이면 큰 블록은 2x2, 잔디테일은 남고 정지 도트와 같은 해상도",
+  "cell": [
+   96,
+   128
+  ],
+  "frames": 6,
+  "foot_y": 126,
+  "colours": 24,
+  "palette_from": "alice_begin_still.png",
+  "frame": [
+   {
+    "box_px": [
+     42,
+     38,
+     347,
+     756
+    ],
+    "pitch": 6.0,
+    "size": [
+     49,
+     122
+    ],
+    "anchor_x": 22.33,
+    "dropped_specks": 0,
+    "at": [
+     26,
+     4
+    ]
+   },
+   {
+    "box_px": [
+     377,
+     38,
+     664,
+     756
+    ],
+    "pitch": 6.0,
+    "size": [
+     46,
+     119
+    ],
+    "anchor_x": 23.3,
+    "dropped_specks": 0,
+    "at": [
+     25,
+     7
+    ]
+   },
+   {
+    "box_px": [
+     730,
+     38,
+     1009,
+     756
+    ],
+    "pitch": 6.0,
+    "size": [
+     45,
+     123
+    ],
+    "anchor_x": 21.7,
+    "dropped_specks": 0,
+    "at": [
+     26,
+     3
+    ]
+   },
+   {
+    "box_px": [
+     36,
+     779,
+     348,
+     1496
+    ],
+    "pitch": 6.0,
+    "size": [
+     50,
+     119
+    ],
+    "anchor_x": 23.18,
+    "dropped_specks": 0,
+    "at": [
+     25,
+     7
+    ]
+   },
+   {
+    "box_px": [
+     371,
+     779,
+     673,
+     1496
+    ],
+    "pitch": 6.0,
+    "size": [
+     47,
+     121
+    ],
+    "anchor_x": 23.54,
+    "dropped_specks": 0,
+    "at": [
+     24,
+     5
+    ]
+   },
+   {
+    "box_px": [
+     719,
+     779,
+     1005,
+     1496
+    ],
+    "pitch": 6.0,
+    "size": [
+     47,
+     120
+    ],
+    "anchor_x": 23.35,
+    "dropped_specks": 0,
+    "at": [
+     25,
+     6
+    ]
+   }
+  ]
+ },
+ "playback": {
+  "order": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "ms": [
+   110,
+   110,
+   110,
+   110,
+   110,
+   110
+  ],
+  "note": "제자리 걸음, 화면 이동은 코드. 머리 오르내림 4줄"
+ },
+ "flip": {
+  "allowed": true
+ },
+ "display": {
+  "suggested_scale": 2
+ }
+}

@@ -1,0 +1,154 @@
+{
+ "date": "2026-10-21",
+ "author": "claude",
+ "book": "alice",
+ "form": "begin",
+ "state": "idle",
+ "plan": "book-atelier docs/ATELIER_PIXEL_ART_PLAN.md 11절 P2",
+ "references": {
+  "still_x6": "sprites/alice/alice_begin_still.png 를 최근접 6배(576x768)",
+  "canonical": "img/alice_end_literary_fantasy_f.webp"
+ },
+ "generation": {
+  "file": "sprites/alice/raw/alice_begin_idle_gen1.png",
+  "sha256": "3c512826fdb9c55ae9e24e24bbb15c8113660b2ca441eac6f6bc075ab12d8fa4",
+  "by": "gpt",
+  "requested_kst": "2026-10-21 17:31:03.878 KST",
+  "returned_kst": "2026-10-21 17:32:01.089 KST",
+  "job_id": null,
+  "prompt": "11절 P2 공통 + idle 그대로, 이어 요청 없음 — 전문은 records/sprites/alice/p2-gpt-record.txt",
+  "size": [
+   1024,
+   1536
+  ],
+  "background": "투명(반투명 섞임)",
+  "found": "지시한 6px 가 아니라 약 11.6px 블록, 블록은 10~13px 로 들쭉날쭉, 눈·하이라이트는 블록보다 잘게"
+ },
+ "cleaned": {
+  "file": "sprites/alice/alice_begin_idle.png",
+  "sha1": "21d27a963f2a",
+  "tool": "book-atelier tools/sprite-sheet.py",
+  "args": [
+   "--frames",
+   "4",
+   "--palette",
+   "sprites/alice/alice_begin_still.png",
+   "--fixed-pitch",
+   "6.0",
+   "--pitch",
+   "5,7",
+   "--speck",
+   "40",
+   "--cell",
+   "96x128"
+  ],
+  "why_half_pitch": "블록 간격(11.6)으로 뽑으면 64줄이 되어 얼굴이 뭉개진다 — 절반 간격이면 큰 블록은 2x2, 잔디테일은 남고 정지 도트와 같은 해상도",
+  "cell": [
+   96,
+   128
+  ],
+  "frames": 4,
+  "foot_y": 126,
+  "colours": 24,
+  "palette_from": "alice_begin_still.png",
+  "frame": [
+   {
+    "box_px": [
+     152,
+     23,
+     449,
+     731
+    ],
+    "pitch": 6.0,
+    "size": [
+     51,
+     124
+    ],
+    "anchor_x": 23.33,
+    "dropped_specks": 0,
+    "at": [
+     25,
+     2
+    ]
+   },
+   {
+    "box_px": [
+     599,
+     23,
+     910,
+     731
+    ],
+    "pitch": 6.0,
+    "size": [
+     52,
+     121
+    ],
+    "anchor_x": 24.53,
+    "dropped_specks": 0,
+    "at": [
+     23,
+     5
+    ]
+   },
+   {
+    "box_px": [
+     144,
+     789,
+     465,
+     1504
+    ],
+    "pitch": 6.0,
+    "size": [
+     53,
+     124
+    ],
+    "anchor_x": 24.61,
+    "dropped_specks": 0,
+    "at": [
+     23,
+     2
+    ]
+   },
+   {
+    "box_px": [
+     601,
+     789,
+     904,
+     1504
+    ],
+    "pitch": 6.0,
+    "size": [
+     51,
+     123
+    ],
+    "anchor_x": 23.23,
+    "dropped_specks": 0,
+    "at": [
+     25,
+     3
+    ]
+   }
+  ]
+ },
+ "playback": {
+  "order": [
+   0,
+   3,
+   0,
+   2
+  ],
+  "ms": [
+   700,
+   220,
+   700,
+   140
+  ],
+  "note": "2번 칸(1-기준)은 팔·시계 자세가 달라 쓰지 않는다 — 1→4→1→3(깜빡임) 순서. 사용자 결정 2026-10-21"
+ },
+ "flip": {
+  "allowed": true
+ },
+ "display": {
+  "suggested_scale": 2
+ }
+}

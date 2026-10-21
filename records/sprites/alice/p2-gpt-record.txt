@@ -1,0 +1,147 @@
+Alice P2 동작 시트 생성 기록
+생성일: 2026-10-21 (Asia/Seoul)
+요청 문서: gpt-p2.md
+작업 범위: idle 4칸 / walk 6칸 / react 4칸, 각 시트 1회씩 생성.
+후속 재생성: 없음. 생성 결과의 크롭, 축소, 보정: 없음. 저장소 업로드: 없음.
+
+공통 기준 이미지 (세 시트 모두 같은 두 장, 같은 순서)
+1. 확정 정지 도트 96×128 원본:
+   https://polos0117.github.io/book-atelier-img/sprites/alice/alice_begin_still.png
+   Git blob SHA: 37df14ef29d5fd78761a4016bc2d9633a102713c
+   실제 첨부: 위 원본을 최근접 보간으로 정확히 6배 확대한 576×768 PNG.
+   픽셀의 색·모양·비율은 그대로이며, 참조 준비에만 확대를 적용함.
+   이 대화에 붙은 '리본과 회중시계의 픽셀 레이디.png'는 1024×1536의 정리 전 gen2였음.
+   문서에서 지정한 확정 정리본 URL을 사용하여 요청된 참조를 준비함.
+2. 정본(얼굴·색):
+   https://polos0117.github.io/book-atelier-img/img/alice_end_literary_fantasy_f.webp
+   Git blob SHA: d3fdc88a0c75b6b27afdada3796d9b315c131f63
+   원본 그대로 참조함.
+
+프롬프트 변경: 없음. gpt-p2.md의 공통 프롬프트 뒤에 해당 시트 프롬프트를 그대로 연결함.
+이어 요청한 추가 문구: 없음.
+투명 배경 옵션: 세 장 모두 true로 요청.
+작업 ID: 세 응답 모두 image_url만 반환되었으며 작업 ID는 제공되지 않음.
+
+사실 확인과 남은 정리
+- 세 장 모두 1024×1536 PNG이며 받은 바이트를 그대로 보존함.
+- 세 장 모두 알파 채널에 완전 투명 화소가 있고 반투명 화소도 있음.
+- 알파 채널 존재 및 화소 수 확인은 모든 배경이 깔끔히 제거됐다는 보증은 아님.
+- 확정 정지 도트는 실제로 24색이나, 사용자 지시대로 프롬프트의 '16-colour palette' 문구를 그대로 유지함.
+- 시트의 팔레트·격자 정렬·발 기준점·애니메이션 루프는 claude의 정리 및 확인 단계로 남김.
+- react 두 번째 칸에 요청하지 않은 노란 강조선이 보임. 원본 그대로 보존함.
+
+
+================================================================
+IDLE
+파일: alice_begin_idle_gen1.png
+배치: 2×2, 4칸
+요청 시각: 2026-10-21 17:31:03.878 KST
+반환 완료 시각: 2026-10-21 17:32:01.089 KST
+파일 크기: 1751973 bytes
+SHA-256: 3c512826fdb9c55ae9e24e24bbb15c8113660b2ca441eac6f6bc075ab12d8fa4
+알파 범위: 0~254
+완전 투명 화소: 978221
+반투명 화소: 594643
+완전 불투명 화소: 0
+수정 여부: 받은 원본 그대로
+작업 ID: 제공되지 않음
+
+실제로 사용한 프롬프트 (그대로)
+Pixel art sprite sheet of the EXACT same character as attached image 1 — a finished pixel-art sprite.
+Copy it pixel for pixel in style: same very large chunky pixels, same 16-colour palette, same dark outline,
+same proportions (about 4 heads tall), same face, short dark-brown bob with the bow on the image-left side of the head,
+cream dress with navy trim and white apron, red and navy card-suit marks, pocket watch at the image-right hip,
+white stockings with suit marks, navy shoes. Keep decoration as simple as image 1 — do not add new details.
+Image 2 is only a colour and face reference; do not copy its painterly style.
+
+Sheet layout: portrait canvas 1024 x 1536, frames arranged in a regular grid of equal cells,
+read left to right, top to bottom. In every cell the character is the same size (about 125 pixels tall
+on the sprite's own pixel grid, each sprite pixel drawn as a crisp 6 x 6 square), centred horizontally,
+with both feet on the same baseline near the bottom of the cell. Every frame faces the same direction
+as described below. Hard edges only: no anti-aliasing, no blur, no gradients, no dithering noise.
+Transparent background. No grid lines, no cell borders, no numbers, no labels, no text, no ground,
+no shadow, no motion lines, no extra characters.
+
+IDLE animation, 4 frames in a 2 x 2 grid (cell 512 x 768). Same standing pose as image 1, three-quarter view
+turned slightly toward the viewer's right, arms relaxed. Changes between frames are tiny (1-2 sprite pixels):
+frame 1 = exactly image 1; frame 2 = slight breath in, shoulders and hair 1 pixel up, skirt hem 1 pixel wider;
+frame 3 = same as frame 2 but eyes closed (blink); frame 4 = back between frame 2 and frame 1.
+Feet never move. The loop 4 -> 1 must be seamless.
+
+
+================================================================
+WALK
+파일: alice_begin_walk_gen1.png
+배치: 3×2, 6칸
+요청 시각: 2026-10-21 17:32:45.366 KST
+반환 완료 시각: 2026-10-21 17:33:49.542 KST
+파일 크기: 2060289 bytes
+SHA-256: abdf94b7a04c5971ce67f922a3afceb90fa3674b12a4881d34b4314a38dc0d46
+알파 범위: 0~254
+완전 투명 화소: 699435
+반투명 화소: 873429
+완전 불투명 화소: 0
+수정 여부: 받은 원본 그대로
+작업 ID: 제공되지 않음
+
+실제로 사용한 프롬프트 (그대로)
+Pixel art sprite sheet of the EXACT same character as attached image 1 — a finished pixel-art sprite.
+Copy it pixel for pixel in style: same very large chunky pixels, same 16-colour palette, same dark outline,
+same proportions (about 4 heads tall), same face, short dark-brown bob with the bow on the image-left side of the head,
+cream dress with navy trim and white apron, red and navy card-suit marks, pocket watch at the image-right hip,
+white stockings with suit marks, navy shoes. Keep decoration as simple as image 1 — do not add new details.
+Image 2 is only a colour and face reference; do not copy its painterly style.
+
+Sheet layout: portrait canvas 1024 x 1536, frames arranged in a regular grid of equal cells,
+read left to right, top to bottom. In every cell the character is the same size (about 125 pixels tall
+on the sprite's own pixel grid, each sprite pixel drawn as a crisp 6 x 6 square), centred horizontally,
+with both feet on the same baseline near the bottom of the cell. Every frame faces the same direction
+as described below. Hard edges only: no anti-aliasing, no blur, no gradients, no dithering noise.
+Transparent background. No grid lines, no cell borders, no numbers, no labels, no text, no ground,
+no shadow, no motion lines, no extra characters.
+
+WALK cycle, 6 frames in a 3 x 2 grid (cell 341 x 768). Side three-quarter view walking toward the viewer's right,
+same body and outfit as image 1. A standard 6-frame walk: frame 1 = right foot forward contact,
+frame 2 = down (weight on right foot, body 1 pixel lower), frame 3 = passing (left leg passing, body 1 pixel higher),
+frame 4 = left foot forward contact, frame 5 = down, frame 6 = passing. Arms swing opposite to the legs,
+small steps, skirt and hair bounce 1-2 pixels. Head height changes by at most 2 sprite pixels.
+The character does not travel across the cell — she walks in place, feet on the baseline. The loop 6 -> 1 must be seamless.
+
+
+================================================================
+REACT
+파일: alice_begin_react_gen1.png
+배치: 2×2, 4칸
+요청 시각: 2026-10-21 17:34:19.400 KST
+반환 완료 시각: 2026-10-21 17:35:32.080 KST
+파일 크기: 1770494 bytes
+SHA-256: ef9a206c60afb86b810f0c9b98802eebfa6484117309c323416d2221aac6f81c
+알파 범위: 0~254
+완전 투명 화소: 998148
+반투명 화소: 574716
+완전 불투명 화소: 0
+수정 여부: 받은 원본 그대로
+작업 ID: 제공되지 않음
+
+실제로 사용한 프롬프트 (그대로)
+Pixel art sprite sheet of the EXACT same character as attached image 1 — a finished pixel-art sprite.
+Copy it pixel for pixel in style: same very large chunky pixels, same 16-colour palette, same dark outline,
+same proportions (about 4 heads tall), same face, short dark-brown bob with the bow on the image-left side of the head,
+cream dress with navy trim and white apron, red and navy card-suit marks, pocket watch at the image-right hip,
+white stockings with suit marks, navy shoes. Keep decoration as simple as image 1 — do not add new details.
+Image 2 is only a colour and face reference; do not copy its painterly style.
+
+Sheet layout: portrait canvas 1024 x 1536, frames arranged in a regular grid of equal cells,
+read left to right, top to bottom. In every cell the character is the same size (about 125 pixels tall
+on the sprite's own pixel grid, each sprite pixel drawn as a crisp 6 x 6 square), centred horizontally,
+with both feet on the same baseline near the bottom of the cell. Every frame faces the same direction
+as described below. Hard edges only: no anti-aliasing, no blur, no gradients, no dithering noise.
+Transparent background. No grid lines, no cell borders, no numbers, no labels, no text, no ground,
+no shadow, no motion lines, no extra characters.
+
+REACT animation when selected, 4 frames in a 2 x 2 grid (cell 512 x 768). Starts and ends in the image 1 pose.
+frame 1 = image 1 pose, frame 2 = turns head and body toward the viewer with a small surprised smile,
+frame 3 = small curtsy: knees slightly bent, one hand lifting the skirt edge, head tilted, body 3 pixels lower,
+frame 4 = rising back halfway toward the image 1 pose, smiling. Feet stay on the baseline.
+
+

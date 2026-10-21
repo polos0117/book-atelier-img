@@ -1,0 +1,154 @@
+{
+ "date": "2026-10-21",
+ "author": "claude",
+ "book": "alice",
+ "form": "begin",
+ "state": "react",
+ "plan": "book-atelier docs/ATELIER_PIXEL_ART_PLAN.md 11절 P2",
+ "references": {
+  "still_x6": "sprites/alice/alice_begin_still.png 를 최근접 6배(576x768)",
+  "canonical": "img/alice_end_literary_fantasy_f.webp"
+ },
+ "generation": {
+  "file": "sprites/alice/raw/alice_begin_react_gen1.png",
+  "sha256": "ef9a206c60afb86b810f0c9b98802eebfa6484117309c323416d2221aac6f81c",
+  "by": "gpt",
+  "requested_kst": "2026-10-21 17:34:19.400 KST",
+  "returned_kst": "2026-10-21 17:35:32.080 KST",
+  "job_id": null,
+  "prompt": "11절 P2 공통 + react 그대로, 이어 요청 없음 — 전문은 records/sprites/alice/p2-gpt-record.txt",
+  "size": [
+   1024,
+   1536
+  ],
+  "background": "투명(반투명 섞임)",
+  "found": "지시한 6px 가 아니라 약 11.6px 블록, 블록은 10~13px 로 들쭉날쭉, 눈·하이라이트는 블록보다 잘게"
+ },
+ "cleaned": {
+  "file": "sprites/alice/alice_begin_react.png",
+  "sha1": "77d4be8adbf2",
+  "tool": "book-atelier tools/sprite-sheet.py",
+  "args": [
+   "--frames",
+   "4",
+   "--palette",
+   "sprites/alice/alice_begin_still.png",
+   "--fixed-pitch",
+   "6.0",
+   "--pitch",
+   "5,7",
+   "--speck",
+   "40",
+   "--cell",
+   "96x128"
+  ],
+  "why_half_pitch": "블록 간격(11.6)으로 뽑으면 64줄이 되어 얼굴이 뭉개진다 — 절반 간격이면 큰 블록은 2x2, 잔디테일은 남고 정지 도트와 같은 해상도",
+  "cell": [
+   96,
+   128
+  ],
+  "frames": 4,
+  "foot_y": 126,
+  "colours": 24,
+  "palette_from": "alice_begin_still.png",
+  "frame": [
+   {
+    "box_px": [
+     186,
+     23,
+     470,
+     719
+    ],
+    "pitch": 6.0,
+    "size": [
+     51,
+     119
+    ],
+    "anchor_x": 23.76,
+    "dropped_specks": 0,
+    "at": [
+     24,
+     7
+    ]
+   },
+   {
+    "box_px": [
+     577,
+     23,
+     863,
+     719
+    ],
+    "pitch": 6.0,
+    "size": [
+     49,
+     120
+    ],
+    "anchor_x": 21.63,
+    "dropped_specks": 17,
+    "at": [
+     26,
+     6
+    ]
+   },
+   {
+    "box_px": [
+     120,
+     768,
+     475,
+     1484
+    ],
+    "pitch": 6.0,
+    "size": [
+     61,
+     123
+    ],
+    "anchor_x": 35.92,
+    "dropped_specks": 0,
+    "at": [
+     12,
+     3
+    ]
+   },
+   {
+    "box_px": [
+     580,
+     768,
+     896,
+     1484
+    ],
+    "pitch": 6.0,
+    "size": [
+     55,
+     125
+    ],
+    "anchor_x": 23.99,
+    "dropped_specks": 0,
+    "at": [
+     24,
+     1
+    ]
+   }
+  ]
+ },
+ "playback": {
+  "order": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "ms": [
+   120,
+   180,
+   320,
+   200
+  ],
+  "note": "끝나면 idle 1칸으로"
+ },
+ "flip": {
+  "allowed": true
+ },
+ "display": {
+  "suggested_scale": 2
+ }
+}

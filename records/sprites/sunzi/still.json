@@ -1,0 +1,97 @@
+{
+ "date": "2026-10-21",
+ "author": "claude",
+ "book": "sunzi",
+ "form": "begin",
+ "state": "still",
+ "plan": "book-atelier docs/ATELIER_PIXEL_ART_PLAN.md 확대 P0·P1",
+ "references": {
+  "canonical": "img/sunzi_begin_literary_fantasy_f.webp",
+  "pixel_model": "sprites/alice/alice_begin_still.png 를 최근접 6배(576x768) — 화소 크기·윤곽·비율 본보기"
+ },
+ "generations": [
+  {
+   "file": "sprites/sunzi/raw/sunzi_begin_still_gen1.png",
+   "sha1": "76c6a73dc5cb",
+   "by": "gpt",
+   "tool": "image_gen",
+   "requested_utc": "2026-10-21T11:08:03.338Z",
+   "returned_utc": "2026-10-21T11:08:43.935Z",
+   "run_id": "156c838e-715e-4f38-a8a8-6ccb1a885488",
+   "job_id": null,
+   "prompt": "Pixel art game sprite of the SAME young woman shown in attached image 1. Copy her face, hair, skin tone,\noutfit and palette from image 1. Attached image 2 is a finished sprite of a different character from the same game:\nmatch its pixel size, outline, shading style and body proportions exactly, but NOT its outfit or colours.\nDo not draw any background, furniture, props or scenery from image 1.\n\nDraw with very large chunky pixels (each sprite pixel a crisp 12 x 12 square), about 16 colours,\nabout 4 heads tall (not chibi), and about half the decoration of image 1 — keep only the shapes that\nmake her recognisable at small size. One full-body character, standing idle on flat ground,\nthree-quarter view turned slightly toward the viewer's right, arms relaxed, feet close together.\nHard edges only: no anti-aliasing, no blur, no gradients, no dithering noise. Dark selective outline,\nsimple 2-3 tone shading lit from the upper left. Keep the face readable: two clear eyes, small mouth.\nTransparent background. No ground shadow, no floor, no text, no frame, no border, no second character.\nPortrait canvas 1024 x 1536.\n\nShe is the Art of War heroine: black hair in a neat high top bun with a jade pin, sharp calm eyes,\nshort angular layered robe in ink black with jade-green and pale gold trim, bamboo-slip shoulder guards,\na dark silk sash, a short paneled armour skirt, knee-high black boots. Composed, upright stance.",
+   "followup": null,
+   "size": [
+    1024,
+    1536
+   ],
+   "background": "투명(인물 둘레 어두운 반투명 후광)",
+   "outcome": "채택 — 약 12px 도트, 4등신, 장식 절반. 블록이 들쭉날쭉해 격자 찾기가 빗나가(손자 146줄) 줄 수 고정으로 정리"
+  }
+ ],
+ "cleaned": {
+  "file": "sprites/sunzi/sunzi_begin_still.png",
+  "sha1": "b40742c96bf0",
+  "tool": "book-atelier tools/sprite-grid.py",
+  "args": [
+   "24",
+   "--rows",
+   "121",
+   "--outline"
+  ],
+  "why": "인물 높이를 121줄 고른 격자로(칸 안 최다 색, 어두운 색이 30% 넘으면 그 색 — 눈·윤곽), 바깥 윤곽 한 칸 → alice(123줄)와 같은 키",
+  "cell": [
+   96,
+   128
+  ],
+  "sprite": [
+   41,
+   122
+  ],
+  "cell_offset": [
+   27,
+   4
+  ],
+  "foot_y": 126,
+  "pitch": [
+   12.29,
+   12.29
+  ],
+  "colours": 24,
+  "palette": [
+   "#130e12",
+   "#272426",
+   "#2e191a",
+   "#38413f",
+   "#3d3535",
+   "#49221f",
+   "#5a463c",
+   "#5e7668",
+   "#7a5337",
+   "#7e6452",
+   "#819f89",
+   "#976a43",
+   "#9d7f65",
+   "#a3bfa6",
+   "#af654c",
+   "#b68352",
+   "#b6987e",
+   "#d4b9a0",
+   "#daa46a",
+   "#e49a77",
+   "#eebb7d",
+   "#fab792",
+   "#faf6ec",
+   "#fdcca5"
+  ],
+  "alpha_threshold": 160
+ },
+ "flip": {
+  "allowed": true,
+  "note": "사용자 결정 2026-10-21 — 머리 옥 술(왼쪽)·허리 옥(오른쪽)이 반전 때 자리를 바꾼다"
+ },
+ "display": {
+  "suggested_scale": 1,
+  "shadow": "코드로 발밑 타원"
+ }
+}

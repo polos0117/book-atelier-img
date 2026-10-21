@@ -1,0 +1,97 @@
+{
+ "date": "2026-10-21",
+ "author": "claude",
+ "book": "chunhyang",
+ "form": "begin",
+ "state": "still",
+ "plan": "book-atelier docs/ATELIER_PIXEL_ART_PLAN.md 확대 P0·P1",
+ "references": {
+  "canonical": "img/chunhyang_begin_literary_fantasy_f.webp",
+  "pixel_model": "sprites/alice/alice_begin_still.png 를 최근접 6배(576x768) — 화소 크기·윤곽·비율 본보기"
+ },
+ "generations": [
+  {
+   "file": "sprites/chunhyang/raw/chunhyang_begin_still_gen1.png",
+   "sha1": "6685bba089f9",
+   "by": "gpt",
+   "tool": "image_gen",
+   "requested_utc": "2026-10-21T11:08:52.467Z",
+   "returned_utc": "2026-10-21T11:09:51.268Z",
+   "run_id": "5cb66333-441c-4bf3-95a2-a1e34f95ed15",
+   "job_id": null,
+   "prompt": "Pixel art game sprite of the SAME young woman shown in attached image 1. Copy her face, hair, skin tone,\noutfit and palette from image 1. Attached image 2 is a finished sprite of a different character from the same game:\nmatch its pixel size, outline, shading style and body proportions exactly, but NOT its outfit or colours.\nDo not draw any background, furniture, props or scenery from image 1.\n\nDraw with very large chunky pixels (each sprite pixel a crisp 12 x 12 square), about 16 colours,\nabout 4 heads tall (not chibi), and about half the decoration of image 1 — keep only the shapes that\nmake her recognisable at small size. One full-body character, standing idle on flat ground,\nthree-quarter view turned slightly toward the viewer's right, arms relaxed, feet close together.\nHard edges only: no anti-aliasing, no blur, no gradients, no dithering noise. Dark selective outline,\nsimple 2-3 tone shading lit from the upper left. Keep the face readable: two clear eyes, small mouth.\nTransparent background. No ground shadow, no floor, no text, no frame, no border, no second character.\nPortrait canvas 1024 x 1536.\n\nShe is the Chunhyang heroine: long black hair in one long braid over her shoulder with a red ribbon\nand a small flower pin, gentle smile, Korean hanbok — a short rose-pink jeogori with a long red ribbon tie,\na full layered rose and white chima skirt reaching her ankles, small jade accents, small embroidered shoes\npeeking out. Do NOT draw the swing or its ropes.",
+   "followup": null,
+   "size": [
+    1024,
+    1536
+   ],
+   "background": "투명(인물 둘레 어두운 반투명 후광)",
+   "outcome": "채택 — 약 12px 도트, 4등신, 장식 절반. 블록이 들쭉날쭉해 격자 찾기가 빗나가(손자 146줄) 줄 수 고정으로 정리"
+  }
+ ],
+ "cleaned": {
+  "file": "sprites/chunhyang/chunhyang_begin_still.png",
+  "sha1": "96ecc76a6a89",
+  "tool": "book-atelier tools/sprite-grid.py",
+  "args": [
+   "24",
+   "--rows",
+   "121",
+   "--outline"
+  ],
+  "why": "인물 높이를 121줄 고른 격자로(칸 안 최다 색, 어두운 색이 30% 넘으면 그 색 — 눈·윤곽), 바깥 윤곽 한 칸 → alice(123줄)와 같은 키",
+  "cell": [
+   96,
+   128
+  ],
+  "sprite": [
+   66,
+   123
+  ],
+  "cell_offset": [
+   15,
+   3
+  ],
+  "foot_y": 126,
+  "pitch": [
+   12.1,
+   12.1
+  ],
+  "colours": 24,
+  "palette": [
+   "#2f1519",
+   "#412123",
+   "#57332f",
+   "#5e1720",
+   "#606a5f",
+   "#82222c",
+   "#885046",
+   "#89a188",
+   "#aa684d",
+   "#ab383e",
+   "#b0766a",
+   "#b65351",
+   "#cc9686",
+   "#d25758",
+   "#d59467",
+   "#e6b3a0",
+   "#e9997b",
+   "#ec766e",
+   "#f1b880",
+   "#f29182",
+   "#f2aa95",
+   "#fcc7ac",
+   "#fcdaa6",
+   "#fde8d1"
+  ],
+  "alpha_threshold": 160
+ },
+ "flip": {
+  "allowed": true,
+  "note": "사용자 결정 2026-10-21 — 땋은 머리(오른쪽 어깨)가 반전 때 반대 어깨로"
+ },
+ "display": {
+  "suggested_scale": 1,
+  "shadow": "코드로 발밑 타원"
+ }
+}

@@ -1,0 +1,62 @@
+손자·춘향 P1 정지 도트 생성 기록
+
+각 인물 1회, 1장. 재생성 및 이어 요청 없음. 크롭·축소·색상·알파 보정 없음.
+도구: built-in image_gen
+1024×1536 PNG RGBA. 두 파일 모두 알파 채널 있음(0~254). 투명 영역은 있으나 인물 주변에 어두운 반투명 후광이 남음. 그대로 전달.
+참조 2: 첨부된 01-alice_begin_still_x6-2.png (576×768), 두 생성 모두 두 번째 참조로 첨부.
+프롬프트 변경 없음: gpt-p1-more.md 공통 프롬프트 + 각 인물 추가 문구 그대로.
+
+sunzi
+파일: sunzi_begin_still_gen1.png
+참조 1: https://polos0117.github.io/book-atelier-img/img/sunzi_begin_literary_fantasy_f.webp
+생성 시작(UTC): 2026-10-21T11:08:03.338Z
+생성 완료(UTC): 2026-10-21T11:08:43.935Z
+출력 파일 실행 식별자: 156c838e-715e-4f38-a8a8-6ccb1a885488
+별도 작업 ID: 도구에서 제공되지 않음
+실제 프롬프트:
+Pixel art game sprite of the SAME young woman shown in attached image 1. Copy her face, hair, skin tone,
+outfit and palette from image 1. Attached image 2 is a finished sprite of a different character from the same game:
+match its pixel size, outline, shading style and body proportions exactly, but NOT its outfit or colours.
+Do not draw any background, furniture, props or scenery from image 1.
+
+Draw with very large chunky pixels (each sprite pixel a crisp 12 x 12 square), about 16 colours,
+about 4 heads tall (not chibi), and about half the decoration of image 1 — keep only the shapes that
+make her recognisable at small size. One full-body character, standing idle on flat ground,
+three-quarter view turned slightly toward the viewer's right, arms relaxed, feet close together.
+Hard edges only: no anti-aliasing, no blur, no gradients, no dithering noise. Dark selective outline,
+simple 2-3 tone shading lit from the upper left. Keep the face readable: two clear eyes, small mouth.
+Transparent background. No ground shadow, no floor, no text, no frame, no border, no second character.
+Portrait canvas 1024 x 1536.
+
+She is the Art of War heroine: black hair in a neat high top bun with a jade pin, sharp calm eyes,
+short angular layered robe in ink black with jade-green and pale gold trim, bamboo-slip shoulder guards,
+a dark silk sash, a short paneled armour skirt, knee-high black boots. Composed, upright stance.
+
+chunhyang
+파일: chunhyang_begin_still_gen1.png
+참조 1: https://polos0117.github.io/book-atelier-img/img/chunhyang_begin_literary_fantasy_f.webp
+생성 시작(UTC): 2026-10-21T11:08:52.467Z
+생성 완료(UTC): 2026-10-21T11:09:51.268Z
+출력 파일 실행 식별자: 5cb66333-441c-4bf3-95a2-a1e34f95ed15
+별도 작업 ID: 도구에서 제공되지 않음
+실제 프롬프트:
+Pixel art game sprite of the SAME young woman shown in attached image 1. Copy her face, hair, skin tone,
+outfit and palette from image 1. Attached image 2 is a finished sprite of a different character from the same game:
+match its pixel size, outline, shading style and body proportions exactly, but NOT its outfit or colours.
+Do not draw any background, furniture, props or scenery from image 1.
+
+Draw with very large chunky pixels (each sprite pixel a crisp 12 x 12 square), about 16 colours,
+about 4 heads tall (not chibi), and about half the decoration of image 1 — keep only the shapes that
+make her recognisable at small size. One full-body character, standing idle on flat ground,
+three-quarter view turned slightly toward the viewer's right, arms relaxed, feet close together.
+Hard edges only: no anti-aliasing, no blur, no gradients, no dithering noise. Dark selective outline,
+simple 2-3 tone shading lit from the upper left. Keep the face readable: two clear eyes, small mouth.
+Transparent background. No ground shadow, no floor, no text, no frame, no border, no second character.
+Portrait canvas 1024 x 1536.
+
+She is the Chunhyang heroine: long black hair in one long braid over her shoulder with a red ribbon
+and a small flower pin, gentle smile, Korean hanbok — a short rose-pink jeogori with a long red ribbon tie,
+a full layered rose and white chima skirt reaching her ankles, small jade accents, small embroidered shoes
+peeking out. Do NOT draw the swing or its ropes.
+
+

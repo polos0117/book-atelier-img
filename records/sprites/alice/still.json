@@ -1,0 +1,119 @@
+{
+ "date": "2026-10-21",
+ "author": "claude",
+ "book": "alice",
+ "form": "begin",
+ "state": "still",
+ "plan": "book-atelier docs/ATELIER_PIXEL_ART_PLAN.md",
+ "references": {
+  "canonical": "img/alice_end_literary_fantasy_f.webp",
+  "outfit": "img/alice_begin_literary_fantasy_f.webp"
+ },
+ "generations": [
+  {
+   "file": "sprites/alice/raw/alice_begin_still_gen1.png",
+   "sha1": "5c2bf1ed2928",
+   "by": "gpt",
+   "requested_kst": "2026-10-21 16:36:48",
+   "returned_kst": "2026-10-21 16:37:50",
+   "job_id": null,
+   "prompt": "Pixel art game sprite of the SAME young woman shown in the two attached images.\nImage 1 is the canonical character: copy her face, short dark-brown bob with the small bow headpiece,\neye colour, skin tone and the cream / navy-blue palette exactly.\nImage 2 is the outfit to draw: short puffed cream dress with navy trim and white apron, pocket-watch chain\nat the waist, white stockings with small red and black card-suit marks, dark heeled shoes, small navy bows.\nDo not draw the background, floating cards, clocks or teacups from the attachments.\n\nOne full-body character, standing idle on flat ground, three-quarter view turned slightly toward the viewer's\nright, arms relaxed at her sides, feet close together, head tilted a little with a curious expression.\nNatural proportions about 4.5 heads tall — not chibi, not a big head.\n\nTrue pixel art on a strict 96 x 128 pixel grid: every pixel is one crisp square block of the same size\n(8 x 8 screen pixels, so the sprite area is 768 x 1024), centred on the canvas with her feet near the bottom\nof that area. Hard edges only: no anti-aliasing, no blur, no gradients, no painterly texture, no noise\ndithering. Limited palette of about 20 colours, dark selective outline, simple 2-3 tone shading lit from the\nupper left. Keep the face readable: two clear eyes, small mouth, no tiny unreadable detail.\n\nTransparent background. If transparency is not possible, use one flat solid #00FF00 green with nothing else.\nNo ground shadow, no floor, no text, no frame, no border, no second character.\nPortrait canvas 1024 x 1536.",
+   "attachments": [
+    "canonical",
+    "outfit"
+   ],
+   "size": [
+    1024,
+    1536
+   ],
+   "background": "투명(바깥 번짐은 반투명)",
+   "outcome": "쓰지 않음 — 1~2px 단위의 도트풍 일러스트(격자 없음, 약 7.5등신). 96x128 로 줄이면 얼굴 7px, 모자이크처럼 뭉개짐"
+  },
+  {
+   "file": "sprites/alice/raw/alice_begin_still_gen2.png",
+   "sha1": "603185150bc2",
+   "by": "gpt",
+   "requested_kst": null,
+   "returned_kst": "2026-10-21",
+   "job_id": null,
+   "prompt": null,
+   "prompt_note": "사용자가 gpt 세션에서 다시 뽑음 — 바꾼 프롬프트는 전해 받지 못함",
+   "attachments": [
+    "canonical",
+    "outfit"
+   ],
+   "size": [
+    1024,
+    1536
+   ],
+   "background": "투명(바깥 번짐은 반투명)",
+   "outcome": "채택 — 약 12px 도트 격자, 4.5~5등신, 윤곽선 있음"
+  }
+ ],
+ "cleaned": {
+  "file": "sprites/alice/alice_begin_still.png",
+  "sha1": "2a82a4c68623",
+  "from": "gen2",
+  "tool": "book-atelier tools/sprite-grid.py",
+  "args": [
+   24
+  ],
+  "cell": [
+   96,
+   128
+  ],
+  "grid_pitch_px": [
+   12.14,
+   11.96
+  ],
+  "grid_offset_px": [
+   9.5,
+   2.25
+  ],
+  "sprite": [
+   50,
+   123
+  ],
+  "cell_offset": [
+   23,
+   3
+  ],
+  "foot_y": 126,
+  "colours": 24,
+  "palette": [
+   "#232b44",
+   "#2b1c20",
+   "#2d4974",
+   "#4e3130",
+   "#5d5053",
+   "#6d3f26",
+   "#74493f",
+   "#7d4034",
+   "#8d5832",
+   "#936150",
+   "#986e5d",
+   "#a23337",
+   "#b27437",
+   "#b2856f",
+   "#be6e52",
+   "#cba78e",
+   "#de8b64",
+   "#e2a450",
+   "#eb9f77",
+   "#edcfb2",
+   "#f0b667",
+   "#fdc49d",
+   "#fde5a2",
+   "#fdeacc"
+  ],
+  "alpha_threshold": 160
+ },
+ "flip": {
+  "allowed": true,
+  "note": "리본(머리 왼쪽)·회중시계(허리 오른쪽)가 반전 때 자리를 바꾸지만 사용자가 반전 허용(2026-10-21)"
+ },
+ "display": {
+  "suggested_scale": 2,
+  "shadow": "코드로 발밑 타원"
+ }
+}

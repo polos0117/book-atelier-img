@@ -1,0 +1,199 @@
+{
+ "date": "2026-10-21",
+ "author": "claude",
+ "book": "sunzi",
+ "form": "begin",
+ "state": "walk",
+ "version": "v2",
+ "plan": "book-atelier docs/ATELIER_PIXEL_ART_PLAN.md 10절 체크포인트(걷기 고침)·11절 걷기 다시 뽑기",
+ "why": "지난 걷기는 같은 다리만 계속 앞(4칸이 1칸의 되풀이) — 다리 안내 그림을 붙여 다시 뽑았으나 이번에도 같은 다리만 앞이라, 반 주기 세 칸 + 다리 표시를 맞바꾼 세 칸으로 만듦",
+ "generation": {
+  "file": "sprites/sunzi/raw/sunzi_begin_walk_gen2.png",
+  "sha256": "496443f36f6221821adcbda505e141d59f2c635e2d9a8b50fac4474b4a94dd35",
+  "by": "gpt",
+  "prompt": "records/sprites/walk-redo-instructions.md 의 공통 프롬프트 + 그 인물 묘사(춘향은 LEGS 대신 그 인물 줄). 생성 기록 txt 는 받지 못함",
+  "references": [
+   "그 인물 정지 도트 6배",
+   "walk_leg_guide.png (book-atelier tools/walk-guide.py)",
+   "그 인물 정본 webp"
+  ],
+  "size": [
+   1024,
+   1536
+  ],
+  "background": "투명(반투명 번짐 섞임)",
+  "found": "1·4칸 모두 장식 장화가 앞, 무릎 드는 칸도 같은 다리"
+ },
+ "cleaned_intermediate": {
+  "tool": "book-atelier tools/sprite-sheet.py",
+  "args": [
+   "--frames",
+   "6",
+   "--grid",
+   "3x2",
+   "--palette",
+   "sprites/sunzi/sunzi_begin_still.png",
+   "--rows",
+   "121",
+   "--speck",
+   "40",
+   "--cell",
+   "96x128"
+  ],
+  "sha1": "27fb6dca4846",
+  "kept": false,
+  "frames": [
+   {
+    "box_px": [
+     54,
+     57,
+     338,
+     748
+    ],
+    "pitch": 5.63,
+    "size": [
+     50,
+     121
+    ],
+    "anchor_x": 21.36,
+    "dropped_specks": 0,
+    "at": [
+     27,
+     5
+    ]
+   },
+   {
+    "box_px": [
+     413,
+     57,
+     633,
+     748
+    ],
+    "pitch": 5.63,
+    "size": [
+     39,
+     120
+    ],
+    "anchor_x": 18.53,
+    "dropped_specks": 0,
+    "at": [
+     29,
+     6
+    ]
+   },
+   {
+    "box_px": [
+     750,
+     57,
+     992,
+     748
+    ],
+    "pitch": 5.63,
+    "size": [
+     43,
+     122
+    ],
+    "anchor_x": 18.64,
+    "dropped_specks": 0,
+    "at": [
+     29,
+     4
+    ]
+   },
+   {
+    "box_px": [
+     54,
+     805,
+     335,
+     1493
+    ],
+    "pitch": 5.63,
+    "size": [
+     50,
+     121
+    ],
+    "anchor_x": 22.59,
+    "dropped_specks": 0,
+    "at": [
+     25,
+     5
+    ]
+   },
+   {
+    "box_px": [
+     408,
+     805,
+     637,
+     1493
+    ],
+    "pitch": 5.63,
+    "size": [
+     40,
+     120
+    ],
+    "anchor_x": 18.96,
+    "dropped_specks": 0,
+    "at": [
+     29,
+     6
+    ]
+   },
+   {
+    "box_px": [
+     758,
+     805,
+     993,
+     1493
+    ],
+    "pitch": 5.63,
+    "size": [
+     42,
+     122
+    ],
+    "anchor_x": 17.82,
+    "dropped_specks": 0,
+    "at": [
+     30,
+     4
+    ]
+   }
+  ]
+ },
+ "made": {
+  "file": "sprites/sunzi/sunzi_begin_walk_v2.png",
+  "sha1": "bea03a3f3122",
+  "tool": "book-atelier tools/walk-swap.py sunzi",
+  "how": "두 다리 차림이 같고 앞 치마 트임의 맨 허벅지가 가까운 다리 표시 — 그 허벅지는 그늘(앞에 나간 먼 다리)로, 가까운 허벅지를 뒤로 간 장화 쪽에 새로 그림",
+  "cell": [
+   96,
+   128
+  ],
+  "frames": 6,
+  "foot_y": 126,
+  "order": "0 접지 · 1 내려앉음 · 2 지나감 · 3 접지(다른 다리 앞) · 4 내려앉음 · 5 지나감",
+  "limits": "팔은 앞뒤 반 주기가 같다, 그늘진 허벅지는 3배로 보면 주황빛"
+ },
+ "playback": {
+  "ms": [
+   200,
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "speed": 82,
+  "dy": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "note": "speed 는 접지 칸 발 폭 ÷ 0.6초, dy 는 tools/sprite-bob.py"
+ },
+ "flip": {
+  "allowed": true
+ }
+}

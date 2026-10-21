@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-21",
+ "author": "claude",
+ "book": "chunhyang",
+ "form": "begin",
+ "state": "idle",
+ "plan": "book-atelier docs/ATELIER_PIXEL_ART_PLAN.md 확대 P2",
+ "references": {
+  "still_x6": "sprites/chunhyang/chunhyang_begin_still.png 를 최근접 6배(576x768)",
+  "canonical": "img/chunhyang_begin_literary_fantasy_f.webp"
+ },
+ "generation": {
+  "file": "sprites/chunhyang/raw/chunhyang_begin_idle_gen1.png",
+  "sha256": "1753e5e6cf8ae267e623cc738f2beb8d48e32dfb8e7e8cead0b949931e7040b3",
+  "by": "gpt",
+  "tool": "imagegen",
+  "requested_kst": "2026-10-21T20:51:52.437000+09:00",
+  "returned_kst": "2026-10-21T20:53:08.964000+09:00",
+  "returned_file": "exec-4d78b8c9-0803-4878-b172-3a3b15a0cea6.png",
+  "job_id": null,
+  "prompt": "gpt-p2-more 공통 + 그 인물 묘사 + idle 그대로, 이어 요청 없음 — 전문은 records/sprites/p2-more-gpt-record.txt",
+  "size": [
+   1024,
+   1536
+  ],
+  "background": "투명(반투명 섞임)"
+ },
+ "cleaned": {
+  "file": "sprites/chunhyang/chunhyang_begin_idle.png",
+  "sha1": "4e30473a06e3",
+  "tool": "book-atelier tools/sprite-sheet.py",
+  "args": [
+   "--frames",
+   "4",
+   "--grid",
+   "2x2",
+   "--palette",
+   "sprites/chunhyang/chunhyang_begin_still.png",
+   "--rows",
+   "121",
+   "--speck",
+   "40",
+   "--cell",
+   "96x128"
+  ],
+  "why": "시트마다 인물 크기가 달라(걷기가 5% 작다) 프레임 높이 중앙값을 121줄로 — 정지 도트와 같은 키, 고른 격자",
+  "cell": [
+   96,
+   128
+  ],
+  "frames": 4,
+  "foot_y": 126,
+  "colours": 24,
+  "palette_from": "chunhyang_begin_still.png",
+  "frame": [
+   {
+    "box_px": [
+     91,
+     20,
+     485,
+     721
+    ],
+    "pitch": 5.78,
+    "size": [
+     68,
+     120
+    ],
+    "anchor_x": 29.92,
+    "dropped_specks": 0,
+    "at": [
+     18,
+     6
+    ]
+   },
+   {
+    "box_px": [
+     576,
+     20,
+     973,
+     721
+    ],
+    "pitch": 5.78,
+    "size": [
+     69,
+     121
+    ],
+    "anchor_x": 30.39,
+    "dropped_specks": 0,
+    "at": [
+     18,
+     5
+    ]
+   },
+   {
+    "box_px": [
+     94,
+     787,
+     489,
+     1493
+    ],
+    "pitch": 5.78,
+    "size": [
+     68,
+     121
+    ],
+    "anchor_x": 29.31,
+    "dropped_specks": 0,
+    "at": [
+     19,
+     5
+    ]
+   },
+   {
+    "box_px": [
+     574,
+     787,
+     974,
+     1493
+    ],
+    "pitch": 5.78,
+    "size": [
+     69,
+     122
+    ],
+    "anchor_x": 30.47,
+    "dropped_specks": 0,
+    "at": [
+     18,
+     4
+    ]
+   }
+  ]
+ },
+ "playback": {
+  "order": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "ms": [
+   700,
+   220,
+   140,
+   220
+  ],
+  "note": "대기 네 칸 자세가 같아 차례 그대로(3칸이 깜빡임)"
+ },
+ "flip": {
+  "allowed": true
+ },
+ "display": {
+  "suggested_scale": 1
+ }
+}

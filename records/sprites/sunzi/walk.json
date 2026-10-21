@@ -1,0 +1,197 @@
+{
+ "date": "2026-10-21",
+ "author": "claude",
+ "book": "sunzi",
+ "form": "begin",
+ "state": "walk",
+ "plan": "book-atelier docs/ATELIER_PIXEL_ART_PLAN.md 확대 P2",
+ "references": {
+  "still_x6": "sprites/sunzi/sunzi_begin_still.png 를 최근접 6배(576x768)",
+  "canonical": "img/sunzi_begin_literary_fantasy_f.webp"
+ },
+ "generation": {
+  "file": "sprites/sunzi/raw/sunzi_begin_walk_gen1.png",
+  "sha256": "a04c2228726059dd5b6743091e6844195395332822564b4fe4b1a409ce36c7a7",
+  "by": "gpt",
+  "tool": "imagegen",
+  "requested_kst": "2026-10-21T20:48:54.681000+09:00",
+  "returned_kst": "2026-10-21T20:49:57.881000+09:00",
+  "returned_file": "exec-6d8270b8-1a66-469a-b5d9-dccbc2f779e8.png",
+  "job_id": null,
+  "prompt": "gpt-p2-more 공통 + 그 인물 묘사 + walk 그대로, 이어 요청 없음 — 전문은 records/sprites/p2-more-gpt-record.txt",
+  "size": [
+   1024,
+   1536
+  ],
+  "background": "투명(반투명 섞임)"
+ },
+ "cleaned": {
+  "file": "sprites/sunzi/sunzi_begin_walk.png",
+  "sha1": "a9335def4479",
+  "tool": "book-atelier tools/sprite-sheet.py",
+  "args": [
+   "--frames",
+   "6",
+   "--grid",
+   "3x2",
+   "--palette",
+   "sprites/sunzi/sunzi_begin_still.png",
+   "--rows",
+   "121",
+   "--speck",
+   "40",
+   "--cell",
+   "96x128"
+  ],
+  "why": "시트마다 인물 크기가 달라(걷기가 5% 작다) 프레임 높이 중앙값을 121줄로 — 정지 도트와 같은 키, 고른 격자",
+  "cell": [
+   96,
+   128
+  ],
+  "frames": 6,
+  "foot_y": 126,
+  "colours": 24,
+  "palette_from": "sunzi_begin_still.png",
+  "frame": [
+   {
+    "box_px": [
+     58,
+     58,
+     310,
+     736
+    ],
+    "pitch": 5.6,
+    "size": [
+     44,
+     119
+    ],
+    "anchor_x": 19.13,
+    "dropped_specks": 0,
+    "at": [
+     29,
+     7
+    ]
+   },
+   {
+    "box_px": [
+     393,
+     58,
+     626,
+     736
+    ],
+    "pitch": 5.6,
+    "size": [
+     42,
+     118
+    ],
+    "anchor_x": 19.14,
+    "dropped_specks": 0,
+    "at": [
+     29,
+     8
+    ]
+   },
+   {
+    "box_px": [
+     738,
+     58,
+     980,
+     736
+    ],
+    "pitch": 5.6,
+    "size": [
+     43,
+     121
+    ],
+    "anchor_x": 18.16,
+    "dropped_specks": 0,
+    "at": [
+     30,
+     5
+    ]
+   },
+   {
+    "box_px": [
+     46,
+     800,
+     310,
+     1487
+    ],
+    "pitch": 5.6,
+    "size": [
+     47,
+     122
+    ],
+    "anchor_x": 22.03,
+    "dropped_specks": 0,
+    "at": [
+     26,
+     4
+    ]
+   },
+   {
+    "box_px": [
+     386,
+     800,
+     632,
+     1487
+    ],
+    "pitch": 5.6,
+    "size": [
+     44,
+     121
+    ],
+    "anchor_x": 20.65,
+    "dropped_specks": 0,
+    "at": [
+     27,
+     5
+    ]
+   },
+   {
+    "box_px": [
+     724,
+     800,
+     979,
+     1487
+    ],
+    "pitch": 5.6,
+    "size": [
+     45,
+     122
+    ],
+    "anchor_x": 20.56,
+    "dropped_specks": 0,
+    "at": [
+     27,
+     4
+    ]
+   }
+  ]
+ },
+ "playback": {
+  "order": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "ms": [
+   110,
+   110,
+   110,
+   110,
+   110,
+   110
+  ],
+  "note": "제자리 걸음, 화면 이동은 코드"
+ },
+ "flip": {
+  "allowed": true
+ },
+ "display": {
+  "suggested_scale": 1
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-21",
+ "author": "claude",
+ "book": "sunzi",
+ "form": "begin",
+ "state": "react",
+ "plan": "book-atelier docs/ATELIER_PIXEL_ART_PLAN.md 확대 P2",
+ "references": {
+  "still_x6": "sprites/sunzi/sunzi_begin_still.png 를 최근접 6배(576x768)",
+  "canonical": "img/sunzi_begin_literary_fantasy_f.webp"
+ },
+ "generation": {
+  "file": "sprites/sunzi/raw/sunzi_begin_react_gen1.png",
+  "sha256": "1cabbd75c69faa4ad483fe8bc05ae9decbc7fe177cb81f5485489bf6186d872f",
+  "by": "gpt",
+  "tool": "imagegen",
+  "requested_kst": "2026-10-21T20:50:06.700000+09:00",
+  "returned_kst": "2026-10-21T20:51:44.134000+09:00",
+  "returned_file": "exec-3d6f794c-e2c9-4efa-9699-5b70c0e1e526.png",
+  "job_id": null,
+  "prompt": "gpt-p2-more 공통 + 그 인물 묘사 + react 그대로, 이어 요청 없음 — 전문은 records/sprites/p2-more-gpt-record.txt",
+  "size": [
+   1024,
+   1536
+  ],
+  "background": "투명(반투명 섞임)"
+ },
+ "cleaned": {
+  "file": "sprites/sunzi/sunzi_begin_react.png",
+  "sha1": "ebabf7befb18",
+  "tool": "book-atelier tools/sprite-sheet.py",
+  "args": [
+   "--frames",
+   "4",
+   "--grid",
+   "2x2",
+   "--palette",
+   "sprites/sunzi/sunzi_begin_still.png",
+   "--rows",
+   "121",
+   "--speck",
+   "40",
+   "--cell",
+   "96x128"
+  ],
+  "why": "시트마다 인물 크기가 달라(걷기가 5% 작다) 프레임 높이 중앙값을 121줄로 — 정지 도트와 같은 키, 고른 격자",
+  "cell": [
+   96,
+   128
+  ],
+  "frames": 4,
+  "foot_y": 126,
+  "colours": 24,
+  "palette_from": "sunzi_begin_still.png",
+  "frame": [
+   {
+    "box_px": [
+     206,
+     38,
+     446,
+     750
+    ],
+    "pitch": 5.88,
+    "size": [
+     40,
+     121
+    ],
+    "anchor_x": 17.53,
+    "dropped_specks": 0,
+    "at": [
+     30,
+     5
+    ]
+   },
+   {
+    "box_px": [
+     579,
+     38,
+     836,
+     750
+    ],
+    "pitch": 5.88,
+    "size": [
+     44,
+     121
+    ],
+    "anchor_x": 20.34,
+    "dropped_specks": 0,
+    "at": [
+     28,
+     5
+    ]
+   },
+   {
+    "box_px": [
+     216,
+     781,
+     468,
+     1492
+    ],
+    "pitch": 5.88,
+    "size": [
+     43,
+     121
+    ],
+    "anchor_x": 20.69,
+    "dropped_specks": 0,
+    "at": [
+     27,
+     5
+    ]
+   },
+   {
+    "box_px": [
+     613,
+     781,
+     855,
+     1492
+    ],
+    "pitch": 5.88,
+    "size": [
+     41,
+     121
+    ],
+    "anchor_x": 17.28,
+    "dropped_specks": 0,
+    "at": [
+     31,
+     5
+    ]
+   }
+  ]
+ },
+ "playback": {
+  "order": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "ms": [
+   120,
+   180,
+   320,
+   200
+  ],
+  "note": "끝나면 idle 1칸으로"
+ },
+ "flip": {
+  "allowed": true
+ },
+ "display": {
+  "suggested_scale": 1
+ }
+}

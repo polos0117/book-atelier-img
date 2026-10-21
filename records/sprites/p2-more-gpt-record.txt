@@ -1,0 +1,188 @@
+P2 확대 생성 기록 — 손자·춘향
+2026-10-21 / Asia/Seoul
+방식: 기본 내장 imagegen. 각 시트 1회, 총 6회. 이어 요청·재생성 없음.
+공통 프롬프트 원문 유지, [인물 묘사] 자리만 지시대로 대입. transparent_background=true.
+크롭·축소·색상/알파 보정 없음. 출력 PNG를 바이트 그대로 복사. 저장소 변경·업로드 없음.
+기준 이미지 확인: 손자는 첨부 1000023835.png(576×768) + 지정된 sunzi 정본, 춘향은 첨부 1000023836.png(576×768) + 지정된 chunhyang 정본. 인물별 세 호출 모두 동일 두 이미지, 도트가 1번, 정본이 2번.
+정본 URL: https://polos0117.github.io/book-atelier-img/img/sunzi_begin_literary_fantasy_f.webp
+정본 URL: https://polos0117.github.io/book-atelier-img/img/chunhyang_begin_literary_fantasy_f.webp
+선행 확인: docs/ATELIER_PIXEL_ART_PLAN.md 10절 P2 결과 및 IMAGE_RULES.md 7절.
+주의: 춘향 react 2칸에는 금지한 붉은 반응 표시가 생성됨. 수정하지 않음.
+투명도: 모두 RGBA·완전 투명 배경 포함. 인물·주변에도 반투명 픽셀 있음; 알파를 수정하지 않음.
+작업 ID: 생성 서비스의 별도 job ID는 반환되지 않음. 아래 exec 식별자는 반환된 원본 파일명이며 서비스 job ID로 간주하지 않음.
+
+============================================================
+sunzi_begin_idle_gen1.png
+요청: 2026-10-21T20:48:00.655000+09:00
+완료 수신: 2026-10-21T20:48:47.858000+09:00
+원본 반환 파일: exec-6bafcfa3-1b62-4193-8459-349d26b63b0f.png
+크기: [1024, 1536] / RGBA
+알파 범위: [0, 254] / 완전 투명 픽셀: 1060515 / 반투명 픽셀: 512349
+SHA256: e90eb8746c38b39633579a24a9480f104f8c112b8721da36eceef3baed1330d1
+실제 사용 프롬프트 (변경·추가 없음):
+Pixel art sprite sheet of the EXACT same character as attached image 1 — a finished pixel-art sprite.
+Copy it pixel for pixel in style: same very large chunky pixels, same 16-colour palette, same dark outline,
+same proportions (about 4 heads tall), same face. Black hair in a neat high top bun with a gold-and-jade pin and a jade tassel on the image-left side, ink-black layered robe with jade-green and pale gold trim, bamboo-slip shoulder guards and bracers, a dark sash with a jade disc at the image-right hip, a short paneled armour skirt, knee-high black boots.
+Keep decoration as simple as image 1 — do not add new details.
+Image 2 is only a colour and face reference; do not copy its painterly style.
+
+Sheet layout: portrait canvas 1024 x 1536, frames arranged in a regular grid of equal cells,
+read left to right, top to bottom. In every cell the character is the same size (about 125 pixels tall
+on the sprite's own pixel grid, each sprite pixel drawn as a crisp 6 x 6 square), centred horizontally,
+with both feet on the same baseline near the bottom of the cell. Every frame faces the same direction
+as described below. Hard edges only: no anti-aliasing, no blur, no gradients, no dithering noise.
+Transparent background. No grid lines, no cell borders, no numbers, no labels, no text, no ground,
+no shadow, no motion lines, no extra characters.
+
+IDLE animation, 4 frames in a 2 x 2 grid (cell 512 x 768). Same standing pose as image 1, three-quarter view
+turned slightly toward the viewer's right, arms relaxed. Keep the arms, hands, sash and every accessory in exactly
+the same place in all four frames — only the breathing and the eyes change (1-2 sprite pixels):
+frame 1 = exactly image 1; frame 2 = slight breath in, shoulders and hair 1 pixel up;
+frame 3 = same as frame 2 but eyes closed (blink); frame 4 = back between frame 2 and frame 1.
+Feet never move. The loop 4 -> 1 must be seamless.
+
+============================================================
+sunzi_begin_walk_gen1.png
+요청: 2026-10-21T20:48:54.681000+09:00
+완료 수신: 2026-10-21T20:49:57.881000+09:00
+원본 반환 파일: exec-6d8270b8-1a66-469a-b5d9-dccbc2f779e8.png
+크기: [1024, 1536] / RGBA
+알파 범위: [0, 254] / 완전 투명 픽셀: 866037 / 반투명 픽셀: 706827
+SHA256: a04c2228726059dd5b6743091e6844195395332822564b4fe4b1a409ce36c7a7
+실제 사용 프롬프트 (변경·추가 없음):
+Pixel art sprite sheet of the EXACT same character as attached image 1 — a finished pixel-art sprite.
+Copy it pixel for pixel in style: same very large chunky pixels, same 16-colour palette, same dark outline,
+same proportions (about 4 heads tall), same face. Black hair in a neat high top bun with a gold-and-jade pin and a jade tassel on the image-left side, ink-black layered robe with jade-green and pale gold trim, bamboo-slip shoulder guards and bracers, a dark sash with a jade disc at the image-right hip, a short paneled armour skirt, knee-high black boots.
+Keep decoration as simple as image 1 — do not add new details.
+Image 2 is only a colour and face reference; do not copy its painterly style.
+
+Sheet layout: portrait canvas 1024 x 1536, frames arranged in a regular grid of equal cells,
+read left to right, top to bottom. In every cell the character is the same size (about 125 pixels tall
+on the sprite's own pixel grid, each sprite pixel drawn as a crisp 6 x 6 square), centred horizontally,
+with both feet on the same baseline near the bottom of the cell. Every frame faces the same direction
+as described below. Hard edges only: no anti-aliasing, no blur, no gradients, no dithering noise.
+Transparent background. No grid lines, no cell borders, no numbers, no labels, no text, no ground,
+no shadow, no motion lines, no extra characters.
+
+WALK cycle, 6 frames in a 3 x 2 grid (cell 341 x 768). Side three-quarter view walking toward the viewer's right,
+same body and outfit as image 1. A standard 6-frame walk: frame 1 = right foot forward contact,
+frame 2 = down (weight on right foot, body 1 pixel lower), frame 3 = passing (left leg passing, body 1 pixel higher),
+frame 4 = left foot forward contact, frame 5 = down, frame 6 = passing. Arms swing a little opposite to the legs,
+firm even steps, armour panels and tassels sway 1-2 pixels. Head height changes by at most 2 sprite pixels.
+The character does not travel across the cell — she walks in place, feet on the baseline. The loop 6 -> 1 must be seamless.
+
+============================================================
+sunzi_begin_react_gen1.png
+요청: 2026-10-21T20:50:06.700000+09:00
+완료 수신: 2026-10-21T20:51:44.134000+09:00
+원본 반환 파일: exec-3d6f794c-e2c9-4efa-9699-5b70c0e1e526.png
+크기: [1024, 1536] / RGBA
+알파 범위: [0, 254] / 완전 투명 픽셀: 1051063 / 반투명 픽셀: 521801
+SHA256: 1cabbd75c69faa4ad483fe8bc05ae9decbc7fe177cb81f5485489bf6186d872f
+실제 사용 프롬프트 (변경·추가 없음):
+Pixel art sprite sheet of the EXACT same character as attached image 1 — a finished pixel-art sprite.
+Copy it pixel for pixel in style: same very large chunky pixels, same 16-colour palette, same dark outline,
+same proportions (about 4 heads tall), same face. Black hair in a neat high top bun with a gold-and-jade pin and a jade tassel on the image-left side, ink-black layered robe with jade-green and pale gold trim, bamboo-slip shoulder guards and bracers, a dark sash with a jade disc at the image-right hip, a short paneled armour skirt, knee-high black boots.
+Keep decoration as simple as image 1 — do not add new details.
+Image 2 is only a colour and face reference; do not copy its painterly style.
+
+Sheet layout: portrait canvas 1024 x 1536, frames arranged in a regular grid of equal cells,
+read left to right, top to bottom. In every cell the character is the same size (about 125 pixels tall
+on the sprite's own pixel grid, each sprite pixel drawn as a crisp 6 x 6 square), centred horizontally,
+with both feet on the same baseline near the bottom of the cell. Every frame faces the same direction
+as described below. Hard edges only: no anti-aliasing, no blur, no gradients, no dithering noise.
+Transparent background. No grid lines, no cell borders, no numbers, no labels, no text, no ground,
+no shadow, no motion lines, no extra characters.
+
+REACT animation when selected, 4 frames in a 2 x 2 grid (cell 512 x 768). Starts and ends in the image 1 pose.
+frame 1 = image 1 pose, frame 2 = turns head and body toward the viewer with a calm confident look,
+frame 3 = a small martial salute: right fist pressed into the open left palm in front of the chest, a slight bow of the head,
+frame 4 = rising back halfway toward the image 1 pose, a faint smile. Feet stay on the baseline.
+
+============================================================
+chunhyang_begin_idle_gen1.png
+요청: 2026-10-21T20:51:52.437000+09:00
+완료 수신: 2026-10-21T20:53:08.964000+09:00
+원본 반환 파일: exec-4d78b8c9-0803-4878-b172-3a3b15a0cea6.png
+크기: [1024, 1536] / RGBA
+알파 범위: [0, 254] / 완전 투명 픽셀: 785009 / 반투명 픽셀: 787855
+SHA256: 1753e5e6cf8ae267e623cc738f2beb8d48e32dfb8e7e8cead0b949931e7040b3
+실제 사용 프롬프트 (변경·추가 없음):
+Pixel art sprite sheet of the EXACT same character as attached image 1 — a finished pixel-art sprite.
+Copy it pixel for pixel in style: same very large chunky pixels, same 16-colour palette, same dark outline,
+same proportions (about 4 heads tall), same face. Long dark-brown hair with a red flower pin, one long braid falling over the image-right shoulder, long red ribbons, a rose-pink jeogori with a big red bow tie and a jade pendant, a full layered rose and white chima skirt reaching the ankles, small red shoes.
+Keep decoration as simple as image 1 — do not add new details.
+Image 2 is only a colour and face reference; do not copy its painterly style.
+
+Sheet layout: portrait canvas 1024 x 1536, frames arranged in a regular grid of equal cells,
+read left to right, top to bottom. In every cell the character is the same size (about 125 pixels tall
+on the sprite's own pixel grid, each sprite pixel drawn as a crisp 6 x 6 square), centred horizontally,
+with both feet on the same baseline near the bottom of the cell. Every frame faces the same direction
+as described below. Hard edges only: no anti-aliasing, no blur, no gradients, no dithering noise.
+Transparent background. No grid lines, no cell borders, no numbers, no labels, no text, no ground,
+no shadow, no motion lines, no extra characters.
+
+IDLE animation, 4 frames in a 2 x 2 grid (cell 512 x 768). Same standing pose as image 1, three-quarter view
+turned slightly toward the viewer's right, arms relaxed. Keep the arms, hands, sash and every accessory in exactly
+the same place in all four frames — only the breathing and the eyes change (1-2 sprite pixels):
+frame 1 = exactly image 1; frame 2 = slight breath in, shoulders and hair 1 pixel up;
+frame 3 = same as frame 2 but eyes closed (blink); frame 4 = back between frame 2 and frame 1.
+Feet never move. The loop 4 -> 1 must be seamless.
+
+============================================================
+chunhyang_begin_walk_gen1.png
+요청: 2026-10-21T20:53:16.617000+09:00
+완료 수신: 2026-10-21T20:54:23.473000+09:00
+원본 반환 파일: exec-54e955c6-3abb-4894-a691-ced5f04bed64.png
+크기: [1024, 1536] / RGBA
+알파 범위: [0, 254] / 완전 투명 픽셀: 653265 / 반투명 픽셀: 919599
+SHA256: 7c01ecb4e3c7c8a8b8e514150f46827964c9eedbf6267220d83924345782bdd4
+실제 사용 프롬프트 (변경·추가 없음):
+Pixel art sprite sheet of the EXACT same character as attached image 1 — a finished pixel-art sprite.
+Copy it pixel for pixel in style: same very large chunky pixels, same 16-colour palette, same dark outline,
+same proportions (about 4 heads tall), same face. Long dark-brown hair with a red flower pin, one long braid falling over the image-right shoulder, long red ribbons, a rose-pink jeogori with a big red bow tie and a jade pendant, a full layered rose and white chima skirt reaching the ankles, small red shoes.
+Keep decoration as simple as image 1 — do not add new details.
+Image 2 is only a colour and face reference; do not copy its painterly style.
+
+Sheet layout: portrait canvas 1024 x 1536, frames arranged in a regular grid of equal cells,
+read left to right, top to bottom. In every cell the character is the same size (about 125 pixels tall
+on the sprite's own pixel grid, each sprite pixel drawn as a crisp 6 x 6 square), centred horizontally,
+with both feet on the same baseline near the bottom of the cell. Every frame faces the same direction
+as described below. Hard edges only: no anti-aliasing, no blur, no gradients, no dithering noise.
+Transparent background. No grid lines, no cell borders, no numbers, no labels, no text, no ground,
+no shadow, no motion lines, no extra characters.
+
+WALK cycle, 6 frames in a 3 x 2 grid (cell 341 x 768). Side three-quarter view walking toward the viewer's right,
+same body and outfit as image 1. The long chima hides her legs: show the walk by the skirt hem swinging forward and back
+and the small red shoes peeking out alternately (frame 1 = right shoe forward, frame 4 = left shoe forward,
+frames 2-3 and 5-6 in between). Small graceful steps, the braid and ribbons sway 1-2 pixels, arms swing slightly.
+Head height changes by at most 2 sprite pixels. The character does not travel across the cell — she walks in place,
+feet on the baseline. The loop 6 -> 1 must be seamless.
+
+============================================================
+chunhyang_begin_react_gen1.png
+요청: 2026-10-21T20:54:32.784000+09:00
+완료 수신: 2026-10-21T20:55:55.814000+09:00
+원본 반환 파일: exec-3959ceba-c131-46f2-961d-a55a86c3700c.png
+크기: [1024, 1536] / RGBA
+알파 범위: [0, 254] / 완전 투명 픽셀: 721939 / 반투명 픽셀: 850925
+SHA256: 02226b9be49fa4ff3e626ec4891cd444fc1d11bb1e0df4654f964a92e26747d3
+실제 사용 프롬프트 (변경·추가 없음):
+Pixel art sprite sheet of the EXACT same character as attached image 1 — a finished pixel-art sprite.
+Copy it pixel for pixel in style: same very large chunky pixels, same 16-colour palette, same dark outline,
+same proportions (about 4 heads tall), same face. Long dark-brown hair with a red flower pin, one long braid falling over the image-right shoulder, long red ribbons, a rose-pink jeogori with a big red bow tie and a jade pendant, a full layered rose and white chima skirt reaching the ankles, small red shoes.
+Keep decoration as simple as image 1 — do not add new details.
+Image 2 is only a colour and face reference; do not copy its painterly style.
+
+Sheet layout: portrait canvas 1024 x 1536, frames arranged in a regular grid of equal cells,
+read left to right, top to bottom. In every cell the character is the same size (about 125 pixels tall
+on the sprite's own pixel grid, each sprite pixel drawn as a crisp 6 x 6 square), centred horizontally,
+with both feet on the same baseline near the bottom of the cell. Every frame faces the same direction
+as described below. Hard edges only: no anti-aliasing, no blur, no gradients, no dithering noise.
+Transparent background. No grid lines, no cell borders, no numbers, no labels, no text, no ground,
+no shadow, no motion lines, no extra characters.
+
+REACT animation when selected, 4 frames in a 2 x 2 grid (cell 512 x 768). Starts and ends in the image 1 pose.
+frame 1 = image 1 pose, frame 2 = turns head and body toward the viewer with a gentle surprised smile,
+frame 3 = a small graceful bow: both hands together at the waist, head tilted, body 2 pixels lower, the braid swinging forward,
+frame 4 = rising back halfway toward the image 1 pose, smiling. Feet stay on the baseline.

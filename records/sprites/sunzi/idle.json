@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-21",
+ "author": "claude",
+ "book": "sunzi",
+ "form": "begin",
+ "state": "idle",
+ "plan": "book-atelier docs/ATELIER_PIXEL_ART_PLAN.md 확대 P2",
+ "references": {
+  "still_x6": "sprites/sunzi/sunzi_begin_still.png 를 최근접 6배(576x768)",
+  "canonical": "img/sunzi_begin_literary_fantasy_f.webp"
+ },
+ "generation": {
+  "file": "sprites/sunzi/raw/sunzi_begin_idle_gen1.png",
+  "sha256": "e90eb8746c38b39633579a24a9480f104f8c112b8721da36eceef3baed1330d1",
+  "by": "gpt",
+  "tool": "imagegen",
+  "requested_kst": "2026-10-21T20:48:00.655000+09:00",
+  "returned_kst": "2026-10-21T20:48:47.858000+09:00",
+  "returned_file": "exec-6bafcfa3-1b62-4193-8459-349d26b63b0f.png",
+  "job_id": null,
+  "prompt": "gpt-p2-more 공통 + 그 인물 묘사 + idle 그대로, 이어 요청 없음 — 전문은 records/sprites/p2-more-gpt-record.txt",
+  "size": [
+   1024,
+   1536
+  ],
+  "background": "투명(반투명 섞임)"
+ },
+ "cleaned": {
+  "file": "sprites/sunzi/sunzi_begin_idle.png",
+  "sha1": "70e3bc397745",
+  "tool": "book-atelier tools/sprite-sheet.py",
+  "args": [
+   "--frames",
+   "4",
+   "--grid",
+   "2x2",
+   "--palette",
+   "sprites/sunzi/sunzi_begin_still.png",
+   "--rows",
+   "121",
+   "--speck",
+   "40",
+   "--cell",
+   "96x128"
+  ],
+  "why": "시트마다 인물 크기가 달라(걷기가 5% 작다) 프레임 높이 중앙값을 121줄로 — 정지 도트와 같은 키, 고른 격자",
+  "cell": [
+   96,
+   128
+  ],
+  "frames": 4,
+  "foot_y": 126,
+  "colours": 24,
+  "palette_from": "sunzi_begin_still.png",
+  "frame": [
+   {
+    "box_px": [
+     194,
+     47,
+     432,
+     750
+    ],
+    "pitch": 5.77,
+    "size": [
+     41,
+     121
+    ],
+    "anchor_x": 17.22,
+    "dropped_specks": 0,
+    "at": [
+     31,
+     5
+    ]
+   },
+   {
+    "box_px": [
+     614,
+     47,
+     853,
+     750
+    ],
+    "pitch": 5.77,
+    "size": [
+     41,
+     122
+    ],
+    "anchor_x": 17.54,
+    "dropped_specks": 0,
+    "at": [
+     30,
+     4
+    ]
+   },
+   {
+    "box_px": [
+     194,
+     789,
+     435,
+     1498
+    ],
+    "pitch": 5.77,
+    "size": [
+     42,
+     122
+    ],
+    "anchor_x": 17.72,
+    "dropped_specks": 0,
+    "at": [
+     30,
+     4
+    ]
+   },
+   {
+    "box_px": [
+     614,
+     789,
+     853,
+     1498
+    ],
+    "pitch": 5.77,
+    "size": [
+     41,
+     120
+    ],
+    "anchor_x": 17.11,
+    "dropped_specks": 0,
+    "at": [
+     31,
+     6
+    ]
+   }
+  ]
+ },
+ "playback": {
+  "order": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "ms": [
+   700,
+   220,
+   140,
+   220
+  ],
+  "note": "대기 네 칸 자세가 같아 차례 그대로(3칸이 깜빡임)"
+ },
+ "flip": {
+  "allowed": true
+ },
+ "display": {
+  "suggested_scale": 1
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-21",
+ "author": "claude",
+ "book": "chunhyang",
+ "form": "begin",
+ "state": "react",
+ "plan": "book-atelier docs/ATELIER_PIXEL_ART_PLAN.md 확대 P2",
+ "references": {
+  "still_x6": "sprites/chunhyang/chunhyang_begin_still.png 를 최근접 6배(576x768)",
+  "canonical": "img/chunhyang_begin_literary_fantasy_f.webp"
+ },
+ "generation": {
+  "file": "sprites/chunhyang/raw/chunhyang_begin_react_gen1.png",
+  "sha256": "02226b9be49fa4ff3e626ec4891cd444fc1d11bb1e0df4654f964a92e26747d3",
+  "by": "gpt",
+  "tool": "imagegen",
+  "requested_kst": "2026-10-21T20:54:32.784000+09:00",
+  "returned_kst": "2026-10-21T20:55:55.814000+09:00",
+  "returned_file": "exec-3959ceba-c131-46f2-961d-a55a86c3700c.png",
+  "job_id": null,
+  "prompt": "gpt-p2-more 공통 + 그 인물 묘사 + react 그대로, 이어 요청 없음 — 전문은 records/sprites/p2-more-gpt-record.txt",
+  "size": [
+   1024,
+   1536
+  ],
+  "background": "투명(반투명 섞임)"
+ },
+ "cleaned": {
+  "file": "sprites/chunhyang/chunhyang_begin_react.png",
+  "sha1": "18e6e9311164",
+  "tool": "book-atelier tools/sprite-sheet.py",
+  "args": [
+   "--frames",
+   "4",
+   "--grid",
+   "2x2",
+   "--palette",
+   "sprites/chunhyang/chunhyang_begin_still.png",
+   "--rows",
+   "121",
+   "--speck",
+   "40",
+   "--cell",
+   "96x128"
+  ],
+  "why": "시트마다 인물 크기가 달라(걷기가 5% 작다) 프레임 높이 중앙값을 121줄로 — 정지 도트와 같은 키, 고른 격자 · 2칸의 붉은 반응 표시(요청 안 함)는 떨어진 조각으로 지움, 3칸(인사)은 칸 안으로 밀었다",
+  "cell": [
+   96,
+   128
+  ],
+  "frames": 4,
+  "foot_y": 126,
+  "colours": 24,
+  "palette_from": "chunhyang_begin_still.png",
+  "frame": [
+   {
+    "box_px": [
+     99,
+     30,
+     511,
+     753
+    ],
+    "pitch": 5.86,
+    "size": [
+     70,
+     123
+    ],
+    "anchor_x": 30.69,
+    "dropped_specks": 0,
+    "at": [
+     17,
+     3
+    ]
+   },
+   {
+    "box_px": [
+     537,
+     30,
+     960,
+     753
+    ],
+    "pitch": 5.86,
+    "size": [
+     72,
+     122
+    ],
+    "anchor_x": 31.33,
+    "dropped_specks": 19,
+    "at": [
+     17,
+     4
+    ]
+   },
+   {
+    "box_px": [
+     60,
+     783,
+     505,
+     1485
+    ],
+    "pitch": 5.86,
+    "size": [
+     76,
+     114
+    ],
+    "anchor_x": 45.13,
+    "dropped_specks": 0,
+    "at": [
+     3,
+     12
+    ]
+   },
+   {
+    "box_px": [
+     566,
+     783,
+     985,
+     1485
+    ],
+    "pitch": 5.86,
+    "size": [
+     71,
+     119
+    ],
+    "anchor_x": 29.95,
+    "dropped_specks": 0,
+    "at": [
+     18,
+     7
+    ]
+   }
+  ]
+ },
+ "playback": {
+  "order": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "ms": [
+   120,
+   180,
+   320,
+   200
+  ],
+  "note": "끝나면 idle 1칸으로"
+ },
+ "flip": {
+  "allowed": true
+ },
+ "display": {
+  "suggested_scale": 1
+ }
+}

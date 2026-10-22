@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-22",
+  "author": "gpt",
+  "generator": "image_gen",
+  "purpose": "Original environment background for book-atelier forest room; separate from character art",
+  "prompt": "Create one original environment illustration to serve as the FOREST STUDY theme background for book-atelier, a refined literary illustration gallery. Landscape 1536x1024, 3:2. An intimate old botanical library in a green forest, deep forest-green painted timber bookcases along the left wall, aged walnut wood, many beautifully bound books with completely unlettered spines, a modest wooden reading desk in the lower foreground and a brass reading lamp. The focal area is on the right 65%: tall rectangular wooden windows open visually onto layered lush fern and broadleaf woodland with soft mist and filtered late afternoon light. The middle remains calm and spacious. Soft leafy shadows on warm ivory plaster and the desk, rich but restrained evergreen and moss, warm parchment, antique brass. Calm, inviting, habitable, literary, quietly magical only through light. Premium hand-painted background art, detailed painterly shading and delicate drawing, not photorealistic, not 3D render, not anime characters, no people or animals, no statues, no text or letters or logos, no graphic frame, no UI. One coherent room, normal rectilinear architecture, eye-level camera, no fisheye. Keep the forest window and a little shelving readable in a narrow mobile crop around the right-center. The result should be an elegant distinctive forest room, not a palace or an overgrown ruin. Generate only one image.",
+  "files": [
+    {
+      "path": "backgrounds/forest-study.webp",
+      "width": 1536,
+      "height": 1024,
+      "quality": 84,
+      "size_bytes": 380768
+    },
+    {
+      "path": "backgrounds/forest-study-small.webp",
+      "width": 800,
+      "height": 533,
+      "quality": 78,
+      "size_bytes": 103280
+    }
+  ]
+}

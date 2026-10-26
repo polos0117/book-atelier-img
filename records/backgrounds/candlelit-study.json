@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-26",
+  "author": "gpt",
+  "generator": "image_gen",
+  "purpose": "Original environment background for book-atelier candlelit dark room; separate from character art",
+  "prompt": "Use case: stylized-concept\nAsset type: wide desktop and mobile background for a quiet literary fantasy library website; environment illustration only.\nPrimary request: a candlelit private library at midnight, intimate and elegant, clearly dark throughout. Rich near-black plum walls, dark burgundy mahogany bookshelves packed with old leatherbound volumes, small clusters of warm amber candles in brass holders, a modest reading desk and upholstered chair. A tall arched window on the right shows a dim deep-purple night with faint rain streaks; no bright moon or daylight. A low warm glow touches shelf edges and leather spines. Restrained painterly fantasy illustration, fine architectural detail, cinematic but calm, no photorealism.\nComposition: landscape 3:2, wide room view at human eye level, shelves on left, desk near center-right and arched window to the right, strong detail readable in the right half when cropped vertically for phones. Dark uncluttered foreground on left for website copy. No excessive foreground props.\nPalette: charcoal plum #19151d, burgundy #382432, mahogany, aged brass and warm amber #e8b875, warm ivory highlights. Preserve the night mood; candle flames stay small.\nConstraints: no people, no characters, no creatures, no legible writing, no title, no logo, no watermark, no UI, no border. Produce one illustration only.",
+  "files": [
+    {
+      "path": "backgrounds/candlelit-study.webp",
+      "width": 1536,
+      "height": 1024,
+      "quality": 84,
+      "size_bytes": 219360
+    },
+    {
+      "path": "backgrounds/candlelit-study-small.webp",
+      "width": 800,
+      "height": 533,
+      "quality": 78,
+      "size_bytes": 52782
+    }
+  ]
+}

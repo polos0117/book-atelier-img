@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-28",
+ "author": "claude",
+ "atelier": "book",
+ "id": "arsene_lupin",
+ "form": "end",
+ "state": "react",
+ "plan": "polos0117.github.io dot.html — 공용 도트 공방",
+ "generation": {
+  "file": "sprites/arsene_lupin/raw/arsene_lupin_end_react_gen1.png",
+  "sha256": "a2b1b0a19940651cb46605f804d86ed9b0b94fddb9fb57abc93963fa4e85c626",
+  "by": "gpt",
+  "received_as": "arsene_lupin_end_react_gen1.png",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "medium",
+  "size": "2160x3840",
+  "usage": {
+   "input_tokens": 3454,
+   "input_tokens_details": {
+    "image_tokens": 2988,
+    "text_tokens": 466
+   },
+   "output_tokens": 865,
+   "output_tokens_details": {
+    "image_tokens": 865,
+    "text_tokens": 0
+   },
+   "total_tokens": 4319
+  },
+  "seconds": 34,
+  "attachments": [
+   "still_x6",
+   "canonical"
+  ],
+  "prompt": "Pixel art sprite sheet of the EXACT same character as attached image 1 — a finished pixel-art sprite.\nCopy it pixel for pixel in style: same very large chunky pixels, same 16-colour palette, same dark outline,\nsame proportions (about 4 heads tall), same face. Short wavy chestnut-brown bob, a monocle over the image-left eye, an ivory top hat with a red band and a red rose, an ivory cape lined in red and covered with playing cards hanging from the shoulders, a white lace corset-vest with a red rose at the collar, slim black trousers with a gold chain at the image-left hip, white gloves, black high heels.\nKeep decoration as simple as image 1 — do not add new details. Image 2 is only a colour and face reference; do not copy its painterly style.\n\nSheet layout: portrait canvas 2160 x 3840, 4 frames in a 2 x 2 grid (cell 1080 x 1920), read left to right, top to bottom.\nIn every cell the character is the same size (about 125 pixels tall on the sprite's own pixel grid, each sprite pixel\ndrawn as a crisp 13 x 13 square), centred horizontally, with both feet on the same baseline near the bottom of the cell.\nEvery frame faces the same direction as described below. Hard edges only: no anti-aliasing, no blur, no gradients, no dithering noise.\nTransparent background. No grid lines, no cell borders, no numbers, no labels, no text, no ground, no shadow, no motion lines, no extra characters.\n\nREACT animation when selected, 4 frames. Starts and ends in the image 1 pose.\nframe 1 = image 1 pose; frame 2 = turns head and body toward the viewer with a small pleased expression;\nframe 3 = a small greeting that suits the character (a light bow, a curtsy or a small wave), knees slightly bent, body 2-3 pixels lower;\nframe 4 = rising back halfway toward the image 1 pose. Feet stay on the baseline."
+ },
+ "cleaned": {
+  "file": "sprites/arsene_lupin/arsene_lupin_end_react_4k.png",
+  "sha1": "550d9030ad5f",
+  "tool": "polos0117.github.io dot.html (rust/dot-core — book-atelier 파이썬 도구와 같은 셈)",
+  "args": [
+   "--frames",
+   "4",
+   "--grid",
+   "2x2",
+   "--palette",
+   "sprites/arsene_lupin/arsene_lupin_end_still_4k.png",
+   "--rows",
+   "228",
+   "--speck",
+   "150",
+   "--cell",
+   "192x256"
+  ],
+  "cell": [
+   192,
+   256
+  ],
+  "frames": 4,
+  "foot_y": 254,
+  "colours": 23,
+  "frame": [
+   {
+    "box_px": [
+     205,
+     25,
+     913,
+     1888
+    ],
+    "pitch": 8.11,
+    "size": [
+     87,
+     229
+    ],
+    "anchor_x": 42.59,
+    "dropped_specks": 0,
+    "at": [
+     53,
+     25
+    ]
+   },
+   {
+    "box_px": [
+     1192,
+     25,
+     1920,
+     1888
+    ],
+    "pitch": 8.11,
+    "size": [
+     90,
+     229
+    ],
+    "anchor_x": 43.34,
+    "dropped_specks": 0,
+    "at": [
+     53,
+     25
+    ]
+   },
+   {
+    "box_px": [
+     144,
+     1968,
+     1007,
+     3808
+    ],
+    "pitch": 8.11,
+    "size": [
+     106,
+     209
+    ],
+    "anchor_x": 56.98,
+    "dropped_specks": 0,
+    "at": [
+     39,
+     45
+    ]
+   },
+   {
+    "box_px": [
+     1232,
+     1968,
+     1939,
+     3808
+    ],
+    "pitch": 8.11,
+    "size": [
+     87,
+     227
+    ],
+    "anchor_x": 43.47,
+    "dropped_specks": 0,
+    "at": [
+     53,
+     27
+    ]
+   }
+  ]
+ },
+ "playback": {
+  "order": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "ms": [
+   120,
+   180,
+   320,
+   200
+  ]
+ },
+ "canvas": "2160x3840",
+ "cell": [
+  192,
+  256
+ ],
+ "flip": {
+  "allowed": true
+ },
+ "references": {
+  "canonical": "img/arsene_lupin_end_literary_fantasy_f.webp",
+  "still_x6": "sprites/arsene_lupin/arsene_lupin_end_still_4k.png (최근접 6배)"
+ },
+ "why": "사용자 \"공방 그림 중 마음에 드는 것 하나 골라 도트로\"(2026-10-28) — 뤼팽 결말(귀환)을 골랐다. 앨리스·손자·춘향 4K 와 같은 길(2160×3840, 원본 격자 그대로, 칸 192×256)"
+}

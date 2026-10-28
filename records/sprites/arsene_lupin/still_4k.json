@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-28",
+ "author": "claude",
+ "atelier": "book",
+ "id": "arsene_lupin",
+ "form": "end",
+ "state": "still",
+ "plan": "polos0117.github.io dot.html — 공용 도트 공방",
+ "generation": {
+  "file": "sprites/arsene_lupin/raw/arsene_lupin_end_still_gen1.png",
+  "sha256": "e61c3bff2c4b429dbc1b0833a521e858083c0345d328c3969d4ad6f8095c65f1",
+  "by": "gpt",
+  "received_as": "arsene_lupin_end_still_gen1.png",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "medium",
+  "size": "2160x3840",
+  "usage": {
+   "input_tokens": 3372,
+   "input_tokens_details": {
+    "image_tokens": 2988,
+    "text_tokens": 384
+   },
+   "output_tokens": 865,
+   "output_tokens_details": {
+    "image_tokens": 865,
+    "text_tokens": 0
+   },
+   "total_tokens": 4237
+  },
+  "seconds": 27.9,
+  "attachments": [
+   "canonical",
+   "sample_x6"
+  ],
+  "prompt": "Pixel art game sprite of the SAME young woman shown in attached image 1. Copy the face, hair, skin tone, outfit and palette from image 1.\nAttached image 2 is a finished sprite of a different character from the same game: match its pixel size, outline, shading style and body proportions exactly, but NOT its outfit or colours.\nShort wavy chestnut-brown bob, a monocle over the image-left eye, an ivory top hat with a red band and a red rose, an ivory cape lined in red and covered with playing cards hanging from the shoulders, a white lace corset-vest with a red rose at the collar, slim black trousers with a gold chain at the image-left hip, white gloves, black high heels.\nDo not draw any background, furniture, props or scenery from the attachments.\n\nDraw with very large chunky pixels (each sprite pixel a crisp 25 x 25 square), about 16 colours,\nabout 4 heads tall (not chibi), and about half the decoration of image 1 — keep only the shapes that\nmake the character recognisable at small size. One full-body character, standing idle on flat ground,\nthree-quarter view turned slightly toward the viewer's right, arms relaxed, feet close together.\nHard edges only: no anti-aliasing, no blur, no gradients, no dithering noise. Dark selective outline,\nsimple 2-3 tone shading lit from the upper left. Keep the face readable: two clear eyes, small mouth.\nTransparent background. If transparency is not possible, use one flat solid #00FF00 green with nothing else.\nNo ground shadow, no floor, no text, no frame, no border, no second character.\nPortrait canvas 2160 x 3840."
+ },
+ "cleaned": {
+  "file": "sprites/arsene_lupin/arsene_lupin_end_still_4k.png",
+  "sha1": "8f85df3e1ada",
+  "tool": "polos0117.github.io dot.html (rust/dot-core — book-atelier 파이썬 도구와 같은 셈)",
+  "args": [
+   "24",
+   "--pitch",
+   "10,24",
+   "--outline",
+   "--cell",
+   "192x256"
+  ],
+  "pitch": [
+   16,
+   16
+  ],
+  "offset": [
+   7.5,
+   15.5
+  ],
+  "sprite": [
+   87,
+   230
+  ],
+  "cell": [
+   192,
+   256
+  ],
+  "cell_offset": [
+   52,
+   24
+  ],
+  "foot_y": 254,
+  "colours": 24,
+  "palette": [
+   "#191312",
+   "#2f2626",
+   "#33201b",
+   "#461516",
+   "#463634",
+   "#513228",
+   "#6b1f20",
+   "#714a3c",
+   "#7e4f2e",
+   "#932b2d",
+   "#957468",
+   "#9f6b3d",
+   "#a46856",
+   "#b56940",
+   "#b7403c",
+   "#ba9686",
+   "#be864d",
+   "#d08e7a",
+   "#d2b09f",
+   "#d7a468",
+   "#e4a893",
+   "#e6cbb8",
+   "#f5e5d2",
+   "#f9d1b7"
+  ]
+ },
+ "canvas": "2160x3840",
+ "cell": [
+  192,
+  256
+ ],
+ "flip": {
+  "allowed": true
+ },
+ "references": {
+  "canonical": "img/arsene_lupin_end_literary_fantasy_f.webp",
+  "sample_x6": "sprites/alice/alice_begin_still_4k.png 를 최근접 6배 — 다른 인물, 화소 크기·윤곽·비율 본보기"
+ },
+ "why": "사용자 \"공방 그림 중 마음에 드는 것 하나 골라 도트로\"(2026-10-28) — 뤼팽 결말(귀환)을 골랐다. 앨리스·손자·춘향 4K 와 같은 길(2160×3840, 원본 격자 그대로, 칸 192×256)"
+}

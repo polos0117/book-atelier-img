@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-28",
+ "author": "claude",
+ "atelier": "book",
+ "id": "alice",
+ "form": "begin",
+ "state": "still",
+ "plan": "polos0117.github.io dot.html — 공용 도트 공방",
+ "generation": {
+  "file": "sprites/alice/raw/alice_begin_still_gen3.png",
+  "sha256": "ca566554feaba9f5fe8fa8e84b148f4c52a72f68b7676ff62b296459f4d786d6",
+  "by": "gpt",
+  "received_as": "alice_begin_still_gen3.png",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "medium",
+  "size": "2160x3840",
+  "usage": {
+   "input_tokens": 3416,
+   "input_tokens_details": {
+    "image_tokens": 3072,
+    "text_tokens": 344
+   },
+   "output_tokens": 865,
+   "output_tokens_details": {
+    "image_tokens": 865,
+    "text_tokens": 0
+   },
+   "total_tokens": 4281
+  },
+  "seconds": 34.6,
+  "attachments": [
+   "canonical",
+   "outfit"
+  ],
+  "prompt": "Pixel art game sprite of the SAME young woman shown in attached image 1. Copy the face, hair, skin tone, outfit and palette from image 1.\nAttached image 2 shows the outfit to draw — take only the clothes from it.\nShort dark-brown bob with the bow on the image-left side of the head, cream dress with navy trim and white apron, red and navy card-suit marks, pocket watch at the image-right hip, white stockings with suit marks (the near leg's stocking shows the suit marks most clearly), navy shoes.\nDo not draw any background, furniture, props or scenery from the attachments.\n\nDraw with very large chunky pixels (each sprite pixel a crisp 25 x 25 square), about 16 colours,\nabout 4 heads tall (not chibi), and about half the decoration of image 1 — keep only the shapes that\nmake the character recognisable at small size. One full-body character, standing idle on flat ground,\nthree-quarter view turned slightly toward the viewer's right, arms relaxed, feet close together.\nHard edges only: no anti-aliasing, no blur, no gradients, no dithering noise. Dark selective outline,\nsimple 2-3 tone shading lit from the upper left. Keep the face readable: two clear eyes, small mouth.\nTransparent background. If transparency is not possible, use one flat solid #00FF00 green with nothing else.\nNo ground shadow, no floor, no text, no frame, no border, no second character.\nPortrait canvas 2160 x 3840."
+ },
+ "cleaned": {
+  "file": "sprites/alice/alice_begin_still_4k.png",
+  "sha1": "8d77b58fa010",
+  "tool": "polos0117.github.io dot.html (rust/dot-core — book-atelier 파이썬 도구와 같은 셈)",
+  "args": [
+   "24",
+   "--pitch",
+   "10,24",
+   "--outline",
+   "--cell",
+   "192x256"
+  ],
+  "pitch": [
+   16,
+   16
+  ],
+  "offset": [
+   7.5,
+   6.75
+  ],
+  "sprite": [
+   92,
+   230
+  ],
+  "cell": [
+   192,
+   256
+  ],
+  "cell_offset": [
+   50,
+   24
+  ],
+  "foot_y": 254,
+  "colours": 24,
+  "palette": [
+   "#221e26",
+   "#293149",
+   "#31201e",
+   "#364566",
+   "#483330",
+   "#535462",
+   "#5b3f38",
+   "#764d40",
+   "#7a727a",
+   "#8b6d65",
+   "#906033",
+   "#946352",
+   "#983e3b",
+   "#ad7740",
+   "#b0a0a1",
+   "#b1705f",
+   "#bd9a8e",
+   "#c78e4c",
+   "#d6937a",
+   "#d8baa9",
+   "#deab5e",
+   "#eaab90",
+   "#f4e4d1",
+   "#fad0b3"
+  ]
+ },
+ "canvas": "2160x3840",
+ "cell": [
+  192,
+  256
+ ],
+ "flip": {
+  "allowed": true
+ },
+ "references": {
+  "canonical": "img/alice_end_literary_fantasy_f.webp",
+  "outfit": "img/alice_begin_literary_fantasy_f.webp"
+ },
+ "why": "docs/DOT_4K_PLAN.md(polos0117.github.io) — 4K 로 그려 원본 격자 그대로(약 230줄, 칸 192×256) 정리한 시험 한 벌. 지금 121줄 앨리스와 나란히 보려고 _4k 로 둔다"
+}

@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-28",
+ "author": "claude",
+ "atelier": "book",
+ "id": "chunhyang",
+ "form": "begin",
+ "state": "still",
+ "plan": "polos0117.github.io dot.html — 공용 도트 공방",
+ "generation": {
+  "file": "sprites/chunhyang/raw/chunhyang_begin_still_gen2.png",
+  "sha256": "9a5c6634069eb32739c1618b869ce1a335d111e8e24848c9e85b5eddc8569188",
+  "by": "gpt",
+  "received_as": "chunhyang_begin_still_gen2.png",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "medium",
+  "size": "2160x3840",
+  "usage": {
+   "input_tokens": 3350,
+   "input_tokens_details": {
+    "image_tokens": 2988,
+    "text_tokens": 362
+   },
+   "output_tokens": 865,
+   "output_tokens_details": {
+    "image_tokens": 865,
+    "text_tokens": 0
+   },
+   "total_tokens": 4215
+  },
+  "seconds": 31.8,
+  "attachments": [
+   "canonical",
+   "sample_x6"
+  ],
+  "prompt": "Pixel art game sprite of the SAME young woman shown in attached image 1. Copy the face, hair, skin tone, outfit and palette from image 1.\nAttached image 2 is a finished sprite of a different character from the same game: match its pixel size, outline, shading style and body proportions exactly, but NOT its outfit or colours.\nLong dark-brown hair with a red flower pin, one long braid falling over the image-right shoulder, long red ribbons, a rose-pink jeogori with a big red bow tie and a jade pendant, a full layered rose and white chima skirt reaching the ankles, small red shoes.\nDo not draw any background, furniture, props or scenery from the attachments.\n\nDraw with very large chunky pixels (each sprite pixel a crisp 25 x 25 square), about 16 colours,\nabout 4 heads tall (not chibi), and about half the decoration of image 1 — keep only the shapes that\nmake the character recognisable at small size. One full-body character, standing idle on flat ground,\nthree-quarter view turned slightly toward the viewer's right, arms relaxed, feet close together.\nHard edges only: no anti-aliasing, no blur, no gradients, no dithering noise. Dark selective outline,\nsimple 2-3 tone shading lit from the upper left. Keep the face readable: two clear eyes, small mouth.\nTransparent background. If transparency is not possible, use one flat solid #00FF00 green with nothing else.\nNo ground shadow, no floor, no text, no frame, no border, no second character.\nPortrait canvas 2160 x 3840."
+ },
+ "cleaned": {
+  "file": "sprites/chunhyang/chunhyang_begin_still_4k.png",
+  "sha1": "89755a281142",
+  "tool": "polos0117.github.io dot.html (rust/dot-core — book-atelier 파이썬 도구와 같은 셈)",
+  "args": [
+   "24",
+   "--pitch",
+   "10,24",
+   "--outline",
+   "--cell",
+   "192x256"
+  ],
+  "pitch": [
+   16,
+   16
+  ],
+  "offset": [
+   14.75,
+   15.5
+  ],
+  "sprite": [
+   114,
+   228
+  ],
+  "cell": [
+   192,
+   256
+  ],
+  "cell_offset": [
+   39,
+   26
+  ],
+  "foot_y": 254,
+  "colours": 24,
+  "palette": [
+   "#3f2925",
+   "#4f342e",
+   "#5e312d",
+   "#696855",
+   "#6f4a41",
+   "#7d9075",
+   "#863e39",
+   "#886247",
+   "#8ba688",
+   "#8c5b53",
+   "#9a6d63",
+   "#9eb898",
+   "#a24c47",
+   "#b07f74",
+   "#b2835a",
+   "#b86860",
+   "#b9978b",
+   "#caa173",
+   "#cc9488",
+   "#d4b8ab",
+   "#dbb99a",
+   "#ddad9e",
+   "#f2e3d4",
+   "#f3d0bc"
+  ]
+ },
+ "canvas": "2160x3840",
+ "cell": [
+  192,
+  256
+ ],
+ "flip": {
+  "allowed": true
+ },
+ "references": {
+  "canonical": "img/chunhyang_begin_literary_fantasy_f.webp",
+  "sample_x6": "sprites/alice/alice_begin_still_4k.png 를 최근접 6배 — 다른 인물, 화소 크기·윤곽·비율 본보기"
+ },
+ "why": "docs/DOT_4K_PLAN.md(polos0117.github.io) — 4K 로 그려 원본 격자 그대로(약 230줄, 칸 192×256) 정리한 한 벌. 4K 가 기본이 되고 121줄 도트는 _classic 으로 남는다(사용자 2026-10-28)"
+}

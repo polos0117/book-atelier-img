@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-28",
+ "author": "claude",
+ "atelier": "book",
+ "id": "sunzi",
+ "form": "begin",
+ "state": "still",
+ "plan": "polos0117.github.io dot.html — 공용 도트 공방",
+ "generation": {
+  "file": "sprites/sunzi/raw/sunzi_begin_still_gen2.png",
+  "sha256": "9e01d9b6fddf5a2e0c6f17fb669487310d05ebdfc6f8410056dfe0740d01e545",
+  "by": "gpt",
+  "received_as": "sunzi_begin_still_gen2.png",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "medium",
+  "size": "2160x3840",
+  "usage": {
+   "input_tokens": 3362,
+   "input_tokens_details": {
+    "image_tokens": 2988,
+    "text_tokens": 374
+   },
+   "output_tokens": 865,
+   "output_tokens_details": {
+    "image_tokens": 865,
+    "text_tokens": 0
+   },
+   "total_tokens": 4227
+  },
+  "seconds": 29.6,
+  "attachments": [
+   "canonical",
+   "sample_x6"
+  ],
+  "prompt": "Pixel art game sprite of the SAME young woman shown in attached image 1. Copy the face, hair, skin tone, outfit and palette from image 1.\nAttached image 2 is a finished sprite of a different character from the same game: match its pixel size, outline, shading style and body proportions exactly, but NOT its outfit or colours.\nBlack hair in a neat high top bun with a gold-and-jade pin and a jade tassel on the image-left side, ink-black layered robe with jade-green and pale gold trim, bamboo-slip shoulder guards and bracers, a dark sash with a jade disc at the image-right hip, a short paneled armour skirt, knee-high black boots.\nDo not draw any background, furniture, props or scenery from the attachments.\n\nDraw with very large chunky pixels (each sprite pixel a crisp 25 x 25 square), about 16 colours,\nabout 4 heads tall (not chibi), and about half the decoration of image 1 — keep only the shapes that\nmake the character recognisable at small size. One full-body character, standing idle on flat ground,\nthree-quarter view turned slightly toward the viewer's right, arms relaxed, feet close together.\nHard edges only: no anti-aliasing, no blur, no gradients, no dithering noise. Dark selective outline,\nsimple 2-3 tone shading lit from the upper left. Keep the face readable: two clear eyes, small mouth.\nTransparent background. If transparency is not possible, use one flat solid #00FF00 green with nothing else.\nNo ground shadow, no floor, no text, no frame, no border, no second character.\nPortrait canvas 2160 x 3840."
+ },
+ "cleaned": {
+  "file": "sprites/sunzi/sunzi_begin_still_4k.png",
+  "sha1": "6f13e3ba42e1",
+  "tool": "polos0117.github.io dot.html (rust/dot-core — book-atelier 파이썬 도구와 같은 셈)",
+  "args": [
+   "24",
+   "--pitch",
+   "10,24",
+   "--outline",
+   "--cell",
+   "192x256"
+  ],
+  "pitch": [
+   16,
+   16
+  ],
+  "offset": [
+   6.75,
+   15.5
+  ],
+  "sprite": [
+   69,
+   232
+  ],
+  "cell": [
+   192,
+   256
+  ],
+  "cell_offset": [
+   61,
+   22
+  ],
+  "foot_y": 254,
+  "colours": 24,
+  "palette": [
+   "#020201",
+   "#171413",
+   "#262524",
+   "#2a1c16",
+   "#32453d",
+   "#383029",
+   "#4b3023",
+   "#4c6657",
+   "#50443c",
+   "#614430",
+   "#638169",
+   "#696245",
+   "#6e5e52",
+   "#7a563d",
+   "#8c796a",
+   "#956f4d",
+   "#a26e5a",
+   "#ab845d",
+   "#ac7540",
+   "#ac9886",
+   "#c2b3ac",
+   "#c8937a",
+   "#e8e0dc",
+   "#f1caae"
+  ]
+ },
+ "canvas": "2160x3840",
+ "cell": [
+  192,
+  256
+ ],
+ "flip": {
+  "allowed": true
+ },
+ "references": {
+  "canonical": "img/sunzi_begin_literary_fantasy_f.webp",
+  "sample_x6": "sprites/alice/alice_begin_still_4k.png 를 최근접 6배 — 다른 인물, 화소 크기·윤곽·비율 본보기"
+ },
+ "why": "docs/DOT_4K_PLAN.md(polos0117.github.io) — 4K 로 그려 원본 격자 그대로(약 230줄, 칸 192×256) 정리한 한 벌. 4K 가 기본이 되고 121줄 도트는 _classic 으로 남는다(사용자 2026-10-28)"
+}

@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-28",
+ "author": "claude",
+ "atelier": "book",
+ "id": "chunhyang",
+ "form": "begin",
+ "state": "idle",
+ "plan": "polos0117.github.io dot.html — 공용 도트 공방",
+ "generation": {
+  "file": "sprites/chunhyang/raw/chunhyang_begin_idle_gen2.png",
+  "sha256": "89b818090e2ac024de15c01a15c05ce7aa1b1a8a6c8a832e29f4946fa1a9c39e",
+  "by": "gpt",
+  "received_as": "chunhyang_begin_idle_gen2.png",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "medium",
+  "size": "2160x3840",
+  "usage": {
+   "input_tokens": 3441,
+   "input_tokens_details": {
+    "image_tokens": 2988,
+    "text_tokens": 453
+   },
+   "output_tokens": 865,
+   "output_tokens_details": {
+    "image_tokens": 865,
+    "text_tokens": 0
+   },
+   "total_tokens": 4306
+  },
+  "seconds": 37.1,
+  "attachments": [
+   "still_x6",
+   "canonical"
+  ],
+  "prompt": "Pixel art sprite sheet of the EXACT same character as attached image 1 — a finished pixel-art sprite.\nCopy it pixel for pixel in style: same very large chunky pixels, same 16-colour palette, same dark outline,\nsame proportions (about 4 heads tall), same face. Long dark-brown hair with a red flower pin, one long braid falling over the image-right shoulder, long red ribbons, a rose-pink jeogori with a big red bow tie and a jade pendant, a full layered rose and white chima skirt reaching the ankles, small red shoes.\nKeep decoration as simple as image 1 — do not add new details. Image 2 is only a colour and face reference; do not copy its painterly style.\n\nSheet layout: portrait canvas 2160 x 3840, 4 frames in a 2 x 2 grid (cell 1080 x 1920), read left to right, top to bottom.\nIn every cell the character is the same size (about 125 pixels tall on the sprite's own pixel grid, each sprite pixel\ndrawn as a crisp 13 x 13 square), centred horizontally, with both feet on the same baseline near the bottom of the cell.\nEvery frame faces the same direction as described below. Hard edges only: no anti-aliasing, no blur, no gradients, no dithering noise.\nTransparent background. No grid lines, no cell borders, no numbers, no labels, no text, no ground, no shadow, no motion lines, no extra characters.\n\nIDLE animation, 4 frames. Same standing pose as image 1, three-quarter view turned slightly toward the viewer's right, arms relaxed.\nChanges between frames are tiny (1-2 sprite pixels): frame 1 = exactly image 1; frame 2 = slight breath in, shoulders and hair 1 pixel up;\nframe 3 = same as frame 2 but eyes closed (blink); frame 4 = back between frame 2 and frame 1.\nFeet never move. The loop 4 -> 1 must be seamless."
+ },
+ "cleaned": {
+  "file": "sprites/chunhyang/chunhyang_begin_idle_4k.png",
+  "sha1": "125e2267e30f",
+  "tool": "polos0117.github.io dot.html (rust/dot-core — book-atelier 파이썬 도구와 같은 셈)",
+  "args": [
+   "--frames",
+   "4",
+   "--grid",
+   "2x2",
+   "--palette",
+   "sprites/chunhyang/chunhyang_begin_still_4k.png",
+   "--rows",
+   "226",
+   "--speck",
+   "150",
+   "--cell",
+   "192x256"
+  ],
+  "cell": [
+   192,
+   256
+  ],
+  "frames": 4,
+  "foot_y": 254,
+  "colours": 24,
+  "frame": [
+   {
+    "box_px": [
+     123,
+     56,
+     1000,
+     1841
+    ],
+    "pitch": 7.92,
+    "size": [
+     110,
+     226
+    ],
+    "anchor_x": 49.49,
+    "dropped_specks": 0,
+    "at": [
+     47,
+     28
+    ]
+   },
+   {
+    "box_px": [
+     1207,
+     56,
+     2083,
+     1841
+    ],
+    "pitch": 7.92,
+    "size": [
+     111,
+     226
+    ],
+    "anchor_x": 49.88,
+    "dropped_specks": 0,
+    "at": [
+     46,
+     28
+    ]
+   },
+   {
+    "box_px": [
+     123,
+     1976,
+     1000,
+     3769
+    ],
+    "pitch": 7.92,
+    "size": [
+     110,
+     226
+    ],
+    "anchor_x": 49.45,
+    "dropped_specks": 0,
+    "at": [
+     47,
+     28
+    ]
+   },
+   {
+    "box_px": [
+     1207,
+     1976,
+     2082,
+     3769
+    ],
+    "pitch": 7.92,
+    "size": [
+     111,
+     226
+    ],
+    "anchor_x": 49.78,
+    "dropped_specks": 0,
+    "at": [
+     46,
+     28
+    ]
+   }
+  ]
+ },
+ "playback": {
+  "order": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "ms": [
+   700,
+   220,
+   140,
+   220
+  ]
+ },
+ "canvas": "2160x3840",
+ "cell": [
+  192,
+  256
+ ],
+ "flip": {
+  "allowed": true
+ },
+ "references": {
+  "canonical": "img/chunhyang_begin_literary_fantasy_f.webp",
+  "still_x6": "sprites/chunhyang/chunhyang_begin_still_4k.png (최근접 6배)"
+ },
+ "why": "docs/DOT_4K_PLAN.md(polos0117.github.io) — 4K 로 그려 원본 격자 그대로(약 230줄, 칸 192×256) 정리한 한 벌. 4K 가 기본이 되고 121줄 도트는 _classic 으로 남는다(사용자 2026-10-28)"
+}

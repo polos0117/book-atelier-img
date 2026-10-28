@@ -1,0 +1,222 @@
+{
+ "date": "2026-10-28",
+ "author": "claude",
+ "atelier": "book",
+ "id": "chunhyang",
+ "form": "begin",
+ "state": "walk",
+ "plan": "polos0117.github.io dot.html — 공용 도트 공방",
+ "generation": {
+  "file": "sprites/chunhyang/raw/chunhyang_begin_walk_gen3.png",
+  "sha256": "837ee76fc12b3954c93185c31a3dbcf4d431a168b264127e1186a0fd97d112a9",
+  "by": "gpt",
+  "received_as": "chunhyang_begin_walk_gen3.png",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "medium",
+  "size": "2160x3840",
+  "usage": {
+   "input_tokens": 5100,
+   "input_tokens_details": {
+    "image_tokens": 4524,
+    "text_tokens": 576
+   },
+   "output_tokens": 865,
+   "output_tokens_details": {
+    "image_tokens": 865,
+    "text_tokens": 0
+   },
+   "total_tokens": 5965
+  },
+  "seconds": 32.4,
+  "attachments": [
+   "still_x6",
+   "leg_guide",
+   "canonical"
+  ],
+  "prompt": "Pixel art WALK CYCLE sprite sheet of the EXACT same character as attached image 1 — a finished pixel-art sprite.\nCopy it pixel for pixel in style: same very large chunky pixels, same 16-colour palette, same dark outline,\nsame proportions (about 4 heads tall), same face. Long dark-brown hair with a red flower pin, one long braid falling over the image-right shoulder, long red ribbons, a rose-pink jeogori with a big red bow tie and a jade pendant, a full layered rose and white chima skirt reaching the ankles, small red shoes.\nKeep decoration as simple as image 1 — do not add new details. Image 3 is only a colour and face reference; do not copy its painterly style.\n\nSheet layout: portrait canvas 2160 x 3840, 6 frames in a 3 x 2 grid (cell 720 x 1920), read left to right, top to bottom.\nIn every cell the character is the same size (about 125 pixels tall on the sprite's own pixel grid, each sprite pixel\ndrawn as a crisp 13 x 13 square), centred horizontally, with both feet on the same baseline near the bottom of the cell.\nEvery frame faces the same direction as described below. Hard edges only: no anti-aliasing, no blur, no gradients, no dithering noise.\nTransparent background. No grid lines, no cell borders, no numbers, no labels, no text, no ground, no shadow, no motion lines, no extra characters.\nSide three-quarter view walking toward the viewer's right, walking in place (the character does not travel across the cell).\n\nLEGS: the legs are hidden by a long skirt or robe — follow attached image 2 only for where the two feet are and how the hem moves:\nframe 1 = NEAR foot forward peeking out in front of the hem, FAR foot behind (only its toe showing at the back of the hem); the hem pushes forward;\nframe 2 = feet close, hem settles, body 1 pixel lower; frame 3 = FAR foot swinging forward under the hem, body 1 pixel higher;\nframe 4 = the MIRROR of frame 1: FAR foot forward in front of the hem, NEAR foot behind; frame 5 = feet close, body 1 pixel lower;\nframe 6 = NEAR foot swinging forward under the hem, body 1 pixel higher. Frames 1 and 4 must clearly show a different foot in front.\nThe hem sways opposite to the forward foot. The loop 6 -> 1 must be seamless."
+ },
+ "cleaned": {
+  "file": "sprites/chunhyang/chunhyang_begin_walk_4k.png",
+  "sha1": "c8ebaabd9eed",
+  "tool": "polos0117.github.io dot.html (rust/dot-core — book-atelier 파이썬 도구와 같은 셈)",
+  "args": [
+   "--frames",
+   "6",
+   "--grid",
+   "3x2",
+   "--palette",
+   "sprites/chunhyang/chunhyang_begin_still_4k.png",
+   "--rows",
+   "226",
+   "--speck",
+   "150",
+   "--cell",
+   "192x256"
+  ],
+  "cell": [
+   192,
+   256
+  ],
+  "frames": 6,
+  "foot_y": 254,
+  "colours": 24,
+  "frame": [
+   {
+    "box_px": [
+     18,
+     252,
+     718,
+     1851
+    ],
+    "pitch": 6.99,
+    "size": [
+     100,
+     228
+    ],
+    "anchor_x": 44.95,
+    "dropped_specks": 0,
+    "at": [
+     51,
+     26
+    ]
+   },
+   {
+    "box_px": [
+     761,
+     252,
+     1429,
+     1851
+    ],
+    "pitch": 6.99,
+    "size": [
+     96,
+     229
+    ],
+    "anchor_x": 43.63,
+    "dropped_specks": 0,
+    "at": [
+     52,
+     25
+    ]
+   },
+   {
+    "box_px": [
+     1488,
+     252,
+     2160,
+     1851
+    ],
+    "pitch": 6.99,
+    "size": [
+     95,
+     228
+    ],
+    "anchor_x": 42.63,
+    "dropped_specks": 0,
+    "at": [
+     53,
+     26
+    ]
+   },
+   {
+    "box_px": [
+     9,
+     2171,
+     712,
+     3741
+    ],
+    "pitch": 6.99,
+    "size": [
+     101,
+     224
+    ],
+    "anchor_x": 47,
+    "dropped_specks": 0,
+    "at": [
+     49,
+     30
+    ]
+   },
+   {
+    "box_px": [
+     754,
+     2171,
+     1429,
+     3741
+    ],
+    "pitch": 6.99,
+    "size": [
+     97,
+     224
+    ],
+    "anchor_x": 44.65,
+    "dropped_specks": 0,
+    "at": [
+     51,
+     30
+    ]
+   },
+   {
+    "box_px": [
+     1468,
+     2171,
+     2160,
+     3741
+    ],
+    "pitch": 6.99,
+    "size": [
+     98,
+     223
+    ],
+    "anchor_x": 45.18,
+    "dropped_specks": 0,
+    "at": [
+     51,
+     31
+    ]
+   }
+  ]
+ },
+ "playback": {
+  "order": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "ms": [
+   200,
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "speed": 33,
+  "dy": [
+   2,
+   2,
+   0,
+   -2,
+   0.33,
+   -2
+  ],
+  "stride": 20
+ },
+ "canvas": "2160x3840",
+ "cell": [
+  192,
+  256
+ ],
+ "flip": {
+  "allowed": true
+ },
+ "references": {
+  "canonical": "img/chunhyang_begin_literary_fantasy_f.webp",
+  "still_x6": "sprites/chunhyang/chunhyang_begin_still_4k.png (최근접 6배)",
+  "leg_guide": "polos0117.github.io dot/walk_leg_guide.png"
+ },
+ "why": "docs/DOT_4K_PLAN.md(polos0117.github.io) — 4K 로 그려 원본 격자 그대로(약 230줄, 칸 192×256) 정리한 한 벌. 4K 가 기본이 되고 121줄 도트는 _classic 으로 남는다(사용자 2026-10-28)"
+}

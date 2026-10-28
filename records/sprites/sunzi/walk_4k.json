@@ -1,0 +1,222 @@
+{
+ "date": "2026-10-28",
+ "author": "claude",
+ "atelier": "book",
+ "id": "sunzi",
+ "form": "begin",
+ "state": "walk",
+ "plan": "polos0117.github.io dot.html — 공용 도트 공방",
+ "generation": {
+  "file": "sprites/sunzi/raw/sunzi_begin_walk_gen3.png",
+  "sha256": "343ed7df2337065ed7f39dc596272be5c03cfdb7e70c9a4f641d245de87fa379",
+  "by": "gpt",
+  "received_as": "sunzi_begin_walk_gen3.png",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "medium",
+  "size": "2160x3840",
+  "usage": {
+   "input_tokens": 5222,
+   "input_tokens_details": {
+    "image_tokens": 4524,
+    "text_tokens": 698
+   },
+   "output_tokens": 865,
+   "output_tokens_details": {
+    "image_tokens": 865,
+    "text_tokens": 0
+   },
+   "total_tokens": 6087
+  },
+  "seconds": 31.5,
+  "attachments": [
+   "still_x6",
+   "leg_guide",
+   "canonical"
+  ],
+  "prompt": "Pixel art WALK CYCLE sprite sheet of the EXACT same character as attached image 1 — a finished pixel-art sprite.\nCopy it pixel for pixel in style: same very large chunky pixels, same 16-colour palette, same dark outline,\nsame proportions (about 4 heads tall), same face. Black hair in a neat high top bun with a gold-and-jade pin and a jade tassel on the image-left side, ink-black layered robe with jade-green and pale gold trim, bamboo-slip shoulder guards and bracers, a dark sash with a jade disc at the image-right hip, a short paneled armour skirt, knee-high black boots.\nKeep decoration as simple as image 1 — do not add new details. Image 3 is only a colour and face reference; do not copy its painterly style.\n\nSheet layout: portrait canvas 2160 x 3840, 6 frames in a 3 x 2 grid (cell 720 x 1920), read left to right, top to bottom.\nIn every cell the character is the same size (about 125 pixels tall on the sprite's own pixel grid, each sprite pixel\ndrawn as a crisp 13 x 13 square), centred horizontally, with both feet on the same baseline near the bottom of the cell.\nEvery frame faces the same direction as described below. Hard edges only: no anti-aliasing, no blur, no gradients, no dithering noise.\nTransparent background. No grid lines, no cell borders, no numbers, no labels, no text, no ground, no shadow, no motion lines, no extra characters.\nSide three-quarter view walking toward the viewer's right, walking in place (the character does not travel across the cell).\n\nLEGS — follow attached image 2 exactly, cell by cell (dark navy = the NEAR leg, the one closer to the viewer;\ngrey = the FAR leg). Do not copy image 2's shapes or colours, only where each leg and foot is:\nframe 1 = contact: NEAR leg reaches forward, heel down; FAR leg stretched back, only its toe touching.\nframe 2 = down: weight on the NEAR leg, knee slightly bent, body 1 pixel lower; FAR foot lifting off behind.\nframe 3 = passing: NEAR leg straight under the body; FAR leg swings forward past it with the knee lifted; body 1 pixel higher.\nframe 4 = contact, the MIRROR of frame 1: FAR leg reaches forward, heel down; NEAR leg stretched BACK, only its toe touching.\nframe 5 = down: weight on the FAR leg; NEAR foot lifting off behind; body 1 pixel lower.\nframe 6 = passing: FAR leg straight under the body; NEAR leg swings forward past it with the knee lifted; body 1 pixel higher.\nFrames 1 and 4 must look clearly different: in frame 1 the near leg is in front, in frame 4 the near leg is behind.\nArms swing opposite to the legs (near arm back when the near leg is forward). Head height changes by at most 1 sprite pixel\nexcept the rise and fall above. The loop 6 -> 1 must be seamless."
+ },
+ "cleaned": {
+  "file": "sprites/sunzi/sunzi_begin_walk_4k.png",
+  "sha1": "0b605a0a4997",
+  "tool": "polos0117.github.io dot.html (rust/dot-core — book-atelier 파이썬 도구와 같은 셈)",
+  "args": [
+   "--frames",
+   "6",
+   "--grid",
+   "3x2",
+   "--palette",
+   "sprites/sunzi/sunzi_begin_still_4k.png",
+   "--rows",
+   "230",
+   "--speck",
+   "150",
+   "--cell",
+   "192x256"
+  ],
+  "cell": [
+   192,
+   256
+  ],
+  "frames": 6,
+  "foot_y": 254,
+  "colours": 23,
+  "frame": [
+   {
+    "box_px": [
+     49,
+     105,
+     651,
+     1807
+    ],
+    "pitch": 7.32,
+    "size": [
+     83,
+     231
+    ],
+    "anchor_x": 43.01,
+    "dropped_specks": 41,
+    "at": [
+     53,
+     23
+    ]
+   },
+   {
+    "box_px": [
+     823,
+     105,
+     1355,
+     1807
+    ],
+    "pitch": 7.32,
+    "size": [
+     72,
+     232
+    ],
+    "anchor_x": 34.34,
+    "dropped_specks": 47,
+    "at": [
+     62,
+     22
+    ]
+   },
+   {
+    "box_px": [
+     1533,
+     105,
+     2051,
+     1807
+    ],
+    "pitch": 7.32,
+    "size": [
+     70,
+     231
+    ],
+    "anchor_x": 31.45,
+    "dropped_specks": 46,
+    "at": [
+     65,
+     23
+    ]
+   },
+   {
+    "box_px": [
+     63,
+     2027,
+     677,
+     3699
+    ],
+    "pitch": 7.32,
+    "size": [
+     84,
+     227
+    ],
+    "anchor_x": 41.68,
+    "dropped_specks": 0,
+    "at": [
+     54,
+     27
+    ]
+   },
+   {
+    "box_px": [
+     841,
+     2027,
+     1340,
+     3699
+    ],
+    "pitch": 7.32,
+    "size": [
+     68,
+     228
+    ],
+    "anchor_x": 32.46,
+    "dropped_specks": 0,
+    "at": [
+     64,
+     26
+    ]
+   },
+   {
+    "box_px": [
+     1533,
+     2027,
+     2047,
+     3699
+    ],
+    "pitch": 7.32,
+    "size": [
+     70,
+     229
+    ],
+    "anchor_x": 32.58,
+    "dropped_specks": 53,
+    "at": [
+     63,
+     25
+    ]
+   }
+  ]
+ },
+ "playback": {
+  "order": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "ms": [
+   200,
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "speed": 78,
+  "dy": [
+   1.33,
+   2,
+   -0.67,
+   -2,
+   0.33,
+   -2
+  ],
+  "stride": 47
+ },
+ "canvas": "2160x3840",
+ "cell": [
+  192,
+  256
+ ],
+ "flip": {
+  "allowed": true
+ },
+ "references": {
+  "canonical": "img/sunzi_begin_literary_fantasy_f.webp",
+  "still_x6": "sprites/sunzi/sunzi_begin_still_4k.png (최근접 6배)",
+  "leg_guide": "polos0117.github.io dot/walk_leg_guide.png"
+ },
+ "why": "docs/DOT_4K_PLAN.md(polos0117.github.io) — 4K 로 그려 원본 격자 그대로(약 230줄, 칸 192×256) 정리한 한 벌. 4K 가 기본이 되고 121줄 도트는 _classic 으로 남는다(사용자 2026-10-28)"
+}

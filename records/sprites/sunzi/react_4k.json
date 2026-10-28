@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-28",
+ "author": "claude",
+ "atelier": "book",
+ "id": "sunzi",
+ "form": "begin",
+ "state": "react",
+ "plan": "polos0117.github.io dot.html — 공용 도트 공방",
+ "generation": {
+  "file": "sprites/sunzi/raw/sunzi_begin_react_gen2.png",
+  "sha256": "f849428bd0bb190e22884e8cc5c8ab2fe76de925ec265ddea5dcb2c15a19a550",
+  "by": "gpt",
+  "received_as": "sunzi_begin_react_gen2.png",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "medium",
+  "size": "2160x3840",
+  "usage": {
+   "input_tokens": 3444,
+   "input_tokens_details": {
+    "image_tokens": 2988,
+    "text_tokens": 456
+   },
+   "output_tokens": 865,
+   "output_tokens_details": {
+    "image_tokens": 865,
+    "text_tokens": 0
+   },
+   "total_tokens": 4309
+  },
+  "seconds": 30.7,
+  "attachments": [
+   "still_x6",
+   "canonical"
+  ],
+  "prompt": "Pixel art sprite sheet of the EXACT same character as attached image 1 — a finished pixel-art sprite.\nCopy it pixel for pixel in style: same very large chunky pixels, same 16-colour palette, same dark outline,\nsame proportions (about 4 heads tall), same face. Black hair in a neat high top bun with a gold-and-jade pin and a jade tassel on the image-left side, ink-black layered robe with jade-green and pale gold trim, bamboo-slip shoulder guards and bracers, a dark sash with a jade disc at the image-right hip, a short paneled armour skirt, knee-high black boots.\nKeep decoration as simple as image 1 — do not add new details. Image 2 is only a colour and face reference; do not copy its painterly style.\n\nSheet layout: portrait canvas 2160 x 3840, 4 frames in a 2 x 2 grid (cell 1080 x 1920), read left to right, top to bottom.\nIn every cell the character is the same size (about 125 pixels tall on the sprite's own pixel grid, each sprite pixel\ndrawn as a crisp 13 x 13 square), centred horizontally, with both feet on the same baseline near the bottom of the cell.\nEvery frame faces the same direction as described below. Hard edges only: no anti-aliasing, no blur, no gradients, no dithering noise.\nTransparent background. No grid lines, no cell borders, no numbers, no labels, no text, no ground, no shadow, no motion lines, no extra characters.\n\nREACT animation when selected, 4 frames. Starts and ends in the image 1 pose.\nframe 1 = image 1 pose; frame 2 = turns head and body toward the viewer with a small pleased expression;\nframe 3 = a small greeting that suits the character (a light bow, a curtsy or a small wave), knees slightly bent, body 2-3 pixels lower;\nframe 4 = rising back halfway toward the image 1 pose. Feet stay on the baseline."
+ },
+ "cleaned": {
+  "file": "sprites/sunzi/sunzi_begin_react_4k.png",
+  "sha1": "6b2513708f49",
+  "tool": "polos0117.github.io dot.html (rust/dot-core — book-atelier 파이썬 도구와 같은 셈)",
+  "args": [
+   "--frames",
+   "4",
+   "--grid",
+   "2x2",
+   "--palette",
+   "sprites/sunzi/sunzi_begin_still_4k.png",
+   "--rows",
+   "230",
+   "--speck",
+   "150",
+   "--cell",
+   "192x256"
+  ],
+  "cell": [
+   192,
+   256
+  ],
+  "frames": 4,
+  "foot_y": 254,
+  "colours": 24,
+  "frame": [
+   {
+    "box_px": [
+     322,
+     92,
+     855,
+     1877
+    ],
+    "pitch": 7.71,
+    "size": [
+     69,
+     231
+    ],
+    "anchor_x": 29.73,
+    "dropped_specks": 0,
+    "at": [
+     66,
+     23
+    ]
+   },
+   {
+    "box_px": [
+     1313,
+     92,
+     1839,
+     1877
+    ],
+    "pitch": 7.71,
+    "size": [
+     68,
+     230
+    ],
+    "anchor_x": 30.26,
+    "dropped_specks": 0,
+    "at": [
+     66,
+     24
+    ]
+   },
+   {
+    "box_px": [
+     322,
+     1996,
+     864,
+     3768
+    ],
+    "pitch": 7.71,
+    "size": [
+     70,
+     218
+    ],
+    "anchor_x": 43.78,
+    "dropped_specks": 0,
+    "at": [
+     52,
+     36
+    ]
+   },
+   {
+    "box_px": [
+     1304,
+     1996,
+     1815,
+     3768
+    ],
+    "pitch": 7.71,
+    "size": [
+     66,
+     229
+    ],
+    "anchor_x": 30.55,
+    "dropped_specks": 0,
+    "at": [
+     65,
+     25
+    ]
+   }
+  ]
+ },
+ "playback": {
+  "order": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "ms": [
+   120,
+   180,
+   320,
+   200
+  ]
+ },
+ "canvas": "2160x3840",
+ "cell": [
+  192,
+  256
+ ],
+ "flip": {
+  "allowed": true
+ },
+ "references": {
+  "canonical": "img/sunzi_begin_literary_fantasy_f.webp",
+  "still_x6": "sprites/sunzi/sunzi_begin_still_4k.png (최근접 6배)"
+ },
+ "why": "docs/DOT_4K_PLAN.md(polos0117.github.io) — 4K 로 그려 원본 격자 그대로(약 230줄, 칸 192×256) 정리한 한 벌. 4K 가 기본이 되고 121줄 도트는 _classic 으로 남는다(사용자 2026-10-28)"
+}

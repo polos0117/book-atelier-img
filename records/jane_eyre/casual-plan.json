@@ -1,0 +1,119 @@
+{
+ "book": "jane_eyre",
+ "seed": 507362892,
+ "required": "lingerie",
+ "slots": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "cuts": [
+  {
+   "n": 1,
+   "era": "now",
+   "place": "home_living",
+   "act": "play_instrument",
+   "ofam": "lingerie",
+   "frame": "chest_up",
+   "item": "bodysuit",
+   "orient": "side",
+   "lens": "natural50",
+   "pose": "",
+   "expr": "bored",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "balanced",
+    "source_influence": "balanced",
+    "separates_preference": "balanced"
+   },
+   "prop": "2"
+  },
+  {
+   "n": 2,
+   "era": "now",
+   "place": "night_rooftop",
+   "act": "club_dance",
+   "ofam": "everyday",
+   "frame": "waist_up",
+   "item": "band_tee_jacket",
+   "orient": "back_to_camera",
+   "lens": "telephoto135",
+   "pose": "",
+   "expr": "",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "strong",
+    "separates_preference": "strongly prefer separates"
+   },
+   "prop": "2"
+  },
+  {
+   "n": 3,
+   "era": "now",
+   "place": "evening_museum",
+   "act": "heels_off",
+   "ofam": "evening",
+   "frame": "environmental",
+   "item": "sequin_mini",
+   "orient": "front_3q",
+   "lens": "portrait85",
+   "pose": "sitting_floor",
+   "expr": "pensive",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "balanced",
+    "source_influence": "balanced",
+    "separates_preference": "balanced"
+   },
+   "prop": "0"
+  },
+  {
+   "n": 4,
+   "era": "in_story",
+   "place": "story_place",
+   "act": "map_check",
+   "ofam": "everyday",
+   "frame": "full_body",
+   "item": "linen_dress",
+   "orient": "front",
+   "lens": "wide24",
+   "pose": "standing_relaxed",
+   "expr": "relieved",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly active",
+    "source_influence": "subtle",
+    "separates_preference": "strongly prefer separates"
+   },
+   "prop": "0"
+  },
+  {
+   "n": 5,
+   "era": "fantasy",
+   "place": "fx_runway",
+   "act": "editorial_pose",
+   "ofam": "bridal",
+   "frame": "face_close",
+   "item": "flowing_train",
+   "orient": "looking_away",
+   "lens": "natural50",
+   "pose": "",
+   "expr": "soft_smile",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "strong",
+    "separates_preference": "balanced"
+   },
+   "prop": "1"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "version": 1,
+ "book": "jane_eyre",
+ "slot": "casual5",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "jane_eyre_literary_fantasy_f_casual5.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "66e513552d52d004309e043d5e0f6b0b45e650bee3266ea9be32f357f4987e74",
+  "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+ },
+ "reference": "jane_eyre_begin_literary_fantasy_f.webp",
+ "references": [
+  "jane_eyre_begin_literary_fantasy_f.webp"
+ ],
+ "prompt": "records/jane_eyre/casual5-ui.json",
+ "prompt_sha256": "513e0dee5696a46751c472954d91b0581ea25acdccb32c04521ff35f3b6ee939",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "c1cd90a5166188537ad8f466d9d5bf7aaa19587073b07f369fa2c7cabc3a2c0f",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-jane-eyre-20261101-0b6c604911b1",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "66e513552d52d004309e043d5e0f6b0b45e650bee3266ea9be32f357f4987e74",
+  "passed": false,
+  "observations": [
+   "1024×1536. 테두리·워터마크 없고 손에 책을 들지 않는다.",
+   "웨딩 장신구와 베일, 어깨를 드러낸 흰 드레스의 얼굴 클로즈업. 런웨이 조명과 흐릿한 객석.",
+   "얼굴·갈색 머리·눈 색이 정본과 일치하고 시선이 옆으로 향한다. 팔·손·다리는 계획한 클로즈업 범위 밖이다.",
+   "긴 트레인은 계획한 얼굴 클로즈업에서는 보이지 않는다. 선화보다 사실적인 채색이 강하다."
+  ],
+  "cause": "정본의 사실적 재질 표현이 짧은 STYLE보다 강하게 이어졌다."
+ },
+ "generation": {
+  "attempts": 1,
+  "retries": []
+ },
+ "acceptance": "user_approval_2026-11-01 — 묻지 않고 올리고 사용자가 올라간 뒤 본다; docs/IMAGE_AUTOMATION.md 0·4절에 따라 QA 어긋남도 기록 후 업로드"
+}

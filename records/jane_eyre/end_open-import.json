@@ -1,0 +1,55 @@
+{
+ "version": 1,
+ "book": "jane_eyre",
+ "slot": "end_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "jane_eyre_end_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "8b03240a5a319563497bb887823f516b33959d2323d850626948aa6e41a26eb5",
+  "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+ },
+ "reference": "jane_eyre_end_literary_fantasy_f.webp",
+ "references": [
+  "jane_eyre_end_literary_fantasy_f.webp",
+  "jane_eyre_begin_literary_fantasy_f.webp"
+ ],
+ "prompt": "records/jane_eyre/end_open-ui.json",
+ "prompt_sha256": "5832994c149ecca82b9b03c8a3b16688b4264484f133aad720abe81b5db824d2",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "964c8980fc38f2e4cf5b24ecf1f49acd6915e75916c445ba52a5adbaf648ad99",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-jane-eyre-20261101-0b6c604911b1",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "8b03240a5a319563497bb887823f516b33959d2323d850626948aa6e41a26eb5",
+  "passed": false,
+  "observations": [
+   "1024×1536. 테두리·워터마크 없고 손에 책을 들지 않는다.",
+   "결말과 같은 숄을 잡는 자세와 전신 구도. 배경이 달·구름·밤의 히스 황야로 바뀌었다.",
+   "얼굴·머리·체형 유지. 한 명이고 추가 팔다리는 보이지 않는다. 두 손 일부는 숄에 가려진다.",
+   "결말의 카메라를 보는 시선과 종이 옷의 글씨 같은 획을 이어받았다. 사실적 채색이 강하다."
+  ],
+  "cause": "개방의 인물·의상·자세 보존 지시가 결말의 시선 이탈과 종이 글씨·사실적 채색도 함께 보존했다."
+ },
+ "generation": {
+  "attempts": 1,
+  "retries": []
+ },
+ "acceptance": "user_approval_2026-11-01 — 묻지 않고 올리고 사용자가 올라간 뒤 본다; docs/IMAGE_AUTOMATION.md 0·4절에 따라 QA 어긋남도 기록 후 업로드"
+}

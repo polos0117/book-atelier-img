@@ -1,0 +1,55 @@
+{
+ "version": 1,
+ "book": "jane_eyre",
+ "slot": "middle_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "jane_eyre_middle_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "6386c664bbdedc9a792c2d3fe864643551fddbf9fdd0554df4c2b98cb318d205",
+  "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+ },
+ "reference": "jane_eyre_middle_literary_fantasy_f.webp",
+ "references": [
+  "jane_eyre_middle_literary_fantasy_f.webp",
+  "jane_eyre_begin_literary_fantasy_f.webp"
+ ],
+ "prompt": "records/jane_eyre/middle_open-ui.json",
+ "prompt_sha256": "aff481b9eb631b3b441b5d37a50b8b9c906e7c6a433abe2229959d2da786be29",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "71e2b7221ea0b5996d1ad692ebd0b2e1f9d5e164b666a886d3867042d7d0ed50",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-jane-eyre-20261101-0b6c604911b1",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "6386c664bbdedc9a792c2d3fe864643551fddbf9fdd0554df4c2b98cb318d205",
+  "passed": false,
+  "observations": [
+   "1024×1536. 테두리·워터마크 없고 손에 책을 들지 않는다.",
+   "전개와 같은 촛대·인물·자세·구도에 불타는 복도와 연기가 더해졌다.",
+   "그녀 한 명. 양쪽 팔의 연결은 자연스럽고 촛대를 쥔 손가락 일부는 가려진다.",
+   "전개의 정면 방향과 종이 옷의 글씨 같은 획을 그대로 이어받았다. 사실적 채색이 강하다."
+  ],
+  "cause": "개방의 인물·의상·자세 보존 지시가 전개의 방향 이탈과 종이 글씨·사실적 채색도 함께 보존했다."
+ },
+ "generation": {
+  "attempts": 1,
+  "retries": []
+ },
+ "acceptance": "user_approval_2026-11-01 — 묻지 않고 올리고 사용자가 올라간 뒤 본다; docs/IMAGE_AUTOMATION.md 0·4절에 따라 QA 어긋남도 기록 후 업로드"
+}

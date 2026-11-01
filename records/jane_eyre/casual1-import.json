@@ -1,0 +1,54 @@
+{
+ "version": 1,
+ "book": "jane_eyre",
+ "slot": "casual1",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "jane_eyre_literary_fantasy_f_casual1.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "bcfd939ad8e1f09739d9e38dd571c4c4ab3471ca65fe2cab176baaf75c797074",
+  "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+ },
+ "reference": "jane_eyre_begin_literary_fantasy_f.webp",
+ "references": [
+  "jane_eyre_begin_literary_fantasy_f.webp"
+ ],
+ "prompt": "records/jane_eyre/casual1-ui.json",
+ "prompt_sha256": "672a7d6c5c7882ecff0334d5606e3fc784cc64574c754424b86107ca19392619",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "8d4028c05387bfc041dd2755174d83c0c0112b3441ff84d83a24b848f4476d37",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-jane-eyre-20261101-0b6c604911b1",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "bcfd939ad8e1f09739d9e38dd571c4c4ab3471ca65fe2cab176baaf75c797074",
+  "passed": false,
+  "observations": [
+   "1024×1536. 테두리·워터마크 없고 손에 책을 들지 않는다.",
+   "아이보리 란제리풍 보디수트로 갈아입고 현악기를 연습하는 상반신 장면. 정본 얼굴과 올림머리가 유지된다.",
+   "두 팔과 두 손이 악기 몸통과 목으로 자연스럽게 이어진다. 손가락은 악기와 프레임에 일부 가려진다.",
+   "현대 거실 대신 촛대·고딕 창의 고풍스러운 실내가 나왔다. 옆모습 계획은 얼굴 3/4 방향으로 완화됐고 chest_up보다 넓어 허리까지 보인다. 화풍은 사실적인 쪽이다."
+  ],
+  "cause": "ANGLE·WARDROBE보다 정본의 고딕 실내와 3/4 얼굴 인상이 강하게 이어진 것으로 보인다. 악기·두 손을 보이려는 동작이 가까운 CROP과 경쟁했다."
+ },
+ "generation": {
+  "attempts": 1,
+  "retries": []
+ },
+ "acceptance": "user_approval_2026-11-01 — 묻지 않고 올리고 사용자가 올라간 뒤 본다; docs/IMAGE_AUTOMATION.md 0·4절에 따라 QA 어긋남도 기록 후 업로드"
+}

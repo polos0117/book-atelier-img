@@ -1,0 +1,52 @@
+{
+ "version": 1,
+ "book": "jane_eyre",
+ "slot": "begin",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "jane_eyre_begin_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "7d432f0ffc34896c05d07e4837126e3b85b86e3d8c3103d2fc57b88d96546bb4",
+  "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+ },
+ "reference": null,
+ "references": [],
+ "prompt": "records/jane_eyre/begin-ui.json",
+ "prompt_sha256": "1848043c21c9ba1e5962bd380fc4ba9d8735098da020e4cfe8e179252dd5375e",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "15d225b2c780ba7056e7143603818860853dbd483fa7137db87f76cf9e63841d",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-jane-eyre-20261101-0b6c604911b1",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "7d432f0ffc34896c05d07e4837126e3b85b86e3d8c3103d2fc57b88d96546bb4",
+  "passed": false,
+  "observations": [
+   "1024×1536. 테두리·워터마크 없고 손에 책을 들지 않는다.",
+   "정면 전신, 두 손을 앞에 모은 자세, 갈색 올림머리와 회색·보라 드레스.",
+   "손은 앞에서 겹쳐 일부 손가락이 가려진다. 두 팔은 어깨부터 자연스럽게 이어지고 추가 팔다리는 보이지 않는다.",
+   "종이 옷에 글씨 같은 획이 보이며 무문자 조건에 어긋난다. 선화보다 사실적인 피부·재질 표현이 강하고 부드러운 사각 얼굴은 약하게 읽힌다."
+  ],
+  "cause": "MATERIAL의 일기장 책장이 무문자 제약보다 강하게 해석돼 필기 같은 질감이 생겼다. PRESENTATION의 화려한 재질·조명이 짧은 STYLE보다 강하게 해석된 것으로 보인다."
+ },
+ "generation": {
+  "attempts": 1,
+  "retries": []
+ },
+ "acceptance": "user_approval_2026-11-01 — 묻지 않고 올리고 사용자가 올라간 뒤 본다; docs/IMAGE_AUTOMATION.md 0·4절에 따라 QA 어긋남도 기록 후 업로드"
+}

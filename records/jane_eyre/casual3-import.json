@@ -1,0 +1,54 @@
+{
+ "version": 1,
+ "book": "jane_eyre",
+ "slot": "casual3",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "jane_eyre_literary_fantasy_f_casual3.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "0e03d712bf087057e9eacb9954a02a54185965ab76919c869db53ef4eb483734",
+  "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+ },
+ "reference": "jane_eyre_begin_literary_fantasy_f.webp",
+ "references": [
+  "jane_eyre_begin_literary_fantasy_f.webp"
+ ],
+ "prompt": "records/jane_eyre/casual3-ui.json",
+ "prompt_sha256": "a8c4caa1bf1e073aef2bc49f87ed389bbf3a581935d66126fc6fb4be98237d7b",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "b548ff6d285420ad716d0faf376f0bfe36ce461edcd7b2a387e10df7826fdfbc",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-jane-eyre-20261101-0b6c604911b1",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "0e03d712bf087057e9eacb9954a02a54185965ab76919c869db53ef4eb483734",
+  "passed": false,
+  "observations": [
+   "1024×1536. 테두리·워터마크 없고 손에 책을 들지 않는다.",
+   "박물관 갈라 바닥에 앉아 구두를 벗고 쉬는 장면. 붉은 스팽글 미니드레스로 의상이 바뀌었다.",
+   "한 손은 바닥, 다른 손은 구두를 잡는다. 두 무릎·종아리·맨발이 이어지고 추가 팔다리는 보이지 않는다. 작은 배경 손님과 조각상이 있다.",
+   "정본 얼굴과 올림머리 유지. environmental 계획보다 인물 비중이 크고 가까운 전신 구도다. 선화보다 사실적인 채색이 강하다."
+  ],
+  "cause": "정본 얼굴을 알아볼 수 있게 인물을 크게 그리는 경향이 environmental 렌즈·프레이밍보다 강하게 작용한 것으로 보인다."
+ },
+ "generation": {
+  "attempts": 1,
+  "retries": []
+ },
+ "acceptance": "user_approval_2026-11-01 — 묻지 않고 올리고 사용자가 올라간 뒤 본다; docs/IMAGE_AUTOMATION.md 0·4절에 따라 QA 어긋남도 기록 후 업로드"
+}

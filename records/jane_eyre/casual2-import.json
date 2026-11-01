@@ -1,0 +1,54 @@
+{
+ "version": 1,
+ "book": "jane_eyre",
+ "slot": "casual2",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "jane_eyre_literary_fantasy_f_casual2.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "a385d841e86a8d1468b9fb0428c59a9dc278e28459705d10991a917ff358fb6f",
+  "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+ },
+ "reference": "jane_eyre_begin_literary_fantasy_f.webp",
+ "references": [
+  "jane_eyre_begin_literary_fantasy_f.webp"
+ ],
+ "prompt": "records/jane_eyre/casual2-ui.json",
+ "prompt_sha256": "d5eb7a7d375c69318bf710e882c42f6072ea2aee6048c54568dcdc71a75924c9",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "9c6d8e1a55fb9571b23fdae24168b4a6385d88e00415c7c9e20838ee467a3eab",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-jane-eyre-20261101-0b6c604911b1",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "a385d841e86a8d1468b9fb0428c59a9dc278e28459705d10991a917ff358fb6f",
+  "passed": false,
+  "observations": [
+   "1024×1536. 테두리·워터마크 없고 손에 책을 들지 않는다.",
+   "옥상 야간 파티, 밴드 티와 검정 재킷, 뒤에서 본 허리 위 구도와 들어 올린 한 팔.",
+   "정본의 얼굴·머리색 유지. 들어 올린 팔의 손은 상단 프레임 밖이며 다른 팔은 재킷에 가려진다. 보이는 부분에 추가 팔은 없다.",
+   "과도한 목 뒤틀림은 보이지 않는다. 책 상징은 봉투 형태 팔찌 장식으로 작게 표현됐다. 선화보다 사실적인 채색이 강하다."
+  ],
+  "cause": "정본의 사실적 재질 표현이 짧은 STYLE보다 강하게 이어졌다."
+ },
+ "generation": {
+  "attempts": 1,
+  "retries": []
+ },
+ "acceptance": "user_approval_2026-11-01 — 묻지 않고 올리고 사용자가 올라간 뒤 본다; docs/IMAGE_AUTOMATION.md 0·4절에 따라 QA 어긋남도 기록 후 업로드"
+}

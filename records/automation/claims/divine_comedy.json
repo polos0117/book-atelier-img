@@ -4,7 +4,7 @@
   {
    "key": "divine_comedy",
    "execution": "book-divine-comedy-bf4b1bcfb9cb",
-   "status": "working",
+   "status": "complete",
    "claimed_at": "2026-11-01T21:16:16.840Z",
    "date_kst": "2026-11-02",
    "date_utc": "2026-11-01",
@@ -20,7 +20,9 @@
     "divine_comedy_literary_fantasy_f_casual3.webp",
     "divine_comedy_literary_fantasy_f_casual4.webp",
     "divine_comedy_literary_fantasy_f_casual5.webp"
-   ]
+   ],
+   "done_at": "2026-11-01T21:34:29.592Z",
+   "done_by": "book-divine-comedy-bf4b1bcfb9cb"
   }
  ]
 }

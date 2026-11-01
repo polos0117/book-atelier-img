@@ -4,7 +4,7 @@
   {
    "key": "macbeth",
    "execution": "book-macbeth-e288",
-   "status": "working",
+   "status": "complete",
    "claimed_at": "2026-11-01T14:16:51.836Z",
    "date_kst": "2026-11-01",
    "date_utc": "2026-11-01",
@@ -20,7 +20,10 @@
     "macbeth_literary_fantasy_f_casual3.webp",
     "macbeth_literary_fantasy_f_casual4.webp",
     "macbeth_literary_fantasy_f_casual5.webp"
-   ]
+   ],
+   "done_at": "2026-11-01T14:37:00.428438+00:00",
+   "done_by": "book-macbeth-e288"
   }
  ]
 }
+

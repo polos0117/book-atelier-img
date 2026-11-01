@@ -4,7 +4,7 @@
   {
    "key": "jekyll_hyde",
    "execution": "book-jekyll-e5caf9-20261101",
-   "status": "working",
+   "status": "complete",
    "claimed_at": "2026-11-01T12:35:25.856Z",
    "date_kst": "2026-11-01",
    "date_utc": "2026-11-01",
@@ -20,7 +20,9 @@
     "jekyll_hyde_literary_fantasy_f_casual3.webp",
     "jekyll_hyde_literary_fantasy_f_casual4.webp",
     "jekyll_hyde_literary_fantasy_f_casual5.webp"
-   ]
+   ],
+   "done_at": "2026-11-01T13:01:11.809Z",
+   "done_by": "book-jekyll-e5caf9-20261101"
   }
  ]
 }

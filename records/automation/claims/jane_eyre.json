@@ -4,7 +4,7 @@
   {
    "key": "jane_eyre",
    "execution": "book-jane-eyre-20261101-0b6c604911b1",
-   "status": "working",
+   "status": "complete",
    "claimed_at": "2026-11-01T04:30:42.493Z",
    "date_kst": "2026-11-01",
    "date_utc": "2026-11-01",
@@ -20,7 +20,9 @@
     "jane_eyre_literary_fantasy_f_casual3.webp",
     "jane_eyre_literary_fantasy_f_casual4.webp",
     "jane_eyre_literary_fantasy_f_casual5.webp"
-   ]
+   ],
+   "done_at": "2026-11-01T04:44:47.978Z",
+   "done_by": "book-jane-eyre-20261101-0b6c604911b1"
   }
  ]
 }

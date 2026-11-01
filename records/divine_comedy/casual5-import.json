@@ -1,0 +1,54 @@
+{
+ "version": 1,
+ "book": "divine_comedy",
+ "slot": "casual5",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "divine_comedy_literary_fantasy_f_casual5.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "d7eb3f5cc3c4630d7076282d972a929db88f73f53ae70e848ee7e20c89206ea2",
+  "note": "원본 PNG는 올리지 않고 sha256만 보존"
+ },
+ "reference": "divine_comedy_begin_literary_fantasy_f.webp",
+ "references": [
+  "divine_comedy_begin_literary_fantasy_f.webp"
+ ],
+ "prompt": "records/divine_comedy/casual5-ui.json",
+ "prompt_sha256": "c8467501d54bb1fc6e31fcd04b4eb3721d81cf7a634a5b59816c8e85cf981e8f",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-divine-comedy-bf4b1bcfb9cb",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "d7eb3f5cc3c4630d7076282d972a929db88f73f53ae70e848ee7e20c89206ea2",
+  "passed": false,
+  "observations": [
+   "1024×1536 확인",
+   "테두리·로고·워터마크 없음",
+   "책을 손에 들지 않음",
+   "주인공의 팔 두 개가 어깨·팔꿈치·손목으로 이어짐; 추가 팔 관찰되지 않음",
+   "기준 인물의 얼굴·갈색 땋은 머리·피부색 유지",
+   "의상을 일상 계획의 옷으로 변경",
+   "chest_up보다 넓은 허리 부근 크롭",
+   "기준 그림의 머리장식과 귀걸이를 이어받음",
+   "화풍은 요청한 선화·회화 채색보다 사실적인 피부·재질 표현이 강함"
+  ],
+  "cause": "CROP의 chest-up과 팔짱·페슈테말 옷 세부가 경합. 기준 장식 일부가 유지됨."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

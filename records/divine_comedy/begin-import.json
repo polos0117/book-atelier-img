@@ -1,0 +1,51 @@
+{
+ "version": 1,
+ "book": "divine_comedy",
+ "slot": "begin",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "divine_comedy_begin_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "7702deab99312619e0e35ea1f35ccf9e99d0509d7a67f3440db1468dcc96bc76",
+  "note": "원본 PNG는 올리지 않고 sha256만 보존"
+ },
+ "reference": null,
+ "references": [],
+ "prompt": "records/divine_comedy/begin-ui.json",
+ "prompt_sha256": "99c88a704b7b4c5fa4d2ac96d70b2482208e0befe5ac77dcca2108ef14acc499",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-divine-comedy-bf4b1bcfb9cb",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "7702deab99312619e0e35ea1f35ccf9e99d0509d7a67f3440db1468dcc96bc76",
+  "passed": false,
+  "observations": [
+   "1024×1536 확인",
+   "테두리·로고·워터마크 없음",
+   "책을 손에 들지 않음",
+   "주인공의 팔 두 개가 어깨·팔꿈치·손목으로 이어짐; 추가 팔 관찰되지 않음",
+   "양피지에 문자처럼 보이는 무늬가 남음",
+   "내려다보기 대신 카메라를 바라봄",
+   "한쪽 발이 의상 아래 가려짐",
+   "화풍은 요청한 선화·회화 채색보다 사실적인 피부·재질 표현이 강함"
+  ],
+  "cause": "설계 MATERIAL의 시행을 새긴 양피지와 no lettering이 충돌. STANCE의 아래 시선과 OUTPUT의 얼굴 카메라 지시도 경합."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

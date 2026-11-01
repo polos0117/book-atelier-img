@@ -1,0 +1,53 @@
+{
+ "version": 1,
+ "book": "divine_comedy",
+ "slot": "end",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "divine_comedy_end_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "6095cc265f14e9b5b115ece7eea89a4420ab7b2c3bdd07e18bbf15b2053b6f16",
+  "note": "원본 PNG는 올리지 않고 sha256만 보존"
+ },
+ "reference": "divine_comedy_begin_literary_fantasy_f.webp",
+ "references": [
+  "divine_comedy_begin_literary_fantasy_f.webp"
+ ],
+ "prompt": "records/divine_comedy/end-ui.json",
+ "prompt_sha256": "d3daacf58b5936afe41e287be990f386f4864b68a5e7b75eb9113f4e37352823",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-divine-comedy-bf4b1bcfb9cb",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "6095cc265f14e9b5b115ece7eea89a4420ab7b2c3bdd07e18bbf15b2053b6f16",
+  "passed": false,
+  "observations": [
+   "1024×1536 확인",
+   "테두리·로고·워터마크 없음",
+   "책을 손에 들지 않음",
+   "주인공의 팔 두 개가 어깨·팔꿈치·손목으로 이어짐; 추가 팔 관찰되지 않음",
+   "기준 인물의 얼굴·갈색 땋은 머리·피부색 유지",
+   "고개를 젖힌 자세보다 카메라를 보는 자세",
+   "한쪽 발이 의상 아래 가려짐",
+   "화풍은 요청한 선화·회화 채색보다 사실적인 피부·재질 표현이 강함"
+  ],
+  "cause": "참고 얼굴 정체성 유지와 고개 젖히기·부유 자세가 경합."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

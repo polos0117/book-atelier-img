@@ -1,0 +1,73 @@
+{
+ "version": 1,
+ "book": "divine_comedy",
+ "slot": "casual3",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "divine_comedy_literary_fantasy_f_casual3.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "7f252f9d1829b3527a8180faa7cb3e26398bdb2edec97a9974b6fc7dc1a72397",
+  "note": "원본 PNG는 올리지 않고 sha256만 보존"
+ },
+ "reference": "divine_comedy_begin_literary_fantasy_f.webp",
+ "references": [
+  "divine_comedy_begin_literary_fantasy_f.webp"
+ ],
+ "prompt": "records/divine_comedy/casual3-ui.json",
+ "prompt_sha256": "71badc7d5c5e1d21c96a210883e7c223e08c4e9592afdd42354e44e2b27541d3",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-divine-comedy-bf4b1bcfb9cb",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "7f252f9d1829b3527a8180faa7cb3e26398bdb2edec97a9974b6fc7dc1a72397",
+  "passed": false,
+  "observations": [
+   "1024×1536 확인",
+   "테두리·로고·워터마크 없음",
+   "책을 손에 들지 않음",
+   "주인공의 팔 두 개가 어깨·팔꿈치·손목으로 이어짐; 추가 팔 관찰되지 않음",
+   "기준 인물의 얼굴·갈색 땋은 머리·피부색 유지",
+   "의상을 일상 계획의 옷으로 변경",
+   "face_close 대신 상반신까지 보이는 구도",
+   "브이 손이 지정한 인물 오른손 대신 왼손으로 나옴",
+   "숲 대신 지옥 배경으로 표현",
+   "기준 그림의 금 장식이 옷에도 일부 이어짐",
+   "화풍은 요청한 선화·회화 채색보다 사실적인 피부·재질 표현이 강함"
+  ],
+  "cause": "CROP의 face close-up과 의상·노출 세부가 경합. RIGHT HAND와 첨부 구도가 경합하고 WORLD가 참고 지옥 풍경을 이어받음."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다",
+ "generation": {
+  "retries": [
+   {
+    "attempt": 1,
+    "exposure": "bold",
+    "result": "moderation_blocked",
+    "request_id": "c1378276-e657-42f4-9dcf-4b08e429e8ff",
+    "prompt_sha256": "71badc7d5c5e1d21c96a210883e7c223e08c4e9592afdd42354e44e2b27541d3"
+   },
+   {
+    "attempt": 2,
+    "exposure": "bold",
+    "result": "success",
+    "note": "같은 지시문 한 번 재시도, 설정 변경 없음"
+   }
+  ]
+ }
+}

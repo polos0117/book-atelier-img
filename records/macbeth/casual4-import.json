@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "macbeth",
+ "slot": "casual4",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "macbeth_literary_fantasy_f_casual4.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "d06124611ccf2a05d147092001a54eeb1cd969a1635b7ecb54cf9b9e0041a955",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "macbeth_begin_literary_fantasy_f.webp",
+ "prompt": "records/macbeth/casual4-ui.json",
+ "prompt_sha256": "20dce49cccdcd12cf5b901f465cc98b19d31bed7a6f1888ea01640a95e5e039b",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "22c62d8645ed20d2c8b866e06c3e5df103076fc53daf1d9bbf6468b3433de20a",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-macbeth-e288",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "d06124611ccf2a05d147092001a54eeb1cd969a1635b7ecb54cf9b9e0041a955",
+  "passed": false,
+  "observations": [
+   "1024×1536. 主인공 한 명. 틀·로고·읽히는 글자 없음. 손에 든 책 없음.",
+   "문학 살롱·접부채·시선과 미소, 정본 얼굴 유지. 보이는 손의 연결은 자연스러움.",
+   "부채를 왼손으로 들었고 지정한 쇄골 클로즈업보다 넓어 상체가 보임. 부채가 눈 아래가 아닌 입 아래에 있음."
+  ],
+  "cause": "RIGHT HAND와 PROP의 오른손 지시를 반대로 구현했고 CROP보다 의상과 부채를 넓게 보여 줌."
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

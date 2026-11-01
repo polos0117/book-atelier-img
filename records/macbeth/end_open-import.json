@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "macbeth",
+ "slot": "end_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "macbeth_end_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "9c07f5750cf40646925d217962ae8410f1f4b04a39d0a9a3e2df042ada9e2203",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "macbeth_end_literary_fantasy_f.webp",
+ "prompt": "records/macbeth/end_open-ui.json",
+ "prompt_sha256": "dcfb48add1248437c24e1885cc67a3acbcf64b3fd53ce99da01653496331cc2b",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "7c324c5415d9378c7c4c5df7a7948cb90711a2cea24331fe58b24af77b17f073",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-macbeth-e288",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "9c07f5750cf40646925d217962ae8410f1f4b04a39d0a9a3e2df042ada9e2203",
+  "passed": true,
+  "observations": [
+   "1024×1536. 主인공 한 명. 틀·로고·읽히는 글자 없음. 손에 든 책 없음.",
+   "결말 인물·왕관·장검·포즈 유지. 성벽 아래 가지와 잎으로 채워진 버넘 숲.",
+   "인물 한 명이고 두 팔·두 다리의 연결과 발 여백 유지."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

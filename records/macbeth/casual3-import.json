@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "macbeth",
+ "slot": "casual3",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "macbeth_literary_fantasy_f_casual3.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "4534db8c3db976edfa10aabe86fc45384484d73a2e8438094ce0870c3eb208aa",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "macbeth_begin_literary_fantasy_f.webp",
+ "prompt": "records/macbeth/casual3-ui.json",
+ "prompt_sha256": "e69aaf6ccfa0a344b194193857e396ac395d266f4c021928a86b760b1e19d8ec",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "d2b9e168b01e87beb74b736caaac8f477676de3e28196ebb08eb0f03fa5b00eb",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-macbeth-e288",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "4534db8c3db976edfa10aabe86fc45384484d73a2e8438094ce0870c3eb208aa",
+  "passed": true,
+  "observations": [
+   "1024×1536. 主인공 한 명. 틀·로고·읽히는 글자 없음. 손에 든 책 없음.",
+   "머리 뒤를 받치는 인물 기준 오른팔과 아이스크림을 드는 왼팔의 역할이 분리됨. 추가팔 없음.",
+   "카바나와 시대풍 비주얼계 차림, 기대 누운 가슴 위 컷."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

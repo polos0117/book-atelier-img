@@ -1,0 +1,62 @@
+{
+ "version": 1,
+ "book": "macbeth",
+ "slot": "casual1",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "macbeth_literary_fantasy_f_casual1.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "dc971ac02471c325e7fbc5a03aefb859161e7f928783161609b20d6f878aba22",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "macbeth_begin_literary_fantasy_f.webp",
+ "prompt": "records/macbeth/casual1-ui.json",
+ "prompt_sha256": "6cdbfed43a364813e94513a26f9fc26e78528a3c85a14ffe7b88feb098f21d8a",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "64f1ebdeef3ae630b572c17c306ce96771c8fd37ba59b424f71da7704fdede3a",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-macbeth-e288",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "dc971ac02471c325e7fbc5a03aefb859161e7f928783161609b20d6f878aba22",
+  "passed": true,
+  "observations": [
+   "1024×1536. 主인공 한 명. 틀·로고·읽히는 글자 없음. 손에 든 책 없음.",
+   "이야기 속 여관, 페슈테말, 허리 위 프레이밍. 오른손이 주전자 손잡이, 왼손이 뚜껑을 받치며 차를 따름.",
+   "양팔이 같은 쪽으로 중복되지 않고 각각 어깨·팔꿈치·손목에 연결."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영",
+ "generation": {
+  "retries": [
+   {
+    "attempt": 1,
+    "exposure": "bold",
+    "result": "moderation_blocked",
+    "request_id": "0c04db38-8b09-47b6-b3d8-6309207dde9b"
+   },
+   {
+    "attempt": 2,
+    "exposure": "bold",
+    "result": "success",
+    "change": "same prompt"
+   }
+  ]
+ }
+}

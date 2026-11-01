@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "macbeth",
+ "slot": "casual5",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "macbeth_literary_fantasy_f_casual5.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "61c8a59cbac25878389e855f6ed7ae51fb12dcdc9a6de343538fc6317e9aef72",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "macbeth_begin_literary_fantasy_f.webp",
+ "prompt": "records/macbeth/casual5-ui.json",
+ "prompt_sha256": "410809957a6b805bec30158f6c3d132df496314c9c1196e52dddb08e31cc6b1f",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "b22d8f42eef0319fb3c845fd7e3b6a2c1ecb37367562661957ad7989c0b21eec",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-macbeth-e288",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "61c8a59cbac25878389e855f6ed7ae51fb12dcdc9a6de343538fc6317e9aef72",
+  "passed": false,
+  "observations": [
+   "1024×1536. 主인공 한 명. 틀·로고·읽히는 글자 없음. 손에 든 책 없음.",
+   "연습실에서 미니드레스 차림으로 바닥에 책상다리. 오른손은 무릎, 왼손은 바닥에 연결됨. 전신 여백.",
+   "머리와 시선은 옆을 향하나 몸통은 지정한 옆모습보다 정면 3/4에 가까움."
+  ],
+  "cause": "COMPOSITION의 몸 옆모습과 GAZE의 먼 곳을 모델이 머리 방향 중심으로 구현함."
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

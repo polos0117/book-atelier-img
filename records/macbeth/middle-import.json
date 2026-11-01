@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "macbeth",
+ "slot": "middle",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "macbeth_middle_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "978047a7141e091f61f504504733ba8e6254c421cd9288d3ffc8054cdf442c6a",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "macbeth_begin_literary_fantasy_f.webp",
+ "prompt": "records/macbeth/middle-ui.json",
+ "prompt_sha256": "83e2ab1ee348e897c8676e5276c20578f7ad555325a86ef53d09b1ccda213c20",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "38f7747adbe5c6fe3ce6f07405a9d7f316b1c1ba83b99c7564f9178bfce06d5c",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-macbeth-e288",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "978047a7141e091f61f504504733ba8e6254c421cd9288d3ffc8054cdf442c6a",
+  "passed": false,
+  "observations": [
+   "1024×1536. 主인공 한 명. 틀·로고·읽히는 글자 없음. 손에 든 책 없음.",
+   "정본 얼굴·갈색 긴 웨이브 머리·체형 유지. 양팔과 양손 연결, 전신 여백 확인.",
+   "공중 단검이 개방 전 폼에도 나타남. 입가 미소의 강도가 지정한 냉소보다 약함."
+  ],
+  "cause": "STANCE가 공중 단검을 향해 손을 뻗도록 지정하여 HOLD BACK의 개방 사건 제외와 충돌함."
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

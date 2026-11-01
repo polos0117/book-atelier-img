@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "macbeth",
+ "slot": "begin",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "macbeth_begin_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "edef51e6acdbf5825541e2bba17e2b1abcdf097d0c0636e9a92867a2fbb595c4",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": null,
+ "prompt": "records/macbeth/begin-ui.json",
+ "prompt_sha256": "c453a93e293cf2a7194e0f4d37b5ed49867aba186204fa641b68871ef0128023",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "df25de630a09b5f53713ceba37b248d0598f93a72fea7db9d6cb0476ce21d865",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-macbeth-e288",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "edef51e6acdbf5825541e2bba17e2b1abcdf097d0c0636e9a92867a2fbb595c4",
+  "passed": true,
+  "observations": [
+   "1024×1536. 主인공 한 명. 틀·로고·읽히는 글자 없음. 손에 든 책 없음.",
+   "전신과 양발이 화면 안에 있고 양팔이 각각 자연스럽게 연결됨. 인물 기준 왼팔을 들어 가리키고 오른팔은 내려 둠.",
+   "예언 책장은 의상 재료이며 들고 있는 책 없음. 선화보다 사실적 질감이 강한 결과."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

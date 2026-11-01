@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "macbeth",
+ "slot": "middle_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "macbeth_middle_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "0bfc416ff89b19ad5a4035991c503df024b3629bc46b9821cb603d3c73cec469",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "macbeth_middle_literary_fantasy_f.webp",
+ "prompt": "records/macbeth/middle_open-ui.json",
+ "prompt_sha256": "6d91c70d740db505c0c5e2427b4c277ed3e714f6fb4f20951633299635b29a19",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "068cfaaa5f27862a52018bd7e5a1badbf6123b8e2df9521ba234e57c6e26a45d",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-macbeth-e288",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "0bfc416ff89b19ad5a4035991c503df024b3629bc46b9821cb603d3c73cec469",
+  "passed": true,
+  "observations": [
+   "1024×1536. 主인공 한 명. 틀·로고·읽히는 글자 없음. 손에 든 책 없음.",
+   "전개 인물·포즈·전신 구도 유지. 어두운 돌 복도와 촛불 하나, 공중 단검 확인.",
+   "양팔 두 개가 가슴에 둔 손과 뻗은 손으로 각각 연결됨."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

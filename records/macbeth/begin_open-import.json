@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "macbeth",
+ "slot": "begin_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "macbeth_begin_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "b57ac1b90f4c7ad6c7ec8e2cffb97603c9993894ef3255553ee2977840139351",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "macbeth_begin_literary_fantasy_f.webp",
+ "prompt": "records/macbeth/begin_open-ui.json",
+ "prompt_sha256": "8a55a2519b6c7041bee385c6fb9d503e5790e8bc78b2cfaa734710c0fdce641a",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "6f786c3e3c2ec5f10ce8c50df47cdd03d2172c66527017e76c8424f255dc016c",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-macbeth-e288",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "b57ac1b90f4c7ad6c7ec8e2cffb97603c9993894ef3255553ee2977840139351",
+  "passed": true,
+  "observations": [
+   "1024×1536. 主인공 한 명. 틀·로고·읽히는 글자 없음. 손에 든 책 없음.",
+   "발단 인물·카메라·포즈 유지. 천둥·사선 빗줄기·끓는 솥으로 배경 변환.",
+   "인물 한 명, 양팔과 양발 유지. 배경은 사물이며 추가 인물 없음."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

@@ -1,0 +1,26 @@
+{
+ "key": "we",
+ "runs": [
+  {
+   "key": "we",
+   "execution": "book-we-e741dae4a7d9",
+   "status": "working",
+   "claimed_at": "2026-11-01T14:58:55.188Z",
+   "date_kst": "2026-11-01",
+   "date_utc": "2026-11-01",
+   "missing": [
+    "we_begin_literary_fantasy_f.webp",
+    "we_begin_open_literary_fantasy_f.webp",
+    "we_middle_literary_fantasy_f.webp",
+    "we_middle_open_literary_fantasy_f.webp",
+    "we_end_literary_fantasy_f.webp",
+    "we_end_open_literary_fantasy_f.webp",
+    "we_literary_fantasy_f_casual1.webp",
+    "we_literary_fantasy_f_casual2.webp",
+    "we_literary_fantasy_f_casual3.webp",
+    "we_literary_fantasy_f_casual4.webp",
+    "we_literary_fantasy_f_casual5.webp"
+   ]
+  }
+ ]
+}

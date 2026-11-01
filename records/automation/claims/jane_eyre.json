@@ -1,0 +1,26 @@
+{
+ "key": "jane_eyre",
+ "runs": [
+  {
+   "key": "jane_eyre",
+   "execution": "book-jane-eyre-20261101-0b6c604911b1",
+   "status": "working",
+   "claimed_at": "2026-11-01T04:30:42.493Z",
+   "date_kst": "2026-11-01",
+   "date_utc": "2026-11-01",
+   "missing": [
+    "jane_eyre_begin_literary_fantasy_f.webp",
+    "jane_eyre_begin_open_literary_fantasy_f.webp",
+    "jane_eyre_middle_literary_fantasy_f.webp",
+    "jane_eyre_middle_open_literary_fantasy_f.webp",
+    "jane_eyre_end_literary_fantasy_f.webp",
+    "jane_eyre_end_open_literary_fantasy_f.webp",
+    "jane_eyre_literary_fantasy_f_casual1.webp",
+    "jane_eyre_literary_fantasy_f_casual2.webp",
+    "jane_eyre_literary_fantasy_f_casual3.webp",
+    "jane_eyre_literary_fantasy_f_casual4.webp",
+    "jane_eyre_literary_fantasy_f_casual5.webp"
+   ]
+  }
+ ]
+}

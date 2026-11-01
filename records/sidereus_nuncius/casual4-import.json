@@ -1,0 +1,48 @@
+{
+ "version": 1,
+ "book": "sidereus_nuncius",
+ "slot": "casual4",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "sidereus_nuncius_literary_fantasy_f_casual4.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "c4a860994a8fb504936091d2e90546f2b10754c2585ebbc5a76d6aafe2deda13",
+  "note": "원본 PNG는 올리지 않고 sha256만 남김"
+ },
+ "reference": "sidereus_nuncius_begin_literary_fantasy_f.webp",
+ "prompt": "records/sidereus_nuncius/casual4-ui.json",
+ "prompt_sha256": "5f4f3e17078da5b3f5e0b38624dc9b0f6e3f907c3349ee183874a4a57eb68e7e",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-sidereus-e549-20261102",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "c4a860994a8fb504936091d2e90546f2b10754c2585ebbc5a76d6aafe2deda13",
+  "passed": false,
+  "observations": [
+   "1024×1536·세로 2:3 확인.",
+   "주인공 성인 여성 한 명, 그림 테두리·로고·워터마크 없음.",
+   "팔 두 개와 두 다리의 자연스러운 연결, 추가 팔다리 없음. 가까운 컷의 화면 밖 부분은 판단 대상에서 제외.",
+   "정본의 어두운 긴 포니테일·얼굴·체형·눈색을 유지.",
+   "트리 v2 계획과 대조. 책 모티프는 주로 장신구·주변 천체 도구로 표현.",
+   "의상은 크롭톱·반바지이나 천체 무늬가 반바지에 들어가 의상에 책 모티프를 옮기지 않기 위반."
+  ],
+  "cause": "정본 의상 모티프를 일상 의상에 이어붙여 SYMBOL의 의상 금지 조건을 따르지 않음."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

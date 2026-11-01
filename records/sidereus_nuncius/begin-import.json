@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "sidereus_nuncius",
+ "slot": "begin",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "sidereus_nuncius_begin_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "55b54a92ee45aefffabcff96311def4cee4dc115cb53335bc355eb364f4dd181",
+  "note": "원본 PNG는 올리지 않고 sha256만 남김"
+ },
+ "reference": null,
+ "prompt": "records/sidereus_nuncius/begin-ui.json",
+ "prompt_sha256": "5589d03a9a28bbca371bf30a23d62d79ccb777f36b6cd4ae5cecbf56736c5f82",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-sidereus-e549-20261102",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "55b54a92ee45aefffabcff96311def4cee4dc115cb53335bc355eb364f4dd181",
+  "passed": true,
+  "observations": [
+   "1024×1536·세로 2:3 확인.",
+   "주인공 성인 여성 한 명, 그림 테두리·로고·워터마크 없음.",
+   "팔 두 개와 두 다리의 자연스러운 연결, 추가 팔다리 없음. 가까운 컷의 화면 밖 부분은 판단 대상에서 제외.",
+   "첫 정본 확정: 어두운 긴 포니테일, 남색·은백·놋쇠의 관측 노트 코트와 바지.",
+   "망원경 양손 지지·발과 머리 여백 확인. 소매 페이지에는 작은 의사문자가 있으나 읽을 수 있는 문장은 식별되지 않음."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

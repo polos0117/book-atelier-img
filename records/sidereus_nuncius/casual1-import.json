@@ -1,0 +1,48 @@
+{
+ "version": 1,
+ "book": "sidereus_nuncius",
+ "slot": "casual1",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "sidereus_nuncius_literary_fantasy_f_casual1.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "80adc05f543d3fe3f68cce328d81f49637d16eeec87a010c8697ab78f40699be",
+  "note": "원본 PNG는 올리지 않고 sha256만 남김"
+ },
+ "reference": "sidereus_nuncius_begin_literary_fantasy_f.webp",
+ "prompt": "records/sidereus_nuncius/casual1-ui.json",
+ "prompt_sha256": "772972dc422fec616860ec5410b3e5bc5f50d16d223ec9d78a7f20475187d507",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-sidereus-e549-20261102",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "80adc05f543d3fe3f68cce328d81f49637d16eeec87a010c8697ab78f40699be",
+  "passed": false,
+  "observations": [
+   "1024×1536·세로 2:3 확인.",
+   "주인공 성인 여성 한 명, 그림 테두리·로고·워터마크 없음.",
+   "팔 두 개와 두 다리의 자연스러운 연결, 추가 팔다리 없음. 가까운 컷의 화면 밖 부분은 판단 대상에서 제외.",
+   "정본의 어두운 긴 포니테일·얼굴·체형·눈색을 유지.",
+   "트리 v2 계획과 대조. 책 모티프는 주로 장신구·주변 천체 도구로 표현.",
+   "가슴 위 계획보다 넓은 허리까지의 크롭. 목성 모형의 작은 구체가 네 개보다 많아 보임."
+  ],
+  "cause": "COMPOSITION의 chest_up보다 정본의 세부 의상·상징을 더 넓게 보여주는 방향으로 생성됨."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

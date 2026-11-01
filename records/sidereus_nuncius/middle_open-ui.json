@@ -1,0 +1,127 @@
+{
+ "version": 1,
+ "book": "sidereus_nuncius",
+ "title": "별의 전령",
+ "mode": "open",
+ "form": "middle",
+ "stage": "전개",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "sidereus_nuncius_middle_open_literary_fantasy_f.webp",
+ "record": "records/sidereus_nuncius/middle_open-ui.json",
+ "at": "2026-11-01T23:05:27.104Z",
+ "storage": {
+  "last": "sidereus_nuncius",
+  "cards": {
+   "sidereus_nuncius": {
+    "style": "literary_fantasy",
+    "version": "v7",
+    "identityMode": "reference",
+    "form": "middle",
+    "baseForm": "begin",
+    "casualN": 1,
+    "exposure": "bold",
+    "attachStyleRef": false,
+    "motifs": "",
+    "lookNote": "",
+    "faceDesignOn": true,
+    "silhouetteOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "open",
+    "scenes": {
+     "form": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "open": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold"
+      },
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "aspect": true
+      }
+     }
+    },
+    "versionPinned": false
+   }
+  }
+ },
+ "prompt": "INPUT: attach this book's development form card image (her closed state). If a second image fits, add her first approved form image for the face.\n\nBOOK: «별의 전령» by 갈릴레오 갈릴레이. science · 1610년 베네치아 · 파도바 · 베네치아 종탑 → 파도바의 지붕 위 관측대. Source scope: \"『시데레우스 눈치우스(별의 전령)』(1610) 전체\".\n\nSTYLE: 섬세한 선화 + 회화적 채색의 성인 판타지 삽화풍\n\nDesign notes in quotes may be written in Korean; read them as description, never render them as text.\n\nOUTPUT: the OPEN state of the attached image — the climactic scene of this stage. Keep her face, hair, body, costume, camera, framing and subject scale. Change the world around her into this scene: \"맨눈엔 희뿌옇던 은하수가 수많은 별로 쏟아지는 밤하늘\". She is the only person; the scene is carried by objects, environment, light, weather or a looming non-human presence. The pair must read as the same picture before and after the scene opens.\n\nAGE: keep her age as in the attached image; add no wrinkles, folds or under-eye shadows, even when she smiles.\n\nONE FIGURE ONLY. No second character, no text, no lettering, no logo, no watermark, no speech bubble, no frame border; pages and spines stay unlettered.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\n\nHANDS: keep both hands as in the attached image."
+}

@@ -1,0 +1,48 @@
+{
+ "version": 1,
+ "book": "sidereus_nuncius",
+ "slot": "middle_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "sidereus_nuncius_middle_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "29a54442c146aea217ac03ec3f64d464678653ef581d359d0963ce37a199e40b",
+  "note": "원본 PNG는 올리지 않고 sha256만 남김"
+ },
+ "reference": "sidereus_nuncius_middle_literary_fantasy_f.webp",
+ "prompt": "records/sidereus_nuncius/middle_open-ui.json",
+ "prompt_sha256": "c2ca5a7a2618acc4721c56570e47bdb8a4e12c94e7380f520ecbcafcc1951841",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-sidereus-e549-20261102",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "29a54442c146aea217ac03ec3f64d464678653ef581d359d0963ce37a199e40b",
+  "passed": false,
+  "observations": [
+   "1024×1536·세로 2:3 확인.",
+   "주인공 성인 여성 한 명, 그림 테두리·로고·워터마크 없음.",
+   "팔 두 개와 두 다리의 자연스러운 연결, 추가 팔다리 없음. 가까운 컷의 화면 밖 부분은 판단 대상에서 제외.",
+   "정본의 어두운 긴 포니테일·얼굴·체형·눈색을 유지.",
+   "해당 폼과 인물·의상·포즈를 유지하며 관측 명장면 배경으로 전환. 다른 인물 없음.",
+   "전개 폼의 손에 든 책을 그대로 이어받아 책 소지 금지 위반."
+  ],
+  "cause": "OPEN의 인물·소품 유지 지시가 전개 원본의 잘못 추가된 휴대 책도 유지함."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

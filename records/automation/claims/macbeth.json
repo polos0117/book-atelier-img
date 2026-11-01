@@ -1,0 +1,26 @@
+{
+ "key": "macbeth",
+ "runs": [
+  {
+   "key": "macbeth",
+   "execution": "book-macbeth-e288",
+   "status": "working",
+   "claimed_at": "2026-11-01T14:16:51.836Z",
+   "date_kst": "2026-11-01",
+   "date_utc": "2026-11-01",
+   "missing": [
+    "macbeth_begin_literary_fantasy_f.webp",
+    "macbeth_begin_open_literary_fantasy_f.webp",
+    "macbeth_middle_literary_fantasy_f.webp",
+    "macbeth_middle_open_literary_fantasy_f.webp",
+    "macbeth_end_literary_fantasy_f.webp",
+    "macbeth_end_open_literary_fantasy_f.webp",
+    "macbeth_literary_fantasy_f_casual1.webp",
+    "macbeth_literary_fantasy_f_casual2.webp",
+    "macbeth_literary_fantasy_f_casual3.webp",
+    "macbeth_literary_fantasy_f_casual4.webp",
+    "macbeth_literary_fantasy_f_casual5.webp"
+   ]
+  }
+ ]
+}

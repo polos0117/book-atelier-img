@@ -1,0 +1,48 @@
+{
+ "version": 1,
+ "book": "heo_saeng",
+ "slot": "casual2",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "heo_saeng_literary_fantasy_f_casual2.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "cfcff0671d63d6aeb86b6b774fe64eb5d243cc1a0375d90f61025d80e5fbe9bc",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "heo_saeng_begin_literary_fantasy_f.webp",
+ "prompt": "records/heo_saeng/casual2-ui.json",
+ "prompt_sha256": "882e6d79f8e1a75a04a38aaaf97ae9db7ec59dd46aa2e3844c4fd676e3cb6056",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "d969aeb1c3119238fd8876847247cec45501ff2bc8ddc6ad19f73dde926d4d9f",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-heo-saeng-323fb3-20261101",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "cfcff0671d63d6aeb86b6b774fe64eb5d243cc1a0375d90f61025d80e5fbe9bc",
+  "passed": false,
+  "observations": [
+   "1024×1536, 정본 얼굴·머리 유지. 금색 뱀 장식과 에메랄드 메두사 의상.",
+   "머리를 만지는 오른팔은 어깨·팔꿈치·손목으로 연결되고 왼팔은 아래로 화면 가장자리까지 이어짐. 추가 팔 없음.",
+   "옷방·거울·의상걸이와 주변 엽전 구현. 틀·읽히는 글자·손에 든 책 없음.",
+   "허리 위 크롭보다 넓어 엉덩이·허벅지 일부까지 보임.",
+   "메두사 의상은 그대로 읽히지만 ADAPTATION이 요구한 조선 시대 각색은 약하고, 의상 장식에도 엽전이 들어감."
+  ],
+  "cause": "Outfit의 메두사 서양 드레스와 ADAPTATION의 조선 복식 지시가 충돌. CROP보다 의상 전체 디테일을 넓게 담음."
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

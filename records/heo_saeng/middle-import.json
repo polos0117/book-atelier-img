@@ -1,0 +1,48 @@
+{
+ "version": 1,
+ "book": "heo_saeng",
+ "slot": "middle",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "heo_saeng_middle_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "b353fd24e1bd17e3a0232742788213ebddc79d232ce412afe8cd6b2f4afd7625",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "heo_saeng_begin_literary_fantasy_f.webp",
+ "prompt": "records/heo_saeng/middle-ui.json",
+ "prompt_sha256": "79b4371eff698903be382456b690b60f20cd8f2565b3edb84460f492937eed26",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "abf47350accf8ec5d91a6e609bd0234960400cb6f0be5c7b73513dc36f18a090",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-heo-saeng-323fb3-20261101",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "b353fd24e1bd17e3a0232742788213ebddc79d232ce412afe8cd6b2f4afd7625",
+  "passed": false,
+  "observations": [
+   "1024×1536 전신, 같은 얼굴·검은 올림머리·갓·체형 유지.",
+   "두 팔과 두 손이 주판 조작·지지 동작으로 연결되고, 두 다리 중 하나가 과일 궤짝에 올라감. 추가 사지 없음.",
+   "능청스러운 미소로 발단의 사색 표정과 구분.",
+   "인물 한 명, 책을 들지 않고 틀·읽히는 글자 없음.",
+   "배경의 현대식 탑과 동아시아 혼합 건축은 17세기 안성 설정과 어긋남. 의상에 장부 외 먹그림 장식도 추가됨."
+  ],
+  "cause": "첨부 그림의 배경 표식·장식이 새 폼에 잔류했으며 역사적 시대 지정보다 참조 이미지의 시각 요소를 따름."
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

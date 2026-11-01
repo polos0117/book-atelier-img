@@ -1,0 +1,48 @@
+{
+ "version": 1,
+ "book": "heo_saeng",
+ "slot": "casual5",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "heo_saeng_literary_fantasy_f_casual5.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "27d42f743c284067185824b1ad53bd2f14294b0354997a37b40d7cfb1a4a307b",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "heo_saeng_begin_literary_fantasy_f.webp",
+ "prompt": "records/heo_saeng/casual5-ui.json",
+ "prompt_sha256": "8b2f4c3aa18f6773b3028b622d702b48bcf18ea152cc653eff8cfb22c836506a",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "de8570fbb64bd083f925d6a79dfebd73286fdc757f1f9404dbc6e91c51d479a3",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-heo-saeng-323fb3-20261101",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "27d42f743c284067185824b1ad53bd2f14294b0354997a37b40d7cfb1a4a307b",
+  "passed": false,
+  "observations": [
+   "1024×1536, 머리부터 두 발까지 보이는 전신 뒤쪽 구도. 같은 검은 올림머리·체형.",
+   "두 팔·손과 두 다리·발이 자연스럽게 연결됨. 오른손으로 튜브를 들고 왼팔을 아래로 내림. 추가 사지 없음.",
+   "실크 슈미즈와 바닷가 한옥 노천 수영장. 책 모티프는 튜브 엽전 장식으로 옷 밖에 둠.",
+   "틀·읽히는 글자·손에 든 책 없음.",
+   "환경 롱숏보다 인물이 크게 차지하며, 무릎 길이 슈미즈보다 짧은 밑단. 17세기 조선 요구와 달리 현대식 튜브·라운지 의자 표현이 남음."
+  ],
+  "cause": "ERA의 시대 재해석과 SCENE의 현대 수영장·튜브가 충돌. WARDROBE의 실크 슈미즈는 유지됐으나 명시한 길이보다 짧게 구현됨."
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

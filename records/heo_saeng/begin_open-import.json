@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "heo_saeng",
+ "slot": "begin_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "heo_saeng_begin_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "b831284c6becc7fd47c3183cf153884f23274e0c8c5e08988febe84731585fad",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "heo_saeng_begin_literary_fantasy_f.webp",
+ "prompt": "records/heo_saeng/begin_open-ui.json",
+ "prompt_sha256": "2b5eb5ba4b6f4243f9771058e170a6f03c2e302b628c80b61fc7c94a64ba5326",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "6b415a68f981aeaca522f06010ee86583de0a0304406cff9ca755b960931773b",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-heo-saeng-323fb3-20261101",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "b831284c6becc7fd47c3183cf153884f23274e0c8c5e08988febe84731585fad",
+  "passed": true,
+  "observations": [
+   "1024×1536, 발단의 인물 크기·자세·얼굴·의상·카메라 유지.",
+   "비 새는 오두막과 책 더미, 빈 곡식통을 배경에 구현. 추가 인물 없음.",
+   "손의 갓끈 동작 유지, 숨은 반대 팔을 포함해 중복 사지 보이지 않음.",
+   "책은 배경에만 쌓여 있으며 손에는 없음. 틀·읽히는 글자 없음."
+  ]
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

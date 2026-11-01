@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "heo_saeng",
+ "slot": "end_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "heo_saeng_end_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "0da992519263097b1c49ee8b82b13b1d0947169ac48ab4cb47ef46c46f6cc880",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "heo_saeng_end_literary_fantasy_f.webp",
+ "prompt": "records/heo_saeng/end_open-ui.json",
+ "prompt_sha256": "395562e2a0d0c44373d88fc69aee6f5963153a10d5d736dc49d1252e5ba661ab",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "28e832f2f922d01feb6ab5312838b7f381c7ef61a4400b72e50b2835a35db3cb",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-heo-saeng-323fb3-20261101",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "0da992519263097b1c49ee8b82b13b1d0947169ac48ab4cb47ef46c46f6cc880",
+  "passed": false,
+  "observations": [
+   "1024×1536 전신, 결말의 인물·얼굴·의상·자세·화각 유지.",
+   "빈 섬 앞바다와 햇빛 받는 은덩이, 파도를 구현. 추가 인물 없음.",
+   "양팔·손·두 다리 연결 유지, 추가 사지 없음. 틀·읽히는 글자 없음.",
+   "은덩이는 수면 아래 가라앉기보다 수면 위 파도에 튀는 듯 보임. 원본의 추가 꾸러미도 유지됨."
+  ],
+  "cause": "원본 고정 지시와 개방 장면의 가라앉는 은 표현을 동시에 해석하여 원본의 쏟는 동작을 유지하고 수중보다 수면 은덩이를 그림."
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

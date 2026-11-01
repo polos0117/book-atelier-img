@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "heo_saeng",
+ "slot": "middle_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "heo_saeng_middle_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "fcea0dec9b1b6d18775272c63113c16622aabdd9b347cd3a619c98c89db9030c",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "heo_saeng_middle_literary_fantasy_f.webp",
+ "prompt": "records/heo_saeng/middle_open-ui.json",
+ "prompt_sha256": "296a94b942c6e78a3d92cbdcb7bfdced2fbb4ea69e42d2fc07864e0f76f9cba9",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "cd3e9e4d0c6928279a3f87f540bfc47fa0656ff165ba2973c775e6bd8c22f388",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-heo-saeng-323fb3-20261101",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "fcea0dec9b1b6d18775272c63113c16622aabdd9b347cd3a619c98c89db9030c",
+  "passed": false,
+  "observations": [
+   "1024×1536 전신, 전개 폼의 얼굴·자세·주판·두 손·발 위치 유지.",
+   "과일 궤짝 더미와 비어 있는 장터를 확대하고 추가 인물은 없음.",
+   "틀·로고·읽히는 글자·손에 든 책 없음. 팔 두 개·다리 두 개로 읽힘.",
+   "원경에 다층 누각·탑 등 동아시아 혼합 건축이 남아 조선 안성의 시대·지역 정확도는 낮음."
+  ],
+  "cause": "원본 전개 폼의 원경 구성을 유지하면서 조선 안성보다 범동아시아 판타지 장터로 해석됨."
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

@@ -1,0 +1,48 @@
+{
+ "version": 1,
+ "book": "heo_saeng",
+ "slot": "end",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "heo_saeng_end_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "f11ec92cb03b0be5720ac85c96db08a153eddbe9cca0e8f3061826eba66bb3cc",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "heo_saeng_begin_literary_fantasy_f.webp",
+ "prompt": "records/heo_saeng/end-ui.json",
+ "prompt_sha256": "1cafd005d37f73bdd70bc424271695b223ec42fa84a080cc6b21fbf6d8fdf24e",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "ce1f8ee08c81b104630a537449b66a85ff3c3d1d06413650514d9f2b5e654a2a",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-heo-saeng-323fb3-20261101",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "f11ec92cb03b0be5720ac85c96db08a153eddbe9cca0e8f3061826eba66bb3cc",
+  "passed": false,
+  "observations": [
+   "1024×1536 전신, 정본 얼굴·올림머리·갓·체형 유지, 쪽빛 겹도포.",
+   "두 팔·두 손과 두 다리가 자연스럽게 이어짐. 한 손은 뻗어 은 꾸러미, 다른 손은 아래로 꾸러미를 잡음.",
+   "한 인물, 틀·읽히는 글자·손에 든 책 없음.",
+   "무표정에 가까운 결말 표정으로 전개와 구분.",
+   "은을 완전히 던지는 자세보다 은이 쏟아지는 꾸러미를 든 자세로 나옴. 다른 손에도 추가 꾸러미를 잡음."
+  ],
+  "cause": "FORM의 은 꾸러미를 쥔 손과 STANCE의 힘껏 던지기가 중첩되어 던지기보다 쥐고 쏟는 동작으로 해석됨. HANDS의 명시 소품 하나 제한과 달리 꾸러미 하나 추가."
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

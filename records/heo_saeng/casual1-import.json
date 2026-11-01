@@ -1,0 +1,48 @@
+{
+ "version": 1,
+ "book": "heo_saeng",
+ "slot": "casual1",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "heo_saeng_literary_fantasy_f_casual1.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "0fdf5433b5ec0598cc3f9cbb8f4f33316ed753e7979cce3d7ba1bc7f32107ae8",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "heo_saeng_begin_literary_fantasy_f.webp",
+ "prompt": "records/heo_saeng/casual1-ui.json",
+ "prompt_sha256": "5e957a82996f2424a664cbaf5c97cec8017737e8168e34ceef7a0489a6a468b1",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "fddc49fc15323a5c00b239e3f0b92cc4882d2b4f2dcc0b098c3a6ac05efc4b19",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-heo-saeng-323fb3-20261101",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "0fdf5433b5ec0598cc3f9cbb8f4f33316ed753e7979cce3d7ba1bc7f32107ae8",
+  "passed": false,
+  "observations": [
+   "1024×1536, 같은 검은 올림머리·얼굴·성인 체형.",
+   "성 계단에서 검정 비닐 재킷·스커트·부츠로 완전히 환복. 은은 분수 주변 사물로 표시되고 옷에 책 재료 없음.",
+   "등을 보인 3/4 방향과 어깨 너머 시선. 고개가 등 위로 과도하게 회전하지 않음.",
+   "추가 팔은 보이지 않으나 등불은 화면 왼쪽의 왼팔로 읽혀 오른손 지시와 다름. 반대 손은 몸 뒤에 가려짐.",
+   "머리부터 무릎 위까지의 3/4 컷보다 넓어 무릎 아래 부츠까지 보임. 틀·읽히는 글자·손에 든 책 없음."
+  ],
+  "cause": "RIGHT HAND 지정이 시각적으로 반대로 구현되고 COMPOSITION의 무릎 위 크롭보다 Outfit의 부츠 표현이 우선됨."
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

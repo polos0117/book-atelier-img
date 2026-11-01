@@ -1,0 +1,48 @@
+{
+ "version": 1,
+ "book": "heo_saeng",
+ "slot": "begin",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "heo_saeng_begin_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "1634dec1193a9bb8202d25d62bc3e79c71f8dce8b0ee48fb910ed88c127f93d8",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": null,
+ "prompt": "records/heo_saeng/begin-ui.json",
+ "prompt_sha256": "c4a20f0e97473550ba01e1409a6dd28aacdcc71c257731a37165074cb11392cb",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "a8cf13f45b3b34b1a6e657aaee7920a802f4e1cb0f5a4d971892247ea5f17532",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-heo-saeng-323fb3-20261101",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "1634dec1193a9bb8202d25d62bc3e79c71f8dce8b0ee48fb910ed88c127f93d8",
+  "passed": false,
+  "observations": [
+   "1024×1536 세로 전신, 머리와 두 발이 프레임 안에 있음.",
+   "성인 여성 한 명, 틀·로고·읽히는 글자 없음. 장부 종이는 의상에 쓰이며 책을 손에 들지 않음.",
+   "오른손은 갓끈을 잡고 반대쪽 팔·손은 몸과 소매 뒤에 가려짐. 중복 팔·다리 보이지 않음.",
+   "남산 능선에 현대식 통신탑 같은 형상이 있어 17세기 조선 배경과 맞지 않음.",
+   "정본은 이 첫 그림으로 고정."
+  ],
+  "cause": "BOOK의 17세기 시대 지정과 배경에서 모델이 선택한 현대 남산 표식이 불일치. 재생성 없이 기록."
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

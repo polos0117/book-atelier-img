@@ -1,0 +1,48 @@
+{
+ "version": 1,
+ "book": "heo_saeng",
+ "slot": "casual4",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "heo_saeng_literary_fantasy_f_casual4.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "1702db64edcb2c7d1227bec519e6467092914c5513ee0a4ae234266b9474857b",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "heo_saeng_begin_literary_fantasy_f.webp",
+ "prompt": "records/heo_saeng/casual4-ui.json",
+ "prompt_sha256": "2eac3e6796d7985035d1c8bcc23ca0fa55131f21c4908c484fa2bbb5a1a7ac28",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "2b7e46f3b544d56b17c3952d31e9887907c1c495b2f26c5b05c59a29917c62f8",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-heo-saeng-323fb3-20261101",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "1702db64edcb2c7d1227bec519e6467092914c5513ee0a4ae234266b9474857b",
+  "passed": false,
+  "observations": [
+   "1024×1536, 정본 얼굴·검은 올림머리·체형을 근접 구도로 유지.",
+   "스포티 원피스 수영복, 장터와 은 소품을 구현. 오른손이 귀 옆 머리를 넘기고 반대 팔은 프레임 아래로 이어져 중복 팔 없음.",
+   "틀·읽히는 글자·손에 든 책 없음, 흐린 배경 인물은 초점 밖.",
+   "얼굴·쇄골까지만 요구한 close-up 대신 가슴 아래까지 보이는 상반신 컷. 완전 옆모습보다 3/4 옆얼굴.",
+   "배경 능선에 현대 탑이 보여 원작 세계의 시대와 맞지 않음."
+  ],
+  "cause": "CROP와 COMPOSITION의 얼굴 클로즈업·완전 측면보다 수영복 가시성과 참조 얼굴 각도가 우선됨. 참조 배경의 현대 남산 표식도 잔류."
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

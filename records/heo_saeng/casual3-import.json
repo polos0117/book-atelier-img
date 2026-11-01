@@ -1,0 +1,48 @@
+{
+ "version": 1,
+ "book": "heo_saeng",
+ "slot": "casual3",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "heo_saeng_literary_fantasy_f_casual3.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "e67e1658f61c12454bacd5b9dcf0610a6ada01b3cbe4b9343423b7032b844a0c",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "heo_saeng_begin_literary_fantasy_f.webp",
+ "prompt": "records/heo_saeng/casual3-ui.json",
+ "prompt_sha256": "cad0f83802648d91ca78d5f65759d947b8a71877846c42d8cb1fd340822b28d7",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "51dd56a286ffa992a5163c4d32c8343e29337ea8345e4a6904cdff1fbe933eeb",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-heo-saeng-323fb3-20261101",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "e67e1658f61c12454bacd5b9dcf0610a6ada01b3cbe4b9343423b7032b844a0c",
+  "passed": false,
+  "observations": [
+   "1024×1536, 같은 얼굴·머리·체형의 여성 한 명이 초점.",
+   "엎드려 두 손으로 턱을 받치며 두 팔이 각각 어깨에 연결됨. 두 무릎을 굽혀 발 두 개를 올리고 추가 사지는 보이지 않음.",
+   "사우나·온탕 환경과 과일·말총 소품, 전체 몸을 읽을 수 있는 전신 구도.",
+   "흐린 배경 인물은 작고 본체와 겹치지 않음. 틀·읽히는 글자·손에 든 책 없음.",
+   "겉옷을 양어깨에서 내려 입었으며 정본의 해진 종이 같은 의상 질감이 다시 들어옴."
+  ],
+  "cause": "Outfit의 '시대 외투'와 원본 도포의 재료가 결합해 WARDROBE의 정본 의상·재료 배제보다 참조 도포를 따름."
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

@@ -1,0 +1,54 @@
+{
+ "version": 1,
+ "book": "heo_saeng",
+ "slot": "casual1",
+ "kind": "user_requested_anatomy_repair",
+ "date": "2026-11-01",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "heo_saeng_literary_fantasy_f_casual1.webp",
+ "request": "발단 컷에 한쪽팔이 없어. 일상1에도 한쪽 팔이 없고, 등불을 든 손의 방향이 이상해.",
+ "authorization": "사용자 수정 지시 및 기존 main 일반 반영 승인. 강제 push·다른 작업 삭제 제외.",
+ "replaces": {
+  "file": "img/heo_saeng_literary_fantasy_f_casual1.webp",
+  "sha256": "fddc49fc15323a5c00b239e3f0b92cc4882d2b4f2dcc0b098c3a6ac05efc4b19",
+  "git_blob_sha": "3520d94c6036f5cd08e8986138eebc6f9cc61156",
+  "note": "이전 이미지와 생성 기록은 Git 이력에 보존."
+ },
+ "source": {
+  "kind": "image_edit",
+  "tool": "image_gen built-in",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "ce46f6d4712c97acb425191606d84157c33096d23cd4ca5f376574360a6a79e8"
+ },
+ "reference": {
+  "role": "edit target",
+  "file": "img/heo_saeng_literary_fantasy_f_casual1.webp",
+  "version": "before this repair"
+ },
+ "prompt": "records/heo_saeng/repairs/2026-11-01-arms/casual1-ui.json",
+ "prompt_sha256": "dbdeb96923b90508c6e9945aad28e5adc92793eb9d327a8ef852b5c75f5029c5",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "a904346679d05f8a036b16d6a795196b31d32c4afcfce43fdb5786f4e2058806"
+ },
+ "qa": {
+  "reviewer": "gpt",
+  "scope": "사용자가 지적한 누락 팔·손 방향 수정",
+  "passed": true,
+  "observations": [
+   "1024×1536 유지. 얼굴·올림머리·표정·의상·배경·조명과 원래 화면 구도를 보존했다.",
+   "양쪽 팔이 각 어깨에서 소매·팔꿈치·손목·손으로 이어지고 양손이 보인다. 추가 팔이나 손은 보이지 않는다.",
+   "등을 보는 구도에서 인물의 오른팔은 화면 오른쪽이며 등불 손잡이를 쥔다. 손목이 전완을 따라 이어지고 엄지가 다른 손가락과 마주 잡는 방향이다.",
+   "인물의 왼팔은 화면 왼쪽에서 내려와 빈손이 보이며 옛 왼쪽 등불 손은 제거됐다. 두 팔이 등 뒤로 교차하지 않는다.",
+   "기존 계획보다 넓은 크롭은 원래 화면을 유지하라는 수정 범위에 따라 보존했다."
+  ],
+  "correction_to_previous_review": "기존에 반대 팔을 몸·소매 뒤에 숨은 것으로 보아 누락을 놓친 검수 판단을 정정한다."
+ }
+}

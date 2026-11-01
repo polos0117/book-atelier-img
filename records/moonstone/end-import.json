@@ -1,0 +1,51 @@
+{
+ "version": 1,
+ "book": "moonstone",
+ "slot": "end",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "moonstone_end_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "ae5d7f96b9c8a51b063fc0f7aea768e040b65ba25e832ca630b4307d904efa9b",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": [
+  "exec-8f975047-cac8-4f12-9c79-dd25803749c9.png"
+ ],
+ "prompt": "records/moonstone/end-ui.json",
+ "prompt_sha256": "b20beaf68e32b0161edc80d29c3a48fe1ef0a8e96538e0cfd4f5e5e04a49f619",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-moonstone-e606",
+ "qa": {
+  "reviewer": "gpt-book-moonstone-e606",
+  "image_sha256": "ae5d7f96b9c8a51b063fc0f7aea768e040b65ba25e832ca630b4307d904efa9b",
+  "passed": false,
+  "observations": [
+   "1024×1536 세로 2:3 확인.",
+   "주인공 한 명, 틀·로고·워터마크 없음.",
+   "손에 책을 들지 않음.",
+   "눈에 보이는 팔다리의 추가·중복·분리 없음; 가려진 손가락은 수를 확정할 수 없음.",
+   "머리와 양발이 프레임 안에 있음.",
+   "정본의 얼굴·검은 머리·피부색이 유지됨.",
+   "잠옷 대신 정본 드레스와 장신구가 유지됐다. 물감 자국과 맨발, 졸린 표정은 반영됐다."
+  ],
+  "cause": "INPUT 정본의 의상 연속성을 FORM의 잠옷으로 교체하는 지시보다 강하게 따른 것으로 추정."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

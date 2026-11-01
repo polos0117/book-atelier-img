@@ -1,0 +1,53 @@
+{
+ "version": 1,
+ "book": "moonstone",
+ "slot": "middle_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "moonstone_middle_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "f4965ed81a7ce22166bfefc6977ad1c22d635492d2cfe14b496e77847d01a97b",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": [
+  "exec-ffe674b7-895c-489f-987c-08e785795d9b.png",
+  "exec-8f975047-cac8-4f12-9c79-dd25803749c9.png"
+ ],
+ "prompt": "records/moonstone/middle_open-ui.json",
+ "prompt_sha256": "3384160956078eec7a30b79f859dc3e03cf80074dc368c1f9c3edb243e59ab7b",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-moonstone-e606",
+ "qa": {
+  "reviewer": "gpt-book-moonstone-e606",
+  "image_sha256": "f4965ed81a7ce22166bfefc6977ad1c22d635492d2cfe14b496e77847d01a97b",
+  "passed": false,
+  "observations": [
+   "1024×1536 세로 2:3 확인.",
+   "주인공 한 명, 틀·로고·워터마크 없음.",
+   "손에 책을 들지 않음.",
+   "눈에 보이는 팔다리의 추가·중복·분리 없음; 가려진 손가락은 수를 확정할 수 없음.",
+   "머리와 양발이 프레임 안에 있음.",
+   "정본의 얼굴·검은 머리·피부색이 유지됨.",
+   "문틀을 짚던 왼손의 지지물이 사라져 손이 허공에 남는다. 물감 자국 대신 진흙을 잡은 듯 보인다.",
+   "바다에 잔물결이 보이며 원래의 물결 없는 모래 늪과 차이가 있다."
+  ],
+  "cause": "OPEN에서 자세를 고정하면서 배경 문틀을 없애 왼손의 지지점이 사라짐."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

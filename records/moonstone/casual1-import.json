@@ -1,0 +1,52 @@
+{
+ "version": 1,
+ "book": "moonstone",
+ "slot": "casual1",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "moonstone_literary_fantasy_f_casual1.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "eaad83843d0d89fe4cb79b39367cec1301cef481ea471d27bfe5ff8948640c09",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": [
+  "exec-8f975047-cac8-4f12-9c79-dd25803749c9.png"
+ ],
+ "prompt": "records/moonstone/casual1-ui.json",
+ "prompt_sha256": "ff37c1a9bc0ebc33f99fdd2a3d74d43529635a30260e1f361942832085c7c455",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-moonstone-e606",
+ "qa": {
+  "reviewer": "gpt-book-moonstone-e606",
+  "image_sha256": "eaad83843d0d89fe4cb79b39367cec1301cef481ea471d27bfe5ff8948640c09",
+  "passed": false,
+  "observations": [
+   "1024×1536 세로 2:3 확인.",
+   "주인공 한 명, 틀·로고·워터마크 없음.",
+   "손에 책을 들지 않음.",
+   "눈에 보이는 팔다리의 추가·중복·분리 없음; 가려진 손가락은 수를 확정할 수 없음.",
+   "계획에 따른 부분 프레이밍; 가려진 신체는 검수 범위 밖.",
+   "정본의 얼굴·검은 머리·피부색이 유지됨.",
+   "코튼 세트가 레이스 중심 란제리로 표현됐다. 낚싯대를 던지는 동작 대신 정지해 쥔 자세다.",
+   "정본의 머리 장식이 유지됐다."
+  ],
+  "cause": "정본의 장식적 팔레트가 WARDROBE의 코튼 세트 및 장식 교체보다 강하게 남은 것으로 추정."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

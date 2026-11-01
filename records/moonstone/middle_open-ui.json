@@ -1,0 +1,127 @@
+{
+ "version": 1,
+ "book": "moonstone",
+ "title": "월장석",
+ "mode": "open",
+ "form": "middle",
+ "stage": "전개",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "moonstone_middle_open_literary_fantasy_f.webp",
+ "record": "records/moonstone/middle_open-ui.json",
+ "at": "2026-11-01T14:40:05.377Z",
+ "storage": {
+  "last": "moonstone",
+  "cards": {
+   "moonstone": {
+    "style": "literary_fantasy",
+    "version": "v7",
+    "identityMode": "reference",
+    "form": "middle",
+    "baseForm": "begin",
+    "casualN": 1,
+    "exposure": "bold",
+    "attachStyleRef": false,
+    "motifs": "",
+    "lookNote": "",
+    "faceDesignOn": true,
+    "silhouetteOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "open",
+    "scenes": {
+     "form": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "open": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold"
+      },
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "aspect": true
+      }
+     }
+    },
+    "versionPinned": false
+   }
+  }
+ },
+ "prompt": "INPUT: attach this book's development form card image (her closed state). If a second image fits, add her first approved form image for the face.\n\nBOOK: «월장석» by 윌키 콜린스. mystery · 1840년대 빅토리아 초기(1868년 작) · 인도 세링가파탐 → 요크셔 해안의 시골 저택 → 런던. Source scope: \"『월장석』(1868) 전체\".\n\nSTYLE: 섬세한 선화 + 회화적 채색의 성인 판타지 삽화풍\n\nDesign notes in quotes may be written in Korean; read them as description, never render them as text.\n\nOUTPUT: the OPEN state of the attached image — the climactic scene of this stage. Keep her face, hair, body, costume, camera, framing and subject scale. Change the world around her into this scene: \"요크셔 해안의 떨리는 모래 늪, 물결 없이 천천히 빨려 드는 모래와 가라앉는 작은 상자\". She is the only person; the scene is carried by objects, environment, light, weather or a looming non-human presence. The pair must read as the same picture before and after the scene opens.\n\nAGE: keep her age as in the attached image; add no wrinkles, folds or under-eye shadows, even when she smiles.\n\nONE FIGURE ONLY. No second character, no text, no lettering, no logo, no watermark, no speech bubble, no frame border; pages and spines stay unlettered.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\n\nHANDS: keep both hands as in the attached image."
+}

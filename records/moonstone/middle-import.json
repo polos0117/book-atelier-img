@@ -1,0 +1,52 @@
+{
+ "version": 1,
+ "book": "moonstone",
+ "slot": "middle",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "moonstone_middle_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "48f0c0969b73c043b30f74d80ddd5d8a5ae75847ff614002c71258ba5dc82b97",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": [
+  "exec-8f975047-cac8-4f12-9c79-dd25803749c9.png"
+ ],
+ "prompt": "records/moonstone/middle-ui.json",
+ "prompt_sha256": "48155b7b2acf758ee29cd0504c762d0c232f07dbef8988c756f2ada0e1562353",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-moonstone-e606",
+ "qa": {
+  "reviewer": "gpt-book-moonstone-e606",
+  "image_sha256": "48f0c0969b73c043b30f74d80ddd5d8a5ae75847ff614002c71258ba5dc82b97",
+  "passed": false,
+  "observations": [
+   "1024×1536 세로 2:3 확인.",
+   "주인공 한 명, 틀·로고·워터마크 없음.",
+   "손에 책을 들지 않음.",
+   "눈에 보이는 팔다리의 추가·중복·분리 없음; 가려진 손가락은 수를 확정할 수 없음.",
+   "머리와 양발이 프레임 안에 있음.",
+   "정본의 얼굴·검은 머리·피부색이 유지됨.",
+   "전개 외투 드레스 대신 발단의 겹치마 드레스가 유지됐다. 촛대가 낮은 위치가 아니며 시선은 물감보다 카메라를 향한다.",
+   "종이에 필기 무늬가 남았다."
+  ],
+  "cause": "INPUT 정본의 의상과 STANCE 카드 포즈의 영향이 전개 FORM과 focused 표정을 덮은 것으로 추정."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

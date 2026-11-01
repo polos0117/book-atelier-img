@@ -1,0 +1,48 @@
+{
+ "version": 1,
+ "book": "moonstone",
+ "slot": "begin",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "moonstone_begin_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "53e48dd927813c7d1e32f5a1051e275ed371a4395f6b21588e7bcb47fab0a69e",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": null,
+ "prompt": "records/moonstone/begin-ui.json",
+ "prompt_sha256": "90f78e990fb1f33e6096c2d042c294bf9f8af19006bdf56357539f66dd15b6a1",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-moonstone-e606",
+ "qa": {
+  "reviewer": "gpt-book-moonstone-e606",
+  "image_sha256": "53e48dd927813c7d1e32f5a1051e275ed371a4395f6b21588e7bcb47fab0a69e",
+  "passed": false,
+  "observations": [
+   "1024×1536 세로 2:3 확인.",
+   "주인공 한 명, 틀·로고·워터마크 없음.",
+   "손에 책을 들지 않음.",
+   "눈에 보이는 팔다리의 추가·중복·분리 없음; 가려진 손가락은 수를 확정할 수 없음.",
+   "머리와 양발이 프레임 안에 있음.",
+   "증언 종이에 필기처럼 보이는 무늬가 생겼다. 읽을 수 있는 문장은 확인되지 않지만 unlettered 조건과 차이가 있다."
+  ],
+  "cause": "MATERIAL의 여러 필체 원고 묘사와 OUTPUT의 unlettered 조건이 충돌해 필기 무늬가 생긴 것으로 추정."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

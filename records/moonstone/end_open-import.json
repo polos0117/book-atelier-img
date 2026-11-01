@@ -1,0 +1,53 @@
+{
+ "version": 1,
+ "book": "moonstone",
+ "slot": "end_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "moonstone_end_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "53bc4d4bb9e18cbf30621ebd0b0a8b110014cf67d7f007ff6cc3b885a1fbbe5e",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": [
+  "exec-c9d7fb78-edc0-4527-a335-e74e1517f2de.png",
+  "exec-8f975047-cac8-4f12-9c79-dd25803749c9.png"
+ ],
+ "prompt": "records/moonstone/end_open-ui.json",
+ "prompt_sha256": "3837e056e75b7ec67b1c670399f5b021980ab2189616060955c3d37be1687c55",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-moonstone-e606",
+ "qa": {
+  "reviewer": "gpt-book-moonstone-e606",
+  "image_sha256": "53bc4d4bb9e18cbf30621ebd0b0a8b110014cf67d7f007ff6cc3b885a1fbbe5e",
+  "passed": false,
+  "observations": [
+   "1024×1536 세로 2:3 확인.",
+   "주인공 한 명, 틀·로고·워터마크 없음.",
+   "손에 책을 들지 않음.",
+   "눈에 보이는 팔다리의 추가·중복·분리 없음; 가려진 손가락은 수를 확정할 수 없음.",
+   "머리와 양발이 프레임 안에 있음.",
+   "정본의 얼굴·검은 머리·피부색이 유지됨.",
+   "내민 빈손이 보석을 올린 손으로 바뀌었다. 결말 폼보다 발단 정본의 자세를 따른다.",
+   "배경 액자에 작은 인물화가 보인다. 주인공과 경쟁하지는 않는다."
+  ],
+  "cause": "두 첨부 중 첫번째 결말 폼 대신 두번째 발단 정본의 손·보석을 복사한 것으로 추정."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

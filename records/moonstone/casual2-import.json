@@ -1,0 +1,52 @@
+{
+ "version": 1,
+ "book": "moonstone",
+ "slot": "casual2",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "moonstone_literary_fantasy_f_casual2.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "d88d58e9d77b8b737940b4420abeb78147171e4a0b99f1c82457b3b81eb7a55b",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": [
+  "exec-8f975047-cac8-4f12-9c79-dd25803749c9.png"
+ ],
+ "prompt": "records/moonstone/casual2-ui.json",
+ "prompt_sha256": "beda8f663641b3747ad2ebd7ef1704c420e0c0be219670621e8b144a58ac68dc",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-moonstone-e606",
+ "qa": {
+  "reviewer": "gpt-book-moonstone-e606",
+  "image_sha256": "d88d58e9d77b8b737940b4420abeb78147171e4a0b99f1c82457b3b81eb7a55b",
+  "passed": false,
+  "observations": [
+   "1024×1536 세로 2:3 확인.",
+   "주인공 한 명, 틀·로고·워터마크 없음.",
+   "손에 책을 들지 않음.",
+   "눈에 보이는 팔다리의 추가·중복·분리 없음; 가려진 손가락은 수를 확정할 수 없음.",
+   "머리와 양발이 프레임 안에 있음.",
+   "정본의 얼굴·검은 머리·피부색이 유지됨.",
+   "에디토리얼 테일러링 대신 란제리와 시스루 천이 나왔다.",
+   "정본의 장신구와 흰색·금색 장식이 남았다. 주변 증언 원고에 필기 무늬가 보인다."
+  ],
+  "cause": "Outfit의 포괄적 tailoring 설명과 skin_exposure bold 및 정본 레이스 영향이 겹친 것으로 추정."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

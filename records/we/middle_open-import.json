@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "we",
+ "slot": "middle_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "we_middle_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "09887b0536a70dbf27b9ad39966f8362b1d48c0952bd518ce33603eb6d349084",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": "we_middle_literary_fantasy_f.webp",
+ "prompt": "records/we/middle_open-ui.json",
+ "prompt_sha256": "96dd72dff34b27aba3697ea10ebb13ed33475220e58000a11af7f51abce985da",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-we-e741dae4a7d9",
+ "qa": {
+  "reviewer": "gpt-book-we-e741",
+  "image_sha256": "09887b0536a70dbf27b9ad39966f8362b1d48c0952bd518ce33603eb6d349084",
+  "passed": true,
+  "observations": [
+   "1024×1536 세로 2:3 확인.",
+   "주인공은 한 명이며 독립된 추가 팔다리·팔 분리·중복 손은 보이지 않음.",
+   "틀·로고·워터마크 없음. 책을 손에 들지 않음. 손가락 일부는 장갑·겹침·소품에 가려 수를 확정할 수 없음.",
+   "정본과 짧은 머리·얼굴·체형이 이어짐.",
+   "해당 폼의 인물·의상·자세를 유지하고 명장면 배경으로 전환됨."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

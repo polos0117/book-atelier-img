@@ -1,0 +1,85 @@
+{
+ "version": 1,
+ "book": "we",
+ "slot": "casual4",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "we_literary_fantasy_f_casual4.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "8d002ffa7d63e5bbbb3f64569c58fa1f3827a10f70402b4337393b42e99bc1d0",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": "we_begin_literary_fantasy_f.webp",
+ "prompt": "records/we/casual4-ui.json",
+ "prompt_sha256": "32e5ffa057992dd55ec5bdc2e156b0b7a1c2d7afbadc03c13f85a618b41e4609",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-we-e741dae4a7d9",
+ "qa": {
+  "reviewer": "gpt-book-we-e741",
+  "image_sha256": "8d002ffa7d63e5bbbb3f64569c58fa1f3827a10f70402b4337393b42e99bc1d0",
+  "passed": false,
+  "observations": [
+   "1024×1536 세로 2:3 확인.",
+   "주인공은 한 명이며 독립된 추가 팔다리·팔 분리·중복 손은 보이지 않음.",
+   "틀·로고·워터마크 없음. 책을 손에 들지 않음. 손가락 일부는 장갑·겹침·소품에 가려 수를 확정할 수 없음.",
+   "정본과 짧은 머리·얼굴·체형이 이어짐.",
+   "재계획한 테라스·등불·점퍼와 반바지는 반영. 등불은 지정한 오른손 대신 왼손. 환경컷보다 인물이 크게 보이는 전신이며 고개가 옆으로 돌아감."
+  ],
+  "cause": "환경 프레이밍·뒤로 걷기 요구와 인물 참조 및 얼굴 정체성 보존 요구가 함께 작용한 것으로 추정."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다",
+ "generation": {
+  "retries": [
+   {
+    "attempt": 1,
+    "plan": "original",
+    "exposure": "bold",
+    "result": "moderation_blocked",
+    "request_id": "cf3de0dd-3ba4-4a26-87fd-d9119a02351b"
+   },
+   {
+    "attempt": 2,
+    "plan": "original",
+    "exposure": "bold",
+    "result": "moderation_blocked",
+    "request_id": "8435df3f-42f0-402a-99a0-8d0eb900573d"
+   },
+   {
+    "attempt": 3,
+    "plan": "original",
+    "exposure": "moderate",
+    "result": "moderation_blocked",
+    "request_id": "7cc19cff-54ee-43ec-938f-2252292c1aff"
+   },
+   {
+    "attempt": 4,
+    "plan": "original",
+    "exposure": "low",
+    "result": "moderation_blocked",
+    "request_id": "777700ad-f188-45d4-964a-0ff04587557e"
+   },
+   {
+    "attempt": 5,
+    "plan": "replanned_seed_545144840",
+    "exposure": "bold",
+    "result": "success"
+   }
+  ]
+ }
+}

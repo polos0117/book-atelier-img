@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "we",
+ "slot": "end",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "we_end_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "a633d225f37a0b3578339c9d6091a5d5d5592dc63f67473985ccd7d9ebf3fd97",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": "we_begin_literary_fantasy_f.webp",
+ "prompt": "records/we/end-ui.json",
+ "prompt_sha256": "6a51626d2cc9788e50ad5b9b2e334feed050f6ff422d141f6f8426d564956cdf",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-we-e741dae4a7d9",
+ "qa": {
+  "reviewer": "gpt-book-we-e741",
+  "image_sha256": "a633d225f37a0b3578339c9d6091a5d5d5592dc63f67473985ccd7d9ebf3fd97",
+  "passed": false,
+  "observations": [
+   "1024×1536 세로 2:3 확인.",
+   "주인공은 한 명이며 독립된 추가 팔다리·팔 분리·중복 손은 보이지 않음.",
+   "틀·로고·워터마크 없음. 책을 손에 들지 않음. 손가락 일부는 장갑·겹침·소품에 가려 수를 확정할 수 없음.",
+   "정본과 짧은 머리·얼굴·체형이 이어짐.",
+   "結말 폼 배경에 개방 전용 유리 파편이 이미 크게 나타남."
+  ],
+  "cause": "FORM·STANCE의 깨진 유리와 HOLD BACK의 파편 배경 금지가 서로 충돌한 것으로 추정."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

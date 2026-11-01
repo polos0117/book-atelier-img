@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "we",
+ "slot": "casual3",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "we_literary_fantasy_f_casual3.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "fbe7fce8213e5a2bdfd215c303e8da6e586ce383f4bf142c5caa23ee6b48bedd",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": "we_begin_literary_fantasy_f.webp",
+ "prompt": "records/we/casual3-ui.json",
+ "prompt_sha256": "21f54eeb6049b9dbfbcec46e6c7d0c661c7643248188b86f950c1c8ac180cddd",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-we-e741dae4a7d9",
+ "qa": {
+  "reviewer": "gpt-book-we-e741",
+  "image_sha256": "fbe7fce8213e5a2bdfd215c303e8da6e586ce383f4bf142c5caa23ee6b48bedd",
+  "passed": false,
+  "observations": [
+   "1024×1536 세로 2:3 확인.",
+   "주인공은 한 명이며 독립된 추가 팔다리·팔 분리·중복 손은 보이지 않음.",
+   "틀·로고·워터마크 없음. 책을 손에 들지 않음. 손가락 일부는 장갑·겹침·소품에 가려 수를 확정할 수 없음.",
+   "정본과 짧은 머리·얼굴·체형이 이어짐.",
+   "잔은 인물의 왼손에 들려 있고 오른손은 의자에 놓임. 계획은 오른손 잔·왼손 무릎. 옆모습보다 3/4에 가까우며 화면 오른쪽 신발 앞끝 일부가 잘림."
+  ],
+  "cause": "오른손·왼손 지정과 기본 참조의 정면 방향 사이에서 좌우가 바뀐 것으로 추정. 전신 앉기와 다리 교차 구성에서 신발 끝 여백이 부족함."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

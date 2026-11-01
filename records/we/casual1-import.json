@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "we",
+ "slot": "casual1",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "we_literary_fantasy_f_casual1.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "fe407e90b06499c6eca21422e0e6c262d03f35d0981ef74701caad467900d86c",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": "we_begin_literary_fantasy_f.webp",
+ "prompt": "records/we/casual1-ui.json",
+ "prompt_sha256": "46c55ec3d693bf661082587f2f21bce8d9e350d7b802910ffa6694756ff7434f",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-we-e741dae4a7d9",
+ "qa": {
+  "reviewer": "gpt-book-we-e741",
+  "image_sha256": "fe407e90b06499c6eca21422e0e6c262d03f35d0981ef74701caad467900d86c",
+  "passed": false,
+  "observations": [
+   "1024×1536 세로 2:3 확인.",
+   "주인공은 한 명이며 독립된 추가 팔다리·팔 분리·중복 손은 보이지 않음.",
+   "틀·로고·워터마크 없음. 책을 손에 들지 않음. 손가락 일부는 장갑·겹침·소품에 가려 수를 확정할 수 없음.",
+   "정본과 짧은 머리·얼굴·체형이 이어짐.",
+   "노트 위에 읽히지 않는 필기 무늬가 나타남."
+  ],
+  "cause": "노트 쓰기 소품 동작과 no lettering 조건이 충돌한 것으로 추정."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

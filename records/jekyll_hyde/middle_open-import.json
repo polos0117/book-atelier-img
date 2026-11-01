@@ -1,0 +1,65 @@
+{
+ "version": 1,
+ "book": "jekyll_hyde",
+ "slot": "middle_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "jekyll_hyde_middle_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "b80ff1062ffac7b197ce0968e2feabb9d4244bc98e6b5e5e2747615587bc1efb",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "jekyll_hyde_middle_literary_fantasy_f.webp",
+ "prompt": "records/jekyll_hyde/middle_open-ui.json",
+ "prompt_sha256": "eb16e192371db249e5c8f6a2504ca586adb2263b28ef9d6d2b9c5b1339841bc3",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "1a59624de4ed903665ed9e1ed06fec79476fb9af1ba26c50ddfd841eeaa5e7ee",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-jekyll-e5caf9-20261101",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "b80ff1062ffac7b197ce0968e2feabb9d4244bc98e6b5e5e2747615587bc1efb",
+  "passed": true,
+  "observations": [
+   "1024×1536 전신 1명, 전개 폼의 얼굴·단발·의상·덮치는 자세·지팡이 든 손·카메라 유지.",
+   "소호의 가스등·안개·젖은 돌바닥, 바닥의 부러진 지팡이와 붉은 발자국이 명장면을 구성한다.",
+   "두 팔·두 다리 연결 자연스러움, 중복 손발이나 다른 인물 없음.",
+   "틀·로고·읽히는 문구·손에 든 책 없음. 첫 시도 출력 필터 거절 뒤 같은 지시문 재시도 성공."
+  ],
+  "cause": null
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영",
+ "generation": {
+  "retries": [
+   {
+    "attempt": 1,
+    "exposure": "bold",
+    "result": "moderation_blocked",
+    "request_id": "79eff6c5-e7eb-4572-83da-64c645a607f9",
+    "category": "sexual",
+    "stage": "output"
+   },
+   {
+    "attempt": 2,
+    "exposure": "bold",
+    "result": "success",
+    "same_prompt": true
+   }
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "jekyll_hyde",
+ "slot": "begin",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "jekyll_hyde_begin_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "a9fb47aaa70cbfe1ccfd582c53e7ae6863b80a6f9bffa46a2e0a3c6bb8e478cf",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": null,
+ "prompt": "records/jekyll_hyde/begin-ui.json",
+ "prompt_sha256": "c1100bbb81559dd120123dfd74da1dc1aa77a2b105b6476575c8d4c656e73852",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "8f47880809c5c851e8e46a6a311fc7d60ba2c86e06a37a5d493748ab7d663559",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-jekyll-e5caf9-20261101",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "a9fb47aaa70cbfe1ccfd582c53e7ae6863b80a6f9bffa46a2e0a3c6bb8e478cf",
+  "passed": false,
+  "observations": [
+   "1024×1536 전신 1명, 머리와 양발 여백 확보, 틀·로고 없음.",
+   "오른팔은 약병을 들고 왼팔은 실험대에 자연스럽게 이어진다. 중복 팔·다리 없음.",
+   "회보라 연미복·고백서 재료·단발·차분한 표정 반영. 손에 책 없음.",
+   "배경 실험 장치와 보랏빛 김이 발단 개방 요소를 미리 포함했다. 종이에는 읽히지 않는 필기 질감이 남았다."
+  ],
+  "cause": "FORM/STANCE의 약병·실험대 및 SYMBOLS의 끓어오르는 약이 HOLD BACK의 실험실·보랏빛 김 보류보다 강하게 시각화됨. MATERIAL의 두 필체와 unlettered 지시도 긴장."
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

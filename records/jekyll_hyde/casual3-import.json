@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "jekyll_hyde",
+ "slot": "casual3",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "jekyll_hyde_literary_fantasy_f_casual3.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "f182c3c6b65573dd5f6f3b245342614b23dc1e81779624b2e1d5dede8a943969",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "jekyll_hyde_begin_literary_fantasy_f.webp",
+ "prompt": "records/jekyll_hyde/casual3-ui.json",
+ "prompt_sha256": "2e63585839adbc798bcbfb49c2906cc052ed1ce8e85b7c4de454e7acef9221af",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "45a458df56dd932ec41be4b23381314944925523967f6694cfe4e7c111dd6806",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-jekyll-e5caf9-20261101",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "f182c3c6b65573dd5f6f3b245342614b23dc1e81779624b2e1d5dede8a943969",
+  "passed": false,
+  "observations": [
+   "1024×1536 근접 1명, 정본의 단발·눈·얼굴 유지. 빅토리아 시대 기차역과 홀터넥 저녁 드레스 반영.",
+   "오른손은 손가락 다섯 개로 흔들고 왼손은 가슴에 얹혀 양쪽 어깨와 손목 연결이 자연스러움.",
+   "선택한 chest_up보다 아래인 허리까지 보여 CROP 지시와 다르다. 뒤쪽 플랫폼에 작고 흐린 행인 1명이 있으나 주인공과 겹치지 않음.",
+   "손에 책 없음, 의상에 책 재료 없음, 틀·읽히는 글자 없음."
+  ],
+  "cause": "chest_up/CROP보다 홀터넥 드레스와 양쪽 팔·손을 넉넉히 보여 주려는 구도 경향이 우선되어 허리까지 내려감."
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

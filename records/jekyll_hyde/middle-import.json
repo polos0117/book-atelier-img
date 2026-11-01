@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "jekyll_hyde",
+ "slot": "middle",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "jekyll_hyde_middle_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "31e84d75e4172b7703458141c47f7df8b1d0e9a82da95a5da1cfa4f137bd6448",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "jekyll_hyde_begin_literary_fantasy_f.webp",
+ "prompt": "records/jekyll_hyde/middle-ui.json",
+ "prompt_sha256": "c985632b78cf9c7a5b186cf33b49cb6aebbe6152552b483d5f18b4872ce0483d",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "09f560adb38c804c612076168df78c5f164bb1b71b6f4af264135bebf3b5bdec",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-jekyll-e5caf9-20261101",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "31e84d75e4172b7703458141c47f7df8b1d0e9a82da95a5da1cfa4f137bd6448",
+  "passed": true,
+  "observations": [
+   "1024×1536 전신 1명, 양발과 머리 프레임 안. 얼굴·단발·체형·팔레트 정본과 일치.",
+   "전개 특유의 헝클어진 머리·찢긴 연미복·도발적 표정과 낮게 덮치는 지팡이 자세 반영.",
+   "두 팔·두 다리 연결 자연스러움. 오른손 지팡이, 왼손은 몸옆, 중복 팔다리 없음.",
+   "틀·읽히는 문구·손에 든 책 없음. 개방의 부러진 지팡이는 미리 나타나지 않음."
+  ],
+  "cause": null
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

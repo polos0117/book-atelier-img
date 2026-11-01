@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "jekyll_hyde",
+ "slot": "end",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "jekyll_hyde_end_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "2ecbcee2113a576a487c5c59179609f3ed4a293a1e27aca2f09e206814d9a96e",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "jekyll_hyde_begin_literary_fantasy_f.webp",
+ "prompt": "records/jekyll_hyde/end-ui.json",
+ "prompt_sha256": "671f3eaf62eaf3ebb7f6dfb0366e99bc6ef156ae19cae7b4fe1d4dfc54577a1c",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "77e0699d20cda64a9b8fb1755e50896deb1035989037a7e302c3ea6cbe734603",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-jekyll-e5caf9-20261101",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "2ecbcee2113a576a487c5c59179609f3ed4a293a1e27aca2f09e206814d9a96e",
+  "passed": true,
+  "observations": [
+   "1024×1536 전신 1명, 머리와 양발 프레임 안. 정본의 얼굴·머리·체형과 회보라 팔레트 유지.",
+   "한쪽 단정함과 반대쪽 찢긴 연미복, 목에 건 약병·얼굴 반쪽을 짚은 손·소진된 표정 반영.",
+   "두 팔·두 다리가 자연스럽게 연결됨. 거울에 두 번째 얼굴·인물 없음.",
+   "틀·읽히는 문구·손에 든 책 없음. 약병의 금은 작아 뚜렷하게 구분되지 않음."
+  ],
+  "cause": null
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

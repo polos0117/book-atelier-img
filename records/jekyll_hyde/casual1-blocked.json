@@ -1,0 +1,34 @@
+{
+ "version": 1,
+ "slot": "casual1",
+ "prompt": "INPUT: the attached image is the approved character; keep her.\n\nCHARACTER: the same woman as the attached image — the personification of «지킬 박사와 하이드» (horror). Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: 섬세한 선화 + 회화적 채색의 성인 판타지 삽화풍\n\nSYMBOL (this one only, as an accessory or an object in the scene — never printed on or woven into the clothes): \"끓어오르는 약\".\n\nAGE: keep her age as in the attached image; add no wrinkles, folds or under-eye shadows, even when she smiles.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her book shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never her form costume, never a carried book. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSETTING: a stylised stage, editorial or fantasy set, not bound to a real year — still one real adult woman in a believable space, no creatures.\n\nSCENE (chosen):\nPlace: a chandelier ballroom at a masquerade\nOutfit: a fully lined one-piece swimsuit with large cut-outs at the sides of the waist\nPOSTURE: standing at a waist-high railing or sill, leaning lightly on it.\nCOMPOSITION: an environmental long shot, her complete figure and enough of the place around her; body turned three-quarters away from the camera; head turned back over her shoulder; camera at her eye level.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nRIGHT HAND: her own right hand rests on the railing.\nLEFT HAND: her own left hand tucks hair behind her ear.\nLEGS: weight on one leg, the other knee softly bent.\nGAZE: she looks into the camera.\nEXPRESSION: crinkled lower eyelids, closed-lip smile pushing the cheeks up, brows relaxed.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: low — mostly covered clothing, limited neck/hand exposure unless outfit is explicit\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: subtle — her book shows only as one small accessory; the outfit keeps its own colours and patterns\nseparates_preference: prefer separates — prefer separate top and bottom unless the chosen Outfit names a one-piece garment, which wins\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her book belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nLOOK-BACK: her back is toward the camera and her head turns at most a quarter turn over one shoulder — the face shows in profile or three-quarter view, never full-front on a back-facing torso. Her chin sits just above the near shoulder, the far eye and cheek may be partly hidden, the side of the neck shows the turn and the shoulder line continues behind the head. Where her eyes go follows GAZE.\n\nONE MAIN FIGURE: she is the only character in focus. Where the place is busy, other people may appear only as small, soft-focus background extras — never posed with her and never a character from her book. No text, no lettering, no logo, no watermark, no speech bubble, no frame border; pages and spines stay unlettered.\n\nANATOMY: natural adult proportions, about 7.5 heads tall — height from the legs, never a smaller head or a longer neck. The neck is a natural length and the head sits close to the shoulders. No body-part enlargement, no extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may stay outside the crop, and fingers may be partly hidden by a grip.",
+ "prompt_sha256": "a1037eb22896768e98483c2c1c8ab5f0e9e9b80ccddb794189b2f400d8f2ed7f",
+ "attempts": [
+  {
+   "attempt": 1,
+   "exposure": "bold",
+   "result": "moderation_blocked",
+   "request_id": "3db284be-8981-47cd-a397-fc849aeb4b29"
+  },
+  {
+   "attempt": 2,
+   "exposure": "bold",
+   "result": "moderation_blocked",
+   "request_id": "faf3a82e-4027-49bb-9e86-57aa7685a14a",
+   "same_prompt": true
+  },
+  {
+   "attempt": 3,
+   "exposure": "moderate",
+   "result": "moderation_blocked",
+   "request_id": "857c471c-f59e-43ca-9255-312e05d2a36a"
+  },
+  {
+   "attempt": 4,
+   "exposure": "low",
+   "result": "moderation_blocked",
+   "request_id": "c75b058e-7f30-4637-bcdc-e20adf06f497"
+  }
+ ],
+ "next": "같은 칸만 다른 씨앗으로 계획기 재계획 1회"
+}

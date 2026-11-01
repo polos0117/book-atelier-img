@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "jekyll_hyde",
+ "slot": "casual4",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "jekyll_hyde_literary_fantasy_f_casual4.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "428d0ecbdbc37ad565b7c7a981f001cec5c7bd332375c5b5c0f07eb0272ab4ea",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "jekyll_hyde_begin_literary_fantasy_f.webp",
+ "prompt": "records/jekyll_hyde/casual4-ui.json",
+ "prompt_sha256": "b927c36fb94d46481e7b7af6d29ea9e54867a1b60b0a6bbd168eff1ea359b3c9",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "7c612e33c827c64c564ac2adf69913d2fe0fecee85b4f696fa70258a901a142a",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-jekyll-e5caf9-20261101",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "428d0ecbdbc37ad565b7c7a981f001cec5c7bd332375c5b5c0f07eb0272ab4ea",
+  "passed": true,
+  "observations": [
+   "1024×1536 허리 위 1명, 정본의 단발·얼굴·체형 유지. 하맘 배경·빨강 크리스마스 파티 의상 반영.",
+   "두 손을 모아 가슴 앞에 놓고 오른팔·왼팔이 각 어깨에서 손목까지 자연스럽게 연결됨. 중복 팔다리 없음.",
+   "약병은 배경 사물로만 있고 의상에는 책의 회보라 팔레트나 종이 장식을 옮기지 않음.",
+   "작고 흐린 하맘 이용객이 배경에 있으나 주인공 몸과 겹치지 않음. 틀·읽히는 글자·손에 든 책 없음."
+  ],
+  "cause": null
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

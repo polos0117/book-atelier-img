@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "jekyll_hyde",
+ "slot": "casual5",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "jekyll_hyde_literary_fantasy_f_casual5.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "90373a2d3781483e7ba28b9e476d82d347ee1392e89e633f7b710c4f661b2c03",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "jekyll_hyde_begin_literary_fantasy_f.webp",
+ "prompt": "records/jekyll_hyde/casual5-ui.json",
+ "prompt_sha256": "db763de58fc9f9480b7579e1dd3bde94596ec7b4b08d96523cb15ba38d82bdc9",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "sha256": "54b44cc16b93fd6cd48e6de00f5a2e0454ca77f8683b4d830dfd32a99467f35a",
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-01",
+ "execution": "book-jekyll-e5caf9-20261101",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "90373a2d3781483e7ba28b9e476d82d347ee1392e89e633f7b710c4f661b2c03",
+  "passed": false,
+  "observations": [
+   "1024×1536 1명 중심, 오락실 배경·60년대 리비에라 수영복·선글라스·오른손 볼 짚기·왼손 화면 밖 반영.",
+   "정본의 단발·얼굴·눈 유지. 보이는 오른손과 손목·팔은 오른어깨로 자연스럽게 연결되며 추가 팔 없음.",
+   "선택한 face_close보다 훨씬 넓어 가슴과 팔꿈치까지 보인다. 클로즈업 CROP 지시 불일치.",
+   "의상에 책 문양이나 종이 재료 없음. 틀·로고·읽히는 글자·손에 든 책 없음. 배경 이용객은 작고 흐리게 표현됨."
+  ],
+  "cause": "face_close/CROP 지시보다 복고 수영복·팔꿈치·선글라스를 한 화면에 보이려는 경향이 우선되어 가슴 위 구도로 넓어짐."
+ },
+ "acceptance": "user_approval_2026-10-31 and explicit task approval 2026-11-01 — AI 검수 뒤 추가 확인 없이 main 일반 반영"
+}

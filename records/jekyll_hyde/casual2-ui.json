@@ -1,0 +1,131 @@
+{
+ "version": 1,
+ "book": "jekyll_hyde",
+ "title": "지킬 박사와 하이드",
+ "mode": "casual",
+ "form": "begin",
+ "stage": "발단",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "jekyll_hyde_literary_fantasy_f_casual2.webp",
+ "record": "records/jekyll_hyde/casual2-ui.json",
+ "at": "2026-11-01T12:51:39.290Z",
+ "storage": {
+  "last": "jekyll_hyde",
+  "cards": {
+   "jekyll_hyde": {
+    "style": "literary_fantasy",
+    "version": "v7",
+    "identityMode": "reference",
+    "form": "begin",
+    "baseForm": "begin",
+    "casualN": 2,
+    "exposure": "bold",
+    "attachStyleRef": false,
+    "motifs": "",
+    "lookNote": "",
+    "faceDesignOn": true,
+    "silhouetteOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "casual",
+    "scenes": {
+     "form": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "open": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "treeV": 2,
+      "expr": "laughing_open",
+      "scene": "",
+      "outfit": "",
+      "custom": "",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "moderate",
+       "action_level": "balanced",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "action": {},
+      "randomLocks": {
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "aspect": true
+      },
+      "era": "in_story",
+      "place": "story_roof",
+      "ofam": "lingerie",
+      "prop": "1",
+      "preset": "tiptoe_wave",
+      "use": "",
+      "posture": "stand",
+      "support": "none",
+      "frame": "full_body",
+      "body": "side",
+      "head": "with_body",
+      "camera": "low",
+      "right": "wave",
+      "left": "down",
+      "legs": "tiptoe",
+      "gaze": "camera",
+      "item": "knit_lingerie"
+     }
+    },
+    "versionPinned": false
+   }
+  }
+ },
+ "prompt": "INPUT: the attached image is the approved character; keep her.\n\nCHARACTER: the same woman as the attached image — the personification of «지킬 박사와 하이드» (horror). Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: 섬세한 선화 + 회화적 채색의 성인 판타지 삽화풍\n\nSYMBOL (this one only, as an accessory or an object in the scene — never printed on or woven into the clothes): \"뒷골목의 문\".\n\nAGE: keep her age as in the attached image; add no wrinkles, folds or under-eye shadows, even when she smiles.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her book shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never her form costume, never a carried book. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nWORLD: this scene happens inside the world of «지킬 박사와 하이드», as if she simply lives there — a gaslit cobbled back lane in old Soho, London, on a foggy night. Its architecture, props, light and weather show the world; no characters or creatures from the story, no text.\n\nSCENE (chosen):\nPlace: a rooftop or terrace above her book's world\nOutfit: a soft ribbed-jersey lingerie set with a relaxed cropped top\nPOSTURE: standing.\nCOMPOSITION: a full-body shot, her complete head, hands and feet inside the frame with restrained margins; body in side profile, her face in profile too — only her eyes turn toward the camera; camera slightly below, looking up at her.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nRIGHT HAND: her own right hand is raised beside her face, waving.\nLEFT HAND: her own left arm hangs relaxed at her side.\nLEGS: rising onto her toes.\nGAZE: she looks into the camera.\nEXPRESSION: mouth open wide in a laugh with teeth showing and cheeks raised, eyes open and engaged with lids only slightly narrowed.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: moderate — some exposed arms or lower legs, with chest and pelvis covered\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: balanced — her book shows as one accessory and one object in the scene; the outfit keeps its own colours and patterns\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her book belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE MAIN FIGURE: she is the only character in focus. Where the place is busy, other people may appear only as small, soft-focus background extras — never posed with her and never a character from her book. No text, no lettering, no logo, no watermark, no speech bubble, no frame border; pages and spines stay unlettered.\n\nANATOMY: natural adult proportions, about 7.5 heads tall — height from the legs, never a smaller head or a longer neck. The neck is a natural length and the head sits close to the shoulders. No body-part enlargement, no extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may stay outside the crop, and fingers may be partly hidden by a grip."
+}

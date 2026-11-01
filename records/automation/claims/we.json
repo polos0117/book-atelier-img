@@ -4,7 +4,7 @@
   {
    "key": "we",
    "execution": "book-we-e741dae4a7d9",
-   "status": "working",
+   "status": "complete",
    "claimed_at": "2026-11-01T14:58:55.188Z",
    "date_kst": "2026-11-01",
    "date_utc": "2026-11-01",
@@ -20,7 +20,9 @@
     "we_literary_fantasy_f_casual3.webp",
     "we_literary_fantasy_f_casual4.webp",
     "we_literary_fantasy_f_casual5.webp"
-   ]
+   ],
+   "done_at": "2026-11-01T15:21:48.660Z",
+   "done_by": "book-we-e741dae4a7d9"
   }
  ]
 }

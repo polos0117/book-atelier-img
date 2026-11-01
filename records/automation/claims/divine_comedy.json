@@ -1,0 +1,26 @@
+{
+ "key": "divine_comedy",
+ "runs": [
+  {
+   "key": "divine_comedy",
+   "execution": "book-divine-comedy-bf4b1bcfb9cb",
+   "status": "working",
+   "claimed_at": "2026-11-01T21:16:16.840Z",
+   "date_kst": "2026-11-02",
+   "date_utc": "2026-11-01",
+   "missing": [
+    "divine_comedy_begin_literary_fantasy_f.webp",
+    "divine_comedy_begin_open_literary_fantasy_f.webp",
+    "divine_comedy_middle_literary_fantasy_f.webp",
+    "divine_comedy_middle_open_literary_fantasy_f.webp",
+    "divine_comedy_end_literary_fantasy_f.webp",
+    "divine_comedy_end_open_literary_fantasy_f.webp",
+    "divine_comedy_literary_fantasy_f_casual1.webp",
+    "divine_comedy_literary_fantasy_f_casual2.webp",
+    "divine_comedy_literary_fantasy_f_casual3.webp",
+    "divine_comedy_literary_fantasy_f_casual4.webp",
+    "divine_comedy_literary_fantasy_f_casual5.webp"
+   ]
+  }
+ ]
+}

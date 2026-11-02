@@ -4,7 +4,7 @@
   {
    "key": "calm_and_passion",
    "execution": "book-calm-passion-6b3a59cadf16",
-   "status": "working",
+   "status": "complete",
    "claimed_at": "2026-11-02T11:58:36.567Z",
    "date_kst": "2026-11-02",
    "date_utc": "2026-11-02",
@@ -20,7 +20,9 @@
     "calm_and_passion_literary_fantasy_f_casual3.webp",
     "calm_and_passion_literary_fantasy_f_casual4.webp",
     "calm_and_passion_literary_fantasy_f_casual5.webp"
-   ]
+   ],
+   "done_at": "2026-11-02T12:23:38.784Z",
+   "done_by": "book-calm-passion-6b3a59cadf16"
   }
  ]
 }

@@ -1,0 +1,132 @@
+{
+ "version": 1,
+ "book": "zhuangzi",
+ "title": "장자",
+ "mode": "casual",
+ "form": "begin",
+ "stage": "발단",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "zhuangzi_literary_fantasy_f_casual1.webp",
+ "record": "records/zhuangzi/casual1-ui.json",
+ "at": "2026-11-02T20:55:04.328Z",
+ "storage": {
+  "last": "zhuangzi",
+  "cards": {
+   "zhuangzi": {
+    "style": "literary_fantasy",
+    "version": "v7",
+    "identityMode": "reference",
+    "form": "begin",
+    "baseForm": "begin",
+    "casualN": 1,
+    "exposure": "bold",
+    "attachStyleRef": false,
+    "motifs": "",
+    "lookNote": "",
+    "faceDesignOn": true,
+    "silhouetteOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "casual",
+    "scenes": {
+     "form": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "open": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "treeV": 2,
+      "expr": "provocative",
+      "scene": "",
+      "outfit": "",
+      "custom": "EDIT TARGET: the attached full-scene image is the exact existing casual1 illustration to repair. Preserve its face, expression, long hair, towel, uniform colors and design, all ornaments, lower body, feet, background, lighting, camera, composition and 1024x1536 crop. Make only a local anatomical repair to her OWN LEFT ARM, the arm whose shoulder is beneath the gold epaulette at image-right. Its forearm and white cuff currently end disconnected from her torso. Reconnect this arm as one continuous, naturally bent limb: from the image-right shoulder under the gold epaulette, show a navy-uniform upper sleeve running down beside her upper torso to a visible elbow at chest level on image-right; from that elbow the left forearm bends upward diagonally across the front of her upper torso to her existing left hand gripping the towel beside her hair. The upper arm must physically join its own shoulder, the elbow must join the forearm, and the forearm must join the existing wrist and hand without any gap. The white cuff attaches naturally around the left forearm; do not leave a floating cuff or disconnected arm. Slightly reposition this left elbow and its sleeve as needed to make the complete shoulder-elbow-wrist chain clear. Preserve her raised RIGHT ARM pressing the towel onto the top of her head. Exactly TWO natural human arms and TWO hands, one left and one right, with five anatomically natural fingers per hand (occluded grip fingers allowed), no duplicated limbs. The woman is an adult in her twenties. This is an anatomical correction, not a new scene or costume. All preexisting visual details outside the corrected left arm are locked to the attached scene; the scene description above supplies context only.",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "moderate",
+       "action_level": "mostly active",
+       "source_influence": "subtle",
+       "separates_preference": "balanced"
+      },
+      "action": {},
+      "randomLocks": {
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "aspect": true
+      },
+      "era": "now",
+      "place": "spa_onsen",
+      "ofam": "roleplay",
+      "prop": "2",
+      "preset": "stand_use",
+      "use": "towel_dry",
+      "kind": "both",
+      "posture": "stand",
+      "support": "none",
+      "frame": "environmental",
+      "body": "side",
+      "head": "with_body",
+      "camera": "eye",
+      "right": "prop",
+      "left": "prop",
+      "legs": "stand_relaxed",
+      "gaze": "",
+      "item": "uniform_inspired"
+     }
+    },
+    "versionPinned": false
+   }
+  }
+ },
+ "prompt": "INPUT: the attached image is the approved character; keep her.\n\nCHARACTER: the same woman as the attached image — the personification of «장자» (philosophy). Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: 섬세한 선화 + 회화적 채색의 성인 판타지 삽화풍\n\nSYMBOL (this one only, as an accessory or an object in the scene — never printed on or woven into the clothes): \"쓸모없는 큰 나무\".\n\nAGE: keep her age as in the attached image; add no wrinkles, folds or under-eye shadows, even when she smiles.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her book shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never her form costume, never a carried book. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: an open-air hot spring among steaming rocks\nOutfit: a stylised uniform-inspired costume with crisp lapels and decorative epaulettes, no real insignia\nPOSTURE: standing.\nCOMPOSITION: an environmental long shot, her complete figure and enough of the place around her; body in side profile, her face in profile too, not turned toward the camera; camera at her eye level.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nRIGHT HAND: her own right hand is in PROP.\nLEFT HAND: her own left hand is in PROP.\nPROP: with both hands she dries her hair with a towel — her own right hand presses the towel to the top of her head, her own left hand holds the towel at the side of her hair.\nLEGS: weight even on both legs.\nEXPRESSION: challenging eyes under lowered lids, one brow raised, mouth corner tugged in a slight smirk.\nNote: EDIT TARGET: the attached full-scene image is the exact existing casual1 illustration to repair. Preserve its face, expression, long hair, towel, uniform colors and design, all ornaments, lower body, feet, background, lighting, camera, composition and 1024x1536 crop. Make only a local anatomical repair to her OWN LEFT ARM, the arm whose shoulder is beneath the gold epaulette at image-right. Its forearm and white cuff currently end disconnected from her torso. Reconnect this arm as one continuous, naturally bent limb: from the image-right shoulder under the gold epaulette, show a navy-uniform upper sleeve running down beside her upper torso to a visible elbow at chest level on image-right; from that elbow the left forearm bends upward diagonally across the front of her upper torso to her existing left hand gripping the towel beside her hair. The upper arm must physically join its own shoulder, the elbow must join the forearm, and the forearm must join the existing wrist and hand without any gap. The white cuff attaches naturally around the left forearm; do not leave a floating cuff or disconnected arm. Slightly reposition this left elbow and its sleeve as needed to make the complete shoulder-elbow-wrist chain clear. Preserve her raised RIGHT ARM pressing the towel onto the top of her head. Exactly TWO natural human arms and TWO hands, one left and one right, with five anatomically natural fingers per hand (occluded grip fingers allowed), no duplicated limbs. The woman is an adult in her twenties. This is an anatomical correction, not a new scene or costume. All preexisting visual details outside the corrected left arm are locked to the attached scene; the scene description above supplies context only.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: moderate — some exposed arms or lower legs, with chest and pelvis covered\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: subtle — her book shows only as one small accessory; the outfit keeps its own colours and patterns\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her book belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE MAIN FIGURE: she is the only character in focus. Where the place is busy, other people may appear only as small, soft-focus background extras — never posed with her and never a character from her book. No text, no lettering, no logo, no watermark, no speech bubble, no frame border; pages and spines stay unlettered.\n\nANATOMY: natural adult proportions, about 7.5 heads tall — height from the legs, never a smaller head or a longer neck. The neck is a natural length and the head sits close to the shoulders. No body-part enlargement, no extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may stay outside the crop, and fingers may be partly hidden by a grip."
+}

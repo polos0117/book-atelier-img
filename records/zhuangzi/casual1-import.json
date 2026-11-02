@@ -6,23 +6,23 @@
  "styleVersion": "v7",
  "file": "zhuangzi_literary_fantasy_f_casual1.webp",
  "source": {
-  "kind": "edited",
+  "kind": "generated_recomposition",
   "tool": "image_gen (GPT 세션)",
   "format": "png",
   "size": [
    1024,
    1536
   ],
-  "sha256": "6ad2becbf3826efb8f335ce99073b69870b16a9daf36a9b7da712af042d5032e",
+  "sha256": "3a9d514d640d9535c0fffc2fda40bbea35cf2e0e2fc670d87c3887086781cb91",
   "note": "원본 PNG는 올리지 않고 sha256만 남김"
  },
  "reference": {
-  "kind": "user_uploaded_edit_target",
-  "file": "1793652751888.png",
-  "sha256": "10fbdc025cbf5c7b1438d39caa7eb29a167a12fb1ff83093a287967565dd81a5"
+  "kind": "previous_casual1_as_identity_and_scene_reference",
+  "file": "zhuangzi_literary_fantasy_f_casual1.webp",
+  "git_commit": "5dc1d785bf146c2af0c13f6000fd41f31ce61866"
  },
  "prompt": "records/zhuangzi/casual1-ui.json",
- "prompt_sha256": "b94d6a42e4cc67c501448971ee2c01bdeb484a2921961eacf913ca6932bf8adf",
+ "prompt_sha256": "4f0f74874ee1288f86a254086ce53cbb323aeab12098403a7f40f85e7848723a",
  "converted": {
   "format": "webp",
   "quality": 90,
@@ -33,21 +33,21 @@
   }
  },
  "imported": "2026-11-03",
- "execution": "fix-zhuangzi-left-arm-dffe",
+ "execution": "retry-zhuangzi-casual1-dffe",
  "qa": {
   "reviewer": "gpt",
-  "image_sha256": "6ad2becbf3826efb8f335ce99073b69870b16a9daf36a9b7da712af042d5032e",
-  "passed": false,
-  "anatomy_repair_passed": true,
+  "image_sha256": "3a9d514d640d9535c0fffc2fda40bbea35cf2e0e2fc670d87c3887086781cb91",
+  "passed": true,
   "observations": [
-   "사용자가 지적한 몸통 기준 왼팔의 끊어진 상완을 소매로 연결했다.",
-   "왼쪽 어깨부터 상완·굽힌 팔꿈치·전완·수건 잡은 손목까지 이어지는 형태를 확인했다.",
-   "두 팔과 두 손을 유지했다. 오른팔은 머리 위의 수건을 누르는 동작을 유지했다.",
-   "얼굴·옆모습·유니폼·수건·맨발·온천과 거목 배경을 유지했다.",
-   "1024×1536 세로 2:3.",
-   "기존 상징 선택과 다른 작은 표주박은 사용자 요청 범위 밖이라 그대로 유지했다."
+   "1024×1536, 세로 2:3.",
+   "이전 옆모습 대신 정면에 가까운 3/4 새 구도로 재생성했다.",
+   "양쪽 어깨와 상완·팔꿈치·전완·손목이 각각 연속적으로 보이고 두 팔이 서로 교차하지 않는다.",
+   "두 손으로 수건의 양옆을 잡고 머리를 말리는 자세이며 추가 팔과 손이 보이지 않는다.",
+   "성인 여성 한 명, 긴 갈색 웨이브 머리, 남색·흰색 유니폼과 금색 견장, 맨발 및 온천·거목 배경을 유지했다.",
+   "기존 작은 표주박은 새 구도에 생성되지 않았다.",
+   "읽히는 글자·로고·테두리 없음."
   ],
-  "cause": "Original model output rendered the left forearm and cuff without a clear upper-arm connection. Local edit adds a continuous uniform sleeve. Remaining original extra gourd motif is preserved."
+  "cause": ""
  },
  "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다",
  "generation": {
@@ -68,9 +68,10 @@
   ]
  },
  "revision": {
-  "request": "머리 말리는 팔중에 몸통 기준 왼팔이 잘려있어. 수정해줘",
+  "request": "아니야. 다른 구도로 다시 만들어줘",
   "date": "2026-11-03",
-  "previous_import": "records/zhuangzi/revisions/2026-11-03-before-left-arm-casual1-import.json",
-  "previous_ui": "records/zhuangzi/revisions/2026-11-03-before-left-arm-casual1-ui.json"
+  "previous_import": "records/zhuangzi/revisions/2026-11-03-before-recompose-casual1-import.json",
+  "previous_ui": "records/zhuangzi/revisions/2026-11-03-before-recompose-casual1-ui.json",
+  "free_slot": 1
  }
 }

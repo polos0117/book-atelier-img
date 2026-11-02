@@ -1,0 +1,62 @@
+{
+ "_": "tools/prompt-pack.cjs 의 설정 — 고칠 수 있는 칸만 있다. 직접 입력(글 칸 · 표에 없는 값)엔 why 에 까닭을 적는다. 고친 뒤 build",
+ "book": "zhuangzi",
+ "style": "literary_fantasy",
+ "plan": "/workspace/scratch/dffe0ed3041c/retry-pack/plan.json",
+ "card": {
+  "motifs": "",
+  "lookNote": "",
+  "faceDesignOn": true,
+  "silhouetteOn": true,
+  "exposure": "bold",
+  "params": {},
+  "why": ""
+ },
+ "slots": {
+  "begin": {
+   "scene": {},
+   "why": ""
+  },
+  "middle": {
+   "scene": {},
+   "why": ""
+  },
+  "end": {
+   "scene": {},
+   "why": ""
+  },
+  "begin_open": {
+   "scene": {},
+   "why": ""
+  },
+  "middle_open": {
+   "scene": {},
+   "why": ""
+  },
+  "end_open": {
+   "scene": {},
+   "why": ""
+  },
+  "casual1": {
+   "custom": "RECOMPOSE THE EXISTING SCENE IN A NEW POSE. The attached image supplies the same adult woman's face, long brown wavy hair, navy-and-white uniform design with gold epaulettes, bare feet and atmospheric open-air hot-spring setting. This time rebuild her entire upper-body pose from a clearly readable front three-quarter view facing the camera. Do not trace, repair or reuse the attached side-profile arm silhouette. Both shoulders are plainly visible, with a generous gap between each arm and the torso. Her right upper arm extends outward to HER RIGHT (image-left), elbow clearly visible at shoulder height; her right forearm angles upward from that elbow to her right hand pressing a towel against the upper-right side of her crown. Her left upper arm extends outward to HER LEFT (image-right), elbow clearly visible at shoulder height; her left forearm angles upward from that elbow to her left hand pressing the other side of the same towel against the left side of her hair. A single towel lies loosely across the top/back of her hair, its two ends draping at either side. Both hands stay on their own side of her head, neither arm crosses in front of her torso, and the two elbows are separated to the left and right of her body. Keep each complete shoulder-upper-arm-elbow-forearm-wrist-hand chain visible and continuous. Exactly two natural human arms and two natural human hands, five fingers each (gripping fingers may be occluded); no detached cuffs, no hidden or missing upper arms, no extra hands. Both feet planted naturally, full figure inside the vertical 2:3 image with clear margins. Retain her face, adult age, recognizable uniform and tranquil hot-spring atmosphere, but choose a fresh front-three-quarter camera composition that clearly displays the new arm arrangement. This new pose supersedes the attachment's old side-profile pose.",
+   "why": "User rejected the local left-arm repair and explicitly requested a different composition. Recompose front-three-quarter with both elbows apart so both complete arms are clearly readable.",
+   "exposure": "moderate"
+  },
+  "casual2": {
+   "custom": "",
+   "why": ""
+  },
+  "casual3": {
+   "custom": "",
+   "why": ""
+  },
+  "casual4": {
+   "custom": "",
+   "why": ""
+  },
+  "casual5": {
+   "custom": "",
+   "why": ""
+  }
+ }
+}

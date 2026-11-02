@@ -1,0 +1,62 @@
+{
+ "version": 1,
+ "book": "calm_and_passion",
+ "slot": "middle_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "calm_and_passion_middle_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "1572608abb8508805aa87bb1ab7c3608121eb8cc0c5069551ea6a480cb687442",
+  "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+ },
+ "reference": "calm_and_passion_middle_literary_fantasy_f.webp",
+ "prompt": "records/calm_and_passion/middle_open-ui.json",
+ "prompt_sha256": "0d58b589b7d447a7e59220ee1b40003856af92e71322b1f1942b7d6d59b5e168",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-calm-passion-6b3a59cadf16",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "1572608abb8508805aa87bb1ab7c3608121eb8cc0c5069551ea6a480cb687442",
+  "passed": true,
+  "observations": [
+   "1024×1536. 읽히는 글자·로고·워터마크·그림 테두리 없음.",
+   "전개와 같은 인물·의상·붓·팔레트·전신 구도이며 양팔과 양다리가 연결된다.",
+   "찢긴 그림의 손상과 창으로 쏟아지는 빛, 먼지가 확장된다.",
+   "그림 속 얼굴·조각은 배경 사물이고 독립적인 두 번째 주인공은 없다."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다",
+ "generation": {
+  "retries": [
+   {
+    "attempt": 1,
+    "result": "batch_interrupted",
+    "note": "First open batch returned an output moderation rejection without a slot label; both pending slots lacked returned assets. Exact same prompts were retried once and succeeded.",
+    "prompt_sha256": "0d58b589b7d447a7e59220ee1b40003856af92e71322b1f1942b7d6d59b5e168"
+   },
+   {
+    "attempt": 2,
+    "exposure": "bold",
+    "result": "generated",
+    "prompt_sha256": "0d58b589b7d447a7e59220ee1b40003856af92e71322b1f1942b7d6d59b5e168"
+   }
+  ]
+ }
+}

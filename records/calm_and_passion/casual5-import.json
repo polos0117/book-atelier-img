@@ -1,0 +1,56 @@
+{
+ "version": 1,
+ "book": "calm_and_passion",
+ "slot": "casual5",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "calm_and_passion_literary_fantasy_f_casual5.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "251fb98508bb29bd3190c6fd6baf0f56e94a2f6477c3dc7e590b2041384f854d",
+  "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+ },
+ "reference": "calm_and_passion_begin_literary_fantasy_f.webp",
+ "prompt": "records/calm_and_passion/casual5-ui.json",
+ "prompt_sha256": "32b63b61cb040a3354d6e0ff748e843f94de94947f1b75555400e9ccff6eb345",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-calm-passion-6b3a59cadf16",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "251fb98508bb29bd3190c6fd6baf0f56e94a2f6477c3dc7e590b2041384f854d",
+  "passed": true,
+  "observations": [
+   "1024×1536. 읽히는 글자·로고·워터마크·그림 테두리 없음.",
+   "슬립 위 로브 차림·목의 수건·수건을 잡은 오른손·내려 둔 왼손의 전신 보행 장면이다.",
+   "정본의 얼굴·머리·체형을 유지하며 두 팔과 다리·발이 자연스럽게 연결된다.",
+   "물가·복원 중인 그림은 주변 사물로 표현되며 책 무늬 의상을 만들지 않았다."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다",
+ "generation": {
+  "retries": [
+   {
+    "attempt": 1,
+    "exposure": "bold",
+    "result": "generated",
+    "prompt_sha256": "32b63b61cb040a3354d6e0ff748e843f94de94947f1b75555400e9ccff6eb345"
+   }
+  ]
+ }
+}

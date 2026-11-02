@@ -1,0 +1,57 @@
+{
+ "version": 1,
+ "book": "calm_and_passion",
+ "slot": "casual3",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "calm_and_passion_literary_fantasy_f_casual3.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "cb2fb80b6ec34c452ccf82aa665b2426154b574a0c02b747161ca55fa86d34c5",
+  "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+ },
+ "reference": "calm_and_passion_begin_literary_fantasy_f.webp",
+ "prompt": "records/calm_and_passion/casual3-ui.json",
+ "prompt_sha256": "3e41d50cf2621f103400f01a49ccc6cc51c97061e7dea3ee70e62e3548ab5540",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-calm-passion-6b3a59cadf16",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "cb2fb80b6ec34c452ccf82aa665b2426154b574a0c02b747161ca55fa86d34c5",
+  "passed": false,
+  "observations": [
+   "1024×1536. 읽히는 글자·로고·워터마크·그림 테두리 없음.",
+   "뷔스티에 상의·앞으로 뻗은 오른손·쇄골 위 왼손과 허리 위 구도를 따른다.",
+   "빨강·파랑 책 두 권은 주변 탁자 위에 있고 손으로 들지 않는다.",
+   "손가락 수와 양팔 연결은 자연스럽고 정본 얼굴·머리를 유지한다.",
+   "카메라 가까운 손이 흐려 손가락 윤곽은 일부 판독이 어렵다."
+  ],
+  "cause": "렌즈의 가까운 손 원근과 얕은 심도로 손 끝이 흐려졌다."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다",
+ "generation": {
+  "retries": [
+   {
+    "attempt": 1,
+    "exposure": "bold",
+    "result": "generated",
+    "prompt_sha256": "3e41d50cf2621f103400f01a49ccc6cc51c97061e7dea3ee70e62e3548ab5540"
+   }
+  ]
+ }
+}

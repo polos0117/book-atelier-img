@@ -1,0 +1,62 @@
+{
+ "version": 1,
+ "book": "calm_and_passion",
+ "slot": "end_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "calm_and_passion_end_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "176d931204bf84ccb1284e9d0aec4d05ae04f706585f6cf19ee9f0bbabcff707",
+  "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+ },
+ "reference": "calm_and_passion_end_literary_fantasy_f.webp",
+ "prompt": "records/calm_and_passion/end_open-ui.json",
+ "prompt_sha256": "4757fcec3d0544a5606b4df37ba165105d8ec1960a0bebbb6cccb41ba0c1d915",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-calm-passion-6b3a59cadf16",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "176d931204bf84ccb1284e9d0aec4d05ae04f706585f6cf19ee9f0bbabcff707",
+  "passed": true,
+  "observations": [
+   "1024×1536. 읽히는 글자·로고·워터마크·그림 테두리 없음.",
+   "결말과 같은 인물·붉은 코트·손 자세·전신 크기를 유지했다.",
+   "두오모와 피렌체 지붕·강 위 노을로 배경을 넓혔다.",
+   "양팔과 양손·양다리 연결에 추가 사지가 보이지 않는다."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다",
+ "generation": {
+  "retries": [
+   {
+    "attempt": 1,
+    "result": "batch_interrupted",
+    "note": "First open batch returned an output moderation rejection without a slot label; both pending slots lacked returned assets. Exact same prompts were retried once and succeeded.",
+    "prompt_sha256": "4757fcec3d0544a5606b4df37ba165105d8ec1960a0bebbb6cccb41ba0c1d915"
+   },
+   {
+    "attempt": 2,
+    "exposure": "bold",
+    "result": "generated",
+    "prompt_sha256": "4757fcec3d0544a5606b4df37ba165105d8ec1960a0bebbb6cccb41ba0c1d915"
+   }
+  ]
+ }
+}

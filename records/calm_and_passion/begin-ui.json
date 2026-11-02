@@ -1,0 +1,127 @@
+{
+ "version": 1,
+ "book": "calm_and_passion",
+ "title": "냉정과 열정 사이",
+ "mode": "form",
+ "form": "begin",
+ "stage": "발단",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "calm_and_passion_begin_literary_fantasy_f.webp",
+ "record": "records/calm_and_passion/begin-ui.json",
+ "at": "2026-11-02T12:15:51.881Z",
+ "storage": {
+  "last": "calm_and_passion",
+  "cards": {
+   "calm_and_passion": {
+    "style": "literary_fantasy",
+    "version": "v7",
+    "identityMode": "create",
+    "form": "begin",
+    "baseForm": "begin",
+    "casualN": 1,
+    "exposure": "bold",
+    "attachStyleRef": false,
+    "motifs": "",
+    "lookNote": "",
+    "faceDesignOn": true,
+    "silhouetteOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "form",
+    "scenes": {
+     "form": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "open": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold"
+      },
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "aspect": true
+      }
+     }
+    },
+    "versionPinned": false
+   }
+  }
+ },
+ "prompt": "INPUT: text only — no reference image is needed; do not reuse earlier conversation images.\n\nBOOK: «냉정과 열정 사이» by 에쿠니 가오리·쓰지 히토나리. romance · 1990년대 말 · 밀라노와 피렌체, 그리고 도쿄의 기억. Source scope: \"『냉정과 열정 사이』 Rosso(에쿠니 가오리)·Blu(쓰지 히토나리) 두 권(1999)\".\n\nSOURCE ONLY: this book is still under copyright — design only from its written text. Do not imitate costumes, armor, props, creature or character designs, emblems or color schemes from any film, series, game, animation or cover art based on it.\n\nSTYLE: 섬세한 선화 + 회화적 채색의 성인 판타지 삽화풍\n\nDesign notes in quotes may be written in Korean; read them as description, never render them as text.\n\nSUBJECT: one adult woman who is the personification of the book itself — not a cosplay of its protagonist and not a costume of its cover. Persona: \"십 년 전의 약속을 마음 깊이 묻어 두고 서른 번째 생일의 두오모를 기다리는 이 — 차가운 겉과 뜨거운 속을 함께 지닌\". Her desire: \"십 년 전 약속의 자리에서 다시 만나는 것\"; her conflict: \"냉정 대 열정\". Symbols worn as costume motifs, never carried — except one object her form description or pose explicitly puts in her hand: \"손목의 가는 시계\", \"복원 중인 낡은 그림\", \"빨강과 파랑 두 권의 책\".\n\nAGE: in her twenties — smooth youthful skin; minimal facial lines (no nasolabial folds, crow's feet, under-eye bags or cheek creases) whatever her expression.\n\nMATERIAL: the book's own body becomes her costume — \"빨강·파랑 두 빛으로 물들인 리넨 책장을 맞대어 지은 코트, 복원가의 물감 얼룩\". Books are never held in her hands or floated beside her; pages, bindings, slips, thread and ink are worn.\n\nSILHOUETTE: slender build; long wavy hair; garment structure: a long coat over trousers; main material: linen pages dyed half crimson and half deep blue, sewn edge to edge; palette: Florentine terracotta red and cool Milan blue.\n\nFACE (her own structure, not the style's default face): oval face; long monolid eyes; thin arched brows; straight narrow nose; full wide lips; broad Japanese ancestry with individual variation, no stereotyped features.\n\nFORM — BEGINNING (발단): \"밀라노의 오후 — 단정한 파란 리넨 코트와 바지, 목에 두른 얇은 스카프, 코트 안감에 제본한 빨강·파랑 문고본 책장\". Battle role: defender. This is the question stage of her story.\n\nHOLD BACK: these climactic scenes belong to the open images — keep their creatures and events out of this portrait's setting, even as a distant figure, statue, painting or reflection: \"비 내리는 밀라노의 저녁, 젖은 돌길 위로 번지는 트램 불빛\"; \"피렌체 공방 창으로 쏟아지는 오후 햇살, 이젤 위 찢긴 그림 둘레에 떠도는 먼지\"; \"해 질 녘 피렌체 두오모 꼭대기, 붉은 지붕들 너머로 번지는 노을\". An object named in FORM or in her pose stays.\n\nEXPOSURE (bold): her outer layer (coat, cloak, robe or armor) stays on both shoulders, worn symmetrically; skin shows through the inner garment — a deep open neckline with natural cleavage, a fitted corset-like waist, slits where the form allows. The collar opens with the neckline in a V or folds down, never standing away from the neck. Nothing slipped off. Chest and pelvis covered; keep the FORM costume, material and palette.\n\nPRESENTATION: a refined, glamorous adult fantasy card illustration — a beautiful, polished face within her FACE structure; a dense, high-detail costume where decorative metal or gold accents (trim, clasps, a breastplate or corset, jewelry) frame the book material without replacing it; warm dramatic backlight with a rim light and strong value contrast.\n\nSTANCE (this form): \"창가 의자 등받이에 오른손을 얹고 서서 왼팔은 몸 옆으로 자연스럽게 내린 채 창밖을 내다보는 자세\" — a poised card pose seen from a slightly low camera, held still and easy to read.\n\nEXPRESSION (BEGINNING): relaxed brow, softly open eyes, lips closed and unstrained, no smile — the mood of this stage, on her own face.\n\nOUTPUT: one full-body card image of this form, which also fixes who she is for every later form. Vertical 2:3 frame (1024×1536), full body with head and feet inside the frame and clear margins, nothing in front of her but what she holds, face toward the camera (front or three-quarter, never a back view). The setting is a rich, atmospheric place from her book that frames her without competing.\n\nONE FIGURE ONLY. No second character, no text, no lettering, no logo, no watermark, no speech bubble, no frame border; pages and spines stay unlettered.\n\nANATOMY: natural adult proportions, about 7.5 heads tall — height from the legs, never a smaller head or a longer neck. The neck is a natural length and the head sits close to the shoulders. No body-part enlargement, no extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\n\nHANDS: natural human hands. Her hands do only what STANCE says and hold only what it names."
+}

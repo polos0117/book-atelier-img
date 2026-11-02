@@ -1,0 +1,62 @@
+{
+ "_": "tools/prompt-pack.cjs 의 설정 — 고칠 수 있는 칸만 있다. 직접 입력(글 칸 · 표에 없는 값)엔 why 에 까닭을 적는다. 고친 뒤 build",
+ "book": "calm_and_passion",
+ "style": "literary_fantasy",
+ "plan": "/workspace/scratch/6b3a59cadf16/work/plan/plan.json",
+ "card": {
+  "motifs": "",
+  "lookNote": "",
+  "faceDesignOn": true,
+  "silhouetteOn": true,
+  "exposure": "bold",
+  "params": {},
+  "why": ""
+ },
+ "slots": {
+  "begin": {
+   "scene": {},
+   "why": ""
+  },
+  "middle": {
+   "scene": {},
+   "why": ""
+  },
+  "end": {
+   "scene": {},
+   "why": ""
+  },
+  "begin_open": {
+   "scene": {},
+   "why": ""
+  },
+  "middle_open": {
+   "scene": {},
+   "why": ""
+  },
+  "end_open": {
+   "scene": {},
+   "why": ""
+  },
+  "casual1": {
+   "custom": "",
+   "why": ""
+  },
+  "casual2": {
+   "custom": "",
+   "why": "안전 필터에서 같은 지시문이 두 번 거절되어 규칙에 따라 노출을 보통으로 낮춤",
+   "exposure": "moderate"
+  },
+  "casual3": {
+   "custom": "",
+   "why": ""
+  },
+  "casual4": {
+   "custom": "",
+   "why": ""
+  },
+  "casual5": {
+   "custom": "",
+   "why": ""
+  }
+ }
+}

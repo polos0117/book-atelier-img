@@ -1,0 +1,47 @@
+INPUT: the attached image is the approved character; keep her.
+
+CHARACTER: the same woman as the attached image — the personification of «냉정과 열정 사이» (romance). Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.
+
+SOURCE ONLY: this book is still under copyright — design only from its written text. Do not imitate costumes, armor, props, creature or character designs, emblems or color schemes from any film, series, game, animation or cover art based on it.
+
+STYLE: 섬세한 선화 + 회화적 채색의 성인 판타지 삽화풍
+
+SYMBOL (this one only, as an accessory or an object in the scene — never printed on or woven into the clothes): "손목의 가는 시계".
+
+AGE: keep her age as in the attached image; add no wrinkles, folds or under-eye shadows, even when she smiles.
+
+OUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her book shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never her form costume, never a carried book. Everything else follows SCENE (chosen).
+
+FRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.
+
+CROP: a close-up — her face and hair fill most of the frame and the bottom edge crosses at her collarbones; nothing below the shoulders shows, and her hands and anything she holds stay below the frame unless raised to her face. This crop wins over every other line: details apply only to the part that shows, and the outfit reads through its visible neckline, straps, fabric and colour. Never widen the framing to show a hidden support, hand or leg; a limb crossing the edge runs naturally on past it, never cut off or fading out inside the image.
+
+ADAPTATION: the production adapts «냉정과 열정 사이»; its costumes belong to the book's own time and place — "1990년대 말", "밀라노와 피렌체, 그리고 도쿄의 기억" — and are invented from the book's text, not copied from any existing film or stage design.
+
+SCENE (chosen):
+Place: a film set between takes, folding chairs, cables and soft lights
+Outfit: a retro casino bunny costume with a fitted one-piece, cuffs, bow-tie collar and rabbit-ear headband
+POSTURE: standing.
+COMPOSITION: a close-up of her face and hair; body facing the camera; camera at her eye level.
+Lens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.
+RIGHT HAND: her own right index finger rests against her lips in a hush.
+LEFT HAND: her own left hand stays outside the frame.
+GAZE: she looks into the camera.
+EXPRESSION: an unposed in-between expression, mouth caught mid-shape, brows natural.
+overall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy
+skin_exposure: bold — more shoulder, neckline and upper-back exposure inside the crop; cover the chest
+action_level: balanced — a readable moment of gentle movement, not a ratio of multiple images
+source_influence: strong — her book is clearly recognizable through a few accessories and props in the scene, never through the outfit's colours, patterns or cut; no new armor or carried books
+separates_preference: balanced — choose either a one-piece outfit or separates to suit the scene
+
+WARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; the part of that outfit inside the crop must read at first glance in its own colours. Do not carry the attached image's palette, patterns or trim into the outfit; her book belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.
+
+ANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.
+
+ONE MAIN FIGURE: she is the only character in focus. Where the place is busy, other people may appear only as small, soft-focus background extras — never posed with her and never a character from her book. No text, no lettering, no logo, no watermark, no speech bubble, no frame border; pages and spines stay unlettered.
+
+ANATOMY: natural adult proportions, never a smaller head or a longer neck. The neck is a natural length and the head sits close to the shoulders. No body-part enlargement, no extra limbs.
+
+BODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.
+
+HANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may stay outside the crop, and fingers may be partly hidden by a grip.

@@ -1,0 +1,56 @@
+{
+ "version": 1,
+ "book": "calm_and_passion",
+ "slot": "begin_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "calm_and_passion_begin_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "afb880a3f6fd0412e2fe1bf751798904051c178aa22a382a8d8d212f8f065414",
+  "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+ },
+ "reference": "calm_and_passion_begin_literary_fantasy_f.webp",
+ "prompt": "records/calm_and_passion/begin_open-ui.json",
+ "prompt_sha256": "0a9fb18682e2faa8dc594e6e8739d602f42214bc25f0ebce11fc9158f9c70b49",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-calm-passion-6b3a59cadf16",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "afb880a3f6fd0412e2fe1bf751798904051c178aa22a382a8d8d212f8f065414",
+  "passed": false,
+  "observations": [
+   "1024×1536. 읽히는 글자·로고·워터마크·그림 테두리 없음.",
+   "정본과 같은 얼굴·의상·인물 크기를 유지하고 비·트램 불빛의 밀라노 저녁으로 전환했다.",
+   "추가 팔다리 없이 양손이 유지된다.",
+   "오른손 받침이 의자 등받이에서 가로등 구조물로 달라졌다."
+  ],
+  "cause": "실내에서 비 오는 돌길로 환경을 바꾸며 손의 받침 사물까지 바뀌었다."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다",
+ "generation": {
+  "retries": [
+   {
+    "attempt": 1,
+    "exposure": "bold",
+    "result": "generated",
+    "prompt_sha256": "0a9fb18682e2faa8dc594e6e8739d602f42214bc25f0ebce11fc9158f9c70b49"
+   }
+  ]
+ }
+}

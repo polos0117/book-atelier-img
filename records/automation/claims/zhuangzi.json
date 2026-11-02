@@ -4,7 +4,7 @@
   {
    "key": "zhuangzi",
    "execution": "book-zhuangzi-dffe",
-   "status": "working",
+   "status": "complete",
    "claimed_at": "2026-11-02T14:43:21.765Z",
    "date_kst": "2026-11-02",
    "date_utc": "2026-11-02",
@@ -20,7 +20,9 @@
     "zhuangzi_literary_fantasy_f_casual3.webp",
     "zhuangzi_literary_fantasy_f_casual4.webp",
     "zhuangzi_literary_fantasy_f_casual5.webp"
-   ]
+   ],
+   "done_at": "2026-11-02T15:00:57.967Z",
+   "done_by": "book-zhuangzi-dffe"
   }
  ]
 }

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "book": "phantom_of_the_opera",
+  "slot": "begin",
+  "style": "literary_fantasy",
+  "styleVersion": "v7",
+  "file": "phantom_of_the_opera_begin_literary_fantasy_f.webp",
+  "source": {
+    "kind": "generated",
+    "tool": "image_gen (GPT 세션)",
+    "format": "png",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "341dfcc213136d2467b64fcf249598d0cf683da6e1c66197f649cfe8dc41a289",
+    "note": "원본 PNG는 올리지 않고 sha256만 남김"
+  },
+  "reference": null,
+  "prompt": "records/phantom_of_the_opera/begin-ui.json",
+  "prompt_sha256": "2edca4844b77441449ac1cb7ad770f8eba89dd2c61e361cd2b27971ca2a84100",
+  "converted": {
+    "format": "webp",
+    "quality": 90,
+    "method": 6,
+    "thumb": {
+      "long_edge": 512,
+      "quality": 72
+    }
+  },
+  "imported": "2026-11-02",
+  "execution": "book-phantom-24a78b5ad1b6",
+  "qa": {
+    "reviewer": "gpt",
+    "image_sha256": "341dfcc213136d2467b64fcf249598d0cf683da6e1c66197f649cfe8dc41a289",
+    "passed": false,
+    "observations": [
+      "1024×1536 세로 2:3 확인.",
+      "한 명의 성인 여성이 주 피사체.",
+      "책을 손에 들지 않음.",
+      "로고·워터마크·그림 테두리 없음.",
+      "두 팔은 어깨·팔꿈치·손목으로 이어지며 추가 팔은 관찰되지 않음. 손가락은 겹침/소매/물체로 일부 가려짐.",
+      "지정 직모보다 웨이브가 강함.",
+      "거울 속 얼굴 반사가 추가로 보임.",
+      "악보 무늬가 글자 없는 종이 조건과 다르게 표현됨."
+    ],
+    "cause": "첨부 정본의 색·표정·구도를 SCENE보다 강하게 따른 부분 및 악보 소재/무문자, 거울/한명 조건 충돌."
+  },
+  "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

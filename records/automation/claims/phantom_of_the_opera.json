@@ -4,7 +4,7 @@
   {
    "key": "phantom_of_the_opera",
    "execution": "book-phantom-24a78b5ad1b6",
-   "status": "working",
+   "status": "blocked",
    "claimed_at": "2026-11-02T13:43:08.820Z",
    "date_kst": "2026-11-02",
    "date_utc": "2026-11-02",
@@ -20,7 +20,9 @@
     "phantom_of_the_opera_literary_fantasy_f_casual3.webp",
     "phantom_of_the_opera_literary_fantasy_f_casual4.webp",
     "phantom_of_the_opera_literary_fantasy_f_casual5.webp"
-   ]
+   ],
+   "reason": "원 계획 및 한 번 변경한 계획 모두 bold 2회→moderate→low 단계에서 output moderation_blocked(sexual).",
+   "blocked_at": "2026-11-02T14:03:29.003128+00:00"
   }
  ]
 }

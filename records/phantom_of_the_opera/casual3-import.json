@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "book": "phantom_of_the_opera",
+  "slot": "casual3",
+  "style": "literary_fantasy",
+  "styleVersion": "v7",
+  "file": "phantom_of_the_opera_literary_fantasy_f_casual3.webp",
+  "source": {
+    "kind": "generated",
+    "tool": "image_gen (GPT 세션)",
+    "format": "png",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "27b02435f6fc92d15ac23ad41246d7cd87980e0f8b8fd382a397cd46b41982eb",
+    "note": "원본 PNG는 올리지 않고 sha256만 남김"
+  },
+  "reference": "phantom_of_the_opera_begin_literary_fantasy_f.webp",
+  "prompt": "records/phantom_of_the_opera/casual3-ui.json",
+  "prompt_sha256": "97381e6cf32750ef38c65f41644e2bba7f2f0f9378414d4020e815bd2c722aea",
+  "converted": {
+    "format": "webp",
+    "quality": 90,
+    "method": 6,
+    "thumb": {
+      "long_edge": 512,
+      "quality": 72
+    }
+  },
+  "imported": "2026-11-02",
+  "execution": "book-phantom-24a78b5ad1b6",
+  "qa": {
+    "reviewer": "gpt",
+    "image_sha256": "27b02435f6fc92d15ac23ad41246d7cd87980e0f8b8fd382a397cd46b41982eb",
+    "passed": false,
+    "observations": [
+      "1024×1536 세로 2:3 확인.",
+      "한 명의 성인 여성이 주 피사체.",
+      "책을 손에 들지 않음.",
+      "로고·워터마크·그림 테두리 없음.",
+      "두 팔은 어깨·팔꿈치·손목으로 이어지며 추가 팔은 관찰되지 않음. 손가락은 겹침/소매/물체로 일부 가려짐.",
+      "발단 정본의 얼굴·갈색 눈·긴 짙은 갈색 머리와 체형을 이어감.",
+      "가슴 위 크롭보다 허리 아래까지 보임.",
+      "놀란 표정보다 반쯤 감은 눈으로 정본 표정에 가까움.",
+      "의전 교관 옷이 정본의 검정·금색 장식과 유사해짐."
+    ],
+    "cause": "첨부 정본의 색·표정·구도를 SCENE보다 강하게 따른 부분 및 악보 소재/무문자, 거울/한명 조건 충돌."
+  },
+  "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

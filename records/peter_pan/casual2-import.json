@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "book": "peter_pan",
+  "slot": "casual2",
+  "style": "literary_fantasy",
+  "styleVersion": "v7",
+  "file": "peter_pan_literary_fantasy_f_casual2.webp",
+  "source": {
+    "kind": "generated",
+    "tool": "image_gen (GPT 세션)",
+    "format": "png",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "48d96c40960373cedb43e9ce9c77ef290088cfb1ab887dde9a0c821265b0adce",
+    "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+  },
+  "reference": "peter_pan_begin_literary_fantasy_f.webp",
+  "prompt": "records/peter_pan/casual2-ui.json",
+  "prompt_sha256": "c75c7076b0614d3cbf63a8bf59b09ae9eb4b95a355c3294180a0c3f3952a40fd",
+  "converted": {
+    "format": "webp",
+    "quality": 90,
+    "method": 6,
+    "thumb": {
+      "long_edge": 512,
+      "quality": 72
+    }
+  },
+  "imported": "2026-11-02",
+  "execution": "book-peter-pan-8ab381",
+  "qa": {
+    "reviewer": "gpt",
+    "image_sha256": "48d96c40960373cedb43e9ce9c77ef290088cfb1ab887dde9a0c821265b0adce",
+    "passed": true,
+    "observations": [
+      "1024×1536, 주 인물 한 명, 책을 들지 않음, 카드 테두리·로고 없음.",
+      "의자에 앉아 발목 교차, 오른손 무릎·왼손 좌석 옆. 양팔·양다리 연결. 화실과 흑백 메이드 의상."
+    ],
+    "cause": ""
+  },
+  "acceptance": "user_approval_2026-10-31 — AI 검수 뒤 바로 반영, 시각적 품질은 사용자가 확인"
+}

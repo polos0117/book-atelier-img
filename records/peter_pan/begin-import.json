@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "book": "peter_pan",
+  "slot": "begin",
+  "style": "literary_fantasy",
+  "styleVersion": "v7",
+  "file": "peter_pan_begin_literary_fantasy_f.webp",
+  "source": {
+    "kind": "generated",
+    "tool": "image_gen (GPT 세션)",
+    "format": "png",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "a18915b229a9007990f0effb05509a4b0d492e56a0124873d2b579cb6ade829e",
+    "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+  },
+  "reference": null,
+  "prompt": "records/peter_pan/begin-ui.json",
+  "prompt_sha256": "fb6593fd6f4b03553be0a38d9084656bfbb42b1cdeb4ec8f2a5ee14f66734a5e",
+  "converted": {
+    "format": "webp",
+    "quality": 90,
+    "method": 6,
+    "thumb": {
+      "long_edge": 512,
+      "quality": 72
+    }
+  },
+  "imported": "2026-11-02",
+  "execution": "book-peter-pan-8ab381",
+  "qa": {
+    "reviewer": "gpt",
+    "image_sha256": "a18915b229a9007990f0effb05509a4b0d492e56a0124873d2b579cb6ade829e",
+    "passed": false,
+    "observations": [
+      "1024×1536, 주 인물 한 명, 책을 들지 않음, 카드 테두리·로고 없음.",
+      "창틀에 한쪽 무릎을 올린 자세, 두 팔·손이 몸에서 자연스럽게 연결됨. 반대편 발은 창틀 뒤에 가려짐.",
+      "전신 여백이 작고, 시선·자세가 호기심보다는 카메라를 향한 카드 연출에 가까움."
+    ],
+    "cause": "전신·여백 출력과 창틀 앉기 자세의 긴장."
+  },
+  "acceptance": "user_approval_2026-10-31 — AI 검수 뒤 바로 반영, 시각적 품질은 사용자가 확인"
+}

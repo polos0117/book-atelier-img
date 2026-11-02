@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "book": "peter_pan",
+  "slot": "casual4",
+  "style": "literary_fantasy",
+  "styleVersion": "v7",
+  "file": "peter_pan_literary_fantasy_f_casual4.webp",
+  "source": {
+    "kind": "generated",
+    "tool": "image_gen (GPT 세션)",
+    "format": "png",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "41f2f33f8e66a8deea05f001281e45605dd5f470487d3418ea2716ba547ebdf2",
+    "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+  },
+  "reference": "peter_pan_begin_literary_fantasy_f.webp",
+  "prompt": "records/peter_pan/casual4-ui.json",
+  "prompt_sha256": "ad83c4a1b314496a699f825e3150c3db943bbc64c1d5f9cb7215a27c3892162b",
+  "converted": {
+    "format": "webp",
+    "quality": 90,
+    "method": 6,
+    "thumb": {
+      "long_edge": 512,
+      "quality": 72
+    }
+  },
+  "imported": "2026-11-02",
+  "execution": "book-peter-pan-8ab381",
+  "qa": {
+    "reviewer": "gpt",
+    "image_sha256": "41f2f33f8e66a8deea05f001281e45605dd5f470487d3418ea2716ba547ebdf2",
+    "passed": false,
+    "observations": [
+      "1024×1536, 주 인물 한 명, 책을 들지 않음, 카드 테두리·로고 없음.",
+      "루프탑 풀과 도시 야경, 오른손 머리 넘김·왼손 프레임 밖. 보이는 손과 팔 연결 확인.",
+      "얼굴 클로즈업 계획보다 가슴 아래까지 보이는 넓은 크롭이며 머리카락이 정본보다 길고 젖은 가닥으로 표현됨."
+    ],
+    "cause": "face_close와 의상·손 묘사가 경쟁."
+  },
+  "acceptance": "user_approval_2026-10-31 — AI 검수 뒤 바로 반영, 시각적 품질은 사용자가 확인"
+}

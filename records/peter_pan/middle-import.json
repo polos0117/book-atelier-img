@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "book": "peter_pan",
+  "slot": "middle",
+  "style": "literary_fantasy",
+  "styleVersion": "v7",
+  "file": "peter_pan_middle_literary_fantasy_f.webp",
+  "source": {
+    "kind": "generated",
+    "tool": "image_gen (GPT 세션)",
+    "format": "png",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "8b1d7854cee07d165eebed7bb200492b1fc23c1ad87dc94299c4ab0412877865",
+    "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+  },
+  "reference": "peter_pan_begin_literary_fantasy_f.webp",
+  "prompt": "records/peter_pan/middle-ui.json",
+  "prompt_sha256": "b78287802d0bb1267c78c4df533889e9e76a0e1acc8a17e4bd8abdf4fa12e50d",
+  "converted": {
+    "format": "webp",
+    "quality": 90,
+    "method": 6,
+    "thumb": {
+      "long_edge": 512,
+      "quality": 72
+    }
+  },
+  "imported": "2026-11-02",
+  "execution": "book-peter-pan-8ab381",
+  "qa": {
+    "reviewer": "gpt",
+    "image_sha256": "8b1d7854cee07d165eebed7bb200492b1fc23c1ad87dc94299c4ab0412877865",
+    "passed": false,
+    "observations": [
+      "1024×1536, 주 인물 한 명, 책을 들지 않음, 카드 테두리·로고 없음.",
+      "두 팔·두 다리, 밧줄을 잡은 왼손과 귀 옆 오른손이 각각 연결됨.",
+      "설계의 몸을 뒤로 젖힌 수탉 외침보다 정면의 웃는 카드 자세로 표현됨."
+    ],
+    "cause": "정지 카드 STANCE와 뒤로 젖힌 외침의 긴장."
+  },
+  "acceptance": "user_approval_2026-10-31 — AI 검수 뒤 바로 반영, 시각적 품질은 사용자가 확인"
+}

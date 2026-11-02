@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "book": "peter_pan",
+  "slot": "casual5",
+  "style": "literary_fantasy",
+  "styleVersion": "v7",
+  "file": "peter_pan_literary_fantasy_f_casual5.webp",
+  "source": {
+    "kind": "generated",
+    "tool": "image_gen (GPT 세션)",
+    "format": "png",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "f274d1f8a55031e6d33dc5975e95b11019acb9d8da97ffca12da8394454f535f",
+    "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+  },
+  "reference": "peter_pan_begin_literary_fantasy_f.webp",
+  "prompt": "records/peter_pan/casual5-ui.json",
+  "prompt_sha256": "c65edd94eb01bc20ba5da50a6666092deb8089fbf1655738c0663821b32c036a",
+  "converted": {
+    "format": "webp",
+    "quality": 90,
+    "method": 6,
+    "thumb": {
+      "long_edge": 512,
+      "quality": 72
+    }
+  },
+  "imported": "2026-11-02",
+  "execution": "book-peter-pan-8ab381",
+  "qa": {
+    "reviewer": "gpt",
+    "image_sha256": "f274d1f8a55031e6d33dc5975e95b11019acb9d8da97ffca12da8394454f535f",
+    "passed": false,
+    "observations": [
+      "1024×1536, 주 인물 한 명, 책을 들지 않음, 카드 테두리·로고 없음.",
+      "열람 코너, 허리 위 크롭, 오른손 엄지 척·왼손 허리. 양팔과 손 연결 확인.",
+      "정면 계획보다 어깨·몸통이 약간 기울어 있으며 원작 시대 후디가 현대 지퍼 의상에 가까움."
+    ],
+    "cause": "원작 시대 재해석 ERA와 현대 후디의 긴장."
+  },
+  "acceptance": "user_approval_2026-10-31 — AI 검수 뒤 바로 반영, 시각적 품질은 사용자가 확인"
+}

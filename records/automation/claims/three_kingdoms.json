@@ -1,0 +1,26 @@
+{
+ "key": "three_kingdoms",
+ "runs": [
+  {
+   "key": "three_kingdoms",
+   "execution": "book-three-kingdoms-6921",
+   "status": "working",
+   "claimed_at": "2026-11-02T20:59:32.602Z",
+   "date_kst": "2026-11-03",
+   "date_utc": "2026-11-02",
+   "missing": [
+    "three_kingdoms_begin_literary_fantasy_f.webp",
+    "three_kingdoms_begin_open_literary_fantasy_f.webp",
+    "three_kingdoms_middle_literary_fantasy_f.webp",
+    "three_kingdoms_middle_open_literary_fantasy_f.webp",
+    "three_kingdoms_end_literary_fantasy_f.webp",
+    "three_kingdoms_end_open_literary_fantasy_f.webp",
+    "three_kingdoms_literary_fantasy_f_casual1.webp",
+    "three_kingdoms_literary_fantasy_f_casual2.webp",
+    "three_kingdoms_literary_fantasy_f_casual3.webp",
+    "three_kingdoms_literary_fantasy_f_casual4.webp",
+    "three_kingdoms_literary_fantasy_f_casual5.webp"
+   ]
+  }
+ ]
+}

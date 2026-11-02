@@ -1,0 +1,45 @@
+{
+ "version": 1,
+ "book": "journey_to_the_west",
+ "slot": "begin_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "journey_to_the_west_begin_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "570647c1bf8c633602d667b4918ec69f6eb00b184d7b00b345fc32c8a05e352d",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": "journey_to_the_west_begin_literary_fantasy_f.webp",
+ "prompt": "records/journey_to_the_west/begin_open-ui.json",
+ "prompt_sha256": "a099baa03d183e30d65aa2745db4a813b0ca5831916b4c6812b1050abb3e294e",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-journey-west-6beb9eed67b9",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "570647c1bf8c633602d667b4918ec69f6eb00b184d7b00b345fc32c8a05e352d",
+  "passed": false,
+  "observations": [
+   "1024×1536 확인. 이미지 자체에 테두리·로고·워터마크·읽히는 글자 없음.",
+   "발단과 인물의 구도·자세·의상·얼굴을 유지. 갈라진 바위의 빛·폭포·동굴 배경.",
+   "한 인물이며 양팔·양다리의 수와 연결이 유지됨. 발단에서 남은 입김 동작·귀 뒤 봉의 미반영을 계승."
+  ],
+  "cause": "개방의 원본 유지 조건이 발단에서 남은 편차를 그대로 유지함."
+ },
+ "acceptance": "사용자 요청 및 IMAGE_AUTOMATION 0절 — AI 검수의 편차를 남겨 그대로 반영, 재생성하지 않음"
+}

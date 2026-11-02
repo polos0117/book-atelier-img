@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "journey_to_the_west",
+ "slot": "casual3",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "journey_to_the_west_literary_fantasy_f_casual3.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "ea9a0109d4588fc7f675512bd4f9ab901214e9b129bf55a77be9b313b15971dc",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": "journey_to_the_west_begin_literary_fantasy_f.webp",
+ "prompt": "records/journey_to_the_west/casual3-ui.json",
+ "prompt_sha256": "76ab6007464d490799231726aca649d306c3672ace4c8cfd63efc19542e9a4c0",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-journey-west-6beb9eed67b9",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "ea9a0109d4588fc7f675512bd4f9ab901214e9b129bf55a77be9b313b15971dc",
+  "passed": false,
+  "observations": [
+   "1024×1536 확인. 이미지 자체에 테두리·로고·워터마크·읽히는 글자 없음.",
+   "오른팔은 머리 뒤, 왼팔은 바닥을 짚고 두 다리는 옆으로 접음. 각 팔의 어깨 연결과 양쪽 신발을 확인.",
+   "금테 소품이 쿠션 위에 있음. 전신은 프레임 안에 있음.",
+   "당나라 배경에 현대 체크 셔츠·부츠가 남아 ERA의 시대 변환이 충분하지 않음. 옆으로 눕기보다 상체를 세운 반좌식."
+  ],
+  "cause": "ERA의 당나라 재해석과 Outfit의 grunge·COMPOSITION의 누운 자세가 모델에서 부분적으로만 결합됨."
+ },
+ "acceptance": "사용자 요청 및 IMAGE_AUTOMATION 0절 — AI 검수의 편차를 남겨 그대로 반영, 재생성하지 않음"
+}

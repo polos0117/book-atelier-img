@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "journey_to_the_west",
+ "slot": "casual2",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "journey_to_the_west_literary_fantasy_f_casual2.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "29ab3bd187215c223e6162812c56167c3bd7b87098ddcc9d605b05bfe13c6a5c",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": "journey_to_the_west_begin_literary_fantasy_f.webp",
+ "prompt": "records/journey_to_the_west/casual2-ui.json",
+ "prompt_sha256": "cac45254aefac8c4c247e18ed912f3cbe7f08cce753c0ecf28ec5f21f5d5c773",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-journey-west-6beb9eed67b9",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "29ab3bd187215c223e6162812c56167c3bd7b87098ddcc9d605b05bfe13c6a5c",
+  "passed": false,
+  "observations": [
+   "1024×1536 확인. 이미지 자체에 테두리·로고·워터마크·읽히는 글자 없음.",
+   "벽에 기대고 오른손으로 머리를 만짐. 왼팔은 화면 아래로 내려가 손이 프레임 밖. 두 팔 외 추가 팔 없음.",
+   "근두운 장신구가 배경에 보이고 검정 무대 의상으로 변경됨.",
+   "waist_up보다 넓은 허벅지 컷이며 화면 왼쪽 시선 대신 카메라 응시. 재즈 무대 의상은 재해석되었고 정본의 금관·빨간 포인트가 남음."
+  ],
+  "cause": "ANGLE의 선택 구도·시선보다 첨부 정본의 인물 제시가 우세한 것으로 보임."
+ },
+ "acceptance": "사용자 요청 및 IMAGE_AUTOMATION 0절 — AI 검수의 편차를 남겨 그대로 반영, 재생성하지 않음"
+}

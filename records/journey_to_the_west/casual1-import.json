@@ -1,0 +1,77 @@
+{
+ "version": 1,
+ "book": "journey_to_the_west",
+ "slot": "casual1",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "journey_to_the_west_literary_fantasy_f_casual1.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "4da1c79619421e53edcc37c03764de611f4306e2974512c018729ebcd89c5ca1",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": "journey_to_the_west_begin_literary_fantasy_f.webp",
+ "prompt": "records/journey_to_the_west/casual1-ui.json",
+ "prompt_sha256": "abc65df0567bb5fcad068754a51e4c32f601f445241e18170977d6fac0894908",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-journey-west-6beb9eed67b9",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "4da1c79619421e53edcc37c03764de611f4306e2974512c018729ebcd89c5ca1",
+  "passed": false,
+  "observations": [
+   "1024×1536 확인. 이미지 자체에 테두리·로고·워터마크·읽히는 글자 없음.",
+   "이야기 세계 노천탕의 가운·수영복, 오른손 허리·왼손 머리, 두 팔이 각각 어깨에 연결됨.",
+   "노출 low로 생성했으나 실제로는 비치는 가운과 비키니 노출이 높음. 정본의 붉은색·금장·수술이 의상에 남아 WARDROBE 지시와 다름.",
+   "3/4 컷의 무릎 선보다 약간 넓음. 여의봉은 오른쪽 배경 소품으로 배치됨."
+  ],
+  "cause": "SCENE 가운·수영복, WARDROBE 완전 변경, 낮춘 노출 축보다 첨부 정본의 장식·팔레트 및 기본 연출이 강하게 반영된 것으로 보임."
+ },
+ "acceptance": "사용자 요청 및 IMAGE_AUTOMATION 0절 — AI 검수의 편차를 남겨 그대로 반영, 재생성하지 않음",
+ "generation": {
+  "retries": [
+   {
+    "attempt": 1,
+    "exposure": "bold",
+    "result": "moderation_blocked",
+    "request_id": "00e50136-9548-46d8-983d-b7b9f6dcefc7",
+    "prompt_sha256": "bf18c786e2ba53b5e45b553d4da590287b3d3b7bb351f7debbcb634c54e97a9e"
+   },
+   {
+    "attempt": 2,
+    "exposure": "bold",
+    "result": "moderation_blocked",
+    "request_id": "093f7cca-101b-48ab-a6a5-93a72931c5dd",
+    "prompt_sha256": "bf18c786e2ba53b5e45b553d4da590287b3d3b7bb351f7debbcb634c54e97a9e"
+   },
+   {
+    "attempt": 3,
+    "exposure": "moderate",
+    "result": "moderation_blocked",
+    "request_id": "2df7480c-8c05-434f-a666-349be4d6dec6",
+    "prompt_sha256": "46fb561548192d0f2afb32a321d5bf133c61f2feeaed85ef4737ec1a589dd1ac"
+   },
+   {
+    "attempt": 4,
+    "exposure": "low",
+    "result": "generated",
+    "prompt_sha256": "abc65df0567bb5fcad068754a51e4c32f601f445241e18170977d6fac0894908"
+   }
+  ]
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "journey_to_the_west",
+ "slot": "casual4",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "journey_to_the_west_literary_fantasy_f_casual4.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "298a46036cb9b9aa76cb3ec59eda8d7db06a3a0a0a60fe272e9a9b7ba65009f5",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": "journey_to_the_west_begin_literary_fantasy_f.webp",
+ "prompt": "records/journey_to_the_west/casual4-ui.json",
+ "prompt_sha256": "3c0f2466e9ee624091154637a60d267a7c60c96f38fe23a4b3c7998b366579a7",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-journey-west-6beb9eed67b9",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "298a46036cb9b9aa76cb3ec59eda8d7db06a3a0a0a60fe272e9a9b7ba65009f5",
+  "passed": false,
+  "observations": [
+   "1024×1536 확인. 이미지 자체에 테두리·로고·워터마크·읽히는 글자 없음.",
+   "오른손을 흔들고 왼손을 가슴 앞에 둔 두 팔이 각 어깨에 연결됨. 오른손 다섯 손가락 확인.",
+   "테라스 배경과 밝은 새틴 드레스. 정본의 큰 머리 장식·금장·수술·봉이 함께 남아 상징 하나만이라는 선택을 넘음.",
+   "chest_up보다 허리까지 넓고 원숄더 드레스의 한쪽 어깨 구조가 충분히 드러나지 않음."
+  ],
+  "cause": "WARDROBE·SYMBOL 제한보다 첨부 정본의 머리 장식·금장과 구도가 우세한 것으로 보임."
+ },
+ "acceptance": "사용자 요청 및 IMAGE_AUTOMATION 0절 — AI 검수의 편차를 남겨 그대로 반영, 재생성하지 않음"
+}

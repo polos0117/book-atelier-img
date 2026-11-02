@@ -1,0 +1,45 @@
+{
+ "version": 1,
+ "book": "journey_to_the_west",
+ "slot": "middle",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "journey_to_the_west_middle_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "d13cf30d5aa9547d9e72152d27e35db3e68c22f9aefbde4e31b385c6e3ef785a",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": "journey_to_the_west_begin_literary_fantasy_f.webp",
+ "prompt": "records/journey_to_the_west/middle-ui.json",
+ "prompt_sha256": "294af837f04e66faf664cc3793cff0f60862030df68eee5f97a60e3ada6b5035",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-journey-west-6beb9eed67b9",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "d13cf30d5aa9547d9e72152d27e35db3e68c22f9aefbde4e31b385c6e3ef785a",
+  "passed": false,
+  "observations": [
+   "1024×1536 확인. 이미지 자체에 테두리·로고·워터마크·읽히는 글자 없음.",
+   "정본 얼굴·갈색 풍성한 머리·체형을 유지. 양손으로 어깨 뒤의 한 봉을 잡고 양팔이 연결됨.",
+   "구름 위 전신. 금빛 어깨 갑옷은 추가되었으나 전면 미늘 갑옷보다 정본의 코르셋·층치마가 우세. 표정 변화도 작음."
+  ],
+  "cause": "FORM의 새 미늘 갑옷과 첨부 정본·GARMENT 층치마·팔레트 유지가 경쟁한 것으로 보임."
+ },
+ "acceptance": "사용자 요청 및 IMAGE_AUTOMATION 0절 — AI 검수의 편차를 남겨 그대로 반영, 재생성하지 않음"
+}

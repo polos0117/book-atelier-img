@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "journey_to_the_west",
+ "slot": "begin",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "journey_to_the_west_begin_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "f066dacc5d5de1acb282a7fdfabd7773ecd86888ea460c86a55f22a94116c492",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": null,
+ "prompt": "records/journey_to_the_west/begin-ui.json",
+ "prompt_sha256": "fab554bc12d6fb9b7d4d924155e77458660be261c911e605fa25390c513f4740",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-journey-west-6beb9eed67b9",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "f066dacc5d5de1acb282a7fdfabd7773ecd86888ea460c86a55f22a94116c492",
+  "passed": false,
+  "observations": [
+   "1024×1536 확인. 이미지 자체에 테두리·로고·워터마크·읽히는 글자 없음.",
+   "한 명의 성인 여성, 한쪽 무릎을 든 전신. 양팔과 두 다리의 연결이 보이고 손에 책이 없음.",
+   "호피·구름 목판 층·붉은 비단·꿩깃. 머리 깃 끝 일부는 위쪽 프레임에 닿음.",
+   "입김을 부는 대신 미소로 손바닥 위 털을 내보이는 모습이며 귀 뒤의 바늘 크기 봉은 식별하기 어려움."
+  ],
+  "cause": "STANCE의 입김과 EXPRESSION의 닫힌 입 미소가 경쟁함. 머리 깃 길이와 전신 여백도 경쟁함."
+ },
+ "acceptance": "사용자 요청 및 IMAGE_AUTOMATION 0절 — AI 검수의 편차를 남겨 그대로 반영, 재생성하지 않음"
+}

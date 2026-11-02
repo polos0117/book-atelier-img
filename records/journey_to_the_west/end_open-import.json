@@ -1,0 +1,45 @@
+{
+ "version": 1,
+ "book": "journey_to_the_west",
+ "slot": "end_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "journey_to_the_west_end_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "a68af97f8bfcc653495a689aaf477ebe19262b851806464b48e2f4632c7cdd2c",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": "journey_to_the_west_end_literary_fantasy_f.webp",
+ "prompt": "records/journey_to_the_west/end_open-ui.json",
+ "prompt_sha256": "6ddc6373e684df845efb11948edf85ed26eedac69b3cb7891099001ff0080865",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-journey-west-6beb9eed67b9",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "a68af97f8bfcc653495a689aaf477ebe19262b851806464b48e2f4632c7cdd2c",
+  "passed": false,
+  "observations": [
+   "1024×1536 확인. 이미지 자체에 테두리·로고·워터마크·읽히는 글자 없음.",
+   "결말 폼의 합장·염주·봉·인물 위치 유지. 금빛 구름길, 먼 사찰, 경전 두루마리 더미.",
+   "두루마리 표면의 장식 기호는 있으나 읽히는 문장은 없음. 원본의 화려한 의상·남은 금관을 계승."
+  ],
+  "cause": "개방의 원본 유지 조건이 결말의 복식 편차를 유지함."
+ },
+ "acceptance": "사용자 요청 및 IMAGE_AUTOMATION 0절 — AI 검수의 편차를 남겨 그대로 반영, 재생성하지 않음"
+}

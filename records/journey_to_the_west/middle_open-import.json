@@ -1,0 +1,45 @@
+{
+ "version": 1,
+ "book": "journey_to_the_west",
+ "slot": "middle_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "journey_to_the_west_middle_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "ce6c14a204109e87b7a22b73d3daf40d3ed93170e8952b8bd971ed046409e1d8",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": "journey_to_the_west_middle_literary_fantasy_f.webp",
+ "prompt": "records/journey_to_the_west/middle_open-ui.json",
+ "prompt_sha256": "29a820ea4f017018e7d6a6a1dbb2123ee084c2cdc45ea1699e404e06578db829",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-journey-west-6beb9eed67b9",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "ce6c14a204109e87b7a22b73d3daf40d3ed93170e8952b8bd971ed046409e1d8",
+  "passed": false,
+  "observations": [
+   "1024×1536 확인. 이미지 자체에 테두리·로고·워터마크·읽히는 글자 없음.",
+   "전개와 같은 봉·양손·자세·의상·인물 크기. 하늘 궁궐 복숭아밭과 엎어진 술잔·복숭아가 보임.",
+   "추가 인물 없음. 전개 원본의 갑옷·표정 차이 부족을 계승."
+  ],
+  "cause": "개방은 전개의 의상을 유지하므로 전개에서 생긴 복식 편차가 유지됨."
+ },
+ "acceptance": "사용자 요청 및 IMAGE_AUTOMATION 0절 — AI 검수의 편차를 남겨 그대로 반영, 재생성하지 않음"
+}

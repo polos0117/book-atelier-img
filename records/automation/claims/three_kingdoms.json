@@ -4,7 +4,7 @@
   {
    "key": "three_kingdoms",
    "execution": "book-three-kingdoms-6921",
-   "status": "working",
+   "status": "complete",
    "claimed_at": "2026-11-02T20:59:32.602Z",
    "date_kst": "2026-11-03",
    "date_utc": "2026-11-02",
@@ -20,7 +20,9 @@
     "three_kingdoms_literary_fantasy_f_casual3.webp",
     "three_kingdoms_literary_fantasy_f_casual4.webp",
     "three_kingdoms_literary_fantasy_f_casual5.webp"
-   ]
+   ],
+   "done_at": "2026-11-02T21:17:32.616Z",
+   "done_by": "book-three-kingdoms-6921"
   }
  ]
 }

@@ -1,0 +1,26 @@
+{
+ "key": "two_towers",
+ "runs": [
+  {
+   "key": "two_towers",
+   "execution": "book-two-towers-c4c2709d0157",
+   "status": "working",
+   "claimed_at": "2026-11-02T09:11:29.609Z",
+   "date_kst": "2026-11-02",
+   "date_utc": "2026-11-02",
+   "missing": [
+    "two_towers_begin_literary_fantasy_f.webp",
+    "two_towers_begin_open_literary_fantasy_f.webp",
+    "two_towers_middle_literary_fantasy_f.webp",
+    "two_towers_middle_open_literary_fantasy_f.webp",
+    "two_towers_end_literary_fantasy_f.webp",
+    "two_towers_end_open_literary_fantasy_f.webp",
+    "two_towers_literary_fantasy_f_casual1.webp",
+    "two_towers_literary_fantasy_f_casual2.webp",
+    "two_towers_literary_fantasy_f_casual3.webp",
+    "two_towers_literary_fantasy_f_casual4.webp",
+    "two_towers_literary_fantasy_f_casual5.webp"
+   ]
+  }
+ ]
+}

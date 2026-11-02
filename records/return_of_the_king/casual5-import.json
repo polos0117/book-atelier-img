@@ -1,0 +1,63 @@
+{
+ "version": 1,
+ "book": "return_of_the_king",
+ "slot": "casual5",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "return_of_the_king_literary_fantasy_f_casual5.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "3387792efae11dff9da2ea135e79ec8a70411b68520bd06a633a729c6a6dda42",
+  "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+ },
+ "reference": "return_of_the_king_begin_literary_fantasy_f.webp",
+ "references": [
+  "return_of_the_king_begin_literary_fantasy_f.webp"
+ ],
+ "prompt": "records/return_of_the_king/casual5-ui.json",
+ "prompt_text": "records/return_of_the_king/casual5-prompt.txt",
+ "prompt_sha256": "8539c7cf003a2d0900c54f15a16459272f5ff0d6aad807cc9362354a2e4ad542",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-return-king-f7a1c7e5b1f2",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "3387792efae11dff9da2ea135e79ec8a70411b68520bd06a633a729c6a6dda42",
+  "passed": false,
+  "observations": [
+   "1024×1536 원본. 주인공 성인 여성 한 명. 읽히는 글자·로고·워터마크·틀은 보이지 않는다.",
+   "갈색 긴 웨이브 머리와 얼굴·눈색을 유지했다.",
+   "화풍은 섬세한 선화·회화적 채색 요구보다 실사 질감과 사진 조명 쪽으로 기울었다.",
+   "두 팔·두 손·두 다리가 보인다. 책을 안는 PROP가 never a carried book과 충돌했고 결과는 책을 손에 들었다. 피로연 드레스에 기준 그림의 별 장식과 흰색 계열 영향이 남아 WARDROBE 독립 요구와 어긋난다."
+  ],
+  "cause": "화풍의 실사화. 추가 불일치와 추정 원인은 observations에 개별 기재. 불일치 결과를 재생성하지 않고 올리는 IMAGE_AUTOMATION 0·4절 적용."
+ },
+ "generation": {
+  "retries": [
+   {
+    "attempt": 1,
+    "plan": "original",
+    "exposure": "bold",
+    "result": "generated",
+    "category": null,
+    "stage": "success",
+    "request_id": null
+   }
+  ]
+ },
+ "acceptance": "user_approval_2026-10-31 + current user approval — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

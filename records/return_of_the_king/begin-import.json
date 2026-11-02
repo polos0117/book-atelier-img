@@ -1,0 +1,61 @@
+{
+ "version": 1,
+ "book": "return_of_the_king",
+ "slot": "begin",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "return_of_the_king_begin_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "792e424ed73c448847c8a17d32b318a51a256da3567470c6b215ec30cffea9b9",
+  "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+ },
+ "reference": null,
+ "references": [],
+ "prompt": "records/return_of_the_king/begin-ui.json",
+ "prompt_text": "records/return_of_the_king/begin-prompt.txt",
+ "prompt_sha256": "06e003e0875368baeaf35df96e915c9ad7c8aa9c32fd0b43b79f3c645a02a2f2",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-return-king-f7a1c7e5b1f2",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "792e424ed73c448847c8a17d32b318a51a256da3567470c6b215ec30cffea9b9",
+  "passed": false,
+  "observations": [
+   "1024×1536 원본. 주인공 성인 여성 한 명. 읽히는 글자·로고·워터마크·틀은 보이지 않는다.",
+   "긴 얼굴·깊은 눈매·갈색 웨이브 머리의 기준 인물.",
+   "화풍은 섬세한 선화·회화적 채색 요구보다 실사 질감과 사진 조명 쪽으로 기울었다.",
+   "왼팔과 왼손이 망토 뒤에 가려 연결과 손가락 수를 확인할 수 없다. 발끝 일부가 전경 바위에 가려져 있다."
+  ],
+  "cause": "화풍의 실사화. 추가 불일치와 추정 원인은 observations에 개별 기재. 불일치 결과를 재생성하지 않고 올리는 IMAGE_AUTOMATION 0·4절 적용."
+ },
+ "generation": {
+  "retries": [
+   {
+    "attempt": 1,
+    "plan": "original",
+    "exposure": "bold",
+    "result": "generated",
+    "category": null,
+    "stage": "success",
+    "request_id": null
+   }
+  ]
+ },
+ "acceptance": "user_approval_2026-10-31 + current user approval — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

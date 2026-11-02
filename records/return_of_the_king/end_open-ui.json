@@ -1,0 +1,127 @@
+{
+ "version": 1,
+ "book": "return_of_the_king",
+ "title": "반지의 제왕: 왕의 귀환",
+ "mode": "open",
+ "form": "end",
+ "stage": "결말",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "return_of_the_king_end_open_literary_fantasy_f.webp",
+ "record": "records/return_of_the_king/end_open-ui.json",
+ "at": "2026-11-02T10:52:45.551Z",
+ "storage": {
+  "last": "return_of_the_king",
+  "cards": {
+   "return_of_the_king": {
+    "style": "literary_fantasy",
+    "version": "v7",
+    "identityMode": "reference",
+    "form": "end",
+    "baseForm": "begin",
+    "casualN": 1,
+    "exposure": "bold",
+    "attachStyleRef": false,
+    "motifs": "",
+    "lookNote": "",
+    "faceDesignOn": true,
+    "silhouetteOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "open",
+    "scenes": {
+     "form": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "open": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold"
+      },
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "aspect": true
+      }
+     }
+    },
+    "versionPinned": false
+   }
+  }
+ },
+ "prompt": "INPUT: attach this book's ending form card image (her closed state). If a second image fits, add her first approved form image for the face.\n\nBOOK: «반지의 제왕: 왕의 귀환» by J. R. R. 톨킨. tragedy · 가운데땅 제3시대 말(가상) · 미나스 티리스와 펠렌노르 들판에서 운명의 산까지(가상). Source scope: \"『반지의 제왕』 3부 『왕의 귀환』(1955) 본문 — 부록·『실마릴리온』은 넣지 않는다\".\n\nSOURCE ONLY: this book is still under copyright — design only from its written text. Do not imitate costumes, armor, props, creature or character designs, emblems or color schemes from any film, series, game, animation or cover art based on it.\n\nSTYLE: 섬세한 선화 + 회화적 채색의 성인 판타지 삽화풍\n\nDesign notes in quotes may be written in Korean; read them as description, never render them as text.\n\nOUTPUT: the OPEN state of the attached image — the climactic scene of this stage. Keep her face, hair, body, costume, camera, framing and subject scale. Change the world around her into this scene: \"무너져 내리는 검은 탑 너머로 구름이 갈라지고, 운명의 산의 불빛이 꺼져 가는 새벽\". She is the only person; the scene is carried by objects, environment, light, weather or a looming non-human presence. The pair must read as the same picture before and after the scene opens.\n\nAGE: keep her age as in the attached image; add no wrinkles, folds or under-eye shadows, even when she smiles.\n\nONE FIGURE ONLY. No second character, no text, no lettering, no logo, no watermark, no speech bubble, no frame border; pages and spines stay unlettered.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\n\nHANDS: keep both hands as in the attached image."
+}

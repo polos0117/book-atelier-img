@@ -1,0 +1,108 @@
+{
+ "version": 1,
+ "book": "return_of_the_king",
+ "slot": "casual1",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "return_of_the_king_literary_fantasy_f_casual1.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "82abd95538df16176e87d10d9eba8e1365153681fad34a96526f8420bc09541c",
+  "note": "원본 PNG는 올리지 않는다 — sha256만 남긴다"
+ },
+ "reference": "return_of_the_king_begin_literary_fantasy_f.webp",
+ "references": [
+  "return_of_the_king_begin_literary_fantasy_f.webp"
+ ],
+ "prompt": "records/return_of_the_king/casual1-ui.json",
+ "prompt_text": "records/return_of_the_king/casual1-prompt.txt",
+ "prompt_sha256": "6b5b4ca52a987ef998085822ff7116b97b68b7dac649e790acc2a0c3fd15fb7b",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-return-king-f7a1c7e5b1f2",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "82abd95538df16176e87d10d9eba8e1365153681fad34a96526f8420bc09541c",
+  "passed": false,
+  "observations": [
+   "1024×1536 원본. 주인공 성인 여성 한 명. 읽히는 글자·로고·워터마크·틀은 보이지 않는다.",
+   "갈색 긴 웨이브 머리와 얼굴·눈색을 유지했다.",
+   "화풍은 섬세한 선화·회화적 채색 요구보다 실사 질감과 사진 조명 쪽으로 기울었다.",
+   "턱을 괴는 손이 계획의 인물 오른손이 아니라 왼손으로 보인다. 얼굴 클로즈업보다 넓게 가슴과 탁자를 포함했다."
+  ],
+  "cause": "화풍의 실사화. 추가 불일치와 추정 원인은 observations에 개별 기재. 불일치 결과를 재생성하지 않고 올리는 IMAGE_AUTOMATION 0·4절 적용."
+ },
+ "generation": {
+  "retries": [
+   {
+    "attempt": 1,
+    "plan": "original",
+    "exposure": "bold",
+    "result": "moderation_blocked",
+    "category": "sexual",
+    "stage": "output",
+    "request_id": "3c9da4a6-ac07-489b-80b6-fea822eee734"
+   },
+   {
+    "attempt": 2,
+    "plan": "original",
+    "exposure": "bold",
+    "result": "moderation_blocked",
+    "category": "sexual",
+    "stage": "output",
+    "request_id": "e4ce45a7-e4af-4c95-b156-224d15fb5bfa"
+   },
+   {
+    "attempt": 3,
+    "plan": "original",
+    "exposure": "moderate",
+    "result": "moderation_blocked",
+    "category": "sexual",
+    "stage": "output",
+    "request_id": "1b1a1a33-b7c6-4cd2-a4e9-003229f4da1d"
+   },
+   {
+    "attempt": 4,
+    "plan": "original",
+    "exposure": "low",
+    "result": "moderation_blocked",
+    "category": "sexual",
+    "stage": "output",
+    "request_id": "64872127-f293-4698-9ff9-0aebb0d066f4"
+   },
+   {
+    "attempt": 5,
+    "plan": "replanned",
+    "exposure": "bold",
+    "result": "moderation_blocked",
+    "category": "sexual",
+    "stage": "output",
+    "request_id": "0416e8f5-1304-44fe-acb6-7971093c9a4f"
+   },
+   {
+    "attempt": 6,
+    "plan": "replanned",
+    "exposure": "bold",
+    "result": "generated",
+    "category": null,
+    "stage": "success",
+    "request_id": null
+   }
+  ]
+ },
+ "acceptance": "user_approval_2026-10-31 + current user approval — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

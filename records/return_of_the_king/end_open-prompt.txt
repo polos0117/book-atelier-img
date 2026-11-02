@@ -1,0 +1,19 @@
+INPUT: attach this book's ending form card image (her closed state). If a second image fits, add her first approved form image for the face.
+
+BOOK: «반지의 제왕: 왕의 귀환» by J. R. R. 톨킨. tragedy · 가운데땅 제3시대 말(가상) · 미나스 티리스와 펠렌노르 들판에서 운명의 산까지(가상). Source scope: "『반지의 제왕』 3부 『왕의 귀환』(1955) 본문 — 부록·『실마릴리온』은 넣지 않는다".
+
+SOURCE ONLY: this book is still under copyright — design only from its written text. Do not imitate costumes, armor, props, creature or character designs, emblems or color schemes from any film, series, game, animation or cover art based on it.
+
+STYLE: 섬세한 선화 + 회화적 채색의 성인 판타지 삽화풍
+
+Design notes in quotes may be written in Korean; read them as description, never render them as text.
+
+OUTPUT: the OPEN state of the attached image — the climactic scene of this stage. Keep her face, hair, body, costume, camera, framing and subject scale. Change the world around her into this scene: "무너져 내리는 검은 탑 너머로 구름이 갈라지고, 운명의 산의 불빛이 꺼져 가는 새벽". She is the only person; the scene is carried by objects, environment, light, weather or a looming non-human presence. The pair must read as the same picture before and after the scene opens.
+
+AGE: keep her age as in the attached image; add no wrinkles, folds or under-eye shadows, even when she smiles.
+
+ONE FIGURE ONLY. No second character, no text, no lettering, no logo, no watermark, no speech bubble, no frame border; pages and spines stay unlettered.
+
+BODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.
+
+HANDS: keep both hands as in the attached image.

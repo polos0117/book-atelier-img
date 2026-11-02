@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "book": "phantom_of_the_opera",
+  "slot": "casual5",
+  "style": "literary_fantasy",
+  "styleVersion": "v7",
+  "file": "phantom_of_the_opera_literary_fantasy_f_casual5.webp",
+  "source": {
+    "kind": "generated",
+    "tool": "image_gen (GPT 세션)",
+    "format": "png",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "148ebd2a8066b26bf3e229ec3725553d0bf974ba150830f56cf007dd57cc8d72",
+    "note": "원본 PNG는 올리지 않고 sha256만 보존"
+  },
+  "reference": "phantom_of_the_opera_begin_literary_fantasy_f.webp",
+  "prompt": "records/phantom_of_the_opera/casual5-ui.json",
+  "prompt_sha256": "8521f27eff4f8f8e82c879341d0bbc7a96b543b3be29382354b38b748c190e0d",
+  "converted": {
+    "format": "webp",
+    "quality": 90,
+    "method": 6,
+    "thumb": {
+      "long_edge": 512,
+      "quality": 72
+    }
+  },
+  "imported": "2026-11-02",
+  "execution": "book-phantom-retry-24a78",
+  "generation": {
+    "approval": "일상5번 다른 계획으로 재시도해줘",
+    "plan_seed": 627050003,
+    "attempts": 1,
+    "result": "success"
+  },
+  "qa": {
+    "reviewer": "gpt",
+    "image_sha256": "148ebd2a8066b26bf3e229ec3725553d0bf974ba150830f56cf007dd57cc8d72",
+    "passed": false,
+    "observations": [
+      "1024×1536 2:3 확인.",
+      "성인 여성 한 명이며 정본의 얼굴·짙은 갈색 머리·체형 유지.",
+      "의자에 앉은 옆모습 전신, 두 팔이 어깨에서 손목까지 연결되고 두 손이 탁자 위 책장을 넘기는 동작.",
+      "두 다리·두 발이 보이며 추가 팔다리는 관찰되지 않음. 손가락 일부는 페이지와 서로 겹쳐 가려짐.",
+      "책은 탁자 위에 놓여 있고 들지 않음.",
+      "계획한 북클럽보다 화려한 오페라 살롱에 가까움.",
+      "드레스에 정본의 검정과 금색 장식 영향이 남음.",
+      "책장에 글자 형태가 보여 무문자 조건과 다름.",
+      "금지한 붉은 장미 모티프가 탁자 위 꽃다발에 포함됨.",
+      "몸과 얼굴이 완전 옆면보다 약간 카메라 쪽으로 돌아옴."
+    ],
+    "cause": "정본의 팔레트·배경 장식이 의상/시대 장면에 전이됨. PROP의 책장 넘기기가 무문자 조건과 충돌."
+  },
+  "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

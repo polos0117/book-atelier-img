@@ -1,0 +1,40 @@
+{
+ "book": "phantom_of_the_opera",
+ "seed": 627050003,
+ "tree": 2,
+ "required": "lingerie",
+ "slots": [
+  5
+ ],
+ "cuts": [
+  {
+   "n": 5,
+   "era": "book",
+   "place": "salon_club",
+   "ofam": "evening",
+   "treeV": 2,
+   "prop": "",
+   "preset": "side_chair_read",
+   "use": "book_turn",
+   "posture": "sit_chair",
+   "support": "none",
+   "frame": "full_body",
+   "body": "side",
+   "head": "with_body",
+   "camera": "eye",
+   "right": "prop",
+   "left": "prop",
+   "legs": "knees_together",
+   "gaze": "at_prop",
+   "item": "column_gown",
+   "expr": "smug",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "balanced",
+    "source_influence": "balanced",
+    "separates_preference": "strongly prefer separates"
+   }
+  }
+ ]
+}

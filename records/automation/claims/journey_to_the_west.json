@@ -4,7 +4,7 @@
   {
    "key": "journey_to_the_west",
    "execution": "book-journey-west-6beb9eed67b9",
-   "status": "working",
+   "status": "complete",
    "claimed_at": "2026-11-02T13:07:07.269Z",
    "date_kst": "2026-11-02",
    "date_utc": "2026-11-02",
@@ -20,7 +20,9 @@
     "journey_to_the_west_literary_fantasy_f_casual3.webp",
     "journey_to_the_west_literary_fantasy_f_casual4.webp",
     "journey_to_the_west_literary_fantasy_f_casual5.webp"
-   ]
+   ],
+   "done_at": "2026-11-02T13:28:47.071Z",
+   "done_by": "book-journey-west-6beb9eed67b9"
   }
  ]
 }

@@ -1,0 +1,44 @@
+{
+ "version": 1,
+ "book": "lord_of_the_rings",
+ "slot": "end_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "lord_of_the_rings_end_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "images/edits (Claude 세션, gen.cjs)",
+  "model": "gpt-image-2.5-sunburst",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "a6b2a42155b6acf25bdaa80af4ff2c8e92827d21f1adbe4aee35304d5224b10a",
+  "note": "원본 PNG는 올리지 않고 sha256만 남김"
+ },
+ "reference": [
+  "새 lord_of_the_rings_end_literary_fantasy_f.webp 원본 png",
+  "lord_of_the_rings_begin_literary_fantasy_f.webp (png 로 바꿔 첨부)"
+ ],
+ "prompt": "records/lord_of_the_rings/end_open-ui.json",
+ "prompt_sha256": "b7e4b9e53e5e3bf91c5b62c7bfdb05d9542c71ec3e15a3215649304362fa4613",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6
+ },
+ "imported": "2026-11-02",
+ "qa": {
+  "reviewer": "claude",
+  "image_sha256": "a6b2a42155b6acf25bdaa80af4ff2c8e92827d21f1adbe4aee35304d5224b10a",
+  "passed": true,
+  "observations": [
+   "1024×1536 세로 2:3, 주인공 한 명, 틀·글자·로고 없음.",
+   "결말 폼과 같은 그림으로 읽힌다 — 라우로스 폭포 위 안개 낀 강, 작은 회색 배 한 척이 홀로 떠간다.",
+   "계획과 다른 점 — 배에 돛이 하나(원작에 없다), 결말 폼에서 이어진 가죽 장화. 사용자가 보고 그대로 올리기로 했다."
+  ],
+  "cause": "결말 폼 차림(look)에 발이 없어 모델이 여행 장화를 채웠다"
+ },
+ "acceptance": "사용자 「반지의 제왕 이미지만 업로드해줘」(2026-11-02, 비교 그림을 본 뒤)"
+}

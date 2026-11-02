@@ -1,0 +1,43 @@
+{
+ "version": 1,
+ "book": "lord_of_the_rings",
+ "slot": "end",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "lord_of_the_rings_end_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "images/edits (Claude 세션, gen.cjs)",
+  "model": "gpt-image-2.5-sunburst",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "ab7b028ccfa635761768df3ddb81cb20962ba6bc055b558cff38a65b211df93d",
+  "note": "원본 PNG는 올리지 않고 sha256만 남김"
+ },
+ "reference": [
+  "lord_of_the_rings_begin_literary_fantasy_f.webp (png 로 바꿔 첨부)"
+ ],
+ "prompt": "records/lord_of_the_rings/end-ui.json",
+ "prompt_sha256": "e6e780398882bfdcc73f55676799aaa96c9d31d7eb7aa29213451ef4a1c09d49",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6
+ },
+ "imported": "2026-11-02",
+ "qa": {
+  "reviewer": "claude",
+  "image_sha256": "ab7b028ccfa635761768df3ddb81cb20962ba6bc055b558cff38a65b211df93d",
+  "passed": true,
+  "observations": [
+   "1024×1536 세로 2:3, 주인공 한 명, 틀·글자·로고 없음.",
+   "발단 그림과 얼굴·머리·회녹색 망토·은빛 잎 브로치가 같다.",
+   "계획과 다른 점 — 발단의 맨발 대신 가죽 장화(결말 차림 글에 발 이야기가 없다), 표정이 굳은 입 대신 살짝 미소. 사용자가 보고 그대로 올리기로 했다."
+  ],
+  "cause": "결말 폼 차림(look)에 발이 없어 모델이 여행 장화를 채웠다"
+ },
+ "acceptance": "사용자 「반지의 제왕 이미지만 업로드해줘」(2026-11-02, 비교 그림을 본 뒤)"
+}

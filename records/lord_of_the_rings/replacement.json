@@ -1,0 +1,38 @@
+{
+ "version": 1,
+ "book": "lord_of_the_rings",
+ "note": "사람이 바꿔 달라고 한 그림만 바꾼다. 앞 그림은 git 이력에 있고, 여기에는 sha256 만 남긴다",
+ "replacements": [
+  {
+   "date": "2026-11-02",
+   "requested_by": "user",
+   "reason": "반지의 제왕을 1부 『반지 원정대』 로 줄여(두 개의 탑·왕의 귀환은 따로 책) 결말 폼·개방을 1권 끝(아몬 헨 — 홀로 배를 띄운다)으로. 사용자 「A안으로 진행」 · 「반지의 제왕 이미지만 업로드해줘」",
+   "files": [
+    {
+     "file": "lord_of_the_rings_end_literary_fantasy_f.webp",
+     "slot": "end",
+     "previous": {
+      "webp_sha256": "e64c3caf58911ae76cc0e3eecbfada51fe8f1d732c96228ac0c3371e2b0989dd",
+      "source_sha256": null,
+      "note": "옛 그림은 기록 없이 올라갔다(회색 항구 — 3부 끝 결말). git 이력에 있다"
+     },
+     "source_sha256": "ab7b028ccfa635761768df3ddb81cb20962ba6bc055b558cff38a65b211df93d",
+     "webp_sha256": "618b07416a3d354bad3075e7029efddf080c48cbf3b588b7792d3167b62ee919",
+     "prompt_sha256": "e6e780398882bfdcc73f55676799aaa96c9d31d7eb7aa29213451ef4a1c09d49"
+    },
+    {
+     "file": "lord_of_the_rings_end_open_literary_fantasy_f.webp",
+     "slot": "end_open",
+     "previous": {
+      "webp_sha256": "8f954b4cac58db23e8ae086489d1de6444d7c9f679380d67593376bcaa6f93ef",
+      "source_sha256": null,
+      "note": "옛 그림은 기록 없이 올라갔다(회색 항구 — 3부 끝 결말). git 이력에 있다"
+     },
+     "source_sha256": "a6b2a42155b6acf25bdaa80af4ff2c8e92827d21f1adbe4aee35304d5224b10a",
+     "webp_sha256": "ecc0709f62a56055bbf7663ea04db6b30f6fac86e2a1c3afbbee01936fa2a301",
+     "prompt_sha256": "b7e4b9e53e5e3bf91c5b62c7bfdb05d9542c71ec3e15a3215649304362fa4613"
+    }
+   ]
+  }
+ ]
+}

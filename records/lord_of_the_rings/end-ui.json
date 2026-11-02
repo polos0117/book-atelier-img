@@ -1,0 +1,127 @@
+{
+ "version": 1,
+ "book": "lord_of_the_rings",
+ "title": "반지의 제왕: 반지 원정대",
+ "mode": "form",
+ "form": "end",
+ "stage": "결말",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "lord_of_the_rings_end_literary_fantasy_f.webp",
+ "record": "records/lord_of_the_rings/end-ui.json",
+ "at": "2026-11-02T02:03:21.246Z",
+ "storage": {
+  "last": "lord_of_the_rings",
+  "cards": {
+   "lord_of_the_rings": {
+    "style": "literary_fantasy",
+    "version": "v7",
+    "identityMode": "reference",
+    "form": "end",
+    "baseForm": "begin",
+    "casualN": 1,
+    "exposure": "bold",
+    "attachStyleRef": false,
+    "motifs": "",
+    "lookNote": "",
+    "faceDesignOn": true,
+    "silhouetteOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "form",
+    "scenes": {
+     "form": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "open": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold"
+      },
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "aspect": true
+      }
+     }
+    },
+    "versionPinned": false
+   }
+  }
+ },
+ "prompt": "INPUT: the attached image is the approved character (beginning form); keep her.\n\nBOOK: «반지의 제왕: 반지 원정대» by J. R. R. 톨킨. adventure · 가운데땅 제3시대 말(가상) · 샤이어에서 아몬 헨까지(가상). Source scope: \"『반지의 제왕』 1부 『반지 원정대』(1954) — 『두 개의 탑』·『왕의 귀환』은 따로 책(2026-11-02 나눔), 『호빗』·『실마릴리온』은 넣지 않는다\".\n\nSOURCE ONLY: this book is still under copyright — design only from its written text. Do not imitate costumes, armor, props, creature or character designs, emblems or color schemes from any film, series, game, animation or cover art based on it.\n\nSTYLE: 섬세한 선화 + 회화적 채색의 성인 판타지 삽화풍\n\nDesign notes in quotes may be written in Korean; read them as description, never render them as text.\n\nAGE: keep her age as in the attached image; add no wrinkles, folds or under-eye shadows, even when she smiles.\n\nGARMENT: whatever the form changes, keep her garment structure: a wrapped cloak.\n\nFORM — ENDING (결말): \"아몬 헨 — 비에 젖은 회녹색 요정 망토와 은빛 잎 브로치, 겉옷 틈의 은빛 사슬 셔츠, 목에 건 가는 사슬\". Battle role: breaker. This is the answer stage of her story.\n\nHOLD BACK: these climactic scenes belong to the open images — keep their creatures and events out of this portrait's setting, even as a distant figure, statue, painting or reflection: \"가을 오후의 샤이어 언덕길, 둥근 문이 난 언덕 굴집과 길 위에 떨어진 금반지 하나\"; \"끝없는 돌기둥이 늘어선 모리아의 어둠, 멀리 번지는 불꽃 그림자\"; \"라우로스 폭포 위 아몬 헨의 강가, 안개 낀 안두인 대하 위로 작은 회색 배 한 척이 홀로 동쪽 기슭을 향해 미끄러진다\". An object named in FORM or in her pose stays.\n\nEXPOSURE (bold): her outer layer (coat, cloak, robe or armor) stays on both shoulders, worn symmetrically; skin shows through the inner garment — a deep open neckline with natural cleavage, a fitted corset-like waist, slits where the form allows. The collar opens with the neckline in a V or folds down, never standing away from the neck. Nothing slipped off. Chest and pelvis covered; keep the FORM costume, material and palette.\n\nPRESENTATION: a refined, glamorous adult fantasy card illustration — a beautiful, polished face within her FACE structure; a dense, high-detail costume where decorative metal or gold accents (trim, clasps, a breastplate or corset, jewelry) frame the book material without replacing it; warm dramatic backlight with a rim light and strong value contrast.\n\nSTANCE (this form): \"강가 바위에 한 발을 올리고 서서 망토 깃을 여미며, 어깨 너머로 숲 쪽을 마지막으로 돌아보는 자세\" — a poised card pose seen from a slightly low camera, held still and easy to read.\n\nLOOK-BACK: head turns at most a quarter over the shoulder; face three-quarter or profile, never full-front on a turned-away torso.\n\nEXPRESSION (ENDING): level lowered brow, steady unblinking gaze, mouth closed in a straight line, jaw set — the mood of this stage. This expression replaces the attached image's; keep only who she is.\n\nOUTPUT: the ending form of the woman in the attached image, as a new card image. Keep her face, eye and hair colors, haircut, skin tone, body proportions and palette; change only her costume and bearing, as FORM says. Do not reuse the attached image's outer garment, coat, cape or lining artwork — build the costume FORM describes, keeping only her material and palette. Vertical 2:3 frame (1024×1536), full body with head and feet inside the frame and clear margins, nothing in front of her but what she holds, face toward the camera (front or three-quarter, never a back view). A new card-ready pose is fine.\n\nONE FIGURE ONLY. No second character, no text, no lettering, no logo, no watermark, no speech bubble, no frame border; pages and spines stay unlettered.\n\nANATOMY: natural adult proportions, about 7.5 heads tall — height from the legs, never a smaller head or a longer neck. The neck is a natural length and the head sits close to the shoulders. No body-part enlargement, no extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\n\nHANDS: natural human hands. Her hands do only what STANCE says and hold only what it names. Her hands keep the same gloves or bare hands as in the attached image."
+}

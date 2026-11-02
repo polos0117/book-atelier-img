@@ -1,0 +1,127 @@
+{
+ "version": 1,
+ "book": "zhuangzi",
+ "title": "장자",
+ "mode": "form",
+ "form": "begin",
+ "stage": "발단",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "zhuangzi_begin_literary_fantasy_f.webp",
+ "record": "records/zhuangzi/begin-ui.json",
+ "at": "2026-11-02T14:51:15.071Z",
+ "storage": {
+  "last": "zhuangzi",
+  "cards": {
+   "zhuangzi": {
+    "style": "literary_fantasy",
+    "version": "v7",
+    "identityMode": "create",
+    "form": "begin",
+    "baseForm": "begin",
+    "casualN": 1,
+    "exposure": "bold",
+    "attachStyleRef": false,
+    "motifs": "",
+    "lookNote": "",
+    "faceDesignOn": true,
+    "silhouetteOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "form",
+    "scenes": {
+     "form": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "open": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold"
+      },
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "aspect": true
+      }
+     }
+    },
+    "versionPinned": false
+   }
+  }
+ },
+ "prompt": "INPUT: text only — no reference image is needed; do not reuse earlier conversation images.\n\nBOOK: «장자» by 장주(전승). philosophy · 전국 시대(기원전 4세기) · 송나라 몽 땅 — 호숫가 다리 → 북쪽 바다. Source scope: \"『장자』 내편 일곱 편 중심(외편·잡편의 우화 일부)\".\n\nSTYLE: 섬세한 선화 + 회화적 채색의 성인 판타지 삽화풍\n\nDesign notes in quotes may be written in Korean; read them as description, never render them as text.\n\nSUBJECT: one adult woman who is the personification of the book itself — not a cosplay of its protagonist and not a costume of its cover. Persona: \"나비가 된 꿈에서 깨어 내가 나비인지 나비가 나인지 묻고, 쓸모없음의 쓸모를 웃으며 말하는 자유로운 떠돌이\". Her desire: \"어디에도 매이지 않고 노니는 것\"; her conflict: \"쓸모 대 자유\". Symbols worn as costume motifs, never carried — except one object her form description or pose explicitly puts in her hand: \"나비\", \"구만 리를 나는 붕새\", \"쓸모없는 큰 나무\".\n\nAGE: in her twenties — smooth youthful skin; minimal facial lines (no nasolabial folds, crow's feet, under-eye bags or cheek creases) whatever her expression.\n\nMATERIAL: the book's own body becomes her costume — \"물결무늬 죽간을 풀어 날개처럼 늘어뜨린 헐렁한 도포, 나비 날개 모양 소매\". Books are never held in her hands or floated beside her; pages, bindings, slips, thread and ink are worn.\n\nSILHOUETTE: lean and long-legged, with a natural neck length build; long wavy hair; garment structure: an overlapping robe; main material: loosened bamboo slips fanned out like butterfly wings along wide drifting sleeves; palette: dawn-mist azure and butterfly-wing amber over pale bamboo.\n\nFACE (her own structure, not the style's default face): long face; soft droopy eyes; soft rounded brows; broad soft nose; wide smiling mouth; broad Chinese ancestry with individual variation, no stereotyped features.\n\nFORM — BEGINNING (발단): \"북쪽 바다의 붕새 — 깃털처럼 펄럭이는 넓은 소매 도포, 풀어 내린 머리, 맨발\". Battle role: scout. This is the question stage of her story.\n\nHOLD BACK: these climactic scenes belong to the open images — keep their creatures and events out of this portrait's setting, even as a distant figure, statue, painting or reflection: \"북쪽 바다가 갈라지며 거대한 물고기가 하늘을 덮는 새로 솟구친다\"; \"들판 한가운데 아무도 베지 않은 거대한 나무가 하늘을 가린다\"; \"수천 마리 나비가 꿈처럼 흩어지며 세상의 윤곽이 흐려진다\". An object named in FORM or in her pose stays.\n\nEXPOSURE (bold): her outer layer (coat, cloak, robe or armor) stays on both shoulders, worn symmetrically; skin shows through the inner garment — a deep open neckline with natural cleavage, a fitted corset-like waist, slits where the form allows. The collar opens with the neckline in a V or folds down, never standing away from the neck. Nothing slipped off. Chest and pelvis covered; keep the FORM costume, material and palette.\n\nPRESENTATION: a refined, glamorous adult fantasy card illustration — a beautiful, polished face within her FACE structure; a dense, high-detail costume where decorative metal or gold accents (trim, clasps, a breastplate or corset, jewelry) frame the book material without replacing it; warm dramatic backlight with a rim light and strong value contrast.\n\nSTANCE (this form): \"바닷가 바위 위에서 두 팔을 활짝 펼쳐 바람을 안는 자세\" — a poised card pose seen from a slightly low camera, held still and easy to read.\n\nEXPRESSION (BEGINNING): asymmetric grin with teeth just showing, one brow raised, eyes narrowed with amusement — the mood of this stage, on her own face.\n\nOUTPUT: one full-body card image of this form, which also fixes who she is for every later form. Vertical 2:3 frame (1024×1536), full body with head and feet inside the frame and clear margins, nothing in front of her but what she holds, face toward the camera (front or three-quarter, never a back view). The setting is a rich, atmospheric place from her book that frames her without competing.\n\nONE FIGURE ONLY. No second character, no text, no lettering, no logo, no watermark, no speech bubble, no frame border; pages and spines stay unlettered.\n\nANATOMY: natural adult proportions, about 7.5 heads tall — height from the legs, never a smaller head or a longer neck. The neck is a natural length and the head sits close to the shoulders. No body-part enlargement, no extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\n\nHANDS: natural human hands. Her hands do only what STANCE says and hold only what it names."
+}

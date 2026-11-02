@@ -1,0 +1,49 @@
+{
+ "version": 1,
+ "book": "zhuangzi",
+ "slot": "middle",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "zhuangzi_middle_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "8384ce35cab5f0bb6556516772d4e505eb225af643f86aa8ebe0119396b4243f",
+  "note": "원본 PNG는 올리지 않고 sha256만 남김"
+ },
+ "reference": "zhuangzi_begin_literary_fantasy_f.webp",
+ "prompt": "records/zhuangzi/middle-ui.json",
+ "prompt_sha256": "ffa22fb0ed25447e24ed9f619260f2018dfd1e868aa19a106cdac1fae9b330f2",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-zhuangzi-dffe",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "8384ce35cab5f0bb6556516772d4e505eb225af643f86aa8ebe0119396b4243f",
+  "passed": false,
+  "observations": [
+   "1024×1536 세로 이미지.",
+   "주인공 여성 한 명, 읽히는 글자·로고·틀 없음.",
+   "책을 손에 들지 않음.",
+   "두 팔과 두 다리의 연결을 확인했고 명확한 추가 팔다리는 보이지 않음.",
+   "발단 정본과 갈색 긴 웨이브 머리, 얼굴과 체형의 연속성을 확인함.",
+   "표주박을 베고 눕기 대신 한 팔로 머리를 받친 반쯤 앉은 자세. 표주박은 허리 옆에 놓였다.",
+   "첫 그림 의상 장식이 강하게 유지돼 폼별 의상 차이가 작다."
+  ],
+  "cause": "STANCE asks for gourd pillow but FORM puts the gourd at her waist; presentation and front-facing card requirements favor a raised torso."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

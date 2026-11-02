@@ -1,0 +1,66 @@
+{
+ "version": 1,
+ "book": "zhuangzi",
+ "slot": "casual1",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "zhuangzi_literary_fantasy_f_casual1.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "551d21512d779f8279e66397fb07a0ae6983f79f5f5e4a34b991d2790678b936",
+  "note": "원본 PNG는 올리지 않고 sha256만 남김"
+ },
+ "reference": "zhuangzi_begin_literary_fantasy_f.webp",
+ "prompt": "records/zhuangzi/casual1-ui.json",
+ "prompt_sha256": "fe90f6e4181efd9e96e40a5d782aa42252dd14ce3280b6d27ac2e40976f5b917",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-zhuangzi-dffe",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "551d21512d779f8279e66397fb07a0ae6983f79f5f5e4a34b991d2790678b936",
+  "passed": false,
+  "observations": [
+   "1024×1536 세로 이미지.",
+   "주인공 여성 한 명, 읽히는 글자·로고·틀 없음.",
+   "책을 손에 들지 않음.",
+   "두 팔과 두 다리의 연결을 확인했고 명확한 추가 팔다리는 보이지 않음.",
+   "발단 정본과 갈색 긴 웨이브 머리, 얼굴과 체형의 연속성을 확인함.",
+   "선택한 상징은 큰 나무인데, 허리에 작은 표주박도 추가되었다.",
+   "안전 필터 거절 후 skin_exposure를 bold에서 moderate로 낮춰 생성함."
+  ],
+  "cause": "Model added a familiar gourd motif alongside the selected tree symbol."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다",
+ "generation": {
+  "retries": [
+   {
+    "attempt": 1,
+    "exposure": "bold",
+    "result": "moderation_blocked",
+    "request_id": "b71b1da2-0698-4655-89ad-a066683ffba8",
+    "prompt_sha256": "24ff3f39f5ab8ccb2e993055415153d00a7ee5004f747dfbb4a45264127805fe"
+   },
+   {
+    "attempt": 2,
+    "exposure": "moderate",
+    "result": "generated",
+    "prompt_sha256": "fe90f6e4181efd9e96e40a5d782aa42252dd14ce3280b6d27ac2e40976f5b917"
+   }
+  ]
+ }
+}

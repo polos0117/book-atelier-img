@@ -4,7 +4,7 @@
   {
    "key": "harry_potter_stone",
    "execution": "book-harry-stone-9a265",
-   "status": "working",
+   "status": "complete",
    "claimed_at": "2026-11-02T23:21:01.162Z",
    "date_kst": "2026-11-03",
    "date_utc": "2026-11-02",
@@ -20,7 +20,9 @@
     "harry_potter_stone_literary_fantasy_f_casual3.webp",
     "harry_potter_stone_literary_fantasy_f_casual4.webp",
     "harry_potter_stone_literary_fantasy_f_casual5.webp"
-   ]
+   ],
+   "done_at": "2026-11-02T23:39:44.089Z",
+   "done_by": "book-harry-stone-9a265"
   }
  ]
 }

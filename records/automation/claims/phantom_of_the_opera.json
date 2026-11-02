@@ -1,0 +1,26 @@
+{
+ "key": "phantom_of_the_opera",
+ "runs": [
+  {
+   "key": "phantom_of_the_opera",
+   "execution": "book-phantom-24a78b5ad1b6",
+   "status": "working",
+   "claimed_at": "2026-11-02T13:43:08.820Z",
+   "date_kst": "2026-11-02",
+   "date_utc": "2026-11-02",
+   "missing": [
+    "phantom_of_the_opera_begin_literary_fantasy_f.webp",
+    "phantom_of_the_opera_begin_open_literary_fantasy_f.webp",
+    "phantom_of_the_opera_middle_literary_fantasy_f.webp",
+    "phantom_of_the_opera_middle_open_literary_fantasy_f.webp",
+    "phantom_of_the_opera_end_literary_fantasy_f.webp",
+    "phantom_of_the_opera_end_open_literary_fantasy_f.webp",
+    "phantom_of_the_opera_literary_fantasy_f_casual1.webp",
+    "phantom_of_the_opera_literary_fantasy_f_casual2.webp",
+    "phantom_of_the_opera_literary_fantasy_f_casual3.webp",
+    "phantom_of_the_opera_literary_fantasy_f_casual4.webp",
+    "phantom_of_the_opera_literary_fantasy_f_casual5.webp"
+   ]
+  }
+ ]
+}

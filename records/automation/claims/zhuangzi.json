@@ -1,0 +1,26 @@
+{
+ "key": "zhuangzi",
+ "runs": [
+  {
+   "key": "zhuangzi",
+   "execution": "book-zhuangzi-dffe",
+   "status": "working",
+   "claimed_at": "2026-11-02T14:43:21.765Z",
+   "date_kst": "2026-11-02",
+   "date_utc": "2026-11-02",
+   "missing": [
+    "zhuangzi_begin_literary_fantasy_f.webp",
+    "zhuangzi_begin_open_literary_fantasy_f.webp",
+    "zhuangzi_middle_literary_fantasy_f.webp",
+    "zhuangzi_middle_open_literary_fantasy_f.webp",
+    "zhuangzi_end_literary_fantasy_f.webp",
+    "zhuangzi_end_open_literary_fantasy_f.webp",
+    "zhuangzi_literary_fantasy_f_casual1.webp",
+    "zhuangzi_literary_fantasy_f_casual2.webp",
+    "zhuangzi_literary_fantasy_f_casual3.webp",
+    "zhuangzi_literary_fantasy_f_casual4.webp",
+    "zhuangzi_literary_fantasy_f_casual5.webp"
+   ]
+  }
+ ]
+}

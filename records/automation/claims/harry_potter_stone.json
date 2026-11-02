@@ -1,0 +1,26 @@
+{
+ "key": "harry_potter_stone",
+ "runs": [
+  {
+   "key": "harry_potter_stone",
+   "execution": "book-harry-stone-9a265",
+   "status": "working",
+   "claimed_at": "2026-11-02T23:21:01.162Z",
+   "date_kst": "2026-11-03",
+   "date_utc": "2026-11-02",
+   "missing": [
+    "harry_potter_stone_begin_literary_fantasy_f.webp",
+    "harry_potter_stone_begin_open_literary_fantasy_f.webp",
+    "harry_potter_stone_middle_literary_fantasy_f.webp",
+    "harry_potter_stone_middle_open_literary_fantasy_f.webp",
+    "harry_potter_stone_end_literary_fantasy_f.webp",
+    "harry_potter_stone_end_open_literary_fantasy_f.webp",
+    "harry_potter_stone_literary_fantasy_f_casual1.webp",
+    "harry_potter_stone_literary_fantasy_f_casual2.webp",
+    "harry_potter_stone_literary_fantasy_f_casual3.webp",
+    "harry_potter_stone_literary_fantasy_f_casual4.webp",
+    "harry_potter_stone_literary_fantasy_f_casual5.webp"
+   ]
+  }
+ ]
+}

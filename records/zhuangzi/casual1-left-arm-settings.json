@@ -1,0 +1,62 @@
+{
+ "_": "tools/prompt-pack.cjs 의 설정 — 고칠 수 있는 칸만 있다. 직접 입력(글 칸 · 표에 없는 값)엔 why 에 까닭을 적는다. 고친 뒤 build",
+ "book": "zhuangzi",
+ "style": "literary_fantasy",
+ "plan": "/workspace/scratch/dffe0ed3041c/fix-img/records/zhuangzi/casual-plan.json",
+ "card": {
+  "motifs": "",
+  "lookNote": "",
+  "faceDesignOn": true,
+  "silhouetteOn": true,
+  "exposure": "bold",
+  "params": {},
+  "why": ""
+ },
+ "slots": {
+  "begin": {
+   "scene": {},
+   "why": ""
+  },
+  "middle": {
+   "scene": {},
+   "why": ""
+  },
+  "end": {
+   "scene": {},
+   "why": ""
+  },
+  "begin_open": {
+   "scene": {},
+   "why": ""
+  },
+  "middle_open": {
+   "scene": {},
+   "why": ""
+  },
+  "end_open": {
+   "scene": {},
+   "why": ""
+  },
+  "casual1": {
+   "custom": "EDIT TARGET: the attached full-scene image is the exact existing casual1 illustration to repair. Preserve its face, expression, long hair, towel, uniform colors and design, all ornaments, lower body, feet, background, lighting, camera, composition and 1024x1536 crop. Make only a local anatomical repair to her OWN LEFT ARM, the arm whose shoulder is beneath the gold epaulette at image-right. Its forearm and white cuff currently end disconnected from her torso. Reconnect this arm as one continuous, naturally bent limb: from the image-right shoulder under the gold epaulette, show a navy-uniform upper sleeve running down beside her upper torso to a visible elbow at chest level on image-right; from that elbow the left forearm bends upward diagonally across the front of her upper torso to her existing left hand gripping the towel beside her hair. The upper arm must physically join its own shoulder, the elbow must join the forearm, and the forearm must join the existing wrist and hand without any gap. The white cuff attaches naturally around the left forearm; do not leave a floating cuff or disconnected arm. Slightly reposition this left elbow and its sleeve as needed to make the complete shoulder-elbow-wrist chain clear. Preserve her raised RIGHT ARM pressing the towel onto the top of her head. Exactly TWO natural human arms and TWO hands, one left and one right, with five anatomically natural fingers per hand (occluded grip fingers allowed), no duplicated limbs. The woman is an adult in her twenties. This is an anatomical correction, not a new scene or costume. All preexisting visual details outside the corrected left arm are locked to the attached scene; the scene description above supplies context only.",
+   "why": "User explicitly requested repair of the disconnected anatomical left arm in the uploaded casual1 image. Preserve the existing scene and both hand tasks.",
+   "exposure": "moderate"
+  },
+  "casual2": {
+   "custom": "",
+   "why": ""
+  },
+  "casual3": {
+   "custom": "",
+   "why": ""
+  },
+  "casual4": {
+   "custom": "",
+   "why": ""
+  },
+  "casual5": {
+   "custom": "",
+   "why": ""
+  }
+ }
+}

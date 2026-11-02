@@ -6,19 +6,23 @@
  "styleVersion": "v7",
  "file": "zhuangzi_literary_fantasy_f_casual1.webp",
  "source": {
-  "kind": "generated",
+  "kind": "edited",
   "tool": "image_gen (GPT 세션)",
   "format": "png",
   "size": [
    1024,
    1536
   ],
-  "sha256": "551d21512d779f8279e66397fb07a0ae6983f79f5f5e4a34b991d2790678b936",
+  "sha256": "6ad2becbf3826efb8f335ce99073b69870b16a9daf36a9b7da712af042d5032e",
   "note": "원본 PNG는 올리지 않고 sha256만 남김"
  },
- "reference": "zhuangzi_begin_literary_fantasy_f.webp",
+ "reference": {
+  "kind": "user_uploaded_edit_target",
+  "file": "1793652751888.png",
+  "sha256": "10fbdc025cbf5c7b1438d39caa7eb29a167a12fb1ff83093a287967565dd81a5"
+ },
  "prompt": "records/zhuangzi/casual1-ui.json",
- "prompt_sha256": "fe90f6e4181efd9e96e40a5d782aa42252dd14ce3280b6d27ac2e40976f5b917",
+ "prompt_sha256": "b94d6a42e4cc67c501448971ee2c01bdeb484a2921961eacf913ca6932bf8adf",
  "converted": {
   "format": "webp",
   "quality": 90,
@@ -28,22 +32,22 @@
    "quality": 72
   }
  },
- "imported": "2026-11-02",
- "execution": "book-zhuangzi-dffe",
+ "imported": "2026-11-03",
+ "execution": "fix-zhuangzi-left-arm-dffe",
  "qa": {
   "reviewer": "gpt",
-  "image_sha256": "551d21512d779f8279e66397fb07a0ae6983f79f5f5e4a34b991d2790678b936",
+  "image_sha256": "6ad2becbf3826efb8f335ce99073b69870b16a9daf36a9b7da712af042d5032e",
   "passed": false,
+  "anatomy_repair_passed": true,
   "observations": [
-   "1024×1536 세로 이미지.",
-   "주인공 여성 한 명, 읽히는 글자·로고·틀 없음.",
-   "책을 손에 들지 않음.",
-   "두 팔과 두 다리의 연결을 확인했고 명확한 추가 팔다리는 보이지 않음.",
-   "발단 정본과 갈색 긴 웨이브 머리, 얼굴과 체형의 연속성을 확인함.",
-   "선택한 상징은 큰 나무인데, 허리에 작은 표주박도 추가되었다.",
-   "안전 필터 거절 후 skin_exposure를 bold에서 moderate로 낮춰 생성함."
+   "사용자가 지적한 몸통 기준 왼팔의 끊어진 상완을 소매로 연결했다.",
+   "왼쪽 어깨부터 상완·굽힌 팔꿈치·전완·수건 잡은 손목까지 이어지는 형태를 확인했다.",
+   "두 팔과 두 손을 유지했다. 오른팔은 머리 위의 수건을 누르는 동작을 유지했다.",
+   "얼굴·옆모습·유니폼·수건·맨발·온천과 거목 배경을 유지했다.",
+   "1024×1536 세로 2:3.",
+   "기존 상징 선택과 다른 작은 표주박은 사용자 요청 범위 밖이라 그대로 유지했다."
   ],
-  "cause": "Model added a familiar gourd motif alongside the selected tree symbol."
+  "cause": "Original model output rendered the left forearm and cuff without a clear upper-arm connection. Local edit adds a continuous uniform sleeve. Remaining original extra gourd motif is preserved."
  },
  "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다",
  "generation": {
@@ -62,5 +66,11 @@
     "prompt_sha256": "fe90f6e4181efd9e96e40a5d782aa42252dd14ce3280b6d27ac2e40976f5b917"
    }
   ]
+ },
+ "revision": {
+  "request": "머리 말리는 팔중에 몸통 기준 왼팔이 잘려있어. 수정해줘",
+  "date": "2026-11-03",
+  "previous_import": "records/zhuangzi/revisions/2026-11-03-before-left-arm-casual1-import.json",
+  "previous_ui": "records/zhuangzi/revisions/2026-11-03-before-left-arm-casual1-ui.json"
  }
 }

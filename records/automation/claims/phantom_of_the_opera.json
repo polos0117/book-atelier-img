@@ -30,14 +30,16 @@
   {
    "key": "phantom_of_the_opera",
    "execution": "book-phantom-retry-24a78",
-   "status": "working",
+   "status": "complete",
    "claimed_at": "2026-11-02T14:11:24.878710+00:00",
    "date_kst": "2026-11-02",
    "date_utc": "2026-11-02",
    "missing": [
     "phantom_of_the_opera_literary_fantasy_f_casual5.webp"
    ],
-   "approval": "일상5번 다른 계획으로 재시도해줘"
+   "approval": "일상5번 다른 계획으로 재시도해줘",
+   "done_at": "2026-11-02T14:15:50.335279+00:00",
+   "done_by": "book-phantom-retry-24a78"
   }
  ]
 }

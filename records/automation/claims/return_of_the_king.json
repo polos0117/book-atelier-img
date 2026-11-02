@@ -1,0 +1,26 @@
+{
+ "key": "return_of_the_king",
+ "runs": [
+  {
+   "key": "return_of_the_king",
+   "execution": "book-return-king-f7a1c7e5b1f2",
+   "status": "working",
+   "claimed_at": "2026-11-02T10:35:21.854Z",
+   "date_kst": "2026-11-02",
+   "date_utc": "2026-11-02",
+   "missing": [
+    "return_of_the_king_begin_literary_fantasy_f.webp",
+    "return_of_the_king_begin_open_literary_fantasy_f.webp",
+    "return_of_the_king_middle_literary_fantasy_f.webp",
+    "return_of_the_king_middle_open_literary_fantasy_f.webp",
+    "return_of_the_king_end_literary_fantasy_f.webp",
+    "return_of_the_king_end_open_literary_fantasy_f.webp",
+    "return_of_the_king_literary_fantasy_f_casual1.webp",
+    "return_of_the_king_literary_fantasy_f_casual2.webp",
+    "return_of_the_king_literary_fantasy_f_casual3.webp",
+    "return_of_the_king_literary_fantasy_f_casual4.webp",
+    "return_of_the_king_literary_fantasy_f_casual5.webp"
+   ]
+  }
+ ]
+}

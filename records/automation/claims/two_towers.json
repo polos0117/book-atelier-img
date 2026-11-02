@@ -4,7 +4,7 @@
   {
    "key": "two_towers",
    "execution": "book-two-towers-c4c2709d0157",
-   "status": "working",
+   "status": "complete",
    "claimed_at": "2026-11-02T09:11:29.609Z",
    "date_kst": "2026-11-02",
    "date_utc": "2026-11-02",
@@ -20,7 +20,9 @@
     "two_towers_literary_fantasy_f_casual3.webp",
     "two_towers_literary_fantasy_f_casual4.webp",
     "two_towers_literary_fantasy_f_casual5.webp"
-   ]
+   ],
+   "done_at": "2026-11-02T09:30:21.503Z",
+   "done_by": "book-two-towers-c4c2709d0157"
   }
  ]
 }

@@ -1,0 +1,48 @@
+{
+ "version": 1,
+ "book": "two_towers",
+ "slot": "begin_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "two_towers_begin_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "2f7c0c70660e38e0c95754ef5ce7a63bf18d67539acbde6d9f855d1adc9c0c3c",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": [
+  "two_towers_begin_literary_fantasy_f.webp"
+ ],
+ "prompt": "records/two_towers/begin_open-ui.json",
+ "prompt_sha256": "3041bfb054b47327aafc6ee6d070e2b638e5d2bd35d04df0f3796143352164ea",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-02",
+ "execution": "book-two-towers-c4c2709d0157",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "2f7c0c70660e38e0c95754ef5ce7a63bf18d67539acbde6d9f855d1adc9c0c3c",
+  "passed": true,
+  "observations": [
+   "1024×1536, 세로 2:3.",
+   "주인공 성인 여성은 한 명이며 읽히는 글자·로고·프레임 없음.",
+   "관찰 가능한 팔·손은 자연스럽게 연결되며 추가 팔다리는 보이지 않음.",
+   "얼굴·금빛 땋은 머리·체형은 정본과 일관됨."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 — AI 검수 후 업로드, 시각 품질은 사용자가 이후 확인"
+}

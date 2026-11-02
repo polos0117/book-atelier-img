@@ -1,0 +1,127 @@
+{
+ "version": 1,
+ "book": "two_towers",
+ "title": "반지의 제왕: 두 개의 탑",
+ "mode": "form",
+ "form": "middle",
+ "stage": "전개",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "two_towers_middle_literary_fantasy_f.webp",
+ "record": "records/two_towers/middle-ui.json",
+ "at": "2026-11-02T09:11:36.601Z",
+ "storage": {
+  "last": "two_towers",
+  "cards": {
+   "two_towers": {
+    "style": "literary_fantasy",
+    "version": "v7",
+    "identityMode": "reference",
+    "form": "middle",
+    "baseForm": "begin",
+    "casualN": 1,
+    "exposure": "bold",
+    "attachStyleRef": false,
+    "motifs": "",
+    "lookNote": "",
+    "faceDesignOn": true,
+    "silhouetteOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "form",
+    "scenes": {
+     "form": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "open": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold"
+      },
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "aspect": true
+      }
+     }
+    },
+    "versionPinned": false
+   }
+  }
+ },
+ "prompt": "INPUT: the attached image is the approved character (beginning form); keep her.\n\nBOOK: «반지의 제왕: 두 개의 탑» by J. R. R. 톨킨. adventure · 가운데땅 제3시대 말(가상) · 로한 평원과 팡고른 숲, 헬름 협곡에서 죽음의 늪까지(가상). Source scope: \"『반지의 제왕』 2부 『두 개의 탑』(1954) — 1부 『반지 원정대』·3부 『왕의 귀환』은 따로 책\".\n\nSOURCE ONLY: this book is still under copyright — design only from its written text. Do not imitate costumes, armor, props, creature or character designs, emblems or color schemes from any film, series, game, animation or cover art based on it.\n\nSTYLE: 섬세한 선화 + 회화적 채색의 성인 판타지 삽화풍\n\nDesign notes in quotes may be written in Korean; read them as description, never render them as text.\n\nAGE: keep her age as in the attached image; add no wrinkles, folds or under-eye shadows, even when she smiles.\n\nGARMENT: whatever the form changes, keep her garment structure: layered armor over clothing.\n\nFORM — DEVELOPMENT (전개): \"팡고른 숲 — 나뭇결 책장을 겹친 망토에 이끼가 앉고, 나무껍질 무늬 팔 보호대 틈으로 가는 가지가 돋은\". Battle role: attacker. This is the conflict stage of her story.\n\nHOLD BACK: these climactic scenes belong to the open images — keep their creatures and events out of this portrait's setting, even as a distant figure, statue, painting or reflection: \"바람에 풀이 눕는 끝없는 평원, 세 갈래로 흩어지는 발자국 위로 일어나는 흙먼지\"; \"이끼 낀 거대한 나무들이 천천히 뿌리를 뽑고 걸음을 떼기 시작하는 팡고른 숲 속\"; \"밤새 내린 비가 그치는 헬름 협곡, 부서진 성벽 너머 언덕 위로 쏟아지는 첫 햇살\". An object named in FORM or in her pose stays.\n\nEXPOSURE (bold): her outer layer (coat, cloak, robe or armor) stays on both shoulders, worn symmetrically; skin shows through the inner garment — a deep open neckline with natural cleavage, a fitted corset-like waist, slits where the form allows. The collar opens with the neckline in a V or folds down, never standing away from the neck. Nothing slipped off. Chest and pelvis covered; keep the FORM costume, material and palette.\n\nPRESENTATION: a refined, glamorous adult fantasy card illustration — a beautiful, polished face within her FACE structure; a dense, high-detail costume where decorative metal or gold accents (trim, clasps, a breastplate or corset, jewelry) frame the book material without replacing it; warm dramatic backlight with a rim light and strong value contrast.\n\nSTANCE (this form): \"늙은 나무뿌리 위에 한 발을 딛고 서서, 나무껍질 팔 보호대를 낀 주먹을 앞으로 내지르는 자세\" — a poised card pose seen from a slightly low camera, held still and easy to read.\n\nEXPRESSION (DEVELOPMENT): brows pulled down and in, hard forward gaze, jaw clenched, mouth a tight line — the mood of this stage. This expression replaces the attached image's; keep only who she is.\n\nOUTPUT: the development form of the woman in the attached image, as a new card image. Keep her face, eye and hair colors, haircut, skin tone, body proportions and palette; change only her costume and bearing, as FORM says. Do not reuse the attached image's outer garment, coat, cape or lining artwork — build the costume FORM describes, keeping only her material and palette. Vertical 2:3 frame (1024×1536), full body with head and feet inside the frame and clear margins, nothing in front of her but what she holds, face toward the camera (front or three-quarter, never a back view). A new card-ready pose is fine.\n\nONE FIGURE ONLY. No second character, no text, no lettering, no logo, no watermark, no speech bubble, no frame border; pages and spines stay unlettered.\n\nANATOMY: natural adult proportions, about 7.5 heads tall — height from the legs, never a smaller head or a longer neck. The neck is a natural length and the head sits close to the shoulders. No body-part enlargement, no extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\n\nHANDS: natural human hands. Her hands do only what STANCE says and hold only what it names. Her hands keep the same gloves or bare hands as in the attached image."
+}

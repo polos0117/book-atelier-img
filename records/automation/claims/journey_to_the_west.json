@@ -1,0 +1,26 @@
+{
+ "key": "journey_to_the_west",
+ "runs": [
+  {
+   "key": "journey_to_the_west",
+   "execution": "book-journey-west-6beb9eed67b9",
+   "status": "working",
+   "claimed_at": "2026-11-02T13:07:07.269Z",
+   "date_kst": "2026-11-02",
+   "date_utc": "2026-11-02",
+   "missing": [
+    "journey_to_the_west_begin_literary_fantasy_f.webp",
+    "journey_to_the_west_begin_open_literary_fantasy_f.webp",
+    "journey_to_the_west_middle_literary_fantasy_f.webp",
+    "journey_to_the_west_middle_open_literary_fantasy_f.webp",
+    "journey_to_the_west_end_literary_fantasy_f.webp",
+    "journey_to_the_west_end_open_literary_fantasy_f.webp",
+    "journey_to_the_west_literary_fantasy_f_casual1.webp",
+    "journey_to_the_west_literary_fantasy_f_casual2.webp",
+    "journey_to_the_west_literary_fantasy_f_casual3.webp",
+    "journey_to_the_west_literary_fantasy_f_casual4.webp",
+    "journey_to_the_west_literary_fantasy_f_casual5.webp"
+   ]
+  }
+ ]
+}

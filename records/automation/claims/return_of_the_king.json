@@ -4,7 +4,7 @@
   {
    "key": "return_of_the_king",
    "execution": "book-return-king-f7a1c7e5b1f2",
-   "status": "working",
+   "status": "complete",
    "claimed_at": "2026-11-02T10:35:21.854Z",
    "date_kst": "2026-11-02",
    "date_utc": "2026-11-02",
@@ -20,7 +20,9 @@
     "return_of_the_king_literary_fantasy_f_casual3.webp",
     "return_of_the_king_literary_fantasy_f_casual4.webp",
     "return_of_the_king_literary_fantasy_f_casual5.webp"
-   ]
+   ],
+   "done_at": "2026-11-02T11:01:49.641Z",
+   "done_by": "book-return-king-f7a1c7e5b1f2"
   }
  ]
 }

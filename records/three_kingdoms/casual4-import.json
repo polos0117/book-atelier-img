@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "three_kingdoms",
+ "slot": "casual4",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "three_kingdoms_literary_fantasy_f_casual4.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "64e12295a9a899971627b4fde1781919e39b7ae92fc093419c83c7f63eb54e93",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "three_kingdoms_begin_literary_fantasy_f.webp",
+ "additional_reference": null,
+ "prompt": "records/three_kingdoms/casual4-ui.json",
+ "prompt_sha256": "565cb11d03b32656c4828e3c88cfb8214505d1db07bea05fdaa63bd0419c23bb",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-three-kingdoms-6921",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "64e12295a9a899971627b4fde1781919e39b7ae92fc093419c83c7f63eb54e93",
+  "passed": false,
+  "observations": [
+   "1024×1536, 주인공 여성 한 명. 읽히는 글자·숫자·로고·틀 없음. 손에 든 책 없음.",
+   "첫 그림과 같은 얼굴·긴 웨이브 머리·체형을 유지했다.",
+   "원작 시대 가게의 목재 실내와 두루마리를 배경으로 볼에 오른손을 댔다. 왼손은 프레임 밖이다.",
+   "원작 시대 의상을 재해석해야 하나 현대식 투명 비닐 우비로 나왔다. face_close보다 넓은 가슴 위 구도로 나왔다."
+  ],
+  "cause": "ERA(후한~삼국 재해석)와 Outfit(raincoat + boots), close-up CROP 지시가 경쟁했고 현대 우비 해석과 더 넓은 인물 참조가 우세한 것으로 보인다."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

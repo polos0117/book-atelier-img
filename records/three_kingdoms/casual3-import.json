@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "three_kingdoms",
+ "slot": "casual3",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "three_kingdoms_literary_fantasy_f_casual3.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "f2943d6c3c9eb1699f63c4c8eca922dc24102e930fa4ad53d5e859f8faea1ab1",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "three_kingdoms_begin_literary_fantasy_f.webp",
+ "additional_reference": null,
+ "prompt": "records/three_kingdoms/casual3-ui.json",
+ "prompt_sha256": "d0d6c96559739796a169e2d858bc5ba3bc9db829b4ad4e9f723320b098f822b0",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-three-kingdoms-6921",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "f2943d6c3c9eb1699f63c4c8eca922dc24102e930fa4ad53d5e859f8faea1ab1",
+  "passed": true,
+  "observations": [
+   "1024×1536, 주인공 여성 한 명. 읽히는 글자·숫자·로고·틀 없음. 손에 든 책 없음.",
+   "첫 그림과 같은 얼굴·긴 웨이브 머리·체형을 유지했다.",
+   "현대 족욕 장소의 보헤미안 크로셰 차림, 오른손을 카메라로 뻗고 왼손은 가슴에 둔 허리 위 구도이다.",
+   "두 팔이 각각 자연스럽게 이어지고 펼친 손에 다섯 손가락이 보인다."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

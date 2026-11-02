@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "three_kingdoms",
+ "slot": "end_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "three_kingdoms_end_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "b553e2c9cb712de1ab82b48aff48e431911e58e454838d79855b9942569337f7",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "three_kingdoms_end_literary_fantasy_f.webp",
+ "additional_reference": "three_kingdoms_begin_literary_fantasy_f.webp",
+ "prompt": "records/three_kingdoms/end_open-ui.json",
+ "prompt_sha256": "b5bc7e1affaa574a55fdbc7700e739e60cf6b7beb80aaa9364df59055255816b",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-three-kingdoms-6921",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "b553e2c9cb712de1ab82b48aff48e431911e58e454838d79855b9942569337f7",
+  "passed": true,
+  "observations": [
+   "1024×1536, 주인공 여성 한 명. 읽히는 글자·숫자·로고·틀 없음. 손에 든 책 없음.",
+   "첫 그림과 같은 얼굴·긴 웨이브 머리·체형을 유지했다.",
+   "결말의 얼굴·복장·구도와 등불 자세를 유지하고 진영 위로 큰 별 하나가 떨어진다."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

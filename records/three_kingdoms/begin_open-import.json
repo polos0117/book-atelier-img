@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "three_kingdoms",
+ "slot": "begin_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "three_kingdoms_begin_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "f41b5dbd2093385bfb450f54c83c8f213c315ec2e96685a915908a3f1f6987d3",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "three_kingdoms_begin_literary_fantasy_f.webp",
+ "additional_reference": null,
+ "prompt": "records/three_kingdoms/begin_open-ui.json",
+ "prompt_sha256": "7988786804a5e71a9f542d4c76f7c997592db39d220717fb67c56e7cccd7f408",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-three-kingdoms-6921",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "f41b5dbd2093385bfb450f54c83c8f213c315ec2e96685a915908a3f1f6987d3",
+  "passed": true,
+  "observations": [
+   "1024×1536, 주인공 여성 한 명. 읽히는 글자·숫자·로고·틀 없음. 손에 든 책 없음.",
+   "첫 그림과 같은 얼굴·긴 웨이브 머리·체형을 유지했다.",
+   "발단과 얼굴·복장·구도·술잔 자세를 유지하고 복숭아밭과 꽃잎 소용돌이를 펼쳤다."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

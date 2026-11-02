@@ -1,0 +1,127 @@
+{
+ "version": 1,
+ "book": "three_kingdoms",
+ "title": "삼국지",
+ "mode": "form",
+ "form": "middle",
+ "stage": "전개",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "three_kingdoms_middle_literary_fantasy_f.webp",
+ "record": "records/three_kingdoms/middle-ui.json",
+ "at": "2026-11-02T20:59:47.849Z",
+ "storage": {
+  "last": "three_kingdoms",
+  "cards": {
+   "three_kingdoms": {
+    "style": "literary_fantasy",
+    "version": "v7",
+    "identityMode": "reference",
+    "form": "middle",
+    "baseForm": "begin",
+    "casualN": 1,
+    "exposure": "bold",
+    "attachStyleRef": false,
+    "motifs": "",
+    "lookNote": "",
+    "faceDesignOn": true,
+    "silhouetteOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "form",
+    "scenes": {
+     "form": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "open": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold"
+      },
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "aspect": true
+      }
+     }
+    },
+    "versionPinned": false
+   }
+  }
+ },
+ "prompt": "INPUT: the attached image is the approved character (beginning form); keep her.\n\nBOOK: «삼국지» by 나관중(전승). tragedy · 후한 말~삼국 시대(184~280), 14세기 소설 · 탁군 도원 → 적벽 → 오장원. Source scope: \"『삼국지연의』 120회(14세기 나관중 정리, 모종강 본) — 정사 『삼국지』는 넣지 않는다\".\n\nSTYLE: 섬세한 선화 + 회화적 채색의 성인 판타지 삽화풍\n\nDesign notes in quotes may be written in Korean; read them as description, never render them as text.\n\nAGE: keep her age as in the attached image; add no wrinkles, folds or under-eye shadows, even when she smiles.\n\nGARMENT: whatever the form changes, keep her garment structure: a wrapped cloak.\n\nFORM — DEVELOPMENT (전개): \"적벽 — 흰 학창의 위에 두른 세 빛 망토, 손에 든 흰 깃털 부채\". Battle role: attacker. This is the conflict stage of her story.\n\nHOLD BACK: these climactic scenes belong to the open images — keep their creatures and events out of this portrait's setting, even as a distant figure, statue, painting or reflection: \"만개한 복숭아밭에 꽃잎이 바람을 타고 휘몰아친다\"; \"동남풍을 타고 강 위의 배들이 한꺼번에 불길에 휩싸인다\"; \"가을밤 오장원 하늘에서 큰 별 하나가 진영 위로 떨어진다\". An object named in FORM or in her pose stays.\n\nEXPOSURE (bold): her outer layer (coat, cloak, robe or armor) stays on both shoulders, worn symmetrically; skin shows through the inner garment — a deep open neckline with natural cleavage, a fitted corset-like waist, slits where the form allows. The collar opens with the neckline in a V or folds down, never standing away from the neck. Nothing slipped off. Chest and pelvis covered; keep the FORM costume, material and palette.\n\nPRESENTATION: a refined, glamorous adult fantasy card illustration — a beautiful, polished face within her FACE structure; a dense, high-detail costume where decorative metal or gold accents (trim, clasps, a breastplate or corset, jewelry) frame the book material without replacing it; warm dramatic backlight with a rim light and strong value contrast.\n\nSTANCE (this form): \"뱃머리에 서서 흰 깃털 부채를 들어 동남쪽 바람을 가리키는 자세\" — a poised card pose seen from a slightly low camera, held still and easy to read.\n\nEXPRESSION (DEVELOPMENT): level brow, direct unhurried gaze, chin slightly raised, mouth closed and composed — the mood of this stage. This expression replaces the attached image's; keep only who she is.\n\nOUTPUT: the development form of the woman in the attached image, as a new card image. Keep her face, eye and hair colors, haircut, skin tone, body proportions and palette; change only her costume and bearing, as FORM says. Do not reuse the attached image's outer garment, coat, cape or lining artwork — build the costume FORM describes, keeping only her material and palette. Vertical 2:3 frame (1024×1536), full body with head and feet inside the frame and clear margins, nothing in front of her but what she holds, face toward the camera (front or three-quarter, never a back view). A new card-ready pose is fine.\n\nONE FIGURE ONLY. No second character, no text, no lettering, no logo, no watermark, no speech bubble, no frame border; pages and spines stay unlettered.\n\nANATOMY: natural adult proportions, about 7.5 heads tall — height from the legs, never a smaller head or a longer neck. The neck is a natural length and the head sits close to the shoulders. No body-part enlargement, no extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\n\nHANDS: natural human hands. Her hands do only what STANCE says and hold only what it names. Her hands keep the same gloves or bare hands as in the attached image."
+}

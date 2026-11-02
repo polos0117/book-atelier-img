@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "three_kingdoms",
+ "slot": "casual2",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "three_kingdoms_literary_fantasy_f_casual2.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "5ebc07e5e97d76aeccd39ae62fad5b092b379eddb1c7f122355c6b8252008fb0",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "three_kingdoms_begin_literary_fantasy_f.webp",
+ "additional_reference": null,
+ "prompt": "records/three_kingdoms/casual2-ui.json",
+ "prompt_sha256": "a1f789d2fbe67f710d802b3a4cf5eb889499f64b5cd08b67f624f40072aa04ec",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-three-kingdoms-6921",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "5ebc07e5e97d76aeccd39ae62fad5b092b379eddb1c7f122355c6b8252008fb0",
+  "passed": true,
+  "observations": [
+   "1024×1536, 주인공 여성 한 명. 읽히는 글자·숫자·로고·틀 없음. 손에 든 책 없음.",
+   "첫 그림과 같은 얼굴·긴 웨이브 머리·체형을 유지했다.",
+   "현대 호텔에서 홀터 비키니 차림으로 기대 눕고 오른팔은 머리 뒤, 왼손은 찻잔을 든다.",
+   "같은 쪽 팔 중복 없이 두 팔이 연결된다. 작은 세 깃발은 뒤의 여행 가방에 있다."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

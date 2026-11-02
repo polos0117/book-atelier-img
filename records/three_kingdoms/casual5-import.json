@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "three_kingdoms",
+ "slot": "casual5",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "three_kingdoms_literary_fantasy_f_casual5.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "a5df9c1a1ad57e86680eb863d08332a95e9b1b93b5d88a8dab2b6e6b828bf872",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "three_kingdoms_begin_literary_fantasy_f.webp",
+ "additional_reference": null,
+ "prompt": "records/three_kingdoms/casual5-ui.json",
+ "prompt_sha256": "9968aba87fd830d98a594710d6483d123624ff306df0ec012640b093e7684729",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-three-kingdoms-6921",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "a5df9c1a1ad57e86680eb863d08332a95e9b1b93b5d88a8dab2b6e6b828bf872",
+  "passed": false,
+  "observations": [
+   "1024×1536, 주인공 여성 한 명. 읽히는 글자·숫자·로고·틀 없음. 손에 든 책 없음.",
+   "첫 그림과 같은 얼굴·긴 웨이브 머리·체형을 유지했다.",
+   "서커스 천막의 환경 컷, 검은 칵테일 미니 차림으로 바닥에 책상다리하고 오른손은 무릎, 왼손은 바닥을 짚는다.",
+   "얼굴은 옆모습이나 몸통은 계획의 완전한 옆모습보다 3/4 정면에 가깝다. 두 팔과 두 다리의 연결은 정상이다."
+  ],
+  "cause": "몸 옆모습 지시와 책상다리·양손 접지의 가시성을 함께 풀면서 몸통이 카메라 쪽으로 돌아간 것으로 보인다."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

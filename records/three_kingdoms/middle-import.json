@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "three_kingdoms",
+ "slot": "middle",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "three_kingdoms_middle_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "62a8f34178b45649608d0bc4b5c712b0237e3518488b2895bf38ec81bfca2d49",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "three_kingdoms_begin_literary_fantasy_f.webp",
+ "additional_reference": null,
+ "prompt": "records/three_kingdoms/middle-ui.json",
+ "prompt_sha256": "4ebf5be80607f597095e750531058122031e7d19605982c30076912fc9a55b39",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-three-kingdoms-6921",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "62a8f34178b45649608d0bc4b5c712b0237e3518488b2895bf38ec81bfca2d49",
+  "passed": false,
+  "observations": [
+   "1024×1536, 주인공 여성 한 명. 읽히는 글자·숫자·로고·틀 없음. 손에 든 책 없음.",
+   "첫 그림과 같은 얼굴·긴 웨이브 머리·체형을 유지했다.",
+   "흰 학창의와 깃털 부채, 뱃머리 장면이다. 두 팔과 두 다리가 연결된다.",
+   "계획의 자신감 있는 표정보다 발단의 찌푸린 눈썹과 결연한 표정을 강하게 유지했다."
+  ],
+  "cause": "첫 그림의 얼굴 참조가 EXPRESSION의 confident 지시보다 강하게 적용되어 발단 표정을 유지한 것으로 보인다."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

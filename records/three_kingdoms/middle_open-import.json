@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "three_kingdoms",
+ "slot": "middle_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "three_kingdoms_middle_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "704b8125429e55e0c7b46ad4c32b66ece5297da557173e89a0e2b24f85d450dc",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "three_kingdoms_middle_literary_fantasy_f.webp",
+ "additional_reference": "three_kingdoms_begin_literary_fantasy_f.webp",
+ "prompt": "records/three_kingdoms/middle_open-ui.json",
+ "prompt_sha256": "021d250d77410c70121c87d6bd03a73608077d6a67ae7eae0ee656ca5414e95d",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-three-kingdoms-6921",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "704b8125429e55e0c7b46ad4c32b66ece5297da557173e89a0e2b24f85d450dc",
+  "passed": false,
+  "observations": [
+   "1024×1536, 주인공 여성 한 명. 읽히는 글자·숫자·로고·틀 없음. 손에 든 책 없음.",
+   "첫 그림과 같은 얼굴·긴 웨이브 머리·체형을 유지했다.",
+   "전개와 얼굴·복장·구도·부채 자세를 유지하며 강 위 배들이 불탄다.",
+   "전개에서 관찰된 표정 차이가 그대로 남았다."
+  ],
+  "cause": "전개 참조와 개방의 구도·얼굴 잠금이 전개 표정 차이를 유지했다."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

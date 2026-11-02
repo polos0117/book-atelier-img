@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "harry_potter_stone",
+ "slot": "casual5",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "harry_potter_stone_literary_fantasy_f_casual5.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "145fd2ed69c1d863c4e410aca49cc72fa6eccdca6cbfca7e16c1d4fbd7cc5f7c",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "harry_potter_stone_begin_literary_fantasy_f.webp",
+ "additional_reference": null,
+ "prompt": "records/harry_potter_stone/casual5-ui.json",
+ "prompt_sha256": "2f203bdfd46de3fd3e6b46fe251f087076711edcc25d05fb6713a72efc59787e",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-harry-stone-9a265",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "145fd2ed69c1d863c4e410aca49cc72fa6eccdca6cbfca7e16c1d4fbd7cc5f7c",
+  "passed": false,
+  "observations": [
+   "1024×1536, 주인공 여성 한 명. 읽히는 글자·숫자·로고·틀 없음. 책을 들고 있음 — 규칙 위반.",
+   "첫 그림과 같은 얼굴·갈색 웨이브 단발·체형을 유지했다.",
+   "캠프장에서 스파 가운을 입고 쪼그려 앉은 전신. 오른손은 책을 가슴에 안고 왼손은 무릎에 놓인다. 부엉이가 편지를 물었다. 두 팔과 두 다리 연결 정상.",
+   "책을 들지 않기와 달리 책을 들었고 시선은 소품 대신 카메라를 향한다."
+  ],
+  "cause": "OUTPUT·source_influence의 never a carried book과 PROP의 holds a book closed against her chest가 직접 충돌한다. PROP가 우세하게 적용됐으며 윙크 표정과 소품 응시도 경쟁했다."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

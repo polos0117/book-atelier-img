@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "harry_potter_stone",
+ "slot": "middle_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "harry_potter_stone_middle_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "f5fa9a266d59329a65e4ea78f8d789e35ece6f45f85ed410bc83e3a7e9c5e682",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "harry_potter_stone_middle_literary_fantasy_f.webp",
+ "additional_reference": "harry_potter_stone_begin_literary_fantasy_f.webp",
+ "prompt": "records/harry_potter_stone/middle_open-ui.json",
+ "prompt_sha256": "57c11977a1ee68e92314a8cf9b4446944c737d8d2e3c8f0c053b4d4f5a5c2601",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-harry-stone-9a265",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "f5fa9a266d59329a65e4ea78f8d789e35ece6f45f85ed410bc83e3a7e9c5e682",
+  "passed": true,
+  "observations": [
+   "1024×1536, 주인공 여성 한 명. 읽히는 글자·숫자·로고·틀 없음. 손에 든 책 없음.",
+   "첫 그림과 같은 얼굴·갈색 웨이브 단발·체형을 유지했다.",
+   "전개의 얼굴·의상·자세·화각을 유지하고 부서진 거대 체스말과 문으로 통하는 길이 펼쳐진다."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

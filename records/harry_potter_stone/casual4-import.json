@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "harry_potter_stone",
+ "slot": "casual4",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "harry_potter_stone_literary_fantasy_f_casual4.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "a32ae572d4d8b66fae5a3460d810113dc392eba2cabdc9337867f049fc98de98",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "harry_potter_stone_begin_literary_fantasy_f.webp",
+ "additional_reference": null,
+ "prompt": "records/harry_potter_stone/casual4-ui.json",
+ "prompt_sha256": "97170fe8b0a9086e0c0533387101742aac3b67a666611cf68ba9816dc58b54ad",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-harry-stone-9a265",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "a32ae572d4d8b66fae5a3460d810113dc392eba2cabdc9337867f049fc98de98",
+  "passed": true,
+  "observations": [
+   "1024×1536, 주인공 여성 한 명. 읽히는 글자·숫자·로고·틀 없음. 손에 든 책 없음.",
+   "첫 그림과 같은 얼굴·갈색 웨이브 단발·체형을 유지했다.",
+   "밤 택시 뒷좌석, 랩 수영복과 헤드폰, 투명 망토는 가방에 걸쳐진 주변 소품이다. 오른손 헤드폰·왼손 무릎, 옆모습과 다리 꼬기. 추가 팔·다리 없음."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

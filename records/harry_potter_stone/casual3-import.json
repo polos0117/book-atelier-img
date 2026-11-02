@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "harry_potter_stone",
+ "slot": "casual3",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "harry_potter_stone_literary_fantasy_f_casual3.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "30e3831ea6ab7c85b70a4cc33eb7682c7525c06e4fabafad2f247a12ee473d6c",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "harry_potter_stone_begin_literary_fantasy_f.webp",
+ "additional_reference": null,
+ "prompt": "records/harry_potter_stone/casual3-ui.json",
+ "prompt_sha256": "1f0aed517e7090599b5f5bfc33823ab4b77c4a4bc8e7e221b1cb394587c9440e",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-harry-stone-9a265",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "30e3831ea6ab7c85b70a4cc33eb7682c7525c06e4fabafad2f247a12ee473d6c",
+  "passed": true,
+  "observations": [
+   "1024×1536, 주인공 여성 한 명. 읽히는 글자·숫자·로고·틀 없음. 손에 든 책 없음.",
+   "첫 그림과 같은 얼굴·갈색 웨이브 단발·체형을 유지했다.",
+   "성 계단의 Y2K 나비 홀터톱과 로우라이즈 차림. 오른손은 카메라를 향하고 왼손은 쇄골 위, 붉은 돌은 팔찌 참이다. 양팔이 각각 어깨·팔꿈치·손목으로 이어진다."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "harry_potter_stone",
+ "slot": "begin",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "harry_potter_stone_begin_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "f1a9ce156072b11c93af94d5b38f843f26da605e121c0c9725454dc170179cec",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": null,
+ "additional_reference": null,
+ "prompt": "records/harry_potter_stone/begin-ui.json",
+ "prompt_sha256": "c6f9a6bef5bc800197893c9b8de2b6f154c111070b999d28eb833c0a8d9e806f",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-harry-stone-9a265",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "f1a9ce156072b11c93af94d5b38f843f26da605e121c0c9725454dc170179cec",
+  "passed": true,
+  "observations": [
+   "1024×1536, 주인공 여성 한 명. 읽히는 글자·숫자·로고·틀 없음. 손에 든 책 없음.",
+   "이 그림을 정본으로 확정했다.",
+   "계단 아래 작은 방 문간에서 양손으로 봉랍 편지를 들고 있다. 양피지·깃털 망토와 진홍·금색 겹침 로브, 놀란 표정. 두 팔·손·다리가 이어진다."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

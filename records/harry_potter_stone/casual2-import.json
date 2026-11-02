@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "harry_potter_stone",
+ "slot": "casual2",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "harry_potter_stone_literary_fantasy_f_casual2.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "eda0313b01783fb31a9f546712acf34c1123b503fc1f5e2a46baaeeeb1443fcb",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "harry_potter_stone_begin_literary_fantasy_f.webp",
+ "additional_reference": null,
+ "prompt": "records/harry_potter_stone/casual2-ui.json",
+ "prompt_sha256": "beb845a9cc74589d921729d0803d21065a4b24a7189414f82eb5429eb50fed7e",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-harry-stone-9a265",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "eda0313b01783fb31a9f546712acf34c1123b503fc1f5e2a46baaeeeb1443fcb",
+  "passed": false,
+  "observations": [
+   "1024×1536, 주인공 여성 한 명. 읽히는 글자·숫자·로고·틀 없음. 손에 든 책 없음.",
+   "첫 그림과 같은 얼굴·갈색 웨이브 단발·체형을 유지했다.",
+   "숲속 돌벽에 기대 양궁 차림으로 팔짱. 부엉이 우편 편지는 배경 바위에 놓였다. 두 팔의 겹침과 연결은 자연스럽다.",
+   "가슴 위보다 넓어 허리까지 보인다."
+  ],
+  "cause": "chest_up CROP와 팔짱 양손 가시성 지시가 경쟁해 허리까지 확장됐다."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

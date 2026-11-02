@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "book": "harry_potter_stone",
+ "slot": "casual1",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "harry_potter_stone_literary_fantasy_f_casual1.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "2d2fcc31a11c3a1e4e61dcb784b3e204f48a54a31bb0bd925047c44dd6a9e57c",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "harry_potter_stone_begin_literary_fantasy_f.webp",
+ "additional_reference": null,
+ "prompt": "records/harry_potter_stone/casual1-ui.json",
+ "prompt_sha256": "48fa41c1df70b166a555d3dbb15e9e0135cc06ac004d480bec47a4479d1d8980",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-harry-stone-9a265",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "2d2fcc31a11c3a1e4e61dcb784b3e204f48a54a31bb0bd925047c44dd6a9e57c",
+  "passed": false,
+  "observations": [
+   "1024×1536, 주인공 여성 한 명. 읽히는 글자·숫자·로고·틀 없음. 손에 든 책 없음.",
+   "첫 그림과 같은 얼굴·갈색 웨이브 단발·체형을 유지했다.",
+   "결혼식장 의자에 앉은 치파오 응용 실크 차림, 폰 셀카와 투명 망토 모양의 작은 참. 오른팔은 화면 가장자리로 이어지고 왼손은 프레임 밖이다.",
+   "얼굴 클로즈업보다 넓어 하단이 가슴까지 보인다."
+  ],
+  "cause": "CROP의 쇄골 아래 금지·face_close와 의상 목선 및 셀카 오른팔을 함께 표현하는 지시가 경쟁해 가슴 위까지 넓어졌다."
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

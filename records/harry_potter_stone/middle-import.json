@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "harry_potter_stone",
+ "slot": "middle",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "harry_potter_stone_middle_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "eee5dec7933d0cda04b8917b47c94178d7487cc7325c829c1f1377962391c62d",
+  "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+ },
+ "reference": "harry_potter_stone_begin_literary_fantasy_f.webp",
+ "additional_reference": null,
+ "prompt": "records/harry_potter_stone/middle-ui.json",
+ "prompt_sha256": "4f492b85e1e5a8b5d9233166d17c73eacc3dab2b93dcd943880ffd6ad0ea2c63",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-harry-stone-9a265",
+ "qa": {
+  "reviewer": "gpt",
+  "image_sha256": "eee5dec7933d0cda04b8917b47c94178d7487cc7325c829c1f1377962391c62d",
+  "passed": true,
+  "observations": [
+   "1024×1536, 주인공 여성 한 명. 읽히는 글자·숫자·로고·틀 없음. 손에 든 책 없음.",
+   "첫 그림과 같은 얼굴·갈색 웨이브 단발·체형을 유지했다.",
+   "복도 모퉁이에서 몸을 낮추고 오른손 지팡이, 왼손으로 벽을 짚는다. 은빛 투명 망토와 호기심 표정. 추가 팔다리는 보이지 않는다."
+  ],
+  "cause": ""
+ },
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+}

@@ -1,0 +1,62 @@
+{
+ "version": 1,
+ "book": "the_martian",
+ "slot": "casual1",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "the_martian_literary_fantasy_f_casual1.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "5720d0b0aaff918e108da049ca36b76061f47ca36f2bc3d5cbe9bfbc817cedd6",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": "the_martian_begin_literary_fantasy_f.webp",
+ "prompt": "records/the_martian/casual1-ui.json",
+ "prompt_sha256": "89ccd19acd68c9d8715348fc8f7345ce10cf5e9621c8b14147858e558aefc93e",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-martian-4c5a361ae6d9",
+ "qa": {
+  "reviewer": "GPT book-martian-4c5a361ae6d9",
+  "image_sha256": "5720d0b0aaff918e108da049ca36b76061f47ca36f2bc3d5cbe9bfbc817cedd6",
+  "passed": false,
+  "observations": [
+   "1024×1536, 세로 2:3. 주인공 한 명, 이미지 안 카드 틀·로고·워터마크·손에 든 책 없음.",
+   "공통 화풍 지시는 섬세한 선화와 회화적 채색이나 실제 결과는 사진/실사 렌더에 가까워 화풍 일치 검수를 통과시키지 않았다.",
+   "런웨이, 파란 컷아웃 원피스 수영복, 오른손을 카메라 쪽으로 뻗고 왼손은 가슴 위에 둔 구도.",
+   "두 팔이 몸에 연결되며 펼친 손은 다섯 손가락으로 보인다. 감자 싹은 팔찌 장식으로만 반영됐다. 허리 위 계획보다 아래 골반까지 포함한다. 이마에 표정 주름이 보인다."
+  ],
+  "cause": "짧은 공통 STYLE 문장에 비해 PRESENTATION의 정교한 얼굴·강한 역광·고밀도 재질과 기준 이미지의 사실적 피부/재질이 실사 묘사를 강화한 것으로 추정. 종이 계산 묘사와 no lettering 지시도 서로 충돌함. 사진 같은 묘사는 요청 화풍과 일치한다고 볼 수 없음."
+ },
+ "acceptance": "user_approval_2026-10-31 — 검수 미달을 기록한 뒤 올리고 사용자가 올라간 뒤 본다",
+ "generation": {
+  "retries": [
+   {
+    "attempt": 1,
+    "exposure": "bold",
+    "result": "moderation_blocked",
+    "request_id": "633c3956-f2d0-4030-9185-161ea4461c53"
+   },
+   {
+    "attempt": 2,
+    "exposure": "bold",
+    "result": "generated",
+    "request_id": null
+   }
+  ]
+ }
+}

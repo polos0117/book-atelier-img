@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "the_martian",
+ "slot": "casual3",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "the_martian_literary_fantasy_f_casual3.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "11875f0f0f1824d6a5252e0f1771628082cf777ce011620402bfd5cc145b588b",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": "the_martian_begin_literary_fantasy_f.webp",
+ "prompt": "records/the_martian/casual3-ui.json",
+ "prompt_sha256": "1f6e6e3a61984e3f2d671b180b4ec4dd98c18be8d837d2947262b776c45e1389",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-martian-4c5a361ae6d9",
+ "qa": {
+  "reviewer": "GPT book-martian-4c5a361ae6d9",
+  "image_sha256": "11875f0f0f1824d6a5252e0f1771628082cf777ce011620402bfd5cc145b588b",
+  "passed": false,
+  "observations": [
+   "1024×1536, 세로 2:3. 주인공 한 명, 이미지 안 카드 틀·로고·워터마크·손에 든 책 없음.",
+   "공통 화풍 지시는 섬세한 선화와 회화적 채색이나 실제 결과는 사진/실사 렌더에 가까워 화풍 일치 검수를 통과시키지 않았다.",
+   "화성 장터의 얼굴 근접 옆모습. 머리를 만지는 팔은 화면 가장자리로 이어지고 반대 팔은 계획대로 화면 밖이다.",
+   "주인공 추가 팔이나 손은 보이지 않는다. 배경 인물은 작고 흐리다. 감자/테이프 소품은 이 근접 구도에서 알아보기 어렵다."
+  ],
+  "cause": "짧은 공통 STYLE 문장에 비해 PRESENTATION의 정교한 얼굴·강한 역광·고밀도 재질과 기준 이미지의 사실적 피부/재질이 실사 묘사를 강화한 것으로 추정. 종이 계산 묘사와 no lettering 지시도 서로 충돌함. 사진 같은 묘사는 요청 화풍과 일치한다고 볼 수 없음."
+ },
+ "acceptance": "user_approval_2026-10-31 — 검수 미달을 기록한 뒤 올리고 사용자가 올라간 뒤 본다"
+}

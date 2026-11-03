@@ -1,0 +1,46 @@
+{
+ "version": 1,
+ "book": "the_martian",
+ "slot": "begin",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "the_martian_begin_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "77bdc547d482d5877f528d6b5cad40195c2de5c4449651c3e6e0a027b7287d71",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": null,
+ "prompt": "records/the_martian/begin-ui.json",
+ "prompt_sha256": "bd396f367f1742dd33756fcc1f0d681add2a45c38ff3a8d09904e3ca086dd58a",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-martian-4c5a361ae6d9",
+ "qa": {
+  "reviewer": "GPT book-martian-4c5a361ae6d9",
+  "image_sha256": "77bdc547d482d5877f528d6b5cad40195c2de5c4449651c3e6e0a027b7287d71",
+  "passed": false,
+  "observations": [
+   "1024×1536, 세로 2:3. 주인공 한 명, 이미지 안 카드 틀·로고·워터마크·손에 든 책 없음.",
+   "공통 화풍 지시는 섬세한 선화와 회화적 채색이나 실제 결과는 사진/실사 렌더에 가까워 화풍 일치 검수를 통과시키지 않았다.",
+   "성인 여성 한 명이 왼팔에 헬멧을 안고 오른손을 허리에 둔다. 양팔과 양다리가 몸에 연결되어 있다.",
+   "종이 조각에 판독하기 어려운 계산·필기 모양이 남았다."
+  ],
+  "cause": "짧은 공통 STYLE 문장에 비해 PRESENTATION의 정교한 얼굴·강한 역광·고밀도 재질과 기준 이미지의 사실적 피부/재질이 실사 묘사를 강화한 것으로 추정. 종이 계산 묘사와 no lettering 지시도 서로 충돌함. 사진 같은 묘사는 요청 화풍과 일치한다고 볼 수 없음."
+ },
+ "acceptance": "user_approval_2026-10-31 — 검수 미달을 기록한 뒤 올리고 사용자가 올라간 뒤 본다"
+}

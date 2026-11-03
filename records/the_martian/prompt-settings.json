@@ -1,0 +1,65 @@
+{
+  "_": "tools/prompt-pack.cjs 의 설정 — 고칠 수 있는 칸만 있다. 직접 입력(글 칸 · 표에 없는 값)엔 why 에 까닭을 적는다. 고친 뒤 build",
+  "book": "the_martian",
+  "style": "literary_fantasy",
+  "plan": "/workspace/scratch/4c5a361ae6d9/martian-work/plan/plan.json",
+  "card": {
+    "motifs": "",
+    "lookNote": "",
+    "faceDesignOn": true,
+    "silhouetteOn": true,
+    "exposure": "bold",
+    "params": {},
+    "why": ""
+  },
+  "slots": {
+    "begin": {
+      "scene": {},
+      "why": ""
+    },
+    "middle": {
+      "scene": {},
+      "why": ""
+    },
+    "end": {
+      "scene": {},
+      "why": ""
+    },
+    "begin_open": {
+      "scene": {},
+      "why": ""
+    },
+    "middle_open": {
+      "scene": {
+        "custom": "Safety wardrobe and pose override for this single replanned scene: replace the open neckline with a fully closed opaque utilitarian work jumpsuit, zipped all the way to the base of the neck, long sleeves and work gloves. No cleavage or exposed torso. She stands inside the habitat beside rows of newly sprouted potatoes, both arms relaxed at her sides, looking at the plants. Keep her identity only; the fully covered wardrobe and standing pose override the reference costume and pose. Vertical 2:3, 1024x1536."
+      },
+      "why": "원래 무릎 자세의 전개 개방이 원 지시문 두 번과 보통/적게 모두 sexual 사유로 거절되어 허용된 한 번의 계획 변경. 완전히 여민 작업복과 서 있는 자세로 안전한 원예 장면을 구성.",
+      "exposure": "low"
+    },
+    "end_open": {
+      "scene": {},
+      "why": ""
+    },
+    "casual1": {
+      "custom": "",
+      "why": ""
+    },
+    "casual2": {
+      "custom": "",
+      "why": ""
+    },
+    "casual3": {
+      "custom": "",
+      "why": ""
+    },
+    "casual4": {
+      "custom": "",
+      "why": "일상4 원 지시문 두 번이 safety sexual로 거절되어 피부 노출 축만 보통으로 낮춤.",
+      "exposure": "moderate"
+    },
+    "casual5": {
+      "custom": "",
+      "why": ""
+    }
+  }
+}

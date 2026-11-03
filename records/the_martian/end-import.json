@@ -1,0 +1,62 @@
+{
+ "version": 1,
+ "book": "the_martian",
+ "slot": "end",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "the_martian_end_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "c3823e3b77af476a726f0943fbbe4c2f4bbf3b2ec302ac0ee44bea6872868754",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": "the_martian_begin_literary_fantasy_f.webp",
+ "prompt": "records/the_martian/end-ui.json",
+ "prompt_sha256": "7d850f35876c0cd7f5f877a27c41a18529cbf688bccb982f55f11873f18e9eb2",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-martian-4c5a361ae6d9",
+ "qa": {
+  "reviewer": "GPT book-martian-4c5a361ae6d9",
+  "image_sha256": "c3823e3b77af476a726f0943fbbe4c2f4bbf3b2ec302ac0ee44bea6872868754",
+  "passed": false,
+  "observations": [
+   "1024×1536, 세로 2:3. 주인공 한 명, 이미지 안 카드 틀·로고·워터마크·손에 든 책 없음.",
+   "공통 화풍 지시는 섬세한 선화와 회화적 채색이나 실제 결과는 사진/실사 렌더에 가까워 화풍 일치 검수를 통과시키지 않았다.",
+   "우주에서 오른팔을 뻗고 왼팔을 내린 한 사람. 양손과 양발이 보이며 줄이 허리와 손목에 있다.",
+   "양손은 각각 다섯 손가락으로 보인다. 의상 종이에는 필기 유사 흔적이 있다."
+  ],
+  "cause": "짧은 공통 STYLE 문장에 비해 PRESENTATION의 정교한 얼굴·강한 역광·고밀도 재질과 기준 이미지의 사실적 피부/재질이 실사 묘사를 강화한 것으로 추정. 종이 계산 묘사와 no lettering 지시도 서로 충돌함. 사진 같은 묘사는 요청 화풍과 일치한다고 볼 수 없음."
+ },
+ "acceptance": "user_approval_2026-10-31 — 검수 미달을 기록한 뒤 올리고 사용자가 올라간 뒤 본다",
+ "generation": {
+  "retries": [
+   {
+    "attempt": 1,
+    "exposure": "bold",
+    "result": "moderation_blocked",
+    "request_id": "31fe8495-1c70-430e-a7d0-b39090f6bd4f"
+   },
+   {
+    "attempt": 2,
+    "exposure": "bold",
+    "result": "generated",
+    "request_id": null
+   }
+  ]
+ }
+}

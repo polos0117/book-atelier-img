@@ -1,0 +1,68 @@
+{
+ "version": 1,
+ "book": "the_martian",
+ "slot": "casual4",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "the_martian_literary_fantasy_f_casual4.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "4b7d1964ab28f906850d90c795ff4da7e16eec6aa64661adf2d8c3de93175550",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": "the_martian_begin_literary_fantasy_f.webp",
+ "prompt": "records/the_martian/casual4-ui.json",
+ "prompt_sha256": "6eab2fc155af300f1f92ce2111ff4850ccf3354574f371c98eb36e38dafc0700",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-martian-4c5a361ae6d9",
+ "qa": {
+  "reviewer": "GPT book-martian-4c5a361ae6d9",
+  "image_sha256": "4b7d1964ab28f906850d90c795ff4da7e16eec6aa64661adf2d8c3de93175550",
+  "passed": false,
+  "observations": [
+   "1024×1536, 세로 2:3. 주인공 한 명, 이미지 안 카드 틀·로고·워터마크·손에 든 책 없음.",
+   "공통 화풍 지시는 섬세한 선화와 회화적 채색이나 실제 결과는 사진/실사 렌더에 가까워 화풍 일치 검수를 통과시키지 않았다.",
+   "주방에서 의자에 앉아 두 다리를 꼬고, 한 손은 헤드폰을 잡고 다른 손은 무릎에 놓았다. 두 발과 의자 받침이 보인다.",
+   "노출 보통으로 낮춘 러닝 의상. 팔·다리 연결에 눈에 띄는 추가 또는 단절이 없다. 현대 주방 창밖에 화성 풍경이 섞여 현재 현실 시대 지시에서 벗어났다."
+  ],
+  "cause": "짧은 공통 STYLE 문장에 비해 PRESENTATION의 정교한 얼굴·강한 역광·고밀도 재질과 기준 이미지의 사실적 피부/재질이 실사 묘사를 강화한 것으로 추정. 종이 계산 묘사와 no lettering 지시도 서로 충돌함. 사진 같은 묘사는 요청 화풍과 일치한다고 볼 수 없음."
+ },
+ "acceptance": "user_approval_2026-10-31 — 검수 미달을 기록한 뒤 올리고 사용자가 올라간 뒤 본다",
+ "generation": {
+  "retries": [
+   {
+    "attempt": 1,
+    "exposure": "bold",
+    "result": "moderation_blocked",
+    "request_id": "b4333115-9fcd-4511-929f-9c77d208f855"
+   },
+   {
+    "attempt": 2,
+    "exposure": "bold",
+    "result": "moderation_blocked",
+    "request_id": "e8105b57-2589-4bcc-ac71-6f0fc5677c75"
+   },
+   {
+    "attempt": 3,
+    "exposure": "moderate",
+    "result": "generated",
+    "request_id": null
+   }
+  ]
+ }
+}

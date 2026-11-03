@@ -1,0 +1,87 @@
+{
+ "version": 1,
+ "book": "the_martian",
+ "slot": "middle_open",
+ "style": "literary_fantasy",
+ "styleVersion": "v7",
+ "file": "the_martian_middle_open_literary_fantasy_f.webp",
+ "source": {
+  "kind": "generated",
+  "tool": "image_gen (GPT 세션)",
+  "format": "png",
+  "size": [
+   1024,
+   1536
+  ],
+  "sha256": "3d71390d2b7b10174486d35caeb246f00a09fd91d4dd60231cc8ef5e874b6844",
+  "note": "원본 PNG는 올리지 않고 sha256만 기록"
+ },
+ "reference": "the_martian_middle_literary_fantasy_f.webp",
+ "prompt": "records/the_martian/middle_open-ui.json",
+ "prompt_sha256": "616077dcbbba99e134970a7767f9ff209f350d5421c95b2abd1ef87bc251741b",
+ "converted": {
+  "format": "webp",
+  "quality": 90,
+  "method": 6,
+  "thumb": {
+   "long_edge": 512,
+   "quality": 72
+  }
+ },
+ "imported": "2026-11-03",
+ "execution": "book-martian-4c5a361ae6d9",
+ "qa": {
+  "reviewer": "GPT book-martian-4c5a361ae6d9",
+  "image_sha256": "3d71390d2b7b10174486d35caeb246f00a09fd91d4dd60231cc8ef5e874b6844",
+  "passed": false,
+  "observations": [
+   "1024×1536, 세로 2:3. 주인공 한 명, 이미지 안 카드 틀·로고·워터마크·손에 든 책 없음.",
+   "공통 화풍 지시는 섬세한 선화와 회화적 채색이나 실제 결과는 사진/실사 렌더에 가까워 화풍 일치 검수를 통과시키지 않았다.",
+   "완전히 여민 작업복, 양팔을 내린 서 있는 자세. 흙 위 감자 싹이 여러 줄로 보인다.",
+   "안전 필터 대응 계획 변경으로 기본 전개의 무릎 자세·카메라·의상 유지 조건에 미달한다. 양손은 장갑으로 일부 손가락 경계가 가려져 정확한 개별 확인에 제한이 있다."
+  ],
+  "cause": "짧은 공통 STYLE 문장에 비해 PRESENTATION의 정교한 얼굴·강한 역광·고밀도 재질과 기준 이미지의 사실적 피부/재질이 실사 묘사를 강화한 것으로 추정. 종이 계산 묘사와 no lettering 지시도 서로 충돌함. 사진 같은 묘사는 요청 화풍과 일치한다고 볼 수 없음. 안전한 한 차례 재계획으로 완전히 여민 의상과 서기 자세로 바뀌어 개방 짝 구도 유지가 깨졌다."
+ },
+ "acceptance": "user_approval_2026-10-31 — 검수 미달을 기록한 뒤 올리고 사용자가 올라간 뒤 본다",
+ "generation": {
+  "retries": [
+   {
+    "attempt": 1,
+    "exposure": "bold",
+    "result": "moderation_blocked",
+    "request_id": "e99d1029-4caf-421b-9dec-86521ad49b6b"
+   },
+   {
+    "attempt": 2,
+    "exposure": "bold",
+    "result": "moderation_blocked",
+    "request_id": "da55b2df-5479-4568-9026-2daf42c62eae"
+   },
+   {
+    "attempt": 3,
+    "exposure": "moderate",
+    "result": "moderation_blocked",
+    "request_id": "16e64ab5-8e55-44d5-868c-fa5cc2c26363"
+   },
+   {
+    "attempt": 4,
+    "exposure": "low",
+    "result": "moderation_blocked",
+    "request_id": "3bb06033-8aa3-4339-af79-b322207e2594"
+   },
+   {
+    "attempt": 5,
+    "exposure": "low",
+    "result": "moderation_blocked",
+    "request_id": "08628fcb-87b5-455b-b870-cc93861caf7e"
+   },
+   {
+    "attempt": 6,
+    "exposure": "low",
+    "result": "generated",
+    "request_id": null
+   }
+  ],
+  "note": "개방 조립부는 exposure와 scene.pose/outfit/scene을 출력에 반영하지 않는다. 중간 노출 설정 변경 시 실제 지시문은 원본과 같았다. 잘못된 pose=stand 검증 실패 후 이전 low 지시문을 한 번 더 제출한 실수를 기록한다. 최종 한 번의 안전 계획 변경은 scene.custom으로 실제 NOTE에 반영했다."
+ }
+}

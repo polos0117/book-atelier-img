@@ -1,0 +1,26 @@
+{
+ "key": "the_martian",
+ "runs": [
+  {
+   "key": "the_martian",
+   "execution": "book-martian-4c5a361ae6d9",
+   "status": "working",
+   "claimed_at": "2026-11-03T01:02:46.129Z",
+   "date_kst": "2026-11-03",
+   "date_utc": "2026-11-03",
+   "missing": [
+    "the_martian_begin_literary_fantasy_f.webp",
+    "the_martian_begin_open_literary_fantasy_f.webp",
+    "the_martian_middle_literary_fantasy_f.webp",
+    "the_martian_middle_open_literary_fantasy_f.webp",
+    "the_martian_end_literary_fantasy_f.webp",
+    "the_martian_end_open_literary_fantasy_f.webp",
+    "the_martian_literary_fantasy_f_casual1.webp",
+    "the_martian_literary_fantasy_f_casual2.webp",
+    "the_martian_literary_fantasy_f_casual3.webp",
+    "the_martian_literary_fantasy_f_casual4.webp",
+    "the_martian_literary_fantasy_f_casual5.webp"
+   ]
+  }
+ ]
+}

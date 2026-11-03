@@ -1,0 +1,69 @@
+{
+ "version": 1,
+ "book": "harry_potter_stone",
+ "slot": "end_open",
+ "date": "2026-11-03",
+ "request": "결말, 결말 개방의 펼치고 있는 손가락의 배치가 반대로 되있어. 확인해서 수정해줘",
+ "tool": "image_gen built-in edit",
+ "prompt": "Input image 1 is the EDIT TARGET: the original ending OPEN illustration with flames surrounding the mirror and a red stone in the mirror. Input image 2 is the CORRECTED ENDING reference, ONLY for the raised anatomical LEFT hand.\nCorrect only the spread hand in the upper-right of image 1 to match exactly the anatomically correct left hand in image 2: palm facing viewer, thumb on IMAGE-LEFT toward her torso, four fingers fanning upward with the little finger on IMAGE-RIGHT, five fingers total. Use the same hand orientation, natural left wrist connection, position, size and finger pose as image 2. The left forearm still reaches diagonally upward to that hand.\nKeep everything else in image 1 unchanged as closely as possible: same woman, face, expression, hair, costume, camera, framing, scale, right hand in the glowing pocket, all flames, mirror, red stone and lighting. Do not replace the open background with image 2's background. Do not mirror the whole picture. The corrected closed/open pair should have the same pose and hand. Maintain the original art style and return 1024x1536 vertical.",
+ "prompt_sha256": "d33fd82f3450712409c01b37b3244fd1ec5158e1819992aa02d3a7325bcb82c5",
+ "source_sha256": "0386051febe9b5cb903bc32563147621ed979d41c278c45853bb71351979672b",
+ "target_previous_source_sha256": "6f30038584a5b31079066dd579188ea4217b6ecf05438ee78b5eb803aff3093e",
+ "reference": "수정 결말의 왼손",
+ "qa": {
+  "passed": true,
+  "observations": [
+   "1024×1536. 주인공 한 명. 얼굴·머리·복장·구도 유지.",
+   "인물 기준 왼손: 손바닥이 관찰자 쪽이며 엄지가 화면 왼쪽(몸 안쪽), 새끼손가락이 화면 오른쪽이다.",
+   "엄지 하나와 나머지 네 손가락, 총 다섯 손가락. 손목이 왼팔로 자연스럽게 이어진다.",
+   "결말과 결말 개방의 손 모양·자세 대응을 확인했다."
+  ]
+ },
+ "previous_import": {
+  "version": 1,
+  "book": "harry_potter_stone",
+  "slot": "end_open",
+  "style": "literary_fantasy",
+  "styleVersion": "v7",
+  "file": "harry_potter_stone_end_open_literary_fantasy_f.webp",
+  "source": {
+   "kind": "generated",
+   "tool": "image_gen (GPT 세션)",
+   "format": "png",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "6f30038584a5b31079066dd579188ea4217b6ecf05438ee78b5eb803aff3093e",
+   "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
+  },
+  "reference": "harry_potter_stone_end_literary_fantasy_f.webp",
+  "additional_reference": "harry_potter_stone_begin_literary_fantasy_f.webp",
+  "prompt": "records/harry_potter_stone/end_open-ui.json",
+  "prompt_sha256": "f7eb1dedb390223b03d4a618fbdf2992f9972ec6502df126471c9035d302b3aa",
+  "converted": {
+   "format": "webp",
+   "quality": 90,
+   "method": 6,
+   "thumb": {
+    "long_edge": 512,
+    "quality": 72
+   }
+  },
+  "imported": "2026-11-03",
+  "execution": "book-harry-stone-9a265",
+  "qa": {
+   "reviewer": "gpt",
+   "image_sha256": "6f30038584a5b31079066dd579188ea4217b6ecf05438ee78b5eb803aff3093e",
+   "passed": false,
+   "observations": [
+    "1024×1536, 주인공 여성 한 명. 읽히는 글자·숫자·로고·틀 없음. 손에 든 책 없음.",
+    "첫 그림과 같은 얼굴·갈색 웨이브 단발·체형을 유지했다.",
+    "결말의 얼굴·의상·자세·화각을 유지하고 불길과 거울 속 붉은 돌이 펼쳐진다."
+   ],
+   "cause": "",
+   "correction": "이전 검수는 손가락 수만 보고 왼손 엄지의 방향 반전을 놓쳤다. 사용자 지적 후 수정했다."
+  },
+  "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+ }
+}

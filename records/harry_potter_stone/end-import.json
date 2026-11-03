@@ -6,14 +6,14 @@
  "styleVersion": "v7",
  "file": "harry_potter_stone_end_literary_fantasy_f.webp",
  "source": {
-  "kind": "generated",
-  "tool": "image_gen (GPT 세션)",
+  "kind": "edited",
+  "tool": "image_gen (GPT 세션, 손 방향 수정)",
   "format": "png",
   "size": [
    1024,
    1536
   ],
-  "sha256": "b9a475b372ec34818f6e2de7706aad6afb8ae334230fb4f98f5b7f930a2878e6",
+  "sha256": "eeafa35f7601c39da4bb266a43c46c7e677909826031339243c760ae0e7f6e87",
   "note": "원본 PNG는 올리지 않고 sha256만 남긴다"
  },
  "reference": "harry_potter_stone_begin_literary_fantasy_f.webp",
@@ -30,17 +30,19 @@
   }
  },
  "imported": "2026-11-03",
- "execution": "book-harry-stone-9a265",
+ "execution": "book-harry-left-hand-9a265",
  "qa": {
   "reviewer": "gpt",
-  "image_sha256": "b9a475b372ec34818f6e2de7706aad6afb8ae334230fb4f98f5b7f930a2878e6",
+  "image_sha256": "eeafa35f7601c39da4bb266a43c46c7e677909826031339243c760ae0e7f6e87",
   "passed": true,
   "observations": [
-   "1024×1536, 주인공 여성 한 명. 읽히는 글자·숫자·로고·틀 없음. 손에 든 책 없음.",
-   "첫 그림과 같은 얼굴·갈색 웨이브 단발·체형을 유지했다.",
-   "거울 앞에 선 결의의 표정, 오른손은 붉게 빛나는 주머니, 왼손은 거울 쪽으로 뻗는다. 펼친 손에 다섯 손가락이 보인다."
+   "1024×1536. 주인공 한 명. 얼굴·머리·복장·구도 유지.",
+   "인물 기준 왼손: 손바닥이 관찰자 쪽이며 엄지가 화면 왼쪽(몸 안쪽), 새끼손가락이 화면 오른쪽이다.",
+   "엄지 하나와 나머지 네 손가락, 총 다섯 손가락. 손목이 왼팔로 자연스럽게 이어진다.",
+   "결말과 결말 개방의 손 모양·자세 대응을 확인했다."
   ],
   "cause": ""
  },
- "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다"
+ "acceptance": "user_approval_2026-10-31 — 묻지 않고 올리고 사용자가 올라간 뒤 본다",
+ "repair": "records/harry_potter_stone/end-left-hand-repair.json"
 }
